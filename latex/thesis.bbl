@@ -1,0 +1,845 @@
+\begin{thebibliography}{100}
+
+\bibitem{Rakyan2011}
+V~K Rakyan, T~A Down, D~J Balding, and S~Beck.
+\newblock {Epigenome-wide association studies for common human diseases}.
+\newblock {\em Nat Rev Genet}, 12:529--541, 2011.
+
+\bibitem{Flanagan2015}
+James~M Flanagan.
+\newblock {Epigenome-Wide Association Studies (EWAS): Past, Present, and
+  Future}.
+\newblock In Mukesh Verma, editor, {\em Cancer Epigenetics: Risk Assessment,
+  Diagnosis, Treatment and Prognosis}, pages 51--63. Springer New York, New
+  York, NY, 2015.
+
+\bibitem{Edgar2002}
+R~Edgar, M~Domrachev, and AE~Lash.
+\newblock {Gene Expression Omnibus: NCBI gene expression and hybridization
+  array data repository}.
+\newblock {\em Nucleic Acids Research}, 30(1):207--210, 2002.
+
+\bibitem{Aref-Eshghi2018}
+Erfan Aref-Eshghi, David~I. Rodenhiser, Laila~C. Schenkel, Hanxin Lin, Cindy
+  Skinner, Peter Ainsworth, Guillaume Par{\'{e}}, Rebecca~L. Hood, Dennis~E.
+  Bulman, Kristin~D. Kernohan, Kym~M. Boycott, Philippe~M. Campeau, Charles
+  Schwartz, and Bekim Sadikovic.
+\newblock {Genomic DNA Methylation Signatures Enable Concurrent Diagnosis and
+  Clinical Genetic Variant Classification in Neurodevelopmental Syndromes}.
+\newblock {\em American Journal of Human Genetics}, 102(1):156--174, 2018.
+
+\bibitem{Bibikova2009}
+M~Bibikova, J~Le, B~Barnes, S~Saedinia-Melnyk, L~Zhou, R~Shen, and K~L
+  Gunderson.
+\newblock {Genome-wide DNA methylation profiling using
+  Infinium{\textregistered} assay}.
+\newblock {\em Epigenomics}, 1(1):177--200, 2009.
+
+\bibitem{Bibikova2011}
+M~Bibikova, B~Barnes, C~Tsan, V~Ho, B~Klotzle, J~M Le, D~Delano, L~Zhang, G~P
+  Schroth, K~L Gunderson, J~B Fan, and R~Shen.
+\newblock {High density DNA methylation array with single CpG site resolution}.
+\newblock {\em Genomics}, 98(4):288--295, 2011.
+
+\bibitem{Pidsley2016}
+Ruth Pidsley, Elena Zotenko, Timothy~J Peters, Mitchell~G Lawrence, Gail~P
+  Risbridger, Peter Molloy, Susan {Van Djik}, Beverly Muhlhausler, Clare
+  Stirzaker, and Susan~J Clark.
+\newblock {Critical evaluation of the Illumina MethylationEPIC BeadChip
+  microarray for whole-genome DNA methylation profiling}.
+\newblock {\em Genome Biology}, 17(1):208, 2016.
+
+\bibitem{Davis2007}
+Sean Davis and Paul~S Meltzer.
+\newblock {GEOquery: a bridge between the Gene Expression Omnibus (GEO) and
+  BioConductor}.
+\newblock {\em Bioinformatics}, 23(14):1846--1847, 2007.
+
+\bibitem{Wilhelm-Benartzi2013}
+C~S Wilhelm-Benartzi, D~C Koestler, M~R Karagas, J~M Flanagan, B~C Christensen,
+  K~T Kelsey, C~J Marsit, E~A Houseman, and R~Brown.
+\newblock {Review of processing and analysis methods for DNA methylation array
+  data}.
+\newblock {\em Br J Cancer}, 109(6):1394--1402, 2013.
+
+\bibitem{Morris2015}
+Tiffany~J Morris and Stephan Beck.
+\newblock {Analysis pipelines and packages for Infinium HumanMethylation450
+  BeadChip (450k) data}.
+\newblock {\em Methods}, 72:3--8, 2015.
+
+\bibitem{Liu2016}
+Jie Liu and Kimberly~D Siegmund.
+\newblock {An evaluation of processing methods for HumanMethylation450 BeadChip
+  data}.
+\newblock {\em BMC Genomics}, 17(1):469, 2016.
+
+\bibitem{Aryee2014}
+Martin~J. Aryee, Andrew~E. Jaffe, Hector Corrada-Bravo, Christine Ladd-Acosta,
+  Andrew~P. Feinberg, Kasper~D. Hansen, and Rafael~A. Irizarry.
+\newblock {Minfi: A flexible and comprehensive Bioconductor package for the
+  analysis of Infinium DNA methylation microarrays}.
+\newblock {\em Bioinformatics}, 30(10):1363--1369, 2014.
+
+\bibitem{TricheJr2013}
+Timothy~J {Triche Jr}, Daniel~J Weisenberger, David {Van Den Berg}, Peter~W
+  Laird, and Kimberly~D Siegmund.
+\newblock {Low-level processing of Illumina Infinium DNA Methylation
+  BeadArrays}.
+\newblock {\em Nucleic Acids Research}, 41(7):e90, 2013.
+
+\bibitem{Chen2013}
+Yi-an Chen, Mathieu Lemire, Sanaa Choufani, Darci~T Butcher, Daria
+  Grafodatskaya, Brent~W Zanke, Steven Gallinger, Thomas~J Hudson, and Rosanna
+  Weksberg.
+\newblock {Discovery of cross-reactive probes and polymorphic CpGs in the
+  Illumina Infinium HumanMethylation450 microarray}.
+\newblock {\em Epigenetics}, 8(2):203--209, 2013.
+
+\bibitem{Fortin2015}
+Jean-Philippe Fortin and Kasper~D. Hansen.
+\newblock {minfi guidelines: analysis of 450K data using minfi}, 2015.
+
+\bibitem{Du2010}
+P~Du, X~Zhang, C~.~C Huang, N~Jafari, W~A Kibbe, L~Hou, and S~M Lin.
+\newblock {Comparison of Beta-value and M-value methods for quantifying
+  methylation levels by microarray analysis}.
+\newblock {\em BMC Bioinformatics}, 11:587, 2010.
+
+\bibitem{Zhuang2012}
+Joanna Zhuang, Martin Widschwendter, and Andrew~E Teschendorff.
+\newblock {A comparison of feature selection and classification methods in DNA
+  methylation studies using the Illumina Infinium platform}.
+\newblock {\em BMC Bioinformatics}, 13(1):59, 2012.
+
+\bibitem{Teschendorff2012}
+Andrew~E Teschendorff, Francesco Marabita, Matthias Lechner, Thomas Bartlett,
+  Jesper Tegner, David Gomez-Cabrero, and Stephan Beck.
+\newblock {A Beta-Mixture Quantile Normalisation method for correcting probe
+  design bias in Illumina Infinium 450k DNA methylation data.}
+\newblock {\em Bioinformatics (Oxford, England)}, 29(2):189--196, 2012.
+
+\bibitem{Dedeurwaerder2011}
+Sarah Dedeurwaerder, Matthieu Defrance, Emilie Calonne, H{\'{e}}l{\`{e}}ne
+  Denis, Christos Sotiriou, and Fran{\c{c}}ois Fuks.
+\newblock {Evaluation of the Infinium Methylation 450K technology}.
+\newblock {\em Epigenomics}, 3(6):771--784, 2011.
+
+\bibitem{Touleimat2012}
+Nizar Touleimat and J{\"{o}}rg Tost.
+\newblock {Complete pipeline for Infinium{\textregistered} Human Methylation
+  450K BeadChip data processing using subset quantile normalization for
+  accurate DNA methylation estimation}.
+\newblock {\em Epigenomics}, 4(3):325--341, 2012.
+
+\bibitem{Maksimovic2012}
+Jovana Maksimovic, Lavinia Gordon, and Alicia Oshlack.
+\newblock {SWAN: Subset-quantile Within Array Normalization for Illumina
+  Infinium HumanMethylation450 BeadChips}.
+\newblock {\em Genome Biology}, 13(6):1--12, 2012.
+
+\bibitem{Shendure2008}
+Jay Shendure and Hanlee Ji.
+\newblock {Next-generation DNA sequencing}.
+\newblock {\em Nature Biotechnology}, 26:1135, 2008.
+
+\bibitem{Consortium2001}
+International Human Genome~Sequencing Consortium, Eric~S Lander, Lauren~M
+  Linton, Bruce Birren, Chad Nusbaum, Michael~C Zody, Jennifer Baldwin, Keri
+  Devon, Ken Dewar, Michael Doyle, William FitzHugh, Roel Funke, Diane Gage,
+  Katrina Harris, Andrew Heaford, John Howland, Lisa Kann, Jessica Lehoczky,
+  Rosie LeVine, Paul McEwan, Kevin McKernan, James Meldrim, Jill~P Mesirov,
+  Cher Miranda, William Morris, Jerome Naylor, Christina Raymond, Mark Rosetti,
+  Ralph Santos, Andrew Sheridan, Carrie Sougnez, Nicole Stange-Thomann, Nikola
+  Stojanovic, Aravind Subramanian, Dudley Wyman, Jane Rogers, John Sulston,
+  Rachael Ainscough, Stephan Beck, David Bentley, John Burton, Christopher
+  Clee, Nigel Carter, Alan Coulson, Rebecca Deadman, Panos Deloukas, Andrew
+  Dunham, Ian Dunham, Richard Durbin, Lisa French, Darren Grafham, Simon
+  Gregory, Tim Hubbard, Sean Humphray, Adrienne Hunt, Matthew Jones, Christine
+  Lloyd, Amanda McMurray, Lucy Matthews, Simon Mercer, Sarah Milne, James~C
+  Mullikin, Andrew Mungall, Robert Plumb, Mark Ross, Ratna Shownkeen, Sarah
+  Sims, Robert~H Waterston, Richard~K Wilson, LaDeana~W Hillier, John~D
+  McPherson, Marco~A Marra, Elaine~R Mardis, Lucinda~A Fulton, Asif~T
+  Chinwalla, Kymberlie~H Pepin, Warren~R Gish, Stephanie~L Chissoe, Michael~C
+  Wendl, Kim~D Delehaunty, Tracie~L Miner, Andrew Delehaunty, Jason~B Kramer,
+  Lisa~L Cook, Robert~S Fulton, Douglas~L Johnson, Patrick~J Minx, Sandra~W
+  Clifton, Trevor Hawkins, Elbert Branscomb, Paul Predki, Paul Richardson,
+  Sarah Wenning, Tom Slezak, Norman Doggett, Jan-Fang Cheng, Anne Olsen, Susan
+  Lucas, Christopher Elkin, Edward Uberbacher, Marvin Frazier, Richard~A Gibbs,
+  Donna~M Muzny, Steven~E Scherer, John~B Bouck, Erica~J Sodergren, Kim~C
+  Worley, Catherine~M Rives, James~H Gorrell, Michael~L Metzker, Susan~L
+  Naylor, Raju~S Kucherlapati, David~L Nelson, George~M Weinstock, Yoshiyuki
+  Sakaki, Asao Fujiyama, Masahira Hattori, Tetsushi Yada, Atsushi Toyoda,
+  Takehiko Itoh, Chiharu Kawagoe, Hidemi Watanabe, Yasushi Totoki, Todd Taylor,
+  Jean Weissenbach, Roland Heilig, William Saurin, Francois Artiguenave,
+  Philippe Brottier, Thomas Bruls, Eric Pelletier, Catherine Robert, Patrick
+  Wincker, Andr{\'{e}} Rosenthal, Matthias Platzer, Gerald Nyakatura, Stefan
+  Taudien, Andreas Rump, Douglas~R Smith, Lynn Doucette-Stamm, Marc Rubenfield,
+  Keith Weinstock, Hong~Mei Lee, JoAnn Dubois, Huanming Yang, Jun Yu, Jian
+  Wang, Guyang Huang, Jun Gu, Leroy Hood, Lee Rowen, Anup Madan, Shizen Qin,
+  Ronald~W Davis, Nancy~A Federspiel, A~Pia Abola, Michael~J Proctor, Bruce~A
+  Roe, Feng Chen, Huaqin Pan, Juliane Ramser, Hans Lehrach, Richard Reinhardt,
+  W~Richard McCombie, Melissa de~la Bastide, Neilay Dedhia, Helmut
+  Bl{\"{o}}cker, Klaus Hornischer, Gabriele Nordsiek, Richa Agarwala,
+  L~Aravind, Jeffrey~A Bailey, Alex Bateman, Serafim Batzoglou, Ewan Birney,
+  Peer Bork, Daniel~G Brown, Christopher~B Burge, Lorenzo Cerutti, Hsiu-Chuan
+  Chen, Deanna Church, Michele Clamp, Richard~R Copley, Tobias Doerks, Sean~R
+  Eddy, Evan~E Eichler, Terrence~S Furey, James Galagan, James G~R Gilbert,
+  Cyrus Harmon, Yoshihide Hayashizaki, David Haussler, Henning Hermjakob,
+  Karsten Hokamp, Wonhee Jang, L~Steven Johnson, Thomas~A Jones, Simon Kasif,
+  Arek Kaspryzk, Scot Kennedy, W~James Kent, Paul Kitts, Eugene~V Koonin, Ian
+  Korf, David Kulp, Doron Lancet, Todd~M Lowe, Aoife McLysaght, Tarjei
+  Mikkelsen, John~V Moran, Nicola Mulder, Victor~J Pollara, Chris~P Ponting,
+  Greg Schuler, J{\"{o}}rg Schultz, Guy Slater, Arian F~A Smit, Elia Stupka,
+  Joseph Szustakowki, Danielle Thierry-Mieg, Jean Thierry-Mieg, Lukas Wagner,
+  John Wallis, Raymond Wheeler, Alan Williams, Yuri~I Wolf, Kenneth~H Wolfe,
+  Shiaw-Pyng Yang, Ru-Fang Yeh, Francis Collins, Mark~S Guyer, Jane Peterson,
+  Adam Felsenfeld, Kris~A Wetterstrand, Richard~M Myers, Jeremy Schmutz, Mark
+  Dickson, Jane Grimwood, David~R Cox, Maynard~V Olson, Rajinder Kaul,
+  Christopher Raymond, Nobuyoshi Shimizu, Kazuhiko Kawasaki, Shinsei Minoshima,
+  Glen~A Evans, Maria Athanasiou, Roger Schultz, Aristides Patrinos, and
+  Michael~J Morgan.
+\newblock {Initial sequencing and analysis of the human genome}.
+\newblock {\em Nature}, 409:860--921, 2001.
+
+\bibitem{Consortium2002}
+Mouse Genome~Sequencing Consortium, Asif~T Chinwalla, Lisa~L Cook, Kimberly~D
+  Delehaunty, Ginger~A Fewell, Lucinda~A Fulton, Robert~S Fulton, Tina~A
+  Graves, LaDeana~W Hillier, Elaine~R Mardis, John~D McPherson, Tracie~L Miner,
+  William~E Nash, Joanne~O Nelson, Michael~N Nhan, Kymberlie~H Pepin, Craig~S
+  Pohl, Tracy~C Ponce, Brian Schultz, Johanna Thompson, Evanne Trevaskis,
+  Robert~H Waterston, Michael~C Wendl, Richard~K Wilson, Shiaw-Pyng Yang, Peter
+  An, Eric Berry, Bruce Birren, Toby Bloom, Daniel~G Brown, Jonathan Butler,
+  Mark Daly, Robert David, Justin Deri, Sheila Dodge, Karen Foley, Diane Gage,
+  Sante Gnerre, Timothy Holzer, David~B Jaffe, Michael Kamal, Elinor~K
+  Karlsson, Cristyn Kells, Andrew Kirby, Edward~J {Kulbokas III}, Eric~S
+  Lander, Tom Landers, J~P Leger, Rosie Levine, Kerstin Lindblad-Toh, Evan
+  Mauceli, John~H Mayer, Megan McCarthy, Jim Meldrim, Jim Meldrim, Jill~P
+  Mesirov, Robert Nicol, Chad Nusbaum, Steven Seaman, Ted Sharpe, Andrew
+  Sheridan, Jonathan~B Singer, Ralph Santos, Brian Spencer, Nicole
+  Stange-Thomann, Jade~P Vinson, Claire~M Wade, Jamey Wierzbowski, Dudley
+  Wyman, Michael~C Zody, Ewan Birney, Nick Goldman, Arkadiusz Kasprzyk,
+  Emmanuel Mongin, Alistair~G Rust, Guy Slater, Arne Stabenau, Abel
+  Ureta-Vidal, Simon Whelan, Rachel Ainscough, John Attwood, Jonathon Bailey,
+  Karen Barlow, Stephan Beck, John Burton, Michele Clamp, Christopher Clee,
+  Alan Coulson, James Cuff, Val Curwen, Tim Cutts, Joy Davies, Eduardo Eyras,
+  Darren Grafham, Simon Gregory, Tim Hubbard, Adrienne Hunt, Matthew Jones, Ann
+  Joy, Steven Leonard, Christine Lloyd, Lucy Matthews, Stuart McLaren, Kirsten
+  McLay, Beverley Meredith, James~C Mullikin, Zemin Ning, Karen Oliver, Emma
+  Overton-Larty, Robert Plumb, Simon Potter, Michael Quail, Jane Rogers, Carol
+  Scott, Steve Searle, Ratna Shownkeen, Sarah Sims, Melanie Wall, Anthony~P
+  West, David Willey, Sophie Williams, Josep~F Abril, Roderic Guig{\'{o}},
+  Gen{\'{i}}s Parra, Pankaj Agarwal, Richa Agarwala, Deanna~M Church, Wratko
+  Hlavina, Donna~R Maglott, Victor Sapojnikov, Marina Alexandersson, Lior
+  Pachter, Stylianos~E Antonarakis, Emmanouil~T Dermitzakis, Alexandre Reymond,
+  Catherine Ucla, Robert Baertsch, Mark Diekhans, Terrence~S Furey, Angela
+  Hinrichs, Fan Hsu, Donna Karolchik, W~James Kent, Krishna~M Roskin,
+  Matthias~S Schwartz, Charles Sugnet, Ryan~J Weber, Peer Bork, Ivica Letunic,
+  Mikita Suyama, David Torrents, Evgeny~M Zdobnov, Marc Botcherby, Stephen~D
+  Brown, Robert~D Campbell, Ian Jackson, Nicolas Bray, Olivier Couronne, Inna
+  Dubchak, Alex Poliakov, Edward~M Rubin, Michael~R Brent, Paul Flicek, Evan
+  Keibler, Ian Korf, S~Batalov, Carol Bult, Wayne~N Frankel, Piero Carninci,
+  Yoshihide Hayashizaki, Jun Kawai, Yasushi Okazaki, Simon Cawley, David Kulp,
+  Raymond Wheeler, Francesca Chiaromonte, Francis~S Collins, Adam Felsenfeld,
+  Mark Guyer, Jane Peterson, Kris Wetterstrand, Richard~R Copley, Richard Mott,
+  Colin Dewey, Nicholas~J Dickens, Richard~D Emes, Leo Goodstadt, Chris~P
+  Ponting, Eitan Winter, Diane~M Dunn, Andrew~C von Niederhausern, Robert~B
+  Weiss, Sean~R Eddy, L~Steven Johnson, Thomas~A Jones, Laura Elnitski, Diana~L
+  Kolbe, Pallavi Eswara, Webb Miller, Michael~J O'Connor, Scott Schwartz,
+  Richard~A Gibbs, Donna~M Muzny, Gustavo Glusman, Arian Smit, Eric~D Green,
+  Ross~C Hardison, Shan Yang, David Haussler, Axin Hua, Bruce~A Roe, Raju~S
+  Kucherlapati, Kate~T Montgomery, Jia Li, Ming Li, Susan Lucas, Bin Ma,
+  W~Richard McCombie, Michael Morgan, Pavel Pevzner, Glenn Tesler, J{\"{o}}rg
+  Schultz, Douglas~R Smith, John Tromp, Kim~C Worley, Eric~S Lander, Josep~F
+  Abril, Pankaj Agarwal, Marina Alexandersson, Stylianos~E Antonarakis, Robert
+  Baertsch, Eric Berry, Ewan Birney, Peer Bork, Nicolas Bray, Michael~R Brent,
+  Daniel~G Brown, Jonathan Butler, Carol Bult, Francesca Chiaromonte, Asif~T
+  Chinwalla, Deanna~M Church, Michele Clamp, Francis~S Collins, Richard~R
+  Copley, Olivier Couronne, Simon Cawley, James Cuff, Val Curwen, Tim Cutts,
+  Mark Daly, Emmanouil~T Dermitzakis, Colin Dewey, Nicholas~J Dickens, Mark
+  Diekhans, Inna Dubchak, Sean~R Eddy, Laura Elnitski, Richard~D Emes, Pallavi
+  Eswara, Eduardo Eyras, Adam Felsenfeld, Paul Flicek, Wayne~N Frankel,
+  Lucinda~A Fulton, Terrence~S Furey, Sante Gnerre, Gustavo Glusman, Nick
+  Goldman, Leo Goodstadt, Eric~D Green, Simon Gregory, Roderic Guig{\'{o}},
+  Ross~C Hardison, David Haussler, LaDeana~W Hillier, Angela Hinrichs, Wratko
+  Hlavina, Fan Hsu, Tim Hubbard, David~B Jaffe, Michael Kamal, Donna Karolchik,
+  Elinor~K Karlsson, Arkadiusz Kasprzyk, Evan Keibler, W~James Kent, Andrew
+  Kirby, Diana~L Kolbe, Ian Korf, Edward~J {Kulbokas III}, David Kulp, Eric~S
+  Lander, Ivica Letunic, Ming Li, Kerstin Lindblad-Toh, Bin Ma, Donna~R
+  Maglott, Evan Mauceli, Jill~P Mesirov, Webb Miller, Richard Mott, James~C
+  Mullikin, Zemin Ning, Lior Pachter, Gen{\'{i}}s Parra, Pavel Pevzner, Alex
+  Poliakov, Chris~P Ponting, Simon Potter, Alexandre Reymond, Krishna~M Roskin,
+  Victor Sapojnikov, J{\"{o}}rg Schultz, Matthias~S Schwartz, Scott Schwartz,
+  Steve Searle, Jonathan~B Singer, Guy Slater, Arian Smit, Arne Stabenau,
+  Charles Sugnet, Mikita Suyama, Glenn Tesler, David Torrents, John Tromp,
+  Catherine Ucla, Jade~P Vinson, Claire~M Wade, Ryan~J Weber, Raymond Wheeler,
+  Eitan Winter, Shiaw-Pyng Yang, Evgeny~M Zdobnov, Robert~H Waterston, Simon
+  Whelan, Kim~C Worley, and Michael~C Zody.
+\newblock {Initial sequencing and comparative analysis of the mouse genome}.
+\newblock {\em Nature}, 420:520--562, 2002.
+
+\bibitem{Sierro2014}
+Nicolas Sierro, James N~D Battey, Sonia Ouadi, Nicolas Bakaher, Lucien Bovet,
+  Adrian Willig, Simon Goepfert, Manuel~C Peitsch, and Nikolai~V Ivanov.
+\newblock {The tobacco genome sequence and its comparison with those of tomato
+  and potato}.
+\newblock {\em Nature Communications}, 5:3833, 2014.
+
+\bibitem{Fumagalli2013}
+Matteo Fumagalli.
+\newblock {Assessing the Effect of Sequencing Depth and Sample Size in
+  Population Genetics Inferences}.
+\newblock {\em PLOS ONE}, 8(11):e79667, 2013.
+
+\bibitem{Wu2015}
+Hao Wu, Tianlei Xu, Hao Feng, Li~Chen, Ben Li, Bing Yao, Zhaohui Qin, Peng Jin,
+  and Karen~N Conneely.
+\newblock {Detection of differentially methylated regions from whole-genome
+  bisulfite sequencing data without replicates}.
+\newblock {\em Nucleic Acids Research}, 43(21):e141--e141, 2015.
+
+\bibitem{Ziller2013}
+M~J Ziller, H~Gu, F~Mueller, J~Donaghey, L~T Tsai, and O~Kohlbacher.
+\newblock {Charting a dynamic DNA methylation landscape of the human genome}.
+\newblock {\em Nature}, 500:477--481, 2013.
+
+\bibitem{Suzuki2013}
+Masako Suzuki and John~M Greally.
+\newblock {Genome-wide DNA Methylation Analysis Using Massively Parallel
+  Sequencing Technologies}.
+\newblock {\em Seminars in Hematology}, 50(1):70--77, 2013.
+
+\bibitem{Plongthongkum2014}
+Nongluk Plongthongkum, Dinh~H Diep, and Kun Zhang.
+\newblock {Advances in the profiling of DNA modifications: cytosine methylation
+  and beyond}.
+\newblock {\em Nat Rev Genet}, 15(10):647--661, 2014.
+
+\bibitem{Yong2016}
+Wai-Shin Yong, Fei-Man Hsu, and Pao-Yang Chen.
+\newblock {Profiling genome-wide DNA methylation}.
+\newblock {\em Epigenetics {\&} Chromatin}, 9(1):26, 2016.
+
+\bibitem{Kurdyukov2016}
+S.~Kurdyukov and M.~Bullock.
+\newblock {DNA Methylation Analysis: Choosing the Right Method}.
+\newblock {\em Biology}, 5(1):3, 2016.
+
+\bibitem{Kacmarczyk2018}
+Thadeous~J Kacmarczyk, Mame~P Fall, Xihui Zhang, Yuan Xin, Yushan Li, Alicia
+  Alonso, and Doron Betel.
+\newblock {“Same difference”: comprehensive evaluation of four DNA
+  methylation measurement platforms}.
+\newblock {\em Epigenetics {\&} Chromatin}, 11(1):21, 2018.
+
+\bibitem{Taiwo2012}
+Oluwatosin Taiwo, Gareth~A Wilson, Tiffany Morris, Stefanie Seisenberger, Wolf
+  Reik, Daniel Pearce, Stephan Beck, and Lee~M Butcher.
+\newblock {Methylome analysis using MeDIP-seq with low DNA concentrations}.
+\newblock {\em Nature Protocols}, 7:617--636, 2012.
+
+\bibitem{Brinkman2010}
+Arie~B Brinkman, Femke Simmer, Kelong Ma, Anita Kaan, Jingde Zhu, and Hendrik~G
+  Stunnenberg.
+\newblock {Whole-genome DNA methylation profiling using MethylCap-seq}.
+\newblock {\em Methods}, 52(3):232--236, 2010.
+
+\bibitem{Kriukiene2013}
+Edita Kriukienė, Viviane Labrie, Tarang Khare, Giedrė Urbanavi{\v{c}}iūtė,
+  Audronė Lapinaitė, Karolis Koncevi{\v{c}}ius, Daofeng Li, Ting Wang,
+  Shraddha Pai, Carolyn Ptak, Juozas Gordevi{\v{c}}ius, Sun-Chong Wang,
+  Artūras Petronis, and Saulius Klima{\v{s}}auskas.
+\newblock {DNA unmethylome profiling by covalent capture of CpG sites}.
+\newblock {\em Nature Communications}, 4:2190, 2013.
+
+\bibitem{Ivanov2013}
+Maxim Ivanov, Mart Kals, Marina Kacevska, Andres Metspalu, Magnus
+  Ingelman-Sundberg, and Lili Milani.
+\newblock {In-solution hybrid capture of bisulfite-converted DNA for targeted
+  bisulfite sequencing of 174 ADME genes}.
+\newblock {\em Nucleic Acids Research}, 41(6):e72, 2013.
+
+\bibitem{Allum2015}
+Fiona Allum, Xiaojian Shao, Fr{\'{e}}d{\'{e}}ric Gu{\'{e}}nard, Marie-Michelle
+  Simon, Stephan Busche, Maxime Caron, John Lambourne, Julie Lessard, Karolina
+  Tandre, {\AA}sa~K Hedman, Tony Kwan, Bing Ge, The Multiple Tissue Human
+  Expression~Resource Consortium, Kourosh~R Ahmadi, Chrysanthi Ainali, Amy
+  Barrett, Veronique Bataille, Jordana~T Bell, Alfonso Buil, Emmanouil~T
+  Dermitzakis, Antigone~S Dimas, Richard Durbin, Daniel Glass, Neelam
+  Hassanali, Catherine Ingle, David Knowles, Maria Krestyaninova, Cecilia~M
+  Lindgren, Christopher~E Lowe, Eshwar Meduri, Paola di~Meglio, Josine~L Min,
+  Stephen~B Montgomery, Frank~O Nestle, Alexandra~C Nica, James Nisbet, Stephen
+  O'Rahilly, Leopold Parts, Simon Potter, Johanna Sandling, Magdalena Sekowska,
+  So-Youn Shin, Kerrin~S Small, Nicole Soranzo, Gabriela Surdulescu, Mary~E
+  Travers, Loukia Tsaprouni, Sophia Tsoka, Alicja Wilk, Tsun-Po Yang, Krina~T
+  Zondervan, Lars R{\"{o}}nnblom, Mark~I McCarthy, Panos Deloukas, Todd
+  Richmond, Daniel Burgess, Timothy~D Spector, Andr{\'{e}} Tchernof, Simon
+  Marceau, Mark Lathrop, Marie-Claude Vohl, Tomi Pastinen, and Elin Grundberg.
+\newblock {Characterization of functional methylomes by next-generation capture
+  sequencing identifies novel disease-associated variants}.
+\newblock {\em Nature Communications}, 6:7211, 2015.
+
+\bibitem{Cheung2017}
+Warren~A Cheung, Xiaojian Shao, Andr{\'{e}}anne Morin, Val{\'{e}}rie Siroux,
+  Tony Kwan, Bing Ge, Dylan A{\"{i}}ssi, Lu~Chen, Louella Vasquez, Fiona Allum,
+  Fr{\'{e}}d{\'{e}}ric Gu{\'{e}}nard, Emmanuelle Bouzigon, Marie-Michelle
+  Simon, Elodie Boulier, Adriana Redensek, Stephen Watt, Avik Datta, Laura
+  Clarke, Paul Flicek, Daniel Mead, Dirk~S Paul, Stephan Beck, Guillaume
+  Bourque, Mark Lathrop, Andr{\'{e}} Tchernof, Marie-Claude Vohl, Florence
+  Demenais, Isabelle Pin, Kate Downes, Hendrick~G Stunnenberg, Nicole Soranzo,
+  Tomi Pastinen, and Elin Grundberg.
+\newblock {Functional variation in allelic methylomes underscores a strong
+  genetic contribution and reveals novel epigenetic alterations in the human
+  epigenome}.
+\newblock {\em Genome Biology}, 18(1):50, 2017.
+
+\bibitem{Hodges2009}
+Emily Hodges, Andrew~D. Smith, Jude Kendall, Zhenyu Xuan, Kandasamy Ravi,
+  Michelle Rooks, Michael~Q. Zhang, Kenny Ye, Arindam Bhattacharjee, Leonardo
+  Brizuela, W.~Richard McCombie, Michael Wigler, Gregory~J. Hannon, and
+  James~B. Hicks.
+\newblock {High definition profiling of mammalian DNA methylation by array
+  capture and single molecule bisulfite sequencing}.
+\newblock {\em Genome Research}, 19:1593--1605, 2009.
+
+\bibitem{Deng2009}
+Jie Deng, Robert Shoemaker, Bin Xie, Athurva Gore, Emily~M LeProust, Jessica
+  Antosiewicz-Bourget, Dieter Egli, Nimet Maherali, In-Hyun Park, Junying Yu,
+  George~Q Daley, Kevin Eggan, Konrad Hochedlinger, James Thomson, Wei Wang,
+  Yuan Gao, and Kun Zhang.
+\newblock {Targeted bisulfite sequencing reveals changes in DNA methylation
+  associated with nuclear reprogramming}.
+\newblock {\em Nature Biotechnology}, 27:353--360, 2009.
+
+\bibitem{Diep2012}
+Dinh Diep, Nongluk Plongthongkum, Athurva Gore, Ho-Lim Fung, Robert Shoemaker,
+  and Kun Zhang.
+\newblock {Library-free methylation sequencing with bisulfite padlock probes}.
+\newblock {\em Nature Methods}, 9:270--272, 2012.
+
+\bibitem{Komori2011}
+H.~Kiyomi Komori, Sarah~A. LaMere, Ali Torkamani, G.~Traver Hart, Steve
+  Kotsopoulos, Jason Warner, Michael~L. Samuels, Jeff Olson, Steven~R. Head,
+  Phillip Ordoukhanian, Pauline~L. Lee, Darren~R. Link, and Daniel~R. Salomon.
+\newblock {Application of microdroplet PCR for large-scale targeted bisulfite
+  sequencing}.
+\newblock {\em Genome Research}, 21(10):1738--1745, 2011.
+
+\bibitem{Paul2014}
+Dirk~S. Paul, Paul Guilhamon, Anna Karpathakis, Lee~M. Butcher, Christina
+  Thirlwell, Andrew Feber, and Stephan Beck.
+\newblock {Assessment of raindrop BS-seq as a method for large-scale, targeted
+  bisulfite sequencing}.
+\newblock {\em Epigenetics}, 9(5):678--684, 2014.
+
+\bibitem{Bernstein2015}
+Diana~L Bernstein, Vasumathi Kameswaran, John~E {Le Lay}, Karyn~L Sheaffer, and
+  Klaus~H Kaestner.
+\newblock {The BisPCR2 method for targeted bisulfite sequencing}.
+\newblock {\em Epigenetics {\{}{\&}{\}} Chromatin}, 8:27, 2015.
+
+\bibitem{Yang2015}
+Yao Yang, Robert Sebra, Benjamin~S Pullman, Wanqiong Qiao, Inga Peter, Robert~J
+  Desnick, C~Ronald Geyer, John~F DeCoteau, and Stuart~A Scott.
+\newblock {Quantitative and multiplexed DNA methylation analysis using
+  long-read single-molecule real-time bisulfite sequencing (SMRT-BS)}.
+\newblock {\em BMC Genomics}, 16(1):350, 2015.
+
+\bibitem{Cedar1979}
+Howard Cedar, Adina Solage, Gad Glaser, and Aharon Razin.
+\newblock {Direct detection of methylated cytosine in DNA by use of the
+  restriction enzyme MspI}.
+\newblock {\em Nucleic Acids Research}, 6(6):2125--2132, 1979.
+
+\bibitem{Cohen-Karni2011}
+Devora Cohen-Karni, Derrick Xu, Lynne Apone, Alexey Fomenkov, Zhiyi Sun, Paul~J
+  Davis, Shannon~R {Morey Kinney}, Megumu Yamada-Mabuchi, Shuang-yong Xu,
+  Theodore Davis, Sriharsa Pradhan, Richard~J Roberts, and Yu~Zheng.
+\newblock {The MspJI family of modification-dependent restriction endonucleases
+  for epigenetic studies}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  108(27):11040--11045, 2011.
+
+\bibitem{Bystrykh2013}
+Leonid~V Bystrykh.
+\newblock {A combinatorial approach to the restriction of a mouse genome}.
+\newblock {\em BMC Research Notes}, 6(1):284, 2013.
+
+\bibitem{Martinez-Arguelles2014}
+Daniel~B Martinez-Arguelles, Sunghoon Lee, and Vassilios Papadopoulos.
+\newblock {In silico analysis identifies novel restriction enzyme combinations
+  that expand reduced representation bisulfite sequencing CpG coverage.}
+\newblock {\em BMC research notes}, 7(1):534, 2014.
+
+\bibitem{Yu2004}
+Li~Yu, Chunhui Liu, Kristi Bennett, Yue-Zhong Wu, Zunyan Dai, Jeff Vandeusen,
+  Rene Opavsky, Aparna Raval, Prashant Trikha, Ben Rodriguez, Brian Becknell,
+  Charlene Mao, Stephen Lee, Ramana~V Davuluri, Gustavo Leone, Ignatia~B {Van
+  den Veyver}, Michael~A Caligiuri, and Christoph Plass.
+\newblock {A NotI–EcoRV promoter library for studies of genetic and
+  epigenetic alterations in mouse models of human malignancies}.
+\newblock {\em Genomics}, 84(4):647--660, 2004.
+
+\bibitem{Meissner2008}
+Alexander Meissner, Tarjei~S Mikkelsen, Hongcang Gu, Marius Wernig, Jacob
+  Hanna, Andrey Sivachenko, Xiaolan Zhang, Bradley~E Bernstein, Chad Nusbaum,
+  David~B Jaffe, Andreas Gnirke, Rudolf Jaenisch, and Eric~S Lander.
+\newblock {Genome-scale DNA methylation maps of pluripotent and differentiated
+  cells.}
+\newblock {\em Nature}, 454(7205):766--70, 2008.
+
+\bibitem{Boyle2012}
+Patrick Boyle, Kendell Clement, Hongcang Gu, Zachary~D Smith, Michael Ziller,
+  Jennifer~L Fostel, Laurie Holmes, Jim Meldrim, Fontina Kelley, Andreas
+  Gnirke, and Alexander Meissner.
+\newblock {Gel-free multiplexed reduced representation bisulfite sequencing for
+  large-scale DNA methylation profiling}.
+\newblock {\em Genome Biology}, 13(10):R92, 2012.
+
+\bibitem{Meissner2005}
+Alexander Meissner, Andreas Gnirke, George~W. Bell, Bernard Ramsahoye, Eric~S.
+  Lander, and Rudolf Jaenisch.
+\newblock {Reduced representation bisulfite sequencing for comparative
+  high-resolution DNA methylation analysis}.
+\newblock {\em Nucleic Acids Research}, 33(18):5868--5877, 2005.
+
+\bibitem{Tanas2017}
+Alexander~S Tanas, Marina~E Borisova, Ekaterina~B Kuznetsova, Viktoria~V
+  Rudenko, Kristina~O Karandasheva, Marina~V Nemtsova, Vera~L Izhevskaya,
+  Olga~A Simonova, Sergey~S Larin, Dmitry~V Zaletaev, and Vladimir~V
+  Strelnikov.
+\newblock {Rapid and affordable genome-wide bisulfite DNA sequencing by
+  XmaI-reduced representation bisulfite sequencing}.
+\newblock {\em Epigenomics}, 9(6):833--847, 2017.
+
+\bibitem{Lee2014}
+Yew~Kok Lee, Shengnan Jin, Shiwei Duan, Yen~Ching Lim, Desmond P~Y Ng,
+  Xueqin~Michelle Lin, George S~H Yeo, and Chunming Ding.
+\newblock {Improved reduced representation bisulfite sequencing for epigenomic
+  profiling of clinical samples}.
+\newblock {\em Biological Procedures Online}, 16(1):1, 2014.
+
+\bibitem{Lim2016}
+Yen~Ching Lim, Sook~Yoong Chia, Shengnan Jin, Weiping Han, Chunming Ding, and
+  Lei Sun.
+\newblock {Dynamic DNA methylation landscape defines brown and white cell
+  specificity during adipogenesis}.
+\newblock {\em Molecular Metabolism}, 5(10):1033--1041, 2016.
+
+\bibitem{Huang2013}
+Xiaojun Huang, Hanlin Lu, Jun-Wen Wang, Liqin Xu, Siyang Liu, Jihua Sun, and
+  Fei Gao.
+\newblock {High-throughput sequencing of methylated cytosine enriched by
+  modification-dependent restriction endonuclease MspJI}.
+\newblock {\em BMC Genetics}, 14(1):56, 2013.
+
+\bibitem{Wang2013}
+Junwen Wang, Yudong Xia, Lili Li, Desheng Gong, Yu~Yao, Huijuan Luo, Hanlin Lu,
+  Na~Yi, Honglong Wu, Xiuqing Zhang, Qian Tao, and Fei Gao.
+\newblock {Double restriction-enzyme digestion improves the coverage and
+  accuracy of genome-wide CpG methylation profiling by reduced representation
+  bisulfite sequencing.}
+\newblock {\em BMC genomics}, 14:11, 2013.
+
+\bibitem{Kirschner2016}
+Sophie~A Kirschner, Oliver Hunewald, Sophie~B M{\'{e}}riaux, Regina
+  Brunnhoefer, Claude~P Muller, and Jonathan~D Turner.
+\newblock {Focussing reduced representation CpG sequencing through judicious
+  restriction enzyme choice}.
+\newblock {\em Genomics}, 107(4):109--119, 2016.
+
+\bibitem{Gu2010}
+Hongcang Gu, Christoph Bock, Tarjei~S Mikkelsen, Natalie J{\"{a}}ger, Zachary~D
+  Smith, Eleni Tomazou, Andreas Gnirke, Eric~S Lander, and Alexander Meissner.
+\newblock {Genome-scale DNA methylation mapping of clinical samples at
+  single-nucleotide resolution}.
+\newblock {\em Nature methods}, 7(2):133--136, 2010.
+
+\bibitem{Stubbs2017}
+Thomas~M. Stubbs, Marc~Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand
+  von Meyenn, Oliver Stegle, and Wolf Reik.
+\newblock {Multi-tissue DNA methylation age predictor in mouse}.
+\newblock {\em Genome Biology}, 18(1):68, 2017.
+
+\bibitem{Smith2009}
+Zachary~D. Smith, Hongcang Gu, Christoph Bock, Andreas Gnirke, and Alexander
+  Meissner.
+\newblock {High-throughput bisulfite sequencing in mammalian genomes}.
+\newblock {\em Methods}, 48(3):226--232, 2009.
+
+\bibitem{Koch2011}
+Carmen~M Koch and Wolfgang Wagner.
+\newblock {Epigenetic-aging-signature to determine age in different tissues}.
+\newblock {\em Aging}, 3(10):1018--1027, 2011.
+
+\bibitem{Horvath2013}
+Steve Horvath.
+\newblock {DNA methylation age of human tissues and cell types}.
+\newblock {\em Genome Biology}, 14(10):3156, 2013.
+
+\bibitem{Hannum2013}
+G~Hannum, J~Guinney, L~Zhao, L~Zhang, G~Hughes, and S~Sadda.
+\newblock {Genome-wide methylation profiles reveal quantitative views of human
+  aging rates}.
+\newblock {\em Mol Cell}, 49(2):359--367, 2013.
+
+\bibitem{Petkovich2017}
+Daniel~A Petkovich, Dmitriy~I Podolskiy, Alexei~V Lobanov, Sang-Goo Lee,
+  Richard~A Miller, and Vadim~N Gladyshev.
+\newblock {Using DNA Methylation Profiling to Evaluate Biological Age and
+  Longevity Interventions}.
+\newblock {\em Cell Metabolism}, 25(4):954--960.e6, 2017.
+
+\bibitem{Thompson2018}
+Michael~J. Thompson, Karolina Chwia{\l}kowska, Liudmilla Rubbi, Aldons~J.
+  Lusis, Richard~C. Davis, Anuj Srivastava, Ron Korstanje, Gary~A. Churchill,
+  Steve Horvath, and Matteo Pellegrini.
+\newblock {A multi-tissue full lifespan epigenetic clock for mice}.
+\newblock {\em Aging}, 10(10):2832--2854, 2018.
+
+\bibitem{Meer2018}
+Margarita~V Meer, Dmitriy~I Podolskiy, Alexander Tyshkovskiy, and Vadim~N
+  Gladyshev.
+\newblock {A whole lifespan mouse multi-tissue DNA methylation clock}.
+\newblock {\em eLife}, 7:e40675, 2018.
+
+\bibitem{Thompson2017}
+Michael~J. Thompson, Bridgett von Holdt, Steve Horvath, and Matteo Pellegrini.
+\newblock {An epigenetic aging clock for dogs and wolves}.
+\newblock {\em Aging}, 9(3):1055--1068, 2017.
+
+\bibitem{Slieker2016}
+Roderick~C Slieker, Maarten van Iterson, Ren{\'{e}} Luijk, Marian Beekman,
+  Daria~V Zhernakova, Matthijs~H Moed, Hailiang Mei, Michiel van Galen, Patrick
+  Deelen, Marc~Jan Bonder, Alexandra Zhernakova, Andr{\'{e}}~G Uitterlinden,
+  Ettje~F Tigchelaar, Coen D~A Stehouwer, Casper~G Schalkwijk, Carla J~H
+  van~der Kallen, Albert Hofman, Diana van Heemst, Eco~J de~Geus, Jenny van
+  Dongen, Joris Deelen, Leonard~H van~den Berg, Joyce van Meurs, Rick Jansen,
+  Peter A~C {‘t Hoen}, Lude Franke, Cisca Wijmenga, Jan~H Veldink, Morris~A
+  Swertz, Marleen M~J van Greevenbroek, Cornelia~M van Duijn, Dorret~I Boomsma,
+  P~Eline Slagboom, Bastiaan~T Heijmans, and BIOS Consortium.
+\newblock {Age-related accrual of methylomic variability is linked to
+  fundamental ageing mechanisms}.
+\newblock {\em Genome Biology}, 17(1):191, 2016.
+
+\bibitem{Slieker2018}
+Roderick~C Slieker, Caroline~L Relton, Tom~R Gaunt, P~Eline Slagboom, and
+  Bastiaan~T Heijmans.
+\newblock {Age-related DNA methylation changes are tissue-specific with ELOVL2
+  promoter methylation as exception}.
+\newblock {\em Epigenetics {\&} Chromatin}, 11(1):25, 2018.
+
+\bibitem{Cole2017}
+John~J Cole, Neil~A Robertson, Mohammed~Iqbal Rather, John~P Thomson, Tony
+  McBryan, Duncan Sproul, Tina Wang, Claire Brock, William Clark, Trey Ideker,
+  Richard~R Meehan, Richard~A Miller, Holly~M Brown-Borg, and Peter~D Adams.
+\newblock {Diverse interventions that extend mouse lifespan suppress shared
+  age-associated epigenetic changes at critical gene regulatory regions}.
+\newblock {\em Genome Biology}, 18(1):58, 2017.
+
+\bibitem{Horvath2018a}
+Steve Horvath, Junko Oshima, George~M. Martin, Ake~T. Lu, Austin Quach, Howard
+  Cohen, Sarah Felton, Mieko Matsuyama, Donna Lowe, Sylwia Kabacik, James~G.
+  Wilson, Alex~P. Reiner, Anna Maierhofer, Julia Flunkert, Abraham Aviv, Lifang
+  Hou, Andrea~A. Baccarelli, Yun Li, James~D. Stewart, Eric~A. Whitsel, Luigi
+  Ferrucci, Shigemi Matsuyama, and Kenneth Raj.
+\newblock {Epigenetic clock for skin and blood cells applied to Hutchinson
+  Gilford Progeria Syndrome and ex vivo studies}.
+\newblock {\em Aging}, 10(7):1758--1775, 2018.
+
+\bibitem{Hanna2016}
+Courtney~W. Hanna, Maria~S. Pe{\"{i}}¿½aherrera, Heba Saadeh, Simon Andrews,
+  Deborah~E. McFadden, Gavin Kelsey, and Wendy~P. Robinson.
+\newblock {Pervasive polymorphic imprinted methylation in the human placenta}.
+\newblock {\em Genome Research}, 26:756--767, 2016.
+
+\bibitem{Milagre2017}
+In{\^{e}}s Milagre, Thomas~M Stubbs, Michelle~R King, Julia Spindel,
+  F{\'{a}}tima Santos, Felix Krueger, Martin Bachman, Anne Segonds-Pichon,
+  Shankar Balasubramanian, Simon~R Andrews, Wendy Dean, and Wolf Reik.
+\newblock {Gender Differences in Global but Not Targeted Demethylation in iPSC
+  Reprogramming}.
+\newblock {\em Cell Reports}, 18(5):1079--1089, 2017.
+
+\bibitem{Kawakatsu2016}
+Taiji Kawakatsu, Shao-shan~Carol Huang, Florian Jupe, Eriko Sasaki, Robert~J
+  Schmitz, Mark~A Urich, Rosa Castanon, Joseph~R Nery, Cesar Barragan, Yupeng
+  He, Huaming Chen, Manu Dubin, Cheng-Ruei Lee, Congmao Wang, Felix Bemm,
+  Claude Becker, Ryan O'Neil, Ronan~C O'Malley, Danjuma~X Quarless, Carlos
+  Alonso-Blanco, Jorge Andrade, Claude Becker, Felix Bemm, Joy Bergelson,
+  Karsten Borgwardt, Eunyoung Chae, Todd Dezwaan, Wei Ding, Joseph~R Ecker,
+  Mois{\'{e}}s Exp{\'{o}}sito-Alonso, Ashley Farlow, Joffrey Fitz, Xiangchao
+  Gan, Dominik~G Grimm, Angela Hancock, Stefan~R Henz, Svante Holm, Matthew
+  Horton, Mike Jarsulic, Randall~A Kerstetter, Arthur Korte, Pamela Korte,
+  Christa Lanz, Chen-Ruei Lee, Dazhe Meng, Todd~P Michael, Richard Mott,
+  Ni~Wayan Muliyati, Thomas N{\"{a}}gele, Matthias Nagler, Viktoria Nizhynska,
+  Magnus Nordborg, Polina Novikova, F~Xavier Pic{\'{o}}, Alexander Platzer,
+  Fernando~A Rabanal, Alex Rodriguez, Beth~A Rowan, Patrice~A Salom{\'{e}},
+  Karl Schmid, Robert~J Schmitz, {\"{U}}mit Seren, Felice~Gianluca Sperone,
+  Mitchell Sudkamp, Hannes Svardal, Matt~M Tanzer, Donald Todd, Samuel~L
+  Volchenboum, Congmao Wang, George Wang, Xi~Wang, Wolfram Weckwerth, Detlef
+  Weigel, Xuefeng Zhou, Nicholas~J Schork, Detlef Weigel, Magnus Nordborg, and
+  Joseph~R Ecker.
+\newblock {Epigenomic Diversity in a Global Collection of Arabidopsis thaliana
+  Accessions}.
+\newblock {\em Cell}, 166(2):492--505, 2016.
+
+\bibitem{Maurano2015}
+Matthew~T. Maurano, Hao Wang, Sam John, Anthony Shafer, Theresa Canfield,
+  Kristen Lee, and John~A. Stamatoyannopoulos.
+\newblock {Role of DNA Methylation in Modulating Transcription Factor
+  Occupancy}.
+\newblock {\em Cell Reports}, 12(7):1184--1195, 2015.
+
+\bibitem{LevMaor2015}
+Galit {Lev Maor}, Ahuvi Yearim, and Gil Ast.
+\newblock {The alternative role of DNA methylation in splicing regulation}.
+\newblock {\em Trends in Genetics}, 31(5):274--280, 2015.
+
+\bibitem{Domcke2015}
+Silvia Domcke, Ana{\"{i}}s~Flore Bardet, Paul {Adrian Ginno}, Dominik Hartl,
+  Lukas Burger, and Dirk Sch{\"{u}}beler.
+\newblock {Competition between DNA methylation and transcription factors
+  determines binding of NRF1}.
+\newblock {\em Nature}, 528(7583):575--579, 2015.
+
+\bibitem{Stroud2013}
+Hume Stroud, Truman Do, Jiamu Du, Xuehua Zhong, Suhua Feng, Lianna Johnson,
+  Dinshaw~J Patel, and Steven~E Jacobsen.
+\newblock {Non-CG methylation patterns shape the epigenetic landscape in
+  Arabidopsis}.
+\newblock {\em Nature Structural {\&}Amp; Molecular Biology}, 21:64--72, 2013.
+
+\bibitem{Sun2014}
+Yan Sun, Rui Hou, Xiaoteng Fu, Changsen Sun, Shi Wang, Chen Wang, Ning Li,
+  Lingling Zhang, and Zhenmin Bao.
+\newblock {Genome-Wide Analysis of DNA Methylation in Five Tissues of Zhikong
+  Scallop, Chlamys farreri}.
+\newblock {\em PLOS ONE}, 9(1):e86232, 2014.
+
+\bibitem{Zhang2015}
+Weiwei Zhang, Tim~D Spector, Panos Deloukas, Jordana~T Bell, and Barbara~E
+  Engelhardt.
+\newblock {Predicting genome-wide DNA methylation using methylation marks,
+  genomic position, and DNA regulatory elements.}
+\newblock {\em Genome biology}, 16(1):14, 2015.
+
+\bibitem{Angermueller2017}
+Christof Angermueller, Heather~J Lee, Wolf Reik, and Oliver Stegle.
+\newblock {DeepCpG: accurate prediction of single-cell DNA methylation states
+  using deep learning}.
+\newblock {\em Genome Biology}, 18(1):67, 2017.
+
+\bibitem{Davey2011}
+John~W Davey and Mark~L Blaxter.
+\newblock {RADSeq: next-generation population genetics}.
+\newblock {\em Briefings in Functional Genomics}, 9(5-6):416--423, 2011.
+
+\bibitem{Davey2011a}
+John~W Davey, Paul~A Hohenlohe, Paul~D Etter, Jason~Q Boone, Julian~M Catchen,
+  and Mark~L Blaxter.
+\newblock {Genome-wide genetic marker discovery and genotyping using
+  next-generation sequencing}.
+\newblock {\em Nature Reviews Genetics}, 12:499--510, 2011.
+
+\bibitem{Naumova2012}
+Natalia Naumova, Emily~M Smith, Ye~Zhan, and Job Dekker.
+\newblock {Analysis of long-range chromatin interactions using Chromosome
+  Conformation Capture}.
+\newblock {\em Methods}, 58(3):192--203, 2012.
+
+\bibitem{Dekker2013}
+Job Dekker, Marc~A Marti-Renom, and Leonid~A Mirny.
+\newblock {Exploring the three-dimensional organization of genomes:
+  interpreting chromatin interaction data}.
+\newblock {\em Nature Reviews Genetics}, 14:390--403, 2013.
+
+\bibitem{Roberts2005}
+Richard~J Roberts, Tamas Vincze, Janos Posfai, and Dana Macelis.
+\newblock {REBASE—restriction enzymes and DNA methyltransferases}.
+\newblock {\em Nucleic Acids Research}, 33(suppl{\_}1):D230--D232, 2005.
+
+\bibitem{Roberts2015}
+Richard~J Roberts, Tamas Vincze, Janos Posfai, and Dana Macelis.
+\newblock {REBASE—a database for DNA restriction and modification: enzymes,
+  genes and genomes}.
+\newblock {\em Nucleic Acids Research}, 43(D1):D298--D299, 2015.
+
+\bibitem{Harrow2012}
+Jennifer Harrow, Adam Frankish, Jose~M. Gonzalez, Electra Tapanari, Mark
+  Diekhans, Felix Kokocinski, Bronwen~L. Aken, Daniel Barrell, Amonida Zadissa,
+  Stephen Searle, If~Barnes, Alexandra Bignell, Veronika Boychenko, Toby Hunt,
+  Mike Kay, Gaurab Mukherjee, Jeena Rajan, Gloria Despacio-Reyes, Gary
+  Saunders, Charles Steward, Rachel Harte, Michael Lin, C{\'{e}}dric Howald,
+  Andrea Tanzer, Thomas Derrien, Jacqueline Chrast, Nathalie Walters, Suganthi
+  Balasubramanian, Baikang Pei, Michael Tress, Jose~Manuel Rodriguez, Iakes
+  Ezkurdia, Jeltje {Van Baren}, Michael Brent, David Haussler, Manolis Kellis,
+  Alfonso Valencia, Alexandre Reymond, Mark Gerstein, Roderic Guig{\'{o}}, and
+  Tim~J. Hubbard.
+\newblock {GENCODE: The reference human genome annotation for the ENCODE
+  project}.
+\newblock {\em Genome Research}, 22:1760--1774, 2012.
+
+\bibitem{Bock2007}
+C~Bock, J~Walter, M~Paulsen, and T~Lengauer.
+\newblock {CpG island mapping by epigenome prediction}.
+\newblock {\em PLoS Comput Biol}, 3(6):e110, 2007.
+
+\bibitem{Taher2013}
+Leila Taher, Robin~P Smith, Mee~J Kim, Nadav Ahituv, and Ivan Ovcharenko.
+\newblock {Sequence signatures extracted from proximal promoters can be used to
+  predict distal enhancers}.
+\newblock {\em Genome Biology}, 14(10):R117, 2013.
+
+\bibitem{Quinlan2011}
+Ryan~K Dale, Brent~S Pedersen, and Aaron~R Quinlan.
+\newblock {Pybedtools: a flexible Python library for manipulating genomic
+  datasets and annotations}.
+\newblock {\em Bioinformatics}, 27(24):3423--3424, 2011.
+
+\bibitem{Quinlan2010}
+Aaron~R Quinlan and Ira~M Hall.
+\newblock {BEDTools: a flexible suite of utilities for comparing genomic
+  features}.
+\newblock {\em Bioinformatics}, 26(6):841--842, 2010.
+
+\bibitem{Cock2009}
+Peter J~A Cock, Tiago Antao, Jeffrey~T. Chang, Brad~A. Chapman, Cymon~J. Cox,
+  Andrew Dalke, Iddo Friedberg, Thomas Hamelryck, Frank Kauff, Bartek
+  Wilczynski, and Michiel J~L {De Hoon}.
+\newblock {Biopython: Freely available Python tools for computational molecular
+  biology and bioinformatics}.
+\newblock {\em Bioinformatics}, 25(11):1422--1423, 2009.
+
+\bibitem{Martin-Herranz2017}
+Daniel~E Martin-Herranz, Antonio~JM Ribeiro, and Thomas~M Stubbs.
+\newblock {demh/cuRRBS: cuRRBS V1.0.4}, aug 2017.
+
+\bibitem{Kuhn2012}
+Robert~M Kuhn, David Haussler, and W~James Kent.
+\newblock {The UCSC genome browser and associated tools}.
+\newblock {\em Briefings in Bioinformatics}, 14(2):144--161, 2012.
+
+\bibitem{Zhang2015a}
+Anthony Mathelier, Oriol Fornes, David~J Arenillas, Chih-yu Chen,
+  Gr{\'{e}}goire Denay, Jessica Lee, Wenqiang Shi, Casper Shyr, Ge~Tan, Rebecca
+  Worsley-Hunt, Allen~W Zhang, Fran{\c{c}}ois Parcy, Boris Lenhard, Albin
+  Sandelin, and Wyeth~W Wasserman.
+\newblock {JASPAR 2016: a major expansion and update of the open-access
+  database of transcription factor binding profiles}.
+\newblock {\em Nucleic Acids Research}, 44(D1):D110--D115, 2015.
+
+\bibitem{Bardet2013}
+Ana{\"{i}}s~F. Bardet, Jonas Steinmann, Sangeeta Bafna, Juergen~A. Knoblich,
+  Julia Zeitlinger, and Alexander Stark.
+\newblock {Identification of transcription factor binding sites from ChIP-seq
+  data at high resolution}.
+\newblock {\em Bioinformatics}, 29(21):2705--2713, 2013.
+
+\bibitem{Krueger2011}
+Felix Krueger and Simon~R Andrews.
+\newblock {Bismark: a flexible aligner and methylation caller for Bisulfite-Seq
+  applications}.
+\newblock {\em Bioinformatics}, 27(11):1571--1572, 2011.
+
+\end{thebibliography}

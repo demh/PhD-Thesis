@@ -1,0 +1,23 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Chronological age distribution in our healthy individuals}}{4}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Main DNA methylation data pre-processing pipeline}}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Effect of BMIQ normalisation on the $\beta $-value distribution}}{10}{figure.caption.12}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The landscape of restriction enzyme motifs}}{17}{figure.caption.14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Restriction enzyme digestion as a tool for genomic enrichment}}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces cuRRBS overview}}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Running cuRRBS in different biological systems}}{24}{figure.caption.17}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Experimental validation of cuRRBS}}{26}{figure.caption.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {S1.1}{\ignorespaces Effects of \textit {noob} background correction on the array fluorescence intensities.}}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {S1.2}{\ignorespaces Quality control (QC) strategy to identify outlier samples.}}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {S1.3}{\ignorespaces M-value distributions in the GSE41273 batch}}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {S3.1}{\ignorespaces Scatterplot of fragment length distributions for the isoschizomer families}}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {S3.2}{\ignorespaces Genomic features that overlap with restriction enzyme cleavage sites}}{39}{figure.caption.35}
+\contentsline {figure}{\numberline {S3.3}{\ignorespaces Comparison of studies using restriction enzymes for genomic enrichment}}{40}{figure.caption.36}
+\contentsline {figure}{\numberline {S3.4}{\ignorespaces Additional insights into cuRRBS}}{41}{figure.caption.37}
+\contentsline {figure}{\numberline {S3.5}{\ignorespaces Additional results of running cuRRBS in different biological systems}}{42}{figure.caption.38}
+\contentsline {figure}{\numberline {S3.6}{\ignorespaces Effect of experimental errors during size selection in cuRRBS predictions}}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {S3.7}{\ignorespaces cuRRBS computational efficiency}}{44}{figure.caption.40}
