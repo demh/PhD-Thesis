@@ -3,7 +3,7 @@
 
 \setcounter{chapter}{-1}
 
-\chapter[]{Supplementary figures and tables} 
+\chapter[]{Supplementary figures} 
 
 \ifpdf
 \graphicspath{{Appendix/Figs/pdf/}}
@@ -38,11 +38,42 @@
 	\label{fig:sc2_fig3}
 \end{figure}
 
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC2_Fig4}
+	\caption[Cell-type deconvolution strategies that were benchmarked]{Table showing the different cell-type deconvolution strategies that were benchmarked. BMIQ: beta-mixture quantile normalisation. \acrshort{CP/QP}: constrained projection/quadratic programming. \acrshort{MAE}: mean absolute error. Noob: \textit{noob} background correction.  \acrshort{R$^2$}: coefficient of determination. \acrshort{RMSE}: root mean squared error. \acrshort{RPC}: robust partial correlations. \acrshort{SQN}: stratified quantile normalisation. `Default' refers to the pre-processing strategy employed in the original DHS-DMCs publication, as implemented in the \textit{EpiDISH} R package (\textit{centDHSbloodDMC.m}) \cite{Teschendorff2017a,Teschendorff2017b}. See the main text for more details on what the different references refer to.}
+	\label{fig:sc2_fig4}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC2_Fig5}
+	\caption[Benchmarking of the cell-type deconvolution strategies in blood: R$^2$]{Benchmarking of the cell-type deconvolution strategies in blood. The x-axis shows the different strategies that were tested (for a detailed description see Fig.~\ref{fig:sc2_fig4}). The y-axis shows the results for the coefficient of determination (R$^2$) when comparing the predictions with the real proportions of cells in a gold-standard dataset (GSE77797) \cite{Koestler2016}. The grey horizontal solid lines represent the mean for the R$^2$ across cell types and the grey dashed line the maximum of these values.}
+	\label{fig:sc2_fig5}
+\end{figure}
+
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC2_Fig6_1}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC2_Fig6_2}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC2_Fig6_3}
+	\caption[Table showing the top 100 aDMPs]{Table showing the characteristics of top 100 differentially methylated positions during ageing (aDMPs) in the blood of the healthy individuals, ordered by p-value and the absolute value of the T statistic. The chromosome and coordinate refer to the \textit{hg19} human genome assembly. The reported genes are the closest genes associated with the array probe, as reported by the 450K array annotation. In this case, cell composition correction (CCC) was applied during modelling (see the main text).}
+	\vspace*{6.5in}
+	\label{fig:sc2_fig6}
+\end{figure}	
 
 
 
 
-\smallskip
+
+
+\clearpage
 
 \renewcommand{\thesection}{S.2}   
 \section{Biological aspects of the epigenetic clock}
