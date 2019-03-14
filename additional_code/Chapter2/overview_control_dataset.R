@@ -82,7 +82,7 @@ for(c in colnames(raw_controls)[11:16]){
                         paste0("\n Model: y = ", round(lmi_int,digits=4), 
                                ifelse(lmi_slope > 0, " + ", " - "),
                                abs(round(lmi_slope, digits=4)), "*x"))) +
-    ylim(c(-1,100)) + xlab('Chronological age (years)') + ylab(paste0(c, ' (%)'));
+    ylim(c(-1,ifelse(c=='Gran', 100, 50))) + xlab('Chronological age (years)') + ylab(paste0(c, ' (%)'));
   i <- i+1;
     
 }
