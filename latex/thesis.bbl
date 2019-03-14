@@ -447,6 +447,29 @@ Garrett Jenkinson, Elisabet Pujadas, John Goutsias, and Andrew~P Feinberg.
   nature of the epigenome}.
 \newblock {\em Nature Genetics}, 49:719--729, 2017.
 
+\bibitem{Horvath2013b}
+Steve Horvath.
+\newblock {DNAmAge online calculator: https://dnamage.genetics.ucla.edu/home},
+  2013.
+
+\bibitem{Martin-Herranz2019}
+Daniel~E Martin-Herranz.
+\newblock {demh/epigenetic{\_}ageing{\_}clock: Epigenetic ageing clock v1.0.0.
+  GitHub repository: https://github.com/demh/epigenetic{\_}ageing{\_}clock/},
+  2019.
+
+\bibitem{Troyanskaya2001}
+Olga Troyanskaya, Michael Cantor, Gavin Sherlock, Pat Brown, Trevor Hastie,
+  Robert Tibshirani, David Botstein, and Russ~B. Altman.
+\newblock {Missing value estimation methods for DNA microarrays}.
+\newblock {\em Bioinformatics}, 17(6):520--525, 2001.
+
+\bibitem{Horvath2012}
+S~Horvath, Y~Zhang, P~Langfelder, R~S Kahn, M~P Boks, and K~{Van Eijk}.
+\newblock {Aging effects on DNA methylation modules in human brain and blood
+  tissue}.
+\newblock {\em Genome Biol}, 13, 2012.
+
 \bibitem{ElKhoury2018}
 Louis~Y {El Khoury}, Tyler Gorrie-Stone, Melissa Smart, Amanda Hughes, Yanchun
   Bao, Alexandria Andrayas, Joe Burrage, Eilis Hannon, Meena Kumari, Jonathan
@@ -467,6 +490,124 @@ Thomas~M. Stubbs, Marc~Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand
   von Meyenn, Oliver Stegle, and Wolf Reik.
 \newblock {Multi-tissue DNA methylation age predictor in mouse}.
 \newblock {\em Genome Biology}, 18(1):68, 2017.
+
+\bibitem{Leek2010}
+Jeffrey~T Leek, Robert~B Scharpf, H{\'{e}}ctor~Corrada Bravo, David Simcha,
+  Benjamin Langmead, W~Evan Johnson, Donald Geman, Keith Baggerly, and Rafael~A
+  Irizarry.
+\newblock {Tackling the widespread and critical impact of batch effects in
+  high-throughput data}.
+\newblock {\em Nature Reviews Genetics}, 11:733--739, 2010.
+
+\bibitem{Maksimovic2015}
+Jovana Maksimovic, Alicia Oshlack, Johann~A Gagnon-Bartsch, and Terence~P
+  Speed.
+\newblock {Removing unwanted variation in a differential methylation analysis
+  of Illumina HumanMethylation450 array data}.
+\newblock {\em Nucleic Acids Research}, 43(16):e106--e106, 2015.
+
+\bibitem{Fortin2014}
+Jean-Philippe Fortin, Aur{\'{e}}lie Labbe, Mathieu Lemire, Brent~W Zanke,
+  Thomas~J Hudson, Elana~J Fertig, Celia M~T Greenwood, and Kasper~D Hansen.
+\newblock {Functional normalization of 450k methylation array data improves
+  replication in large cancer studies}.
+\newblock {\em Genome Biology}, 15(11):503, 2014.
+
+\bibitem{Price2018}
+E~M Price and Wendy~P Robinson.
+\newblock {Adjusting for Batch Effects in DNA Methylation Microarray Data, a
+  Lesson Learned }, 2018.
+
+\bibitem{Horvath2016a}
+Steve Horvath, Peter Langfelder, Seung Kwak, Jeff Aaronson, Jim Rosinski,
+  Thomas~F. Vogt, Marika Eszes, Richard~L.M. Faull, Maurice~A. Curtis, Henry~J.
+  Waldvogel, Oi~Wa Choi, Spencer Tung, Harry~V. Vinters, Giovanni Coppola, and
+  X.~William Yang.
+\newblock {Huntington's disease accelerates epigenetic aging of human brain and
+  disrupts DNA methylation levels}.
+\newblock {\em Aging}, 8(7):1485--1512, 2016.
+
+\bibitem{Horvath2013a}
+Steve Horvath.
+\newblock {FAQs DNAmAge online calculator:
+  https://horvath.genetics.ucla.edu/html/dnamage/faq.htm{\#}{\_}Toc385147421},
+  2013.
+
+\bibitem{Gagnon-Bartsch2012}
+Johann~A Gagnon-Bartsch and Terence~P Speed.
+\newblock {Using control genes to correct for unwanted variation in microarray
+  data}.
+\newblock {\em Biostatistics}, 13(3):539--552, 2012.
+
+\bibitem{Illumina2010}
+Illumina.
+\newblock {GenomeStudio{\textregistered} Methylation Module v1.8 User Guide}.
+\newblock Technical report, 2010.
+
+\bibitem{Akalin2014}
+Altuna Akalin.
+\newblock {AmpliconBiSeq GitHub repository: findElbow function}, 2014.
+
+\bibitem{Marioni2015}
+Riccardo~E Marioni, Sonia Shah, Allan~F McRae, Brian~H Chen, Elena Colicino,
+  Sarah~E Harris, Jude Gibson, Anjali~K Henders, Paul Redmond, Simon~R Cox,
+  Alison Pattie, Janie Corley, Lee Murphy, Nicholas~G Martin, Grant~W
+  Montgomery, Andrew~P Feinberg, M~Daniele Fallin, Michael~L Multhaup, Andrew~E
+  Jaffe, Roby Joehanes, Joel Schwartz, Allan~C Just, Kathryn~L Lunetta,
+  Joanne~M Murabito, John~M Starr, Steve Horvath, Andrea~A Baccarelli, Daniel
+  Levy, Peter~M Visscher, Naomi~R Wray, and Ian~J Deary.
+\newblock {DNA methylation age of blood predicts all-cause mortality in later
+  life}.
+\newblock {\em Genome Biology}, 16(1):25, 2015.
+
+\bibitem{Perna2016}
+Laura Perna, Yan Zhang, Ute Mons, Bernd Holleczek, Kai-Uwe Saum, and Hermann
+  Brenner.
+\newblock {Epigenetic age acceleration predicts cancer, cardiovascular, and
+  all-cause mortality in a German case cohort}.
+\newblock {\em Clinical Epigenetics}, 8(1):64, 2016.
+
+\bibitem{Irvin2018}
+Marguerite~R Irvin, Stella Aslibekyan, Anh Do, Degui Zhi, Bertha Hidalgo,
+  Steven~A Claas, Vinodh Srinivasasainagendra, Steve Horvath, Hemant~K Tiwari,
+  Devin~M Absher, and Donna~K Arnett.
+\newblock {Metabolic and inflammatory biomarkers are associated with epigenetic
+  aging acceleration estimates in the GOLDN study}.
+\newblock {\em Clinical Epigenetics}, 10(1):56, 2018.
+
+\bibitem{Yang2016}
+Zhen Yang, Andrew Wong, Diana Kuh, Dirk~S. Paul, Vardhman~K. Rakyan, R.~David
+  Leslie, Shijie~C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew~E.
+  Teschendorff.
+\newblock {Correlation of an epigenetic mitotic clock with cancer risk}.
+\newblock {\em Genome Biology}, 17(1):205, 2016.
+
+\bibitem{Beerman2013}
+Isabel Beerman, Christoph Bock, Brian~S. Garrison, Zachary~D. Smith, Hongcang
+  Gu, Alexander Meissner, and Derrick~J. Rossi.
+\newblock {Proliferation-dependent alterations of the DNA methylation landscape
+  underlie hematopoietic stem cell aging}.
+\newblock {\em Cell Stem Cell}, 12(4):413--425, 2013.
+
+\bibitem{Lu2018}
+Ake~T Lu, Luting Xue, Elias~L Salfati, Brian~H Chen, Luigi Ferrucci, Daniel
+  Levy, Roby Joehanes, Joanne~M Murabito, Douglas~P Kiel, Pei-Chien Tsai, Idil
+  Yet, Jordana~T Bell, Massimo Mangino, Toshiko Tanaka, Allan~F McRae,
+  Riccardo~E Marioni, Peter~M Visscher, Naomi~R Wray, Ian~J Deary, Morgan~E
+  Levine, Austin Quach, Themistocles Assimes, Philip~S Tsao, Devin Absher,
+  James~D Stewart, Yun Li, Alex~P Reiner, Lifang Hou, Andrea~A Baccarelli,
+  Eric~A Whitsel, Abraham Aviv, Alexia Cardona, Felix~R Day, Nicholas~J
+  Wareham, John R~B Perry, Ken~K Ong, Kenneth Raj, Kathryn~L Lunetta, and Steve
+  Horvath.
+\newblock {GWAS of epigenetic aging rates in blood reveals a critical role for
+  TERT}.
+\newblock {\em Nature Communications}, 9(1):387, 2018.
+
+\bibitem{Sehl2017}
+Mary~E. Sehl, Jill~E. Henry, Anna~Maria Storniolo, Patricia~A. Ganz, and Steve
+  Horvath.
+\newblock {DNA methylation age is elevated in breast tissue of healthy women}.
+\newblock {\em Breast Cancer Research and Treatment}, 164(1):209--219, 2017.
 
 \bibitem{Visscher2017}
 Peter~M. Visscher, Naomi~R. Wray, Qian Zhang, Pamela Sklar, Mark~I. McCarthy,
@@ -945,6 +1086,13 @@ John~J Cole, Neil~A Robertson, Mohammed~Iqbal Rather, John~P Thomson, Tony
 \newblock {Diverse interventions that extend mouse lifespan suppress shared
   age-associated epigenetic changes at critical gene regulatory regions}.
 \newblock {\em Genome Biology}, 18(1):58, 2017.
+
+\bibitem{Martin-Herranz2019a}
+Daniel~E Martin-Herranz, Erfan Aref-Eshghi, Marc~Jan Bonder, Thomas~M Stubbs,
+  Oliver Stegle, Bekim Sadikovic, Wolf Reik, and Janet~M Thornton.
+\newblock {Screening for genes that accelerate the epigenetic ageing clock in
+  humans reveals a role for the H3K36 methyltransferase NSD1}.
+\newblock {\em bioRxiv}, page 545830, 2019.
 
 \bibitem{Horvath2018a}
 Steve Horvath, Junko Oshima, George~M. Martin, Ake~T. Lu, Austin Quach, Howard

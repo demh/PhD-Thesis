@@ -25,6 +25,7 @@ library(gridExtra);
 library(cowplot);
 library(IlluminaHumanMethylation450kanno.ilmn12.hg19);
 library(ggthemes);
+library(ggpubr);
 
 
 #### 1. Basic description of the control dataset. ####
@@ -356,7 +357,31 @@ cor.test(final_entropy_df$Age_years[final_entropy_df$Batch!='GSE97362'],
 
 #### 5. Horvath's epigenetic clock results. ####
 
-## Fit linear models for full lifespan model
+## Plot for the DNAmAge pipeline. 
+
+F_transf <- function(c, a=20){
+  if(c <= a){
+    F_c <- log((c+1)/(a+1));
+  }
+  if(c > a){
+    F_c <- (c-a) / (a+1);
+  }
+  return(F_c);
+}
+
+aget_df <- data.frame(Age=seq(0,100,by=0.1), TransAge=(sapply(seq(0,100,by=0.1), F_transf)));
+aget_plot <- ggplot(aget_df, aes(x=Age, y=TransAge)) + geom_line(col='grey', size=1.5) +
+  geom_segment(x=-10, y=0, xend=20, yend=0, linetype='dashed') +
+  geom_segment(x=20, y=-10, xend=20, yend=0, linetype='dashed') + 
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab('Chronological age (years)') + ylab("Transformed chronological age");
+ggsave('plots/age_transformation_explanation.pdf', height=5, width=5);
+
+## Fit linear models for full lifespan model.
 
 lm_formula_ext_int <- paste0('DNAmAge_noob~Age_years+Sex+', paste(colnames(raw_controls)[grep('PC',colnames(raw_controls))], collapse='+'));
 lm_formula_int <- paste0('DNAmAge_noob~Age_years+Sex+Gran+CD4T+CD8T+B+Mono+NK+', paste(colnames(raw_controls)[grep('PC',colnames(raw_controls))], collapse='+'));
@@ -371,7 +396,7 @@ cor(raw_controls$Age_years, raw_controls$DNAmAge_noob, method="pearson"); # PCC:
 median(abs(raw_controls$delta_ext_int)); # MAE without CCC: 2.821098
 median(abs(raw_controls$delta_int)); # MAE with CCC: 2.711711
 
-## Plots for full lifespan model
+## Plots for full lifespan model.
 
 horvath_control_scatterplot <- ggplot(data=raw_controls, aes(x=Age_years, y=DNAmAge_noob)) +
   geom_point(col='grey') +
@@ -403,7 +428,7 @@ full_lifespan_bias <- ggplot(data=full_lifespan_df, aes(x=Age_group, y=delta, fi
   labs(title =paste0("Full lifespan control: N = ", nrow(raw_controls)));
 ggsave("plots/horvath_control_bias_full_lifespan.pdf", height=5, width=5);
 
-## Fit linear models for 0-55 years model
+## Fit linear models for 0-55 years model.
 
 raw_controls <- as.data.frame(fread('final_control_data.tsv'));
 controls_reduced <- raw_controls[raw_controls$Age_years <= 55,]; # N=1128
@@ -416,7 +441,7 @@ cor(controls_reduced$Age_years, controls_reduced$DNAmAge_noob, method="pearson")
 median(abs(controls_reduced$delta_ext_int)); # MAE without CCC: 2.323729
 median(abs(controls_reduced$delta_int)); # MAE with CCC: 2.274239
 
-## Plots for 0-55 years model
+## Plots for 0-55 years model.
 
 horvath_control_scatterplot_half <- ggplot(data=controls_reduced, aes(x=Age_years, y=DNAmAge_noob)) +
   geom_point(col='grey') +
@@ -448,4 +473,178 @@ half_lifespan_bias <- ggplot(data=half_lifespan_df, aes(x=Age_group, y=delta, fi
   labs(title =paste0("0-55 years control: N = ", nrow(controls_reduced)));
 ggsave("plots/horvath_control_bias_0_55.pdf", height=5, width=5);
 
+
+#### 6. Other epigenetic clock results. ####
+
+## Hannum clock. 
+
+hannum_betas <- as.data.frame(fread('betas_for_probes_hannum_clock.csv'));
+na_hannum <- which(is.na(hannum_betas$ProbeID) | hannum_betas$ProbeID=='NA.1' | hannum_betas$ProbeID=='NA.2');
+hannum_betas <- hannum_betas[-na_hannum,];
+hannum_coeffs <- as.data.frame(fread('hannum_clock_coefs.tsv'));
+hannum_coeffs <- hannum_coeffs[-na_hannum,];
+if(!all(hannum_betas$ProbeID==hannum_coeffs$ProbeID)){stop('The probeIDs do not match')};
+
+hannum_betas_f <- t(hannum_betas[,-1]);
+colnames(hannum_betas_f) <- hannum_betas$ProbeID;
+hannum_coeffs_f <- matrix(hannum_coeffs$Coefficient, nrow=nrow(hannum_coeffs), ncol=1);
+rownames(hannum_coeffs_f) <- hannum_coeffs$ProbeID;
+hannum_predictions <- as.data.frame(hannum_betas_f %*% hannum_coeffs_f);
+hannum_predictions$GEO_sample <- rownames(hannum_predictions);
+colnames(hannum_predictions)[1] <- 'hannum_age';
+raw_controls_f <- merge(raw_controls, hannum_predictions, by='GEO_sample');
+
+## Plot Hannum for full lifespan model.
+
+hannum_control_scatterplot <- ggplot(data=raw_controls_f, aes(x=Age_years, y=hannum_age)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("Chronological age (years)") + ylab("HannumAge (years)") +
+  xlim(c(-15,105)) + ylim(c(-15,105)) + geom_abline(slope=1, intercept=0, linetype=2) +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title =paste0("Full lifespan control: N = ", nrow(raw_controls)));
+ggsave("plots/hannum_control_scatterplot_full_lifespan.pdf", height=5, width=5);
+
+hannum_horvath_control_scatterplot <- ggplot(data=raw_controls_f, aes(x=DNAmAge_noob, y=hannum_age)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("DNAmAge (years)") + ylab("HannumAge (years)") +
+  xlim(c(-15,105)) + ylim(c(-15,105)) + geom_abline(slope=1, intercept=0, linetype=2) +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title =paste0("Full lifespan control: N = ", nrow(raw_controls)));
+ggsave("plots/horvath_vs_hannum_control_scatterplot_full_lifespan.pdf", height=5, width=5);
+
+## Fit linear models to Hannum model for full lifespan model.
+
+lm_formula_ext_int_h <- paste0('hannum_age~Age_years+Sex+', paste(colnames(raw_controls)[grep('PC',colnames(raw_controls))], collapse='+'));
+lm_formula_int_h <- paste0('hannum_age~Age_years+Sex+Gran+CD4T+CD8T+B+Mono+NK+', paste(colnames(raw_controls)[grep('PC',colnames(raw_controls))], collapse='+'));
+
+lm_control_ext_int_h <- lm(lm_formula_ext_int_h, data=raw_controls_f);
+lm_control_int_h <- lm(lm_formula_int_h, data=raw_controls_f);
+raw_controls_f$hannum_ext_int <- lm_control_ext_int_h$residuals;
+raw_controls_f$hannum_int <- lm_control_int_h$residuals;
+cor(raw_controls_f$Age_years, raw_controls_f$hannum_age, method="pearson"); # PCC: 0.975631
+median(abs(raw_controls_f$hannum_ext_int)); # MAE without CCC: 2.94844
+median(abs(raw_controls_f$hannum_int)); # MAE with CCC: 2.842229
+cor(raw_controls_f$DNAmAge_noob, raw_controls_f$hannum_age, method="pearson"); # PCC: 0.9778428
+
+## Plot EAA for Horvath vs Hannum
+
+hannum_horvath_EAA_with_CCC_scatterplot <- ggplot(data=raw_controls_f, aes(x=delta_int, y=hannum_int)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("Horvath EAA with CCC (years)") + ylab("Hannum EAA with CCC (years)") +
+  geom_abline(slope=1, intercept=0, linetype=2) +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title=paste0("Full lifespan control: N = ", nrow(raw_controls)),
+       subtitle=paste0('PCC: ', round(cor(raw_controls_f$delta_int, raw_controls_f$hannum_int), digits=4),
+                       ifelse(cor.test(raw_controls_f$delta_int, raw_controls_f$hannum_int)$p.value < 2.2e-16, 
+                              '; p-value < 2.2e-16', paste0('; p-value = ', format(cor.test(raw_controls_f$delta_int, raw_controls_f$hannum_int)$p.value, digits=4)))));
+ggsave("plots/horvath_vs_hannum_EAA_with_CCC_full_lifespan.pdf", height=5, width=5);
+
+hannum_horvath_EAA_without_CCC_scatterplot <- ggplot(data=raw_controls_f, aes(x=delta_ext_int, y=hannum_ext_int)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("Horvath EAA without CCC (years)") + ylab("Hannum EAA without CCC (years)") +
+  geom_abline(slope=1, intercept=0, linetype=2) +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title=paste0("Full lifespan control: N = ", nrow(raw_controls)),
+       subtitle=paste0('PCC: ', round(cor(raw_controls_f$delta_ext_int, raw_controls_f$hannum_ext_int), digits=4),
+                       ifelse(cor.test(raw_controls_f$delta_ext_int, raw_controls_f$hannum_ext_int)$p.value < 2.2e-16, 
+                              '; p-value < 2.2e-16', paste0('; p-value = ', format(cor.test(raw_controls_f$delta_ext_int, raw_controls_f$hannum_ext_int)$p.value, digits=4)))));
+ggsave("plots/horvath_vs_hannum_EAA_without_CCC_full_lifespan.pdf", height=5, width=5);
+
+
+## Mitotic clock.
+
+mitotic_raw <- as.data.frame(fread('pcgtAge_results.csv'));
+raw_controls_m <- merge(raw_controls, mitotic_raw, by='GEO_sample');
+
+## Plot mitotic clock for full lifespan model.
+
+pcgtAge_control_scatterplot <- ggplot(data=raw_controls_m, aes(x=Age_years, y=pcgtAge)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("Chronological age (years)") + ylab("pcgtAge") +
+  xlim(c(0,105)) +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title =paste0("Full lifespan control: N = ", nrow(raw_controls)));
+ggsave("plots/pcgtAge_control_scatterplot_full_lifespan.pdf", height=5, width=5);
+
+pcgtAge_horvath_control_scatterplot <- ggplot(data=raw_controls_m, aes(x=DNAmAge_noob, y=pcgtAge)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("DNAmAge (years)") + ylab("pcgtAge") +
+  xlim(c(0,105)) + 
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title =paste0("Full lifespan control: N = ", nrow(raw_controls)));
+ggsave("plots/horvath_vs_pcgtAge_control_scatterplot_full_lifespan.pdf", height=5, width=5);
+
+## Fit linear models to mitotic clock for full lifespan model.
+
+lm_formula_ext_int_m <- paste0('pcgtAge~Age_years+Sex+', paste(colnames(raw_controls)[grep('PC',colnames(raw_controls))], collapse='+'));
+lm_formula_int_m <- paste0('pcgtAge~Age_years+Sex+Gran+CD4T+CD8T+B+Mono+NK+', paste(colnames(raw_controls)[grep('PC',colnames(raw_controls))], collapse='+'));
+
+lm_control_ext_int_m <- lm(lm_formula_ext_int_m, data=raw_controls_m);
+lm_control_int_m <- lm(lm_formula_int_m, data=raw_controls_m);
+raw_controls_m$pcgtAge_ext_int <- lm_control_ext_int_m$residuals;
+raw_controls_m$pcgtAge_int <- lm_control_int_m$residuals;
+cor(raw_controls_m$Age_years, raw_controls_m$pcgtAge, method="pearson"); # PCC: 0.5130522
+cor(raw_controls_m$DNAmAge_noob, raw_controls_m$pcgtAge, method="pearson"); # PCC: 0.5601623
+
+## Plot EAA for Horvath vs pcgtAge
+
+pcgtAge_horvath_EAA_with_CCC_scatterplot <- ggplot(data=raw_controls_m, aes(x=delta_int, y=pcgtAge_int)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("Horvath EAA with CCC (years)") + ylab("pcgtAge EAA with CCC") +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title=paste0("Full lifespan control: N = ", nrow(raw_controls)),
+       subtitle=paste0('PCC: ', round(cor(raw_controls_m$delta_int, raw_controls_m$pcgtAge_int), digits=4),
+                       ifelse(cor.test(raw_controls_m$delta_int, raw_controls_m$pcgtAge_int)$p.value < 2.2e-16, 
+                              '; p-value < 2.2e-16', paste0('; p-value = ', format(cor.test(raw_controls_m$delta_int, raw_controls_m$pcgtAge_int)$p.value, digits=4)))));
+ggsave("plots/horvath_vs_pcgtAge_EAA_with_CCC_full_lifespan.pdf", height=5, width=5);
+
+pcgtAge_horvath_EAA_without_CCC_scatterplot <- ggplot(data=raw_controls_m, aes(x=delta_ext_int, y=pcgtAge_ext_int)) +
+  geom_point(col='grey') +
+  theme_classic() +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  xlab("Horvath EAA without CCC (years)") + ylab("pcgtAge EAA without CCC") +
+  geom_smooth(method="lm", formula=y~x, show.legend=F, alpha = 0.3, col='salmon4', fill='darkgrey') +
+  labs(title=paste0("Full lifespan control: N = ", nrow(raw_controls)),
+       subtitle=paste0('PCC: ', round(cor(raw_controls_m$delta_ext_int, raw_controls_m$pcgtAge_ext_int), digits=4),
+                       ifelse(cor.test(raw_controls_m$delta_ext_int, raw_controls_m$pcgtAge_ext_int)$p.value < 2.2e-16, 
+                              '; p-value < 2.2e-16', paste0('; p-value = ', format(cor.test(raw_controls_m$delta_ext_int, raw_controls_m$pcgtAge_ext_int)$p.value, digits=4)))));
+ggsave("plots/horvath_vs_pcgtAge_EAA_without_CCC_full_lifespan.pdf", height=5, width=5);
 

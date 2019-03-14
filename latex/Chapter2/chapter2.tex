@@ -20,15 +20,15 @@
 
 \smallskip
 
-During the last years large amounts of DNA methylation data have been generated to study complex diseases and ageing \cite{Rakyan2011,Flanagan2015}. Many of these datasets can be obtained from public repositories, such as the NCBI-hosted Gene Expression Omnibus (\acrshort{GEO}) \cite{Edgar2002}. Given its clinical accessibility and ease of collection, blood is one of the most commonly profiled tissues in human DNA methylation studies \cite{Flanagan2015}, including published studies on developmental disorders \cite{Aref-Eshghi2018} (see Chapter 3). Therefore, I decided to use blood as my surrogate tissue to broaden our understanding of the human epigenetic ageing clock.
+During the last years large amounts of DNA methylation data have been generated to study complex diseases and ageing \cite{Rakyan2011,Flanagan2015}. Many of these datasets can be obtained from public repositories, such as the NCBI-hosted Gene Expression Omnibus (\acrshort{GEO}) \cite{Edgar2002}. Given its clinical accessibility and ease of collection, blood is one of the most commonly profiled tissues in human DNA methylation studies \cite{Flanagan2015}, including published studies on developmental disorders \cite{Aref-Eshghi2018} (see Chapter~\ref{c:3}). Therefore, I decided to use blood as my surrogate tissue to broaden our understanding of the human epigenetic ageing clock.
 
 \bigskip
 
-Furthermore, most of these human datasets have been generated using different versions of the Illumina Infinium array technology, with the Illumina Infinium HumanMethylation450 array (450K) being the most frequently used platform \cite{Flanagan2015}. Additionally, given that the different array versions have different chemistries and biases \cite{Bibikova2009,Bibikova2011,Pidsley2016}, I decided to focus on 450K data for my analyses. Using the \textit{GEOquery} R package \cite{Davis2007}, I programmatically downloaded from GEO all the DNA methylation data that I could find or human blood that satisfied the following criteria:
+Furthermore, most of these human datasets have been generated using different versions of the Illumina Infinium array technology, with the Illumina Infinium HumanMethylation450 array (450K) being the most frequently used platform \cite{Flanagan2015}. Additionally, given that the different array versions have different chemistries, biases and number of probes \cite{Bibikova2009,Bibikova2011,Pidsley2016}, I decided to focus on 450K data for my analyses. Using the \textit{GEOquery} R package \cite{Davis2007}, I programmatically downloaded from GEO all the DNA methylation data from human blood that I could find, including samples from both whole blood and peripheral blood mononuclear cells (\acrshort{PBMC}). Furthermore, the data also had to satisfy the following criteria:
 
 \begin{itemize}
 	
-	\item Raw DNA methylation data was available (i.e. IDAT files). This was required so the pre-processing pipeline and the batch effect correction (which requires access to control probes intensities, see `Correcting for batch effects in the context of the epigenetic clock' section) could be consistently applied across all the samples in the study.
+	\item Raw DNA methylation data was available (i.e. IDAT files). This was required so the pre-processing pipeline and the batch effect correction (which requires access to control probes intensities, see section~\ref{s:2.2.3}) could be consistently applied across all the samples in the study.
 	
 	\item Metadata for the samples was available, with the chronological age as an absolute requirement. 
 	
@@ -38,7 +38,7 @@ Furthermore, most of these human datasets have been generated using different ve
 
 \smallskip
 
-This allowed me to assembly a human blood DNA methylation dataset for healthy individuals (after \acrshort{QC}, total $N=2218$) with the characteristics shown in Table~\ref{table:c2_table1}, which spans the entire human lifespan (0.5 to 101 years). Fig.~\ref{fig:c2_fig1} shows that the chronological age distribution is bimodal, with peaks around 10.69 and 58.81 years respectively. This reflects a sampling bias in human population studies, with more data being generated for the periods of postnatal development and during the appearance of age-related disease. However, in order to understand the development of complex diseases as a consequence of the ageing process, efforts should be made to sample people also in their middle ages, before the diseases are normally diagnosed.   
+This allowed me to assemble a \textbf{human blood DNA methylation dataset for healthy individuals} (after \acrshort{QC}, total $N=2218$) with the characteristics shown in Table~\ref{table:c2_table1}, which spans the entire human lifespan (0.5 to 101 years). Fig.~\ref{fig:c2_fig1} shows that the chronological age distribution is bimodal, with peaks around 10.69 and 58.81 years respectively. This reflects a sampling bias in human population studies, with more data being generated for the periods of postnatal development and during the appearance of age-related disease. However, in order to understand the development of complex diseases as a consequence of the ageing process, efforts should be made to sample people also in their middle ages, before the diseases are normally diagnosed.   
 
 
 \begin{table}
@@ -67,7 +67,7 @@ This allowed me to assembly a human blood DNA methylation dataset for healthy in
 		\bottomrule
 	\end{tabular}
 	\vspace*{3mm}
-	\caption[Overview of the blood DNA methylation dataset from healthy individuals]{Overview of the blood DNA methylation dataset from healthy individuals. All the batches were downloaded from GEO \cite{Edgar2002}, with the exception of `Europe' and `Feb\_2016', which were generated in-house by our collaborators in Canada (see Chapter 3). $N_{\female}$: number of samples from females. $N_{\male}$: number of samples from males. $N$: total number of samples. These numbers correspond to the samples left after applying quality control (QC, see `Overview of the DNA methylation pre-processing pipeline')}
+	\caption[Overview of the blood DNA methylation dataset from healthy individuals]{Overview of the blood DNA methylation dataset from healthy individuals. All the batches were downloaded from GEO \cite{Edgar2002}, with the exception of `Europe' and `Feb\_2016', which were generated in-house by our collaborators in Canada (see Chapter~\ref{c:3}). $N_{\female}$: number of samples from females. $N_{\male}$: number of samples from males. $N$: total number of samples. These numbers correspond to the samples left after applying quality control (QC, see section~\ref{s:2.1.2}).}
 	\label{table:c2_table1}
 \end{table} 
 
@@ -82,7 +82,7 @@ This allowed me to assembly a human blood DNA methylation dataset for healthy in
 
 \smallskip
 
-\subsection{Main DNA methylation data pre-processing pipeline}
+\subsection{Main DNA methylation data pre-processing pipeline} \label{s:2.1.2}
 
 \smallskip
 
@@ -91,13 +91,13 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 \begin{enumerate}
 	
 	
-	\item \textbf{Background correction}. I used the \textit{noob} method \cite{TricheJr2013}, as implemented in the \textit{preprocessNoob} function from the \textit{minfi} R package \cite{Aryee2014}. \textit{noob} allows accounting for technical variation in the background (i.e. non-specific) fluorescence signal, which can lead to a reduced dynamic range for the $\beta$-values obtained (Fig.~\ref{fig:c2_fig2}b, Fig.~\ref{fig:sc2_fig1}) \cite{TricheJr2013}. Briefly, when measuring fluorescence intensities in the Illumina array platforms, the observed intensity (also known as foreground, $X_f$) is composed of:
+	\item \textbf{Background correction}. I used the \textit{noob} method \cite{TricheJr2013}, as implemented in the \textit{preprocessNoob} function from the \textit{minfi} R package \cite{Aryee2014}. \textit{noob} allows accounting for technical variation in the background (i.e. non-specific) fluorescence signal, which can lead to a reduced dynamic range for the methylation values ($\beta$-values) obtained (Fig.~\ref{fig:c2_fig2}b, Fig.~\ref{fig:sc2_fig1}) \cite{TricheJr2013}. Briefly, when measuring fluorescence intensities in the Illumina array platforms, the observed intensity (also known as foreground, $X_f$) is composed of:
 	
 	\begin{align}
 	X_f = X_s + X_b
 	\end{align}
 	
-	where $X_s$ is the true signal and $X_b$ is the background signal. Making use of a normal-exponential convolution (which assumes $X_b\sim N(\mu, \sigma^2)$ and $X_s\sim Exp(\gamma)$) and the `out-of-band' (\acrshort{OOB}) intensities (fluorescence signals in the opposite colour channel in Infinium I probes) to model $X_b$ , \textit{noob} is capable of estimating $X_s$ given $X_f$. Furthermore, I also applied the default dye-bias correction strategy, which controls for the different average intensities in the two colour channels \cite{TricheJr2013}. 
+	where $X_s$ is the true signal and $X_b$ is the background signal. Making use of a normal-exponential convolution (which assumes $X_s\sim Exp(\gamma)$ and $X_b\sim N(\mu, \sigma^2)$) and the `out-of-band' (\acrshort{OOB}) intensities (fluorescence signals in the opposite colour channel in Infinium I probes) to model $X_b$ , \textit{noob} is capable of estimating $X_s$ given $X_f$. Furthermore, I also applied the default dye-bias correction strategy, which controls for the different average intensities in the two colour channels \cite{TricheJr2013}. 
 	
 		\item \textbf{Quality control} (QC). Following guidelines from the \textit{minfi} R package \cite{Aryee2014}, I kept only those samples that satisfied the following criteria:
 		
@@ -139,19 +139,19 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 	
 	\end{itemize}
 	
-	It is important to mention that other authors have also filtered out probes with high detection p-value or low bead counts across samples \cite{Wilhelm-Benartzi2013,Morris2015}. However, I did not include these filters since it was not pointed out in the \textit{minfi} guidelines \cite{Aryee2014,Fortin2015} and it could complicate further downstream analyses (e.g. different sets of probes missing across different batches, discarding probes that were needed for cell composition estimation, ...).     
+	It is important to mention that other authors have also filtered out probes with high detection p-value or low bead counts across samples \cite{Wilhelm-Benartzi2013,Morris2015}. However, I did not include these filters since it was not pointed out in the \textit{minfi} guidelines \cite{Aryee2014,Fortin2015} and it could complicate further downstream analyses (e.g. different sets of probes missing across different batches).     
 	
 	
 	\begin{figure}[htbp!] 
 		\centering    
 		\includegraphics[width=0.8\textwidth]{C2_Fig2}
 		\vspace*{2mm}
-		\caption[Main DNA methylation data pre-processing pipeline]{Main DNA methylation data pre-processing pipeline. \textbf{a.} Flowchart showing the main steps that I implemented to pre-process the DNA methylation data for the healthy individuals. The number of samples (N$_{samples}$) and the number of array probes (N$_{probes}$) left after each step are also specified. \textbf{b.}  $\beta$-value distributions, calculated using the raw fluorescence intensities (i.e. before any pre-processing), for the samples in the GSE41273 batch. Each curve represents a different sample. In grey: 51 samples that passed quality control (QC). In red: 2 samples that failed QC.  \textbf{c.} As in b., but calculating the $\beta$-values after background correction. \textbf{d.} As in b., but calculating the $\beta$-values after background correction, QC, probe filtering and BMIQ normalisation (i.e. the final $\beta$-values that I used for downstream analyses). Note that the samples that failed QC have been removed.}
+		\caption[Main DNA methylation data pre-processing pipeline]{Main DNA methylation data pre-processing pipeline. \textbf{a.} Flowchart showing the main steps implemented to pre-process the DNA methylation data from the 450K methylation arrays. The number of samples (N$_{\text{samples}}$) and the number of array probes (N$_{\text{probes}}$) left after each step are also specified for the samples from the healthy individuals. \textbf{b.}  $\beta$-value distributions, calculated using the raw fluorescence intensities (i.e. before any pre-processing), for the samples in the GSE41273 batch. Each curve represents a different sample. In grey: 51 samples that passed quality control (QC). In red: 2 samples that failed QC.  \textbf{c.} As in b., but calculating the $\beta$-values after background correction. \textbf{d.} As in b., but calculating the $\beta$-values after background correction, QC, probe filtering and BMIQ normalisation (i.e. the final $\beta$-values that I used for downstream analyses). Note that the samples that failed QC have been removed.}
 		\label{fig:c2_fig2}
 	\end{figure}
 	
 	
-	\item \textbf{$\beta$-value calculation}. The methylation status of a given CpG site in one of the array probes is normally quantified using the $\beta$-value statistic ($\beta$), which can be calculated as \cite{Wilhelm-Benartzi2013,Du2010}:
+	\item \textbf{$\beta$-value calculation}. The methylation status of a given CpG site in one of the array probes is normally quantified using the $\beta$-value statistic, which can be calculated as \cite{Wilhelm-Benartzi2013,Du2010}:
 	
 	\begin{align}
 	\beta_i = \frac{\text{max}(M_i,0)}{\text{max}(M_i,0) + \text{max}(U_i,0) + \alpha}
@@ -159,7 +159,7 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 	
 	where $M_i$ and $U_i$ represent the methylated and unmethylated intensity measurements for the $i$th-probe and $\alpha$ is a constant offset (in this work $\alpha = 100$, as recommended by Illumina) \cite{Du2010}. 
 	
-	In a DNA copy (allele) of a single cell, a specific CpG site is either unmethylated or methylated (categorical / binary variable). However, given that a bulk DNA sample from a tissue is composed of thousands of cells (which can include different cell types with different methylation patterns), $\beta$-values result in a continuous variable between 0 and 1. A value of 0 means that all the measured DNA molecules are unmethylated ($0\%$) and a value of 1 means that all the measured DNA molecules are methylated ($100\%$), which is roughly equivalent to say that 100\% of the cells are either unmethylated or methylated respectively in that CpG site for the sampled tissue. The $\beta$-values for a given sample normally follow a bimodal distribution, where the two peaks are centred around 0 and 1 (Fig.~\ref{fig:c2_fig2}d). 
+	In a DNA molecule of a single cell, a specific cytosine is either unmethylated or methylated (categorical / binary variable). However, given that a bulk DNA sample from a tissue is composed of thousands of cells (which can include different cell types with different methylation patterns), $\beta$-values result in a continuous variable between 0 and 1. A value of 0 means that all the measured DNA molecules are unmethylated ($0\%$) and a value of 1 means that all the measured DNA molecules are methylated ($100\%$) in that cytosine, which is roughly equivalent to say that 100\% of the cells are either unmethylated or methylated respectively in that cytosine for the sampled tissue. The $\beta$-values for a given sample (i.e. considering all the cytosines measured, normally in a CpG context) usually follow a bimodal distribution, where the two peaks are centred around 0 and 1 (Fig.~\ref{fig:c2_fig2}d). 
 	
 	Other authors have used M-values to quantify methylation levels in arrays (Fig.~\ref{fig:sc2_fig3}), which can be calculated as:
 	
@@ -169,7 +169,7 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 	
 	with a default offset value of $\alpha=1$.  Du \textit{et al.} reported that $\beta$-values suffer from severe heteroscedasticity for highly methylated or unmethylated CpG sites and therefore the M-values have more desirable statistical properties \cite{Du2010}. However, Zhuang \textit{et al.} later showed that this only becomes a problem in studies with small sample sizes \cite{Zhuang2012} (which is not the case for my analyses). Furthermore, $\beta$-values are easier to interpret biologically and can be readily used in the context of BMIQ normalisation (see below). For these reasons, I choose $\beta$-values as the main methylation variable for this work.
 	
-	\item \textbf{Beta-mixture quantile normalisation} (\acrshort{BMIQ}). As mentioned in Chapter 1, in the case of the 450K arrays two types of probes / chemistry coexist in the same platform. Infinium I probes and Infinium II probes have different $\beta$-values distributions (a.k.a. Infinium II probe bias). BMIQ is an intra-array normalisation strategy that allows to correct for this bias and has been shown to outperform other methods used in this context \cite{Teschendorff2012,Dedeurwaerder2011,Touleimat2012,Maksimovic2012}. BMIQ fits a three-state beta-mixture model to Infinium I and Infinium II probes separately and then maps the Infinium II probes distribution into the Infinium I probe distribution (Fig.~\ref{fig:c2_fig3}). In the case of unmethylated ($\beta$-values close to 0) and methylated ($\beta$-values close to 1) probes, this is done by transforming probabilities into quantiles. In the case of `hemimethylated' probes (intermediate $\beta$-values), a dilation transformation is applied to preserve the monotonicity and continuity of the data \cite{Teschendorff2012}. I applied BMIQ to my samples and discarded those that failed the normalisation step.  
+	\item \textbf{Beta-mixture quantile normalisation} (\acrshort{BMIQ}). As mentioned in Chapter~\ref{c:1}, in the case of the 450K arrays two types of probes / chemistry coexist in the same platform. Infinium I probes and Infinium II probes have different $\beta$-values distributions (a.k.a. Infinium II probe bias). BMIQ is an intra-array normalisation strategy that allows to correct for this bias and has been shown to outperform other methods used in this context \cite{Teschendorff2012,Dedeurwaerder2011,Touleimat2012,Maksimovic2012}. BMIQ fits a three-state beta-mixture model to Infinium I and Infinium II probes separately and then maps the Infinium II probes distribution into the Infinium I probe distribution (Fig.~\ref{fig:c2_fig3}). In the case of unmethylated ($\beta$-values close to 0) and methylated ($\beta$-values close to 1) probes, this is done by transforming probabilities into quantiles. In the case of `hemimethylated' probes (intermediate $\beta$-values), a dilation transformation is applied to preserve the monotonicity and continuity of the data \cite{Teschendorff2012}. I applied BMIQ to my samples and discarded those that failed the normalisation step.  
 	
 \end{enumerate}
 
@@ -178,13 +178,13 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 \begin{figure}[htbp!] 
 	\centering    
 	\includegraphics[width=0.8\textwidth]{C2_Fig3}
-	\caption[Effect of BMIQ normalisation on the $\beta$-value distribution]{Effect of BMIQ normalisation on the $\beta$-value distribution. The $\beta$-value distributions for different subsets of array probes in a DNA methylation sample from the GSE41273 batch. It can be appreciated how BMIQ transforms the distribution of the Infinium II probes into a distribution more similar to the Infinium I probes.}
+	\caption[Effect of BMIQ normalisation on the $\beta$-value distribution]{Effect of BMIQ normalisation on the $\beta$-value distribution of different subsets of array probes with different chemistries (Infinium I, Infinium II). These results correspond to a DNA methylation sample from the GSE41273 batch. It can be appreciated how BMIQ transforms the distribution of the Infinium II probes into a distribution more similar to the Infinium I probes.}
 	\label{fig:c2_fig3}
 \end{figure}
 
 \smallskip
 
-\subsection{Accounting for blood cell composition changes during ageing}
+\subsection{Accounting for blood cell composition changes during ageing} \label{s:2.1.3}
 
 \smallskip
 
@@ -212,19 +212,19 @@ Several methods have been developed to estimate the cell composition of a blood 
 	
 \end{itemize} 
 
-However, reference-free approaches rarely provide with estimates for the specific cell types in a given sample \cite{Teschendorff2017} (which are needed in the current modelling framework of the epigenetic clock) and they often rely on the assumption that the top components of variation correlate with cell composition \cite{Teschendorff2017a}, something that is not always true (especially in the case of developmental disorders, see Chapter 3), Thus, I decided to benchmark different reference-based cell-type deconvolution strategies in blood. In this context I tested (Fig.~\ref{fig:sc2_fig4}):
+However, reference-free approaches rarely provide with estimates for the specific cell types in a given sample \cite{Teschendorff2017} (which are needed in the current modelling framework of the epigenetic clock) and they often rely on the assumption that the top components of variation correlate with cell composition \cite{Teschendorff2017a}, something that is not always true (especially in the case of developmental disorders, see Chapter~\ref{c:3}), Thus, I decided to benchmark different reference-based cell-type deconvolution strategies in blood. In this context I tested (Fig.~\ref{fig:sc2_fig4}):
 
 \begin{itemize}
 	
-	\item \textbf{Different blood references}. As pointed out before, the quality of the reference, containing the DNA methylation profiles of the cell types to be inferred, is crucial \cite{Teschendorff2017a,Koestler2016}. The reference must be composed of those CpG sites (in this case, array probes) that are able to better discriminate between the different cell types. In my case I considered 6 major blood cell types for the inference: granulocytes (`\acrshort{Gran}'), CD4$^+$ T cells (`\acrshort{CD4T}'), CD8$^+$ T cells (`\acrshort{CD8T}'), CD19$^+$ B cells (`\acrshort{B}'), CD14$^+$ monocytes (`\acrshort{Mono}') and  CD56$^+$ natural killer cells (`\acrshort{NK}'). I tested three different blood references whose constitutive probes were selected using different strategies:
+	\item \textbf{Different blood references}. As pointed out before, the quality of the reference, containing the DNA methylation profiles of the cell types to be inferred, is crucial \cite{Teschendorff2017a,Koestler2016}. The reference must be composed of those CpG sites (in this case, array probes) that are able to better discriminate between the different cell types. In my case I considered 6 major blood `cell types' for the inference: granulocytes (`\acrshort{Gran}'), CD4$^+$ T cells (`\acrshort{CD4T}'), CD8$^+$ T cells (`\acrshort{CD8T}'), CD19$^+$ B cells (`\acrshort{B}'), CD14$^+$ monocytes (`\acrshort{Mono}') and  CD56$^+$ natural killer cells (`\acrshort{NK}'). It is important to point out that granulocytes are not themselves a `biological cell type' (since they are composed of neutrophils, eosinophils and basophils), but will be considered as a `computational cell type' as previously done \cite{Horvath2016, Chen2016}. I tested three different blood references whose constitutive probes were selected using different strategies:
 	
 	\begin{enumerate}
 		
-		\item The reference implemented in the \textit{estimateCellCounts} function from the \textit{minfi} R package \cite{Aryee2014}, which is widely used in the epigenetic literature. The reference probes were selected using t-statistics, by finding those probes that were differentially methylated in each cell type when compared with the rest of the cell types. Among those probes that showed differences at p-value $< 10^{-8}$, the 100 most differentially methylated probes by effect size (50 hypermethylated and 50 hypomethylated) were chosen for each cell type (making a total of 600 probes for the reference) \cite{Jaffe2014}. 
+		\item The reference implemented in the \textit{estimateCellCounts} function from the \textit{minfi} R package \cite{Aryee2014}, which is widely used in the epigenetic literature. The reference probes were selected using $t$-statistics, by finding those probes that were differentially methylated in each cell type when compared with the rest of the cell types. Among those probes that showed differences at p-value $< 10^{-8}$, the 100 most differentially methylated probes by effect size (50 hypermethylated and 50 hypomethylated) were chosen for each cell type (making a total of 600 probes for the reference) \cite{Jaffe2014}. 
 		
 		\smallskip
 		
-		\item The reference implemented in the \textit{EpiDISH} R package (\textit{centDHSbloodDMC.m}) \cite{Teschendorff2017b}. The reference probes (\acrshort{DHS-DMCs}, 333 in total) were selected by leveraging information of both differentially methylated cytosines (\acrshort{DMCs}, using moderated t-statistics) and chromatin accessibility (DNase Hypersensitive Sites or \acrshort{DHS}) for each cell type \cite{Teschendorff2017a}.  
+		\item The reference implemented in the \textit{EpiDISH} R package (\textit{centDHSbloodDMC.m}) \cite{Teschendorff2017b}. The reference probes (\acrshort{DHS-DMCs}, 333 in total) were selected by leveraging information of both differentially methylated cytosines (\acrshort{DMCs}, using moderated $t$-statistics) and chromatin accessibility (DNase Hypersensitive Sites or \acrshort{DHS}) for each cell type \cite{Teschendorff2017a}.  
 		
 		\item The reference implemented as part of the \acrshort{IDOL} strategy (IDentifying Optimal DNA methylation Libraries) \cite{Koestler2016}. In this case, the reference probes (300 in total) were originally selected based on differential methylation criteria and are updated in an iterative manner, with the probability of being selected based on their contribution to prediction accuracy \cite{Koestler2016}.
 	
@@ -232,7 +232,7 @@ However, reference-free approaches rarely provide with estimates for the specifi
 	
 	  The three references were built using the dataset from Reinius \textit{et al.} (GSE35069) \cite{Reinius2012}, which I obtained directly from the \textit{FlowSorted.Blood.450k} R package \cite{Jaffe2018}. This dataset contains DNA methylation data generated in the 450K array for the 6 cell types considered, that were isolated using flow cytometry \cite{Reinius2012}. The $\beta$-values for the selected probes were averaged across the biological replicates for each cell type. 
 	
-	\item \textbf{Different DNA methylation pre-processing pipelines}. I tested different configurations for the pre-processing of both the gold-standard (see below) and the reference data. For example, I tested whether probe filtering according to the criteria outlined in the previous section (`Main DNA methylation data pre-processing pipeline') is desirable, since this leads to the removal of some of the probes originally selected for the reference in the original publications \cite{Teschendorff2017a,Koestler2016} (Fig.~\ref{fig:sc2_fig4}). Furthermore, I also tested whether the prediction benefits from a similar pre-processing of both the gold-standard (or the dataset where the prediction will be made) and the reference.
+	\item \textbf{Different DNA methylation pre-processing pipelines}. I tested different configurations for the pre-processing of both the gold-standard (see below) and the reference data. For example, I tested whether probe filtering according to the criteria outlined in the previous section (section~\ref{s:2.1.2}) is desirable, since this leads to the removal of some of the probes originally selected for the reference in the original publications \cite{Teschendorff2017a,Koestler2016} (Fig.~\ref{fig:sc2_fig4}). Furthermore, I also tested whether the prediction benefits from a similar pre-processing of both the gold-standard (or the dataset where the prediction will be made) and the reference.
 		
 	\item \textbf{Different deconvolution algorithms}. I tested the performance of the following algorithms: CP/QP (constrained projection/quadratic programming, originally implemented by Houseman \textit{et al.} \cite{Houseman2012}), RPC (robust partial correlations) \cite{Teschendorff2017a} and CIBERSORT (which was originally developed for cell-type deconvolution using RNA expression data) \cite{Teschendorff2017a,Newman2015}. One of the key differences between the algorithms is how the normalisation constrain ($\sum_{c=1}^{C} w_c \leq 1$) is implemented \cite{Teschendorff2017a}. All the algorithms were run using the implementations in the \textit{epidish} function from the \textit{EpiDISH} R package \cite{Teschendorff2017b}, with the exception of the run in the \textit{minfi} reference, for which I used the \textit{estimateCellCounts} function with default parameters for the 450K array \cite{Aryee2014}. 
 
@@ -293,7 +293,7 @@ It is important to mention that the gold-standard dataset was generated as part 
 \end{figure}
 
 
-Next, I ran the optimal blood cell-type deconvolution strategy in the DNA methylation dataset that I built from healthy individuals (Table~\ref{table:c2_table1}). The main goal of this analysis was to provide blood cell type proportions that can be used as covariates as part of the epigenetic clock modelling (see `Horvath's epigenetic clock measures physiological ageing' section). However, this also allowed me to broadly quantify the \textbf{changes in blood composition that occur during human ageing} (Fig.~\ref{fig:c2_fig6}). The mammalian immune system undergoes dramatic changes during ageing. These changes are normally referred as \textit{immunosenescence} and can be broadly defined as a decline in immune system functionality and its ability to fight infections, which results in an increase in morbidity and mortality with age \cite{Nikolich-Zugich2018}. Furthermore, human ageing is also characterised by an increase in chronic, low-grade inflammation referred as \textit{inflammageing}, which is thought to contribute to the development of age-related diseases (such as atherosclerosis, type 2 diabetes, Alzheimer’s disease and osteoporosis) \cite{Franceschi2007}.
+Next, I ran the optimal blood cell-type deconvolution strategy in the DNA methylation dataset that I built from healthy individuals (Table~\ref{table:c2_table1}). The main goal of this analysis was to provide blood cell type proportions that can be used as covariates as part of the epigenetic clock modelling (see section~\ref{s:2.2.2}). However, this also allowed me to broadly quantify the \textbf{changes in blood composition that occur during human ageing} (Fig.~\ref{fig:c2_fig6}). The mammalian immune system undergoes dramatic changes during ageing. These changes are normally referred as \textit{immunosenescence} and can be broadly defined as a decline in immune system functionality and its ability to fight infections, which results in an increase in morbidity and mortality with age \cite{Nikolich-Zugich2018}. Furthermore, human ageing is also characterised by an increase in chronic, low-grade inflammation referred as \textit{inflammageing}, which is thought to contribute to the development of age-related diseases (such as atherosclerosis, type 2 diabetes, Alzheimer’s disease and osteoporosis) \cite{Franceschi2007}.
 
 \bigskip
 
@@ -307,7 +307,7 @@ In my dataset, I observe the following (Fig.~\ref{fig:c2_fig6}):
 	
 \end{itemize}
 
-These results are highly consistent with the literature \cite{Jaffe2014,Czesnikiewicz-Guzik2008,Kuranda2011,Chen2016a,Seidler2010,Manser2016}, which validates the methodology for cell-type deconvolution that I have used. These variations in blood cell composition may be caused by the age-related changes that happen in the two primary lymphoid organs: the bone marrow (whose hematopoietic stem cells exhibit reduced self-renewal potential and increased skewing toward myelopoiesis) and the thymus (which undergoes tissue involution)  \cite{Chinn2012}. 
+These results are highly consistent with the literature \cite{Jaffe2014,Czesnikiewicz-Guzik2008,Kuranda2011,Chen2016a,Seidler2010,Manser2016}, which validates the methodology for cell-type deconvolution that I have used. These variations in blood cell composition may be caused by the age-related changes that happen in the two primary lymphoid organs: the bone marrow (whose hematopoietic stem cells exhibit reduced self-renewal potential and increased skewing towards myelopoiesis) and the thymus (which undergoes tissue involution)  \cite{Chinn2012}. 
 
 \bigskip
 
@@ -316,7 +316,7 @@ This analysis provides a preliminary overview of the blood composition landscape
 \begin{figure}[htbp!] 
 	\centering    
 	\includegraphics[width=0.9\textwidth]{C2_Fig6}
-	\caption[Changes in blood cell composition during human ageing]{Changes in blood cell composition during human ageing. Scatterplots showing the changes in the proportions of the 6 cell types considered (inferred using the cell-type deconvolution strategy) as a function of chronological age. Each point represents a different DNA methylation human sample from Table~\ref{table:c2_table1}. The black line displays the linear model \%cell\_type $\sim$ chronological\_age (see `Additional methods' for more details on linear modelling), with the slope and intercept shown in the titles. The Spearman's correlation coefficient (\acrshort{SCC}) and the p-value associated with it are also displayed.}
+	\caption[Changes in blood cell composition during human ageing]{Changes in blood cell composition during human ageing. Scatterplots showing the changes in the proportions of the 6 cell types considered (inferred using the cell-type deconvolution strategy) as a function of chronological age. Each point represents a different DNA methylation human sample from Table~\ref{table:c2_table1}. The black line displays the linear model \%cell\_type $\sim$ Age (see section~\ref{s:2.4} for more details on linear modelling), with the slope and intercept shown in the titles. The Spearman's correlation coefficient (\acrshort{SCC}) and the p-value associated with it are also displayed.}
 	\label{fig:c2_fig6}
 \end{figure}
 
@@ -324,7 +324,7 @@ This analysis provides a preliminary overview of the blood composition landscape
 
 \smallskip
 
-\subsection{Identifying differentially methylated positions during ageing}
+\subsection{Identifying differentially methylated positions during ageing} \label{s:2.1.4}
 
 \smallskip
 
@@ -332,21 +332,21 @@ Differential methylation analysis is one of the most common types of downstream 
 
 \bigskip
 
-In order to study the changes that the methylome undergoes during physiological ageing, it is useful to identify differentially methylated positions during ageing (\acrshort{aDMPs}) i.e. individual cytosines (normally found in a CpG context) that change their methylation status as a function of chronological age. Linear models, widely used in the context of differential RNA expression analysis \cite{Ritchie2015}, can also been adapted to find aDMPs \cite{Zhuang2012,Teschendorff2018}. In the case of a continuous variable (such as chronological age) the association is performed using a linear regression modelling framework \cite{Zhuang2012} (see `Additional methods' for a short description of linear regression and the nomenclature used through this thesis). Briefly, for each probe in the methylation array, I fitted the following \textbf{linear regression models} to the data from the healthy individuals:
+In order to study the changes that the methylome undergoes during physiological ageing, it is useful to identify differentially methylated positions during ageing (\acrshort{aDMPs}) i.e. individual cytosines (normally found in a CpG context) that change their methylation status as a function of chronological age. Linear models, widely used in the context of differential RNA expression analysis \cite{Ritchie2015}, can also been adapted to find aDMPs \cite{Zhuang2012,Teschendorff2018}. In the case of a continuous variable (such as chronological age) the association is performed using a linear regression modelling framework \cite{Zhuang2012} (see section~\ref{s:2.4} for a short description of linear regression and the nomenclature used through this thesis). Briefly, for each probe in the methylation array, I fitted the following \textbf{linear regression models} to the data from the healthy individuals:
 
 \begin{itemize}
 
 	\item A model with cell composition correction (\acrshort{CCC}). As I have shown previously, the different blood cell types change their abundance with age. Therefore, in order to maximise the chances of finding aDMPs that are conserved across different cell types, it is important to include the estimated cell proportions as covariates in the model:
 	
-	\begin{align}
+	\begin{align} \label{eq:2.10}
 	Beta \sim Age + Sex+ Gran + CD4T + CD8T + B + Mono + NK + PC1 + ... + PC17
 	\end{align}
 	
-	where $Beta$ is the $\beta$-value for the array probe being evaluated; $Age$ is the chronological age (in years) of the samples; $Sex$ encodes for the sex of the samples (0/1); $Gran$, $CD4T$, $CD8T$, $B$, $Mono$ and $NK$ are the cell type proportions from the samples as calculated with my cell-type deconvolution strategy and $PCN$ is the $N$-th principal component that captures technical variance and accounts for potential batch effects (see `Correcting for batch effects in the context of the epigenetic clock' for more details).    
+	where $Beta$ is the $\beta$-value for the array probe being evaluated; $Age$ is the chronological age (in years) of the samples; $Sex$ encodes for the sex of the samples (0/1); $Gran$, $CD4T$, $CD8T$, $B$, $Mono$ and $NK$ are the cell type proportions from the samples as calculated with my cell-type deconvolution strategy and $PCN$ is the $N$th principal component that captures technical variance and accounts for potential batch effects (see section~\ref{s:2.2.3} for more details).    
 	
 	\item A model without CCC, which can be expressed as:
 	
-	\begin{align}
+	\begin{align} \label{eq:2.11}
 	Beta \sim Age + Sex+ PC1 + ... + PC17
 	\end{align}
 	
@@ -354,7 +354,7 @@ In order to study the changes that the methylome undergoes during physiological 
 	
 \end{itemize}
 
-Furthermore, for each probe, I calculated a p-value, based on $t$-statistics \cite{Teschendorff2018}, to assess whether the putative linear association between the methylation status and chronological age was significant or not (at a significance level of $\alpha=0.01$ after applying Bonferroni correction to account for multiple testing, see `Additional methods' for more details). I used a customised version of the \textit{dmpFinder} function in the \textit{minfi} R package \cite{Aryee2014} to identify the aDMPs, which internally uses the \textit{limma} framework \cite{Ritchie2015}. Given the big sample size ($N = 2218 >>10$), I did not use variance shrinkage (i.e. empirical Bayes moderated $t$-statistics) as part of the statistic calculations \cite{Ritchie2015}.  
+Furthermore, for each probe, I calculated a p-value, based on $t$-statistics \cite{Teschendorff2018}, to assess whether the putative linear association between the methylation status and chronological age was significant or not (at a significance level of $\alpha=0.01$ after applying Bonferroni correction to account for multiple testing, see section~\ref{s:2.4} for more details). I used a customised version of the \textit{dmpFinder} function in the \textit{minfi} R package \cite{Aryee2014} to identify the aDMPs, which internally uses the \textit{limma} framework \cite{Ritchie2015}. Given the big sample size ($N = 2218 \gg 10$), I did not use variance shrinkage (i.e. empirical Bayes moderated $t$-statistics) as part of the statistic calculations \cite{Ritchie2015}.  
 
 \bigskip
 
@@ -365,7 +365,7 @@ An overview of the different aDMPs (with and without CCC) identified in the heal
 	\vspace*{2mm}    
 	\includegraphics[width=1\textwidth]{C2_Fig7}
 	\vspace*{2mm}
-	\caption[Changes in the blood methylome during physiological ageing]{The blood methylome changes during physiological human ageing. \textbf{a.} Barplot showing the total number of differentially methylated positions during ageing (aDMPs) that were identified (in grey: probes that did not reach statistical significance). In this case, the model with cell composition correction (CCC) was applied. \textbf{b.} As in a., but using the model without CCC. \textbf{c.} Volcano plot showing the relationship between the p-value (y-axis) and the effect size (x-axis) of the age coefficient for each one of the array probes (each point represents a probe). Those probes above the dashed green line ($\alpha=0.01$ after Bonferroni correction) are the identified aDMPs. Above the volcano plot, a density plot captures the distributions of the age coefficient for the hypermethylated aDMPs (in red) and the hypomethylated aDMPs (in blue). In this case, the model with CCC was applied. The black points are the 353 CpG probes that constitute the Horvath epigenetic clock model \cite{Horvath2013}. \textbf{d.} As in c., but using the model without CCC.}
+	\caption[Changes in the blood methylome during human ageing]{The blood methylome changes during physiological human ageing. \textbf{a.} Barplot showing the total number of differentially methylated positions during ageing (aDMPs) that were identified (in grey: probes that did not reach statistical significance). In this case, the model with cell composition correction (CCC) was applied. \textbf{b.} As in a., but using the model without CCC. \textbf{c.} Volcano plot showing the relationship between the p-value (y-axis) and the effect size (x-axis) of the age coefficient for each one of the array probes (each point represents a probe). Those probes above the dashed green line ($\alpha=0.01$ after Bonferroni correction) are the identified aDMPs. Above the volcano plot, a density plot captures the distributions of the age coefficient for the hypermethylated aDMPs (in red) and the hypomethylated aDMPs (in blue). In this case, the model with CCC was applied. The black points are the 353 CpG probes that constitute the Horvath epigenetic clock model \cite{Horvath2013}. \textbf{d.} As in c., but using the model without CCC.}
 	\label{fig:c2_fig7}
 \end{figure}
 
@@ -383,7 +383,7 @@ Next, I looked at the top 100 aDMPs that were identified (according to their p-v
 
 \bigskip
 
-It is important to mention that not all the CpG sites change their DNA methylation levels with age in a perfectly linear manner. For instance, the two top hypomethylated aDMPs (Fig.~\ref{fig:c2_fig8}c,d) modify their rate at ages 20-25 years. This was already recognised by Horvath \cite{Horvath2013} and that's why the age is transformed into a logarithmic scale before the age of 20 years in order to improve the model fit. Furthermore, genetic background can have a significant effect on the DNA methylation patterns and interact with the ageing process to shape the epigenome \cite{VanDongen2016,Hannum2013}. Unfortunately, I did not have genetic data for the healthy individuals but this could help to refine the identification of aDMPs in the future. Additionally, it would be interesting to apply methods to control for bias and inflation in the test statistics, by estimating the empirical null distribution \cite{VanIterson2017}. Finally, other types of epigenetic features can be derived to understand the effects of ageing in the epigenome, such as variably methylated positions during ageing (\acrshort{aVMPs}) \cite{Slieker2016}, differentially methylated regions (\acrshort{DMRs}, which consider several correlated CpGs at the same time) \cite{Teschendorff2018} or differentially methylated cytosines in individual cell types (\acrshort{DMCTs}, which consider interactions between the phenotypic variable and the proportions of cell types) \cite{Zheng2018}.
+It is important to mention that not all the CpG sites change their DNA methylation levels with age in a perfectly linear manner. For instance, the two top hypomethylated aDMPs (Fig.~\ref{fig:c2_fig8}c,d) modify their rate at ages 20-25 years. This was already recognised by Horvath \cite{Horvath2013} and that's why the age is transformed into a logarithmic scale before the age of 20 years in order to improve the model fit (see section~\ref{s:2.2.1}). Furthermore, genetic background can have a significant effect on the DNA methylation patterns and interact with the ageing process to shape the epigenome \cite{VanDongen2016,Hannum2013}. Unfortunately, I did not have genetic data for the healthy individuals but this could help to refine the identification of aDMPs in the future. Additionally, it would be interesting to apply methods to control for bias and inflation in the test statistics, by estimating the empirical null distribution \cite{VanIterson2017}. Finally, other types of epigenetic features can be derived to understand the effects of ageing in the epigenome, such as variably methylated positions during ageing (\acrshort{aVMPs}) \cite{Slieker2016}, differentially methylated regions (\acrshort{DMRs}, which consider several correlated CpGs at the same time) \cite{Teschendorff2018} or differentially methylated cytosines in individual cell types (\acrshort{DMCTs}, which consider interactions between the phenotypic variable and the proportions of cell types) \cite{Zheng2018}.
 
 
 \smallskip
@@ -392,7 +392,7 @@ It is important to mention that not all the CpG sites change their DNA methylati
 
 \smallskip
 
-Shannon entropy ($H$) can be used in the context of DNA methylation analysis to estimate the information content stored in a given set of CpG sites \cite{Slieker2016,Hannum2013,Wang2017,Xie2011,Jenkinson2017}. I calculated it using the same approach as in Hannum \textit{et al.}\cite{Hannum2013}:
+Shannon entropy ($H$) can be used in the context of DNA methylation analysis to estimate the information content stored in a given set of CpG sites \cite{Slieker2016,Hannum2013,Wang2017,Xie2011,Jenkinson2017}. I calculated it using the same approach as in Hannum \textit{et al.} \cite{Hannum2013}:
 
 \begin{align}
 H = - \frac{1}{N} \cdot \sum_{i=1}^{N}[\beta_i \cdot \log_2(\beta_i) + (1-\beta_i) \cdot \log_2(1-\beta_i)]
@@ -402,7 +402,7 @@ where $\beta_i$ represents the methylation $\beta$-value for the $i$th array pro
 
 \bigskip
 
-Next, I calculated the genome-wide  Shannon entropy for the blood samples in the healthy individuals. Consistent with previous reports \cite{Slieker2016,Hannum2013,Wang2017,Jenkinson2017},  the genome-wide Shannon entropy associated with the methylome increases during ageing (Fig.~\ref{fig:c2_fig10}a; Spearman correlation coefficient $= 0.1985$; p-value $= 3.8281 \cdot 10^{-21}$), which implies that the epigenome loses information content. Finally, it is worth mentioning that I observed a remarkable effect of the batch on the Shannon entropy calculations, which can generate high entropy variability for a given age (Fig.~\ref{fig:c2_fig10}b). However, after removing potential outlier batches (such as GSE41273, GSE59065 or GSE97362) the increase of Shannon methylation entropy during ageing was still consistent. Thus, accounting for technical variation (see `Correcting for batch effects in the context of the epigenetic clock' section) becomes crucial when assessing this type of data, even after careful pre-processing. 
+Next, I calculated the genome-wide  Shannon entropy for the blood samples in the healthy individuals. Consistent with previous reports \cite{Slieker2016,Hannum2013,Wang2017,Jenkinson2017},  the genome-wide Shannon entropy associated with the methylome increases during ageing (Fig.~\ref{fig:c2_fig10}a; Spearman correlation coefficient $= 0.1985$; p-value $= 3.8281 \cdot 10^{-21}$), which implies that the epigenome loses information content. Finally, it is worth mentioning that I observed a remarkable effect of the batch on the Shannon entropy calculations, which can generate high entropy variability for a given age (Fig.~\ref{fig:c2_fig10}b). However, after removing potential outlier batches (such as GSE41273, GSE59065 or GSE97362) the increase of Shannon methylation entropy during ageing was still consistent. Thus, accounting for technical variation (see section~\ref{s:2.2.3}) becomes crucial when assessing this type of data, even after careful pre-processing. 
 
 \begin{figure}[htbp!] 
 	\centering
@@ -416,7 +416,7 @@ Next, I calculated the genome-wide  Shannon entropy for the blood samples in the
 	\centering
 	\vspace*{2mm}    
 	\includegraphics[width=1\textwidth]{C2_Fig10}
-	\caption[Genome-wide methylation Shannon entropy during ageing in the healthy individuals]{\textbf{a.} Scatterplot showing the changes in genome-wide methylation Shannon entropy during ageing in the healthy individuals. Each sample is represented by one point. The black line displays the linear model Entropy $\sim$ Age. \textbf{b.} Same as in a., but colouring the samples according to the batch where they came from.}
+	\caption[Genome-wide methylation Shannon entropy during physiological ageing]{\textbf{a.} Scatterplot showing the changes in genome-wide methylation Shannon entropy during ageing in the healthy individuals. Each sample is represented by one point. The black line displays the linear model Entropy $\sim$ Age. \textbf{b.} Same as in a., but colouring the samples according to the batch where they came from.}
 	\label{fig:c2_fig10}
 \end{figure}
 
@@ -427,41 +427,121 @@ Next, I calculated the genome-wide  Shannon entropy for the blood samples in the
 
 \smallskip
 
-
-\subsection{Calculating epigenetic age using Horvath's epigenetic clock}
-
-\smallskip
-
-Epigenetic age, biological age, (\textit{DNAmAge})
+\subsection{Calculating epigenetic age using Horvath's epigenetic clock} \label{s:2.2.1}
 
 \smallskip
 
-
-\subsection{Horvath's epigenetic clock measures physiological ageing}
-
-\smallskip
-
-Using the methodology from the previous section, I calculated the epigenetic age (\textit{\acrshort{DNAmAge}}) in the blood of the healthy individuals. Given that these individuals are supposed to be disease-free, Horvath's epigenetic clock should predict epigenetic ages that are similar to the chronological age of the samples, and this was indeed the case (Fig.~\ref{fig:c2_fig11}a, Pearson's correlation coefficient (\acrshort{PCC}) $= 0.9671$, p-value $\approx 0$). This validates that Horvath's epigenetic clock does measure the ageing process (at least in a cross-sectional population) and sets a foundation for the rest of the analyses presented in this thesis.
+Steve Horvath's model, originally published in 2013 \cite{Horvath2013}, is without any doubt the most widely used epigenetic clock in the literature. Given that it works across tissues with high accuracy and that it has been validated in many human cohorts, I have used it as the main tool to quantify epigenetic ageing in this work. 
 
 \bigskip
 
-As mentioned in the `Introduction', the difference between epigenetic age and chronological age is known as \textbf{epigenetic age acceleration} (\acrshort{EAA}), with a positive EAA (i.e. $DNAmAge > Age$) associated with several health problems. In order to calculate the EAA for our healthy individuals, I fitted the following linear regression models (hereinafter referred as the \textit{control models}):
+Horvath's model measures epigenetic age (a.k.a. \textit{DNAmAge}) by making use of the DNA methylation levels at 353 CpG sites, as quantified with the Illumina methylation arrays (27K or 450K). Previous studies have generally employed a ready-to-use online calculator for \textit{DNAmAge} provided by Steve Horvath \cite{Horvath2013b}. This has clearly simplified the computational process and helped a lot of research groups to test the behaviour of the epigenetic clock in their system of interest. However, this has also led to the treatment of the epigenetic clock as a `black-box’, without critical assessment of the statistical methodology behind it. Therefore, I decided to replicate the original code and to make it available in a GitHub repository for the scientific community to be used \cite{Martin-Herranz2019}. Furthermore, I tested the impact of different steps involved in the estimation of epigenetic age acceleration (EAA), including the presence/absence of background correction, removal of technical variation from batch effects and the importance of the age distribution when fitting the control models, which I discuss in the following sections. 
+
+\bigskip
+
+The main pipeline to calculate the epigenetic age (\textit{DNAmAge}) from a sample has the following steps (some of them are shared with the previously described pipeline for DNA methylation pre-processing in section~\ref{s:2.1.2}):
+
+\begin{enumerate}
+	
+	\item \textbf{Background correction}. I implemented a pipeline that starts with the raw DNA methylation data (IDAT files) for a sample. First, I tested what was the effect of applying \textit{noob} background correction, before calculating the $\beta$-values, on the median absolute error (MAE) of the predictions (see section~\ref{s:2.2.2}).  Background correction did not have a major impact in the final predictions as long as I also corrected for batch effects (Fig.~\ref{fig:sc2_fig7}, Fig.~\ref{fig:c2_fig13}c, see section~\ref{s:2.2.3}). Therefore, I decided to keep the \textit{noob} background correction for consistency with the other pre-processing pipeline.
+	
+	\item \textbf{Quality control}. I applied the same criteria as previously described in section \ref{s:2.1.2}.
+	
+	\item \textbf{Probe filtering}. Horvath's model was originally trained starting with 21368 array probes that had the following characteristics \cite{Horvath2013}:
+	
+	\begin{itemize}
+		
+		\item They were shared between the 27K and 450K methylation arrays.
+		
+		\item They had $\leq$ 10 missing values across all the training data.
+		
+	\end{itemize}
+	
+	 Therefore, these were the probes selected for downstream analysis.
+	
+	\item \textbf{$\beta$-value calculation}. $\beta$-values were calculated as previously described in section \ref{s:2.1.2}. It is worth mentioning that Horvath's original code includes two alternatives for the imputation of missing $\beta$-values:
+	
+	\begin{itemize}
+		
+		\item Slow imputation (applied when the number of missing $\beta$-values is < 3000). In this case, $k$-nearest neighbours (\acrshort{KNN}) is used. KNN imputation borrows information from the DNA methylation profiles of the most similar probes (the neighbours) according to a metric (normally the Euclidean distance). The \textit{impute.knn} function from the \textit{impute} R package can be used for these purposes \cite{Troyanskaya2001}.
+		
+		\item Fast imputation (applied when the number of missing $\beta$-values is $\geq$ 3000). In this case, the values from the blood gold-standard (see below) can be used as the imputed values.
+		
+	\end{itemize}
+	
+	In the case of my dataset, no missing values were present for the $21368$ probes so there was no need to perform imputation.
+	
+	\item \textbf{Gold-standard normalisation}. A modified version of BMIQ normalisation is used \cite{Teschendorff2012}. In this case, instead of mapping the distribution of the Infinium II probes to the distribution of Infinium I probes, the mapping is done from the distribution of the 21368 probes in the sample to the distribution of a previously derived gold-standard for the same set of probes. This gold-standard was created by taking the average $\beta$-values for the 21368 probes across all the whole blood samples from \cite{Horvath2012}.
+	
+	\item \textbf{Calculating epigenetic age} (\textit{DNAmAge}). As previously observed for some of the aDMPs, the rate of $\beta$-value change can be different before and after adult age (Fig.~\ref{fig:c2_fig8}). For this reason, Horvath performed a transformation of the chronological age before training the model:
+	
+	\begin{align}
+	f(c) = c_t =  
+	\begin{cases}
+	\ln\left(\frac{c+1}{a+1}\right) &\text{if: } c\leq a \\
+	\left(\frac{c-a}{a+1}\right) &\text{if: } c>a \\
+	\end{cases}
+	\end{align} 
+	
+	where $c_t$ is the transformed chronological age that was used as the dependent variable during training, $c$ is the chronological age (in years) and $a$ is the adult age (for humans, 20 years). This transformation allows to account for a relationship between chronological age and methylation changes that is logarithmic until adult age and linear afterwards (Fig.~\ref{fig:c2_fig11}). 
+	
+	\begin{figure}[htbp!] 
+		\centering
+		\includegraphics[width=0.5\textwidth]{C2_Fig11}
+		\vspace*{2mm}    
+		\caption[Transforming chronological age in Horvath's model]{Plot showing the relationship between the chronological age in years ($c$) and the transformed chronological age ($c_t$) in Horvath's model. This transformation allows accounting for different rates of $\beta$-value change before and after adult age (20 years in humans, as pointed out by the dashed black line).}
+		\label{fig:c2_fig11}
+	\end{figure} 
+	
+	Given a sample to predict, the epigenetic age can then be calculated as:
+	
+	\begin{align}
+	DNAmAge = g(\hat{c}_t) = g(\hat{\beta}_0 + \sum_{i=1}^{353}\hat{\beta}_i \cdot x_i)
+	\end{align}
+	
+	where $\hat{c}_t$ is the predicted transformed age according to Horvath's model, $\hat{\beta}_0$ is the intercept in the Horvath's model, $\hat{\beta}_i$ is the coefficient (weight) for the $i$th probe (only 353 probes are finally used), $x_i$ is the $\beta$-value for the $i$th probe after gold-standard normalisation and $g(\cdot)$ if the inverse of $f(\cdot)$, such that:
+	
+	\begin{align}
+	g(\hat{c}_t) = f^{-1}(\hat{c}_t) = \hat{c} = 
+	\begin{cases}
+	e^{\hat{c}_t} \cdot (a+1) - 1 &\text{if: } \hat{c}_t \leq 0 \\
+	\hat{c}_t \cdot (a+1) + a &\text{if: } \hat{c}_t > 0 \\
+	\end{cases}
+	\end{align} 
+	
+	where $\hat{c}$ is the predicted age according to Horvath's model (i.e. \textit{DNAmAge}).
+	
+\end{enumerate}
+
+
+\smallskip
+
+
+\subsection{Horvath's epigenetic clock measures physiological ageing} \label{s:2.2.2}
+
+\smallskip
+
+Using the methodology from the previous section, I calculated the epigenetic age (\textit{\acrshort{DNAmAge}}) in the blood of the healthy individuals. Given that these individuals are supposed to be disease-free, Horvath's epigenetic clock should predict epigenetic ages that are similar to the chronological age of the samples, and this was indeed the case (Fig.~\ref{fig:c2_fig12}a, Pearson's correlation coefficient (\acrshort{PCC}) $= 0.9671$, p-value $\approx 0$). This validates that Horvath's epigenetic clock does indeed measure the ageing process (at least in a cross-sectional population) and sets a foundation for the rest of the analyses presented in this thesis.
+
+\bigskip
+
+As mentioned in Chapter~\ref{c:1}, the difference between epigenetic age and chronological age is known as \textbf{epigenetic age acceleration} (\acrshort{EAA}), with a positive EAA (i.e. $DNAmAge > Age$) associated with several age-related health problems. In order to calculate the EAA for our healthy individuals, I fitted the following linear regression models (hereinafter referred as the \textit{control models}):
 
 \begin{itemize}
 	
 	\item With cell composition correction (CCC):
 	
-	\begin{align}
+	\begin{align} \label{eq:2.13}
 	 DNAmAge \sim Age + Sex+ Gran + CD4T + CD8T + B + Mono + NK + PC1 + ... + PC17
 	\end{align}
 	
-	where $DNAmAge$ is the epigenetic age calculated with Horvath's epigenetic clock; $Age$ is the chronological age (in years) of the samples; $Sex$ encodes for the sex of the samples (0/1); $Gran$, $CD4T$, $CD8T$, $B$, $Mono$ and $NK$ are the cell type proportions from the samples as calculated with my cell-type deconvolution strategy and $PCN$ is the $N$-th principal component that captures technical variance and accounts for potential batch effects (see `Correcting for batch effects in the context of the epigenetic clock' for more details). 
+	where $DNAmAge$ is the epigenetic age calculated with Horvath's epigenetic clock; $Age$ is the chronological age (in years) of the samples; $Sex$ encodes for the sex of the samples (0/1); $Gran$, $CD4T$, $CD8T$, $B$, $Mono$ and $NK$ are the cell type proportions from the samples as calculated with my cell-type deconvolution strategy and $PCN$ is the $N$th principal component that captures technical variance and accounts for potential batch effects (see section~\ref{s:2.2.3} for more details). 
 	
 	Horvath's epigenetic clock was trained using multiple tissues and its predictions should be robust to changes in blood cell composition. However, previous studies have highlighted that adding this correction can improve the ability to detect `pure' ageing effects \cite{Horvath2016, Chen2016} (i.e. epigenetic age acceleration mainly caused by DNA methylation changes that happen in the nucleus of all cell types). For a given sample, the EAA$_{\text{with CCC}}$ is the residual from the model i.e. the difference between the actual $DNAmAge$ and the prediction from the control model (which is conceptually similar to the difference between $DNAmAge$ and chronological age, but accounting for the rest of covariates as well). The EAA$_{\text{with CCC}}$ that I have defined is very similar to the previously reported measure of `intrinsic EAA' (\acrshort{IEAA}) \cite{Horvath2016, Chen2016}.
 	
 	\item Without CCC:
 	
-	\begin{align}
+	\begin{align} \label{eq:2.14}
 	DNAmAge \sim Age + Sex+ PC1 + ... + PC17
 	\end{align}
 	
@@ -475,56 +555,115 @@ It is possible to calculate the overall accuracy of the predictions using the me
  	MAE = \mathrm{median}\left\{|EAA_i|\right\}
 \end{align}
 
-where $EAA_i$ is the epigenetic age acceleration for the $i$th sample calculated with one of the models (with CCC or without CCC). The $MAE$ for all the healthy individuals (full lifespan) in the control models should be close to zero, and this was indeed what I observed ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years). These results are below the original MAE reported by Horvath in his test set (3.6 years) \cite{Horvath2013}. 
+where $EAA_i$ is the epigenetic age acceleration for the $i$th sample calculated with one of the models (with CCC or without CCC). The $MAE$ for all the healthy individuals (full lifespan) in the control models should be close to zero, and this was indeed what I observed ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years). These results are below the original MAE reported by Horvath in his test set (3.6 years) \cite{Horvath2013}. However, it is worth mentioning that some of the samples from my healthy individuals (such as samples from batches GSE40279 and GSE42861) could have been used by Horvath as part of his training set \cite{Horvath2013}, and therefore these results must be interpreted carefully. 
 
 \begin{figure}[htbp!] 
 	\centering
-	\includegraphics[width=1\textwidth]{C2_Fig11}
+	\includegraphics[width=1\textwidth]{C2_Fig12}
 	\vspace*{2mm}    
-	\caption[Horvath's epigenetic clock measure physiological ageing]{Horvath's epigenetic clock measure physiological ageing. \textbf{a.} Scatterplot showing the relationship between epigenetic age ($DNAmAge$) according to Horvath’s model \cite{Horvath2013} and chronological age of the samples for the healthy individuals. Each sample is represented by one point. The black dashed line represents the diagonal to aid visualisation. The solid brown line represents the linear model DNAmAge $\sim$ Age, which deviates from the diagonal if the full lifespan samples are used. \textbf{b.} Boxplots displaying the epigenetic age acceleration (EAA) distributions for different age ranges (young age: $\leq 20$ years; middle age: $20 < Age \leq 55$ years; old age: $> 55$ years) after fitting the control models to the full lifespan samples. The dashed black line represents $EAA = 0$, where the distributions should be centred around. This is not the case for the samples in the young age and middle age groups. In red: EAA model with cell composition correction (CCC). In blue: EAA model without CCC. \textbf{c.} As in a., but removing the samples in the old age group (> 55 years). The solid green line represents the linear model DNAmAge $\sim$ Age, which is much more similar to the diagonal if only young and middle age samples are considered. \textbf{d.} As in b., but fitting the control models to the samples in the young and middle age groups (0-55 years). The bias in the EAA is corrected in this case (the distributions are centred around zero for the different age groups).}
-	\label{fig:c2_fig11}
+	\caption[Horvath's epigenetic clock measures physiological ageing]{Horvath's epigenetic clock measures physiological ageing. \textbf{a.} Scatterplot showing the relationship between epigenetic age ($DNAmAge$) according to Horvath’s model \cite{Horvath2013} and chronological age of the samples for the healthy individuals. Each sample is represented by one point. The black dashed line represents the diagonal to aid visualisation. The solid brown line represents the linear model DNAmAge $\sim$ Age, which deviates from the diagonal if the full lifespan samples are used. \textbf{b.} Boxplots displaying the epigenetic age acceleration (EAA) distributions for different age ranges (young age: $\leq 20$ years; middle age: $20 < Age \leq 55$ years; old age: $> 55$ years) after fitting the control models to the full lifespan samples. The dashed black line represents $EAA = 0$, where the distributions should be centred around. This is not the case for the samples in the young age and middle age groups. In red: EAA model with cell composition correction (CCC). In blue: EAA model without CCC. \textbf{c.} As in a., but removing the samples in the old age group (> 55 years). The solid green line represents the linear model DNAmAge $\sim$ Age, which is much more similar to the diagonal if only young and middle age samples are considered. \textbf{d.} As in b., but fitting the control models to the samples in the young and middle age groups (0-55 years). The bias in the EAA is corrected in this case (the distributions are centred around zero for the different age groups).}
+	\label{fig:c2_fig12}
 \end{figure}   
 
 \bigskip
 
-Even though Horvath's model seems to predict epigenetic age accurately, it is also clear that some samples deviate substantially from the expected prediction. This is specially obvious for the older samples (> 55 years), that have a systematically younger epigenetic age than expected (see deviations from the diagonal in  Fig.~\ref{fig:c2_fig11}a). If a control model is fit to the full lifespan dataset (which contains around 50\% samples which are > 55 years), this leads to a model with a small age coefficient (slope), which introduces a bias when estimating epigenetic age acceleration for different age groups (Fig.~\ref{fig:c2_fig11}b). Although many studies do not take this problem into account, this phenomenon has been previously reported in the context of humans \cite{ElKhoury2018,Marioni2018} and mice \cite{Stubbs2017}. However, to this date, it is unclear whether it represents a technical artefact or it has a biological explanation (e.g. survivor bias of the older individuals, the molecular processes that drive ageing slow down with age, ...). 
+Even though Horvath's model seems to predict epigenetic age accurately, it is also clear that some samples deviate substantially from the expected prediction. This is specially obvious for the older samples (> 55 years), that have a systematically younger epigenetic age than expected (see deviations from the diagonal in  Fig.~\ref{fig:c2_fig12}a). If a control model is fit to the full lifespan dataset (which contains around 50\% samples which are > 55 years), this leads to a model with a smaller thane expected age coefficient (slope), which introduces a bias when estimating epigenetic age acceleration for different age groups (Fig.~\ref{fig:c2_fig12}b). Although many studies do not take this problem into account, this phenomenon has been previously reported in the context of humans \cite{ElKhoury2018,Marioni2018} and mice \cite{Stubbs2017}. However, to this date, it is unclear whether it represents a technical artefact or it has a biological explanation (e.g. survivor bias of the older individuals, the molecular processes that drive ageing slow down with age, ...). 
 
 \bigskip
 
-This highlights the importance of having a properly age-matched control when performing analyses with the Horvath's epigenetic clock. As expected, removing the older samples (> 55 years) from the control models corrected for this bias (Fig.~\ref{fig:c2_fig11}c,d) and reduced the $MAE$ ($MAE_{\text{with CCC}} = 2.2742$ years, $MAE_{\text{without CCC}} = 2.3237$ years). This is the strategy that I used when screening for epigenetic age acceleration in the context of developmental disorders (see Chapter 3).
+This highlights the importance of having a properly age-matched control when performing analyses with the Horvath's epigenetic clock. As expected, removing the older samples (> 55 years) from the control models corrected for this bias (Fig.~\ref{fig:c2_fig12}c,d) and reduced the $MAE$ ($MAE_{\text{with CCC}} = 2.2742$ years, $MAE_{\text{without CCC}} = 2.3237$ years). This is the strategy that I used when screening for epigenetic age acceleration in the context of developmental disorders (see Chapter~\ref{c:3}).
 
 \smallskip
 
-\subsection{Correcting for batch effects in the context of the epigenetic clock}
+\subsection{Correcting for batch effects in the context of the epigenetic clock} \label{s:2.2.3}
 
 \smallskip
 
-As mentioned in the previous section, 
+As mentioned in the previous section, it is expected that, after fitting the control models, the EAA distributions of the samples from the healthy individuals should be centred around zero. However, if the principal components (\acrshort{PC}s) that capture technical variation were not included in the control models (see equations \ref{eq:2.13} and \ref{eq:2.14}), this was not the case for several batches (Fig.~\ref{fig:c2_fig13}a, Fig.~\ref{fig:sc2_fig8}a). Therefore, I hypothesised that technical variation can affect the predictions from Horvath's epigenetic clock and that batch effects need to be explicitly accounted for in this context, even after applying the internal normalisation step against the blood gold-standard \cite{Horvath2013}. This section explains how I implemented this batch effect correction (i.e. how I derived the principal components that capture technical variance across batches).
 
-\smallskip
+\bigskip
 
-\subsection{Estimating epigenetic age acceleration in a biological system}
+A batch effect is a systematic technical source of variation that is unrelated to the biological or scientific variables in a study \cite{Leek2010}. They affect low- and high-throughput measurements and can be caused by a wide variety of situations: different technicians performing the experiments, different laboratories generating the data, different lots of reagents or arrays used, ... \cite{Leek2010}. Correcting for bath effects is crucial, especially when integrating data from different studies and sources \cite{Maksimovic2015}, as it is the case in the analyses presented in this thesis. Data generated by DNA methylation arrays is also affected by batch effects and several methods have been described in the literature to correct for them, normally at the level of probe intensities \cite{Fortin2014} or M-values \cite{Maksimovic2015,Price2018}. In the context of the epigenetic clock, previous attempts to account for technical variation have used the first 5 principal components (PCs) estimated directly from the DNA methylation data (presumably the $\beta$-values) \cite{Horvath2016a}. However, this approach potentially removes meaningful biological variation, especially in studies where there are global changes in DNA methylation, such as cancer \cite{Fortin2014} or developmental disorders (see Chapter~\ref{c:3}). Furthermore, given that Horvath's epigenetic clock was trained with data pre-processed using different strategies, it is unclear how applying an additional batch effect correction step to the intensities or $\beta$-values would impact the predictions \cite{Horvath2013a}.
 
-\smallskip
+\bigskip
 
-Final models with example
+Thus, I decided to correct for the potential batch effects when fitting the control models (see equations \ref{eq:2.13} and \ref{eq:2.14}). I make use of the control probes present on the 450K array, which have been shown to carry information about unwanted variation from a technical source (i.e. technical variance)  \cite{Maksimovic2015,Fortin2014,Gagnon-Bartsch2012}. These probes are designed to capture technical variance in negative controls, measure between-array differences and quantify the performance of different steps of the array protocol, such as bisulfite conversion, staining or hybridisation \cite{Fortin2014,Illumina2010}. I performed principal component analysis (PCA, with centering but not scaling using the \textit{prcomp} function in R) on the raw intensities of the control probes (847 probes $\cdot$ 2 channels $= 1694$ intensity values) for all the healthy individuals ($N=2218$) and the samples with developmental disorders (cases, $N=666$, see Chapter~\ref{c:3}). This showed that the first two PCs capture the batch structure in both healthy individuals (Fig.~\ref{fig:c2_fig13}b) and cases (Fig.~\ref{fig:sc2_fig9}). Including the first 17 PCs as part of the epigenetic age acceleration (EAA) modelling (see equations \ref{eq:2.13} and \ref{eq:2.14}), which together accounted for 98.06\% of the technical variance in all the samples (Fig.~\ref{fig:sc2_fig10}), significantly reduced the median absolute error (MAE) of the predictions in the healthy individuals ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years, mean $MAE = 2.7664$, Fig.~\ref{fig:c2_fig13}c). Notably, the reduction in the MAE provided by the batch effect correction was higher than the improvement provided by cell composition correction, a common practice in the epigenetic clock field \cite{Horvath2016, Chen2016}. The optimal number of PCs was found by making use of the \textit{findElbow} function from \cite{Akalin2014}. 
 
-\smallskip
+\begin{figure}[htbp!] 
+	\centering
+	\includegraphics[width=0.8\textwidth]{C2_Fig13}
+	\vspace*{2mm}    
+	\caption[Correcting for batch effects in the context of the epigenetic clock]{Correcting for batch effects in the context of the epigenetic clock. \textbf{a.} Distribution of the epigenetic age acceleration (EAA) for the different batches of healthy individual samples, using the control model with cell composition correction (CCC) and before applying batch effect correction. The dashed black line represents $EAA = 0$, where the distributions should be centred around. \textbf{b.} Scatterplot showing the values of the first two principal components (PCs) for the healthy individual samples after performing PCA on the control probes of the 450K arrays. Each point corresponds to a different sample and the colours represent the different batches. The different batches cluster together in the PCA space, showing that the control probes indeed capture technical variation. Please note that all the PCA calculations were done using samples from both healthy individuals (full lifespan, $N=2218$) and cases from developmental disorders ($N=666$, see Chapter~\ref{c:3}). \textbf{c.} Plot showing how the median absolute error (MAE) of the prediction in the healthy individual samples, that should tend to zero, is reduced when the PCs capturing the technical variation are included as part of the modelling strategy (see equations \ref{eq:2.13} and \ref{eq:2.14}). The dashed line represents the optimal number of PCs (17) that was finally used. The optimal mean MAE is calculated as the average MAE between the green and purple lines. \textbf{d.} As in a., but after applying batch effect correction (i.e. equivalent to equation \ref{eq:2.13}).}
+	\label{fig:c2_fig13}
+\end{figure}
 
+\bigskip
 
+Finally, deviations from a median EAA close to zero in some of the batches after batch effect correction (Fig.~\ref{fig:c2_fig13}d, Fig.~\ref{fig:sc2_fig8}b) could be explained by other variables, such as a small batch size or an overrepresentation of young samples (Fig.~\ref{fig:c2_fig14}). The latter is a consequence of the fact that Horvath’s model underestimates the epigenetic ages of older samples, which I have discussed in the previous section. Thus, I have shown that correcting for batch effects in the context of the epigenetic clock is important, especially when combining datasets from different sources for meta-analysis purposes. Batch effect correction is essential to remove technical variance that could affect the epigenetic age of the samples and confound biological interpretation. Furthermore, given the flexibility of this modelling approach, I have applied batch effect correction across other types of analyses in the thesis, such as DMPs identification (see equation \ref{eq:2.10}).
 
-
+\begin{figure}[htbp!] 
+	\centering
+	\includegraphics[width=0.7\textwidth]{C2_Fig14}
+	\vspace*{2mm}    
+	\caption[Causes of deviation from the expected EAA distribution in the control model]{After applying batch effect correction in the samples from the healthy individuals, deviations from a median epigenetic age acceleration (EAA) of zero (dotted black line) in some of the batches can be explained by other causes. The grey line separates in the lower left corner those weird batches (Feb\_2016, GSE104812, GSE41273, GSE55491), which have a small sample size and/or a low median age.}
+	\label{fig:c2_fig14}
+\end{figure}
 
 
 \section{Behaviour of other epigenetic clocks during ageing}
 
 \smallskip
 
+\subsection{Hannum's epigenetic clock}
+
+Besides Horvath's epigenetic clock, other models have been proposed in the literature to measure the ageing process using DNA methylation. Among them, Hannum's epigenetic clock has also been shown to accurately predict epigenetic age in several cohorts \cite{Horvath2016,Chen2016,Marioni2018,Marioni2015,Perna2016,Irvin2018}. Hannum's model was originally trained in whole blood and it makes use of a linear combination of $\beta$-values from 71 probes in the 450K array. 
+
+\bigskip
+
+I calculated the epigenetic ages according to Hannum's model ($HannumAge$), although I only used 68 out of the 71 probes (the other 3 were filtered out during my pre-processing). Hannum's epigenetic clock predicted quite accurately in the dataset of healthy individuals, although with a slight overestimation of the epigenetic ages (Fig~\ref{fig:c2_fig15}a), which has also been previously observed \cite{Marioni2015}. Furthermore, it is possible to observe the non-linear behaviour of Hannum's clock for young ages ($\leq$ 20 years), for which the authors did not correct in their original publication \cite{Hannum2013}. Horvath's and Hannum's epigenetic clocks correlate between them (Fig.~\ref{fig:c2_fig15}b). The magnitude of this correlation ($HannumAge$ vs $DNAmAge$: $\text{PCC} = 0.9778$) was slightly stronger than the correlation between $HannumAge$ and chronological age ($\text{PCC} = 0.9756$), which could highlight the fact that both models indeed  measure epigenetic age.
+
+\bigskip
+
+Next, I estimated the epigenetic age acceleration (EAA) according to Hannum's epigenetic clock, using similar models to the ones previously described (although in this case the dependent variable was $HannumAge$, see equations \ref{eq:2.13} and \ref{eq:2.14}). The median absolute errors for Hannum's model ($MAE_{\text{with CCC}} = 2.8422$ years, $MAE_{\text{without CCC}} = 2.9484$ years) were slightly higher than the ones obtained for Horvath's clock ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years), which could also be influenced by the fact that 3 of the model probes were not available. The EAAs estimated by Hannum's and Horvath's clocks showed a moderate correlation (Fig.~\ref{fig:c2_fig15}c,d), consistent with previous estimates \cite{Irvin2018}. Including cell composition correction improved the correlation between the EAAs from both clocks, highlighting the fact that Hannum's clock seems to be confounded with the changes in blood cell composition with age \cite{Marioni2015,Irvin2018}. 
+
+\bigskip
+
+Overall, Hannum's epigenetic clock performed well in my dataset. However, given that it produces slightly worse predictions than Horvath's and could be partially tracking blood immunosenescence instead of multi-tissue ageing effects, I used the latter as my main proxy to measure the ageing process in this thesis. Finally, it is also worth mentioning that the data that was used to train Hannum's model (GSE40279) is also part of the dataset of healthy individuals that I assembled and, therefore, this analysis does not constitute a completely independent assessment of the behaviour of Hannum's epigenetic clock.
 
 
-\section{Additional methods}
+\begin{figure}[htbp!] 
+	\centering
+	\includegraphics[width=1\textwidth]{C2_Fig15}
+	\vspace*{2mm}    
+	\caption[Behaviour of Hannum's epigenetic clock in the healthy individuals]{Behaviour of Hannum's epigenetic clock in the healthy individuals. \textbf{a.} Scatterplot showing the relationship between the epigenetic age predicted with Hannum's model ($HannumAge$) \cite{Hannum2013} and chronological age of the samples for the healthy individuals. Each sample is represented by one point. The black dashed line represents the diagonal to aid visualisation. The solid brown line represents the linear model HannumAge $\sim$ Age. \textbf{b.} Relationship between the Hannum and Horvath epigenetic ages estimated for the same sample. The solid brown line represents the linear model HannumAge $\sim$ DNAmAge. \textbf{c.} Relationship between the epigenetic age acceleration (EAA) calculated with the Hannum and the Horvath's epigenetic clocks. In this case the models include cell composition correction (CCC). The solid brown line represents the linear model Hannum\_EAA$_{\text{with CCC}}$ $\sim$ Horvath\_EAA$_{\text{with CCC}}$. \textbf{d.} As in c., but in this case the models do not include CCC.}
+	\label{fig:c2_fig15}
+\end{figure}
 
-\subsection*{Experimental procedures for DNA methylation data generation}
+
+
+\subsection{Epigenetic mitotic clock: \textit{epiTOC}}
+
+In 2016, Yang and colleagues conceived a novel type of epigenetic clock called \textit{\acrshort{epiTOC}} (epigenetic Timer Of Cancer), which measures the rate of (stem) cell division in both normal and cancerous tissues \cite{Yang2016}. This epigenetic mitotic clock tracks the gain in methylation levels that happens in 385 CpG sites, which localise in the promoter of genes that are targeted by Polycomb Repressing Complex 2 (\acrshort{PRC2}). Importantly, these CpG sites are unmethylated across fetal tissues and therefore this provides a ground state to measure these changes during human lifespan.
+
+\bigskip
+
+I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \cite{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.13} and \ref{eq:2.14}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d), which was stronger in the case of the model with cell composition correction. This, together with the fact that $DNAmAge$ has a stronger correlation with $pcgtAge$ than chronological age, could suggest that the Horvath epigenetic clock captures methylation changes linked to cell division. 
+
+\bigskip
+
+This was quite surprising given that Horvath's epigenetic clock predicts across tissues with different turnover rates \cite{Yang2016}. Nevertheless, it has been recently demonstrated that $DNAmAge$ increases linearly with cell passage \textit{in vitro} if TERT (the catalytic subunit of telomerase) is expressed, suggesting that $DNAmAge$ does seem to track cell division to a certain extent \cite{Lu2018}. Furthermore, I also did some preliminary work where I calculated the $DNAmAge$ of different healthy tissues (that came from cancer patients). I observed that tissues with a high turnover (such as breast) \cite{Horvath2013,Sehl2017} had a higher $DNAmAge$ when compared with tissues with a low turnover (data not shown). Therefore, it would be interesting to further our understanding of the contribution of cell division to Horvath's epigenetic clock and its relation to the hypermethylation in PRC2-bound regions as measured by the epigenetic mitotic clock.    
+
+
+\begin{figure}[htbp!] 
+	\centering
+	\includegraphics[width=1\textwidth]{C2_Fig16}
+	\vspace*{2mm}    
+	\caption[Behaviour of the epigenetic mitotic clock ($epiTOC$) in the healthy individuals]{Behaviour of the epigenetic mitotic clock ($epiTOC$) in the healthy individuals. \textbf{a.} Scatterplot showing the relationship between mitotic age ($pcgtAge$) \cite{Yang2016} and chronological age of the samples for the healthy individuals. Each sample is represented by one point. The solid brown line represents the linear model pcgtAge $\sim$ Age. \textbf{b.} Relationship between $pcgtAge$ and $DNAmAge$ estimated for the same sample. The solid brown line represents the linear model pcgtAge $\sim$ DNAmAge. \textbf{c.} Relationship between the epigenetic age acceleration (EAA) calculated with the mitotic and the Horvath's epigenetic clocks. In this case the models include cell composition correction (CCC). The solid brown line represents the linear model pcgtAge\_EAA$_{\text{with CCC}}$ $\sim$ Horvath\_EAA$_{\text{with CCC}}$. \textbf{d.} As in c., but in this case the models do not include CCC.}
+	\label{fig:c2_fig16}
+\end{figure}
+
+
+\section{Additional methods} \label{s:2.4}
 
 \subsection*{A short introduction to the linear regression framework}
 

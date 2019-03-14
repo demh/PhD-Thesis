@@ -12,48 +12,49 @@ A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Appendix/appendix.aux
 The style file: unsrt.bst
 Database file #1: References/references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty institution in Illumina2010
 Warning--empty publisher in Eaton2007
 Warning--empty publisher in Sheather2009
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 142 entries,
+You've used 163 entries,
             1791 wiz_defined-function locations,
-            1301 strings with 58755 characters,
-and the built_in function-call counts, 52342 in all, are:
-= -- 3034
-> -- 5853
-< -- 3
-+ -- 2001
-- -- 1859
-* -- 5602
-:= -- 9742
-add.period$ -- 423
-call.type$ -- 142
-change.case$ -- 141
+            1404 strings with 64702 characters,
+and the built_in function-call counts, 58152 in all, are:
+= -- 3395
+> -- 6418
+< -- 4
++ -- 2198
+- -- 2035
+* -- 6134
+:= -- 10787
+add.period$ -- 481
+call.type$ -- 163
+change.case$ -- 163
 chr.to.int$ -- 0
-cite$ -- 144
-duplicate$ -- 1296
-empty$ -- 3243
-format.name$ -- 1859
-if$ -- 10128
+cite$ -- 166
+duplicate$ -- 1474
+empty$ -- 3670
+format.name$ -- 2035
+if$ -- 11301
 int.to.chr$ -- 0
-int.to.str$ -- 142
-missing$ -- 138
-newline$ -- 708
-num.names$ -- 144
-pop$ -- 192
+int.to.str$ -- 163
+missing$ -- 153
+newline$ -- 808
+num.names$ -- 165
+pop$ -- 248
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 481
+skip$ -- 567
 stack$ -- 0
-substring$ -- 2827
-swap$ -- 171
-text.length$ -- 3
+substring$ -- 3071
+swap$ -- 204
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 369
-width$ -- 145
-write$ -- 1549
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 411
+width$ -- 166
+write$ -- 1764
+(There were 3 warnings)
