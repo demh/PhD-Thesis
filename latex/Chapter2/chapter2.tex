@@ -3,7 +3,7 @@
 %*********************************** Second Chapter *****************************
 %*******************************************************************************
 
-\chapter{Statistical aspects of the epigenetic clock}  
+\chapter{Statistical aspects of the epigenetic clock}  \label{c:2}
 
 \ifpdf
 \graphicspath{{Chapter2/Figs/pdf/}}
@@ -67,7 +67,7 @@ This allowed me to assemble a \textbf{human blood DNA methylation dataset for he
 		\bottomrule
 	\end{tabular}
 	\vspace*{3mm}
-	\caption[Overview of the blood DNA methylation dataset from healthy individuals]{Overview of the blood DNA methylation dataset from healthy individuals. All the batches were downloaded from GEO \cite{Edgar2002}, with the exception of `Europe' and `Feb\_2016', which were generated in-house by our collaborators in Canada (see Chapter~\ref{c:3}). $N_{\female}$: number of samples from females. $N_{\male}$: number of samples from males. $N$: total number of samples. These numbers correspond to the samples left after applying quality control (QC, see section~\ref{s:2.1.2}).}
+	\caption[Overview of the blood DNA methylation dataset from healthy individuals]{Overview of the blood DNA methylation dataset from healthy individuals. All the batches were downloaded from GEO \cite{Edgar2002}, with the exception of `Europe' and `Feb\_2016', which were generated in-house by my collaborators in Canada (see Chapter~\ref{c:3}). $N_{\female}$: number of samples from females. $N_{\male}$: number of samples from males. $N$: total number of samples. These numbers correspond to the samples left after applying quality control (QC, see section~\ref{s:2.1.2}).}
 	\label{table:c2_table1}
 \end{table} 
 
@@ -76,7 +76,7 @@ This allowed me to assemble a \textbf{human blood DNA methylation dataset for he
 	\centering    
 	\includegraphics[width=0.6\textwidth]{C2_Fig1}
 	\vspace*{2mm}
-	\caption[Chronological age distribution in the healthy individuals]{Chronological age distribution in the healthy individuals. Histogram showing the chronological age distribution for all the healthy individuals included in the DNA methylation dataset. The blue line represents the 1D kernel density estimate, as calculate by the \textit{stat\_density} function in R with default parameters.}
+	\caption[Chronological age distribution in the healthy individuals]{Histogram showing the chronological age distribution for all the healthy individuals included in the DNA methylation dataset. The blue line represents the 1D kernel density estimate, as calculate by the \textit{stat\_density} function in R with default parameters.}
 	\label{fig:c2_fig1}
 \end{figure}
 
@@ -358,7 +358,7 @@ Furthermore, for each probe, I calculated a p-value, based on $t$-statistics \ci
 
 \bigskip
 
-An overview of the different aDMPs (with and without CCC) identified in the healthy individuals can be found in Figure~\ref{fig:c2_fig7}. Around $30\%$ of the blood methylome (at least according to the 450K array) is affected by the ageing process during human lifespan. CpG sites can become both hypomethylated (i.e. lose methylation with age) or hypermethylated (i.e. gain methylation with age). Importantly, the effect sizes of the age coefficient (i.e. the observed changes in the $\beta$-values per year) are generally small. More specifically, in the model with CCC, the median age coefficient for the hypomethylated aDMPs is -0.000426 (equivalent to a -4.26\% methylation change over 100 years of human life) and for hypermethylated aDMPs is 0.000437 (equivalent to a +4.37\% methylation change over 100 years of human life). This is consistent with the progressive functional decline observed during ageing \cite{Lopez-Otin2013}. It is worth mentioning that around $50\%$ of the CpG sites that constitute the Horvath epigenetic clock are blood aDMPs according to our analysis (Fig.~\ref{fig:c2_fig7}c,d). Overall, these results are consistent with previous studies \cite{Slieker2016,Slieker2018,Zhu2018,VanDongen2016}.
+An overview of the different aDMPs (with and without CCC) identified in the healthy individuals can be found in Figure~\ref{fig:c2_fig7}. Around $30\%$ of the blood methylome (at least according to the 450K array) is affected by the ageing process during human lifespan. However, it is worth mentioning that Bonferroni correction provides a very conservative picture of the methylomic changes (when compared with other methods to control for type-I error, like \acrshort{FDR}) and it is likely that an even greater proportion of the methylome is indeed altered with age \cite{Zhu2018}. CpG sites can become both hypomethylated (i.e. lose methylation with age) or hypermethylated (i.e. gain methylation with age). Importantly, the effect sizes of the age coefficient (i.e. the observed changes in the $\beta$-values per year) are generally small. More specifically, in the model with CCC, the median age coefficient for the hypomethylated aDMPs is -0.000426 (equivalent to a -4.26\% methylation change over 100 years of human life) and for hypermethylated aDMPs is 0.000437 (equivalent to a +4.37\% methylation change over 100 years of human life). This is consistent with the progressive functional decline observed during ageing \cite{Lopez-Otin2013}. It is worth mentioning that around $50\%$ of the CpG sites that constitute the Horvath epigenetic clock are blood aDMPs according to my analysis (Fig.~\ref{fig:c2_fig7}c,d). Overall, these results are consistent with previous studies \cite{Slieker2016,Slieker2018,Zhu2018,VanDongen2016}. 
 
 \begin{figure}[htbp!] 
 	\centering
@@ -383,12 +383,12 @@ Next, I looked at the top 100 aDMPs that were identified (according to their p-v
 
 \bigskip
 
-It is important to mention that not all the CpG sites change their DNA methylation levels with age in a perfectly linear manner. For instance, the two top hypomethylated aDMPs (Fig.~\ref{fig:c2_fig8}c,d) modify their rate at ages 20-25 years. This was already recognised by Horvath \cite{Horvath2013} and that's why the age is transformed into a logarithmic scale before the age of 20 years in order to improve the model fit (see section~\ref{s:2.2.1}). Furthermore, genetic background can have a significant effect on the DNA methylation patterns and interact with the ageing process to shape the epigenome \cite{VanDongen2016,Hannum2013}. Unfortunately, I did not have genetic data for the healthy individuals but this could help to refine the identification of aDMPs in the future. Additionally, it would be interesting to apply methods to control for bias and inflation in the test statistics, by estimating the empirical null distribution \cite{VanIterson2017}. Finally, other types of epigenetic features can be derived to understand the effects of ageing in the epigenome, such as variably methylated positions during ageing (\acrshort{aVMPs}) \cite{Slieker2016}, differentially methylated regions (\acrshort{DMRs}, which consider several correlated CpGs at the same time) \cite{Teschendorff2018} or differentially methylated cytosines in individual cell types (\acrshort{DMCTs}, which consider interactions between the phenotypic variable and the proportions of cell types) \cite{Zheng2018}.
+It is important to mention that not all the CpG sites change their DNA methylation levels with age in a perfectly linear manner. For instance, the two top hypomethylated aDMPs (Fig.~\ref{fig:c2_fig8}c,d) modify their rate at ages 20-25 years. This was already recognised by Horvath \cite{Horvath2013} and that is why the age is transformed into a logarithmic scale before the age of 20 years in order to improve the model fit (see section~\ref{s:2.2.1}). Furthermore, genetic background can have a significant effect on the DNA methylation patterns and interact with the ageing process to shape the epigenome \cite{VanDongen2016,Hannum2013}. Unfortunately, I did not have genetic data for the healthy individuals but this could help to refine the identification of aDMPs in the future. Additionally, it would be interesting to apply methods to control for bias and inflation in the test statistics, by estimating the empirical null distribution \cite{VanIterson2017}. Finally, other types of epigenetic features can be derived to understand the effects of ageing in the epigenome, such as variably methylated positions during ageing (\acrshort{aVMPs}) \cite{Slieker2016}, differentially methylated regions (\acrshort{DMRs}, which consider several correlated CpGs at the same time) \cite{Teschendorff2018} or differentially methylated cytosines in individual cell types (\acrshort{DMCTs}, which consider interactions between the phenotypic variable and the proportions of cell types) \cite{Zheng2018}.
 
 
 \smallskip
 
-\subsection{Shannon methylation entropy}
+\subsection{Shannon methylation entropy} \label{s:2.1.5}
 
 \smallskip
 
@@ -525,13 +525,13 @@ Using the methodology from the previous section, I calculated the epigenetic age
 
 \bigskip
 
-As mentioned in Chapter~\ref{c:1}, the difference between epigenetic age and chronological age is known as \textbf{epigenetic age acceleration} (\acrshort{EAA}), with a positive EAA (i.e. $DNAmAge > Age$) associated with several age-related health problems. In order to calculate the EAA for our healthy individuals, I fitted the following linear regression models (hereinafter referred as the \textit{control models}):
+As mentioned in Chapter~\ref{c:1}, the difference between epigenetic age and chronological age is known as \textbf{epigenetic age acceleration} (\acrshort{EAA}), with a positive EAA (i.e. $DNAmAge > Age$) associated with several age-related health problems. In order to calculate the EAA for the healthy individuals, I fitted the following linear regression models (hereinafter referred as the \textit{control models}):
 
 \begin{itemize}
 	
 	\item With cell composition correction (CCC):
 	
-	\begin{align} \label{eq:2.13}
+	\begin{align} \label{eq:2.16}
 	 DNAmAge \sim Age + Sex+ Gran + CD4T + CD8T + B + Mono + NK + PC1 + ... + PC17
 	\end{align}
 	
@@ -541,7 +541,7 @@ As mentioned in Chapter~\ref{c:1}, the difference between epigenetic age and chr
 	
 	\item Without CCC:
 	
-	\begin{align} \label{eq:2.14}
+	\begin{align} \label{eq:2.17}
 	DNAmAge \sim Age + Sex+ PC1 + ... + PC17
 	\end{align}
 	
@@ -579,7 +579,7 @@ This highlights the importance of having a properly age-matched control when per
 
 \smallskip
 
-As mentioned in the previous section, it is expected that, after fitting the control models, the EAA distributions of the samples from the healthy individuals should be centred around zero. However, if the principal components (\acrshort{PC}s) that capture technical variation were not included in the control models (see equations \ref{eq:2.13} and \ref{eq:2.14}), this was not the case for several batches (Fig.~\ref{fig:c2_fig13}a, Fig.~\ref{fig:sc2_fig8}a). Therefore, I hypothesised that technical variation can affect the predictions from Horvath's epigenetic clock and that batch effects need to be explicitly accounted for in this context, even after applying the internal normalisation step against the blood gold-standard \cite{Horvath2013}. This section explains how I implemented this batch effect correction (i.e. how I derived the principal components that capture technical variance across batches).
+As mentioned in the previous section, it is expected that, after fitting the control models, the EAA distributions of the samples from the healthy individuals should be centred around zero. However, if the principal components (\acrshort{PC}s) that capture technical variation were not included in the control models (see equations \ref{eq:2.16} and \ref{eq:2.17}), this was not the case for several batches (Fig.~\ref{fig:c2_fig13}a, Fig.~\ref{fig:sc2_fig8}a). Therefore, I hypothesised that technical variation can affect the predictions from Horvath's epigenetic clock and that batch effects need to be explicitly accounted for in this context, even after applying the internal normalisation step against the blood gold-standard \cite{Horvath2013}. This section explains how I implemented this batch effect correction (i.e. how I derived the principal components that capture technical variance across batches).
 
 \bigskip
 
@@ -587,13 +587,13 @@ A batch effect is a systematic technical source of variation that is unrelated t
 
 \bigskip
 
-Thus, I decided to correct for the potential batch effects when fitting the control models (see equations \ref{eq:2.13} and \ref{eq:2.14}). I make use of the control probes present on the 450K array, which have been shown to carry information about unwanted variation from a technical source (i.e. technical variance)  \cite{Maksimovic2015,Fortin2014,Gagnon-Bartsch2012}. These probes are designed to capture technical variance in negative controls, measure between-array differences and quantify the performance of different steps of the array protocol, such as bisulfite conversion, staining or hybridisation \cite{Fortin2014,Illumina2010}. I performed principal component analysis (PCA, with centering but not scaling using the \textit{prcomp} function in R) on the raw intensities of the control probes (847 probes $\cdot$ 2 channels $= 1694$ intensity values) for all the healthy individuals ($N=2218$) and the samples with developmental disorders (cases, $N=666$, see Chapter~\ref{c:3}). This showed that the first two PCs capture the batch structure in both healthy individuals (Fig.~\ref{fig:c2_fig13}b) and cases (Fig.~\ref{fig:sc2_fig9}). Including the first 17 PCs as part of the epigenetic age acceleration (EAA) modelling (see equations \ref{eq:2.13} and \ref{eq:2.14}), which together accounted for 98.06\% of the technical variance in all the samples (Fig.~\ref{fig:sc2_fig10}), significantly reduced the median absolute error (MAE) of the predictions in the healthy individuals ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years, mean $MAE = 2.7664$, Fig.~\ref{fig:c2_fig13}c). Notably, the reduction in the MAE provided by the batch effect correction was higher than the improvement provided by cell composition correction, a common practice in the epigenetic clock field \cite{Horvath2016, Chen2016}. The optimal number of PCs was found by making use of the \textit{findElbow} function from \cite{Akalin2014}. 
+Thus, I decided to correct for the potential batch effects when fitting the control models (see equations \ref{eq:2.16} and \ref{eq:2.17}). I make use of the control probes present on the 450K array, which have been shown to carry information about unwanted variation from a technical source (i.e. technical variance)  \cite{Maksimovic2015,Fortin2014,Gagnon-Bartsch2012}. These probes are designed to capture technical variance in negative controls, measure between-array differences and quantify the performance of different steps of the array protocol, such as bisulfite conversion, staining or hybridisation \cite{Fortin2014,Illumina2010}. I performed principal component analysis (PCA, with centering but not scaling using the \textit{prcomp} function in R) on the raw intensities of the control probes (847 probes $\cdot$ 2 channels $= 1694$ intensity values) for all the healthy individuals ($N=2218$) and the samples with developmental disorders (cases, $N=666$, see Chapter~\ref{c:3}). This showed that the first two PCs capture the batch structure in both healthy individuals (Fig.~\ref{fig:c2_fig13}b) and cases (Fig.~\ref{fig:sc2_fig9}). Including the first 17 PCs as part of the epigenetic age acceleration (EAA) modelling (see equations \ref{eq:2.16} and \ref{eq:2.17}), which together accounted for 98.06\% of the technical variance in all the samples (Fig.~\ref{fig:sc2_fig10}), significantly reduced the median absolute error (MAE) of the predictions in the healthy individuals ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years, mean $MAE = 2.7664$, Fig.~\ref{fig:c2_fig13}c). Notably, the reduction in the MAE provided by the batch effect correction was higher than the improvement provided by cell composition correction, a common practice in the epigenetic clock field \cite{Horvath2016, Chen2016}. The optimal number of PCs was found by making use of the \textit{findElbow} function from \cite{Akalin2014}. 
 
 \begin{figure}[htbp!] 
 	\centering
 	\includegraphics[width=0.8\textwidth]{C2_Fig13}
 	\vspace*{2mm}    
-	\caption[Correcting for batch effects in the context of the epigenetic clock]{Correcting for batch effects in the context of the epigenetic clock. \textbf{a.} Distribution of the epigenetic age acceleration (EAA) for the different batches of healthy individual samples, using the control model with cell composition correction (CCC) and before applying batch effect correction. The dashed black line represents $EAA = 0$, where the distributions should be centred around. \textbf{b.} Scatterplot showing the values of the first two principal components (PCs) for the healthy individual samples after performing PCA on the control probes of the 450K arrays. Each point corresponds to a different sample and the colours represent the different batches. The different batches cluster together in the PCA space, showing that the control probes indeed capture technical variation. Please note that all the PCA calculations were done using samples from both healthy individuals (full lifespan, $N=2218$) and cases from developmental disorders ($N=666$, see Chapter~\ref{c:3}). \textbf{c.} Plot showing how the median absolute error (MAE) of the prediction in the healthy individual samples, that should tend to zero, is reduced when the PCs capturing the technical variation are included as part of the modelling strategy (see equations \ref{eq:2.13} and \ref{eq:2.14}). The dashed line represents the optimal number of PCs (17) that was finally used. The optimal mean MAE is calculated as the average MAE between the green and purple lines. \textbf{d.} As in a., but after applying batch effect correction (i.e. equivalent to equation \ref{eq:2.13}).}
+	\caption[Correcting for batch effects in the context of the epigenetic clock]{Correcting for batch effects in the context of the epigenetic clock. \textbf{a.} Distribution of the epigenetic age acceleration (EAA) for the different batches of healthy individual samples, using the control model with cell composition correction (CCC) and before applying batch effect correction. The dashed black line represents $EAA = 0$, where the distributions should be centred around. \textbf{b.} Scatterplot showing the values of the first two principal components (PCs) for the healthy individual samples after performing PCA on the control probes of the 450K arrays. Each point corresponds to a different sample and the colours represent the different batches. The different batches cluster together in the PCA space, showing that the control probes indeed capture technical variation. Please note that all the PCA calculations were done using samples from both healthy individuals (full lifespan, $N=2218$) and cases from developmental disorders ($N=666$, see Chapter~\ref{c:3}). \textbf{c.} Plot showing how the median absolute error (MAE) of the prediction in the healthy individual samples, that should tend to zero, is reduced when the PCs capturing the technical variation are included as part of the modelling strategy (see equations \ref{eq:2.16} and \ref{eq:2.17}). The dashed line represents the optimal number of PCs (17) that was finally used. The optimal mean MAE is calculated as the average MAE between the green and purple lines. \textbf{d.} As in a., but after applying batch effect correction (i.e. equivalent to equation \ref{eq:2.16}).}
 	\label{fig:c2_fig13}
 \end{figure}
 
@@ -624,7 +624,7 @@ I calculated the epigenetic ages according to Hannum's model ($HannumAge$), alth
 
 \bigskip
 
-Next, I estimated the epigenetic age acceleration (EAA) according to Hannum's epigenetic clock, using similar models to the ones previously described (although in this case the dependent variable was $HannumAge$, see equations \ref{eq:2.13} and \ref{eq:2.14}). The median absolute errors for Hannum's model ($MAE_{\text{with CCC}} = 2.8422$ years, $MAE_{\text{without CCC}} = 2.9484$ years) were slightly higher than the ones obtained for Horvath's clock ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years), which could also be influenced by the fact that 3 of the model probes were not available. The EAAs estimated by Hannum's and Horvath's clocks showed a moderate correlation (Fig.~\ref{fig:c2_fig15}c,d), consistent with previous estimates \cite{Irvin2018}. Including cell composition correction improved the correlation between the EAAs from both clocks, highlighting the fact that Hannum's clock seems to be confounded with the changes in blood cell composition with age \cite{Marioni2015,Irvin2018}. 
+Next, I estimated the epigenetic age acceleration (EAA) according to Hannum's epigenetic clock, using similar models to the ones previously described (although in this case the dependent variable was $HannumAge$, see equations \ref{eq:2.16} and \ref{eq:2.17}). The median absolute errors for Hannum's model ($MAE_{\text{with CCC}} = 2.8422$ years, $MAE_{\text{without CCC}} = 2.9484$ years) were slightly higher than the ones obtained for Horvath's clock ($MAE_{\text{with CCC}} = 2.7117$ years, $MAE_{\text{without CCC}} = 2.8211$ years), which could also be influenced by the fact that 3 of the model probes were not available. The EAAs estimated by Hannum's and Horvath's clocks showed a moderate correlation (Fig.~\ref{fig:c2_fig15}c,d), consistent with previous estimates \cite{Irvin2018}. Including cell composition correction improved the correlation between the EAAs from both clocks, highlighting the fact that Hannum's clock seems to be confounded with the changes in blood cell composition with age \cite{Marioni2015,Irvin2018}. 
 
 \bigskip
 
@@ -641,13 +641,13 @@ Overall, Hannum's epigenetic clock performed well in my dataset. However, given 
 
 
 
-\subsection{Epigenetic mitotic clock: \textit{epiTOC}}
+\subsection{Epigenetic mitotic clock: \textit{epiTOC}} \label{s:2.3.2}
 
 In 2016, Yang and colleagues conceived a novel type of epigenetic clock called \textit{\acrshort{epiTOC}} (epigenetic Timer Of Cancer), which measures the rate of (stem) cell division in both normal and cancerous tissues \cite{Yang2016}. This epigenetic mitotic clock tracks the gain in methylation levels that happens in 385 CpG sites, which localise in the promoter of genes that are targeted by Polycomb Repressing Complex 2 (\acrshort{PRC2}). Importantly, these CpG sites are unmethylated across fetal tissues and therefore this provides a ground state to measure these changes during human lifespan.
 
 \bigskip
 
-I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \cite{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.13} and \ref{eq:2.14}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d), which was stronger in the case of the model with cell composition correction. This, together with the fact that $DNAmAge$ has a stronger correlation with $pcgtAge$ than chronological age, could suggest that the Horvath epigenetic clock captures methylation changes linked to cell division. 
+I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \cite{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.16} and \ref{eq:2.17}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d), which was stronger in the case of the model with cell composition correction. This, together with the fact that $DNAmAge$ has a stronger correlation with $pcgtAge$ than chronological age, could suggest that the Horvath epigenetic clock captures methylation changes linked to cell division. 
 
 \bigskip
 

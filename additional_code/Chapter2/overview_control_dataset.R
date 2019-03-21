@@ -648,3 +648,4 @@ pcgtAge_horvath_EAA_without_CCC_scatterplot <- ggplot(data=raw_controls_m, aes(x
                               '; p-value < 2.2e-16', paste0('; p-value = ', format(cor.test(raw_controls_m$delta_ext_int, raw_controls_m$pcgtAge_ext_int)$p.value, digits=4)))));
 ggsave("plots/horvath_vs_pcgtAge_EAA_without_CCC_full_lifespan.pdf", height=5, width=5);
 
+#### End of the script. ####

@@ -16,45 +16,45 @@ Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty institution in Illumina2010
 Warning--empty publisher in Eaton2007
 Warning--empty publisher in Sheather2009
-You've used 163 entries,
+You've used 187 entries,
             1791 wiz_defined-function locations,
-            1404 strings with 64702 characters,
-and the built_in function-call counts, 58152 in all, are:
-= -- 3395
-> -- 6418
+            1531 strings with 86011 characters,
+and the built_in function-call counts, 73942 in all, are:
+= -- 3838
+> -- 9121
 < -- 4
-+ -- 2198
-- -- 2035
-* -- 6134
-:= -- 10787
-add.period$ -- 481
-call.type$ -- 163
-change.case$ -- 163
++ -- 3108
+- -- 2921
+* -- 8165
+:= -- 14078
+add.period$ -- 549
+call.type$ -- 187
+change.case$ -- 187
 chr.to.int$ -- 0
-cite$ -- 166
-duplicate$ -- 1474
-empty$ -- 3670
-format.name$ -- 2035
-if$ -- 11301
+cite$ -- 190
+duplicate$ -- 1674
+empty$ -- 4186
+format.name$ -- 2921
+if$ -- 14051
 int.to.chr$ -- 0
-int.to.str$ -- 163
-missing$ -- 153
-newline$ -- 808
-num.names$ -- 165
-pop$ -- 248
+int.to.str$ -- 187
+missing$ -- 173
+newline$ -- 924
+num.names$ -- 189
+pop$ -- 290
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 567
+skip$ -- 652
 stack$ -- 0
-substring$ -- 3071
-swap$ -- 204
+substring$ -- 3442
+swap$ -- 228
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 411
-width$ -- 166
-write$ -- 1764
+while$ -- 466
+width$ -- 190
+write$ -- 2013
 (There were 3 warnings)

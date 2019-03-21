@@ -310,6 +310,13 @@ Matthew~E Ritchie, Belinda Phipson, Di~Wu, Yifang Hu, Charity~W Law, Wei Shi,
   microarray studies}.
 \newblock {\em Nucleic Acids Research}, 43(7):e47, 2015.
 
+\bibitem{Zhu2018}
+Tianyu Zhu, Shijie~C Zheng, Dirk~S Paul, Steve Horvath, and Andrew~E
+  Teschendorff.
+\newblock {Cell and tissue type independent age-associated DNA methylation
+  changes are not rare but common}.
+\newblock {\em Aging}, 10(11):3541--3557, 2018.
+
 \bibitem{Lopez-Otin2013}
 Carlos Lopez-Otin, Maria~A Blasco, Linda Partridge, Manuel Serrano, and Guido
   Kroemer.
@@ -336,13 +343,6 @@ Roderick~C Slieker, Caroline~L Relton, Tom~R Gaunt, P~Eline Slagboom, and
 \newblock {Age-related DNA methylation changes are tissue-specific with ELOVL2
   promoter methylation as exception}.
 \newblock {\em Epigenetics {\&} Chromatin}, 11(1):25, 2018.
-
-\bibitem{Zhu2018}
-Tianyu Zhu, Shijie~C Zheng, Dirk~S Paul, Steve Horvath, and Andrew~E
-  Teschendorff.
-\newblock {Cell and tissue type independent age-associated DNA methylation
-  changes are not rare but common}.
-\newblock {\em Aging}, 10(11):3541--3557, 2018.
 
 \bibitem{VanDongen2016}
 Jenny van Dongen, Michel~G Nivard, Gonneke Willemsen, Jouke-Jan Hottenga,
@@ -625,6 +625,349 @@ Morris~L. Eaton.
 Simon~J. Sheather.
 \newblock {\em {A Modern Approach to Regression with R}}.
 \newblock 2009.
+
+\bibitem{Bjornsson2015}
+Hans~Tomas Bjornsson.
+\newblock {The Mendelian disorders of the epigenetic machinery}, 2015.
+
+\bibitem{Aref-Eshghi2017}
+Erfan Aref-Eshghi, Laila~C Schenkel, Hanxin Lin, Cindy Skinner, Peter
+  Ainsworth, Guillaume Par{\'{e}}, David Rodenhiser, Charles Schwartz, and
+  Bekim Sadikovic.
+\newblock {The defining DNA methylation signature of Kabuki syndrome enables
+  functional assessment of genetic variants of unknown clinical significance}.
+\newblock {\em Epigenetics}, 12(11):923--933, 2017.
+
+\bibitem{Aref-Eshghi2018a}
+Erfan Aref-Eshghi, Eric~G Bend, Rebecca~L Hood, Laila~C Schenkel, Deanna~Alexis
+  Carere, Rana Chakrabarti, Sandesh C~S Nagamani, Sau~Wai Cheung, Philippe~M
+  Campeau, Chitra Prasad, Victoria~Mok Siu, Lauren Brady, Mark~A Tarnopolsky,
+  David~J Callen, A~Micheil Innes, Susan~M White, Wendy~S Meschino, Andrew~Y
+  Shuen, Guillaume Par{\'{e}}, Dennis~E Bulman, Peter~J Ainsworth, Hanxin Lin,
+  David~I Rodenhiser, Raoul~C Hennekam, Kym~M Boycott, Charles~E Schwartz, and
+  Bekim Sadikovic.
+\newblock {BAFopathies' DNA methylation epi-signatures demonstrate diagnostic
+  utility and functional continuum of Coffin–Siris and Nicolaides–Baraitser
+  syndromes}.
+\newblock {\em Nature Communications}, 9(1):4885, 2018.
+
+\bibitem{Butcher2017}
+Darci~T Butcher, Cheryl Cytrynbaum, Andrei~L Turinsky, Michelle~T Siu, Michal
+  Inbar-Feigenberg, Roberto Mendoza-Londono, David Chitayat, Susan Walker,
+  Jerry Machado, Oana Caluseriu, Lucie Dupuis, Daria Grafodatskaya, William
+  Reardon, Brigitte Gilbert-Dussardier, Alain Verloes, Frederic Bilan, Jeff~M
+  Milunsky, Raveen Basran, Blake Papsin, Tracy~L Stockley, Stephen~W Scherer,
+  Sanaa Choufani, Michael Brudno, and Rosanna Weksberg.
+\newblock {CHARGE and Kabuki Syndromes: Gene-Specific DNA Methylation
+  Signatures Identify Epigenetic Mechanisms Linking These Clinically
+  Overlapping Conditions}.
+\newblock {\em The American Journal of Human Genetics}, 100(5):773--788, 2017.
+
+\bibitem{Choufani2015}
+S~Choufani, C~Cytrynbaum, B~H~Y Chung, A~L Turinsky, D~Grafodatskaya, Y~A Chen,
+  A~S~A Cohen, L~Dupuis, D~T Butcher, M~T Siu, H~M Luk, I~F~M Lo, S~T~S Lam,
+  O~Caluseriu, D~J Stavropoulos, W~Reardon, R~Mendoza-Londono, M~Brudno, W~T
+  Gibson, D~Chitayat, and R~Weksberg.
+\newblock {NSD1 mutations generate a genome-wide DNA methylation signature}.
+\newblock {\em Nature Communications}, 6:10207, 2015.
+
+\bibitem{Schenkel2016}
+Laila~C Schenkel, Charles Schwartz, Cindy Skinner, David~I Rodenhiser, Peter~J
+  Ainsworth, Guillaume Pare, and Bekim Sadikovic.
+\newblock {Clinical Validation of Fragile X Syndrome Screening by DNA
+  Methylation Array}.
+\newblock {\em The Journal of Molecular Diagnostics}, 18(6):834--841, 2016.
+
+\bibitem{Alisch2013}
+Reid~S Alisch, Tao Wang, Pankaj Chopra, Jeannie Visootsak, Karen~N Conneely,
+  and Stephen~T Warren.
+\newblock {Genome-wide analysis validates aberrant methylation in fragile X
+  syndrome is specific to the FMR1locus}.
+\newblock {\em BMC Medical Genetics}, 14(1):18, 2013.
+
+\bibitem{Schenkel2017}
+Laila~C Schenkel, Kristin~D Kernohan, Arran McBride, Ditta Reina, Amanda Hodge,
+  Peter~J Ainsworth, David~I Rodenhiser, Guillaume Pare, Nathalie~G
+  B{\'{e}}rub{\'{e}}, Cindy Skinner, Kym~M Boycott, Charles Schwartz, and Bekim
+  Sadikovic.
+\newblock {Identification of epigenetic signature associated with alpha
+  thalassemia/mental retardation X-linked syndrome}.
+\newblock {\em Epigenetics {\&} Chromatin}, 10(1):10, 2017.
+
+\bibitem{Hood2016}
+Rebecca~L Hood, Laila~C Schenkel, Sarah~M Nikkel, Peter~J Ainsworth, Guillaume
+  Pare, Kym~M Boycott, Dennis~E Bulman, and Bekim Sadikovic.
+\newblock {The defining DNA methylation signature of Floating-Harbor Syndrome}.
+\newblock {\em Scientific Reports}, 6:38803, 2016.
+
+\bibitem{Aldinger2013}
+Kimberly~A Aldinger, Jasmine~T Plummer, and Pat Levitt.
+\newblock {Comparative DNA methylation among females with neurodevelopmental
+  disorders and seizures identifies TAC1 as a MeCP2 target gene}.
+\newblock {\em Journal of Neurodevelopmental Disorders}, 5(1):15, 2013.
+
+\bibitem{Grafodatskaya2013}
+Daria Grafodatskaya, Barian H~Y Chung, Darci~T Butcher, Andrei~L Turinsky,
+  Sarah~J Goodman, Sana Choufani, Yi-An Chen, Youliang Lou, Chunhua Zhao,
+  Rageen Rajendram, Fatima~E Abidi, Cindy Skinner, James Stavropoulos,
+  Carolyn~A Bondy, Jill Hamilton, Shoshana Wodak, Stephen~W Scherer, Charles~E
+  Schwartz, and Rosanna Weksberg.
+\newblock {Multilocus loss of DNA methylation in individuals with mutations in
+  the histone H3 Lysine 4 Demethylase KDM5C}.
+\newblock {\em BMC Medical Genomics}, 6(1):1, 2013.
+
+\bibitem{Kernohan2016}
+Kristin~D Kernohan, Laila {Cigana Schenkel}, Lijia Huang, Amanda Smith,
+  Guillaume Pare, Peter Ainsworth, Kym~M Boycott, Jodi Warman-Chardon, Bekim
+  Sadikovic, and Care4Rare~Canada Consortium.
+\newblock {Identification of a methylation profile for DNMT1-associated
+  autosomal dominant cerebellar ataxia, deafness, and narcolepsy}.
+\newblock {\em Clinical Epigenetics}, 8(1):91, 2016.
+
+\bibitem{Leventopoulos2009}
+George Leventopoulos, Sophia Kitsiou-Tzeli, Konstantinos Kritikos, Stavroula
+  Psoni, Ariadni Mavrou, Emmanuel Kanavakis, and Helen Fryssira.
+\newblock {A Clinical Study of Sotos Syndrome Patients With Review of the
+  Literature}.
+\newblock {\em Pediatric Neurology}, 40(5):357--364, 2009.
+
+\bibitem{Kurotaki2002}
+Naohiro Kurotaki, Kiyoshi Imaizumi, Naoki Harada, Mitsuo Masuno, Tatsuro
+  Kondoh, Toshiro Nagai, Hirofumi Ohashi, Kenji Naritomi, Masato Tsukahara,
+  Yoshio Makita, Tateo Sugimoto, Tohru Sonoda, Tomoko Hasegawa, Yasuaki Chinen,
+  Hiro-aki Tomita, Akira Kinoshita, Tsuyoshi Mizuguchi, Koh-ichiro Yoshiura,
+  Tohru Ohta, Tatsuya Kishino, Yoshimitsu Fukushima, Norio Niikawa, and
+  Naomichi Matsumoto.
+\newblock {Haploinsufficiency of NSD1 causes Sotos syndrome}.
+\newblock {\em Nature Genetics}, 30:365--366, 2002.
+
+\bibitem{Cole2017}
+John~J Cole, Neil~A Robertson, Mohammed~Iqbal Rather, John~P Thomson, Tony
+  McBryan, Duncan Sproul, Tina Wang, Claire Brock, William Clark, Trey Ideker,
+  Richard~R Meehan, Richard~A Miller, Holly~M Brown-Borg, and Peter~D Adams.
+\newblock {Diverse interventions that extend mouse lifespan suppress shared
+  age-associated epigenetic changes at critical gene regulatory regions}.
+\newblock {\em Genome Biology}, 18(1):58, 2017.
+
+\bibitem{Rinaldi2016}
+Lorenzo Rinaldi, Debayan Datta, Judit Serrat, Lluis Morey, Guiomar Solanas,
+  Alexandra Avgustinova, Enrique Blanco, Jos{\'{e}}~Ignacio Pons, David
+  Matallanas, Alex {Von Kriegsheim}, Luciano {Di Croce}, and Salvador~Aznar
+  Benitah.
+\newblock {Dnmt3a and Dnmt3b Associate with Enhancers to Regulate Human
+  Epidermal Stem Cell Homeostasis}.
+\newblock {\em Cell Stem Cell}, 19(4):491--501, 2016.
+
+\bibitem{Bernstein2006}
+B~E Bernstein, T~S Mikkelsen, X~Xie, M~Kamal, D~J Huebert, and J~Cuff.
+\newblock {A bivalent chromatin structure marks key developmental genes in
+  embryonic stem cells}.
+\newblock {\em Cell}, 125(2):315--326, 2006.
+
+\bibitem{Bernhart2016}
+Stephan~H Bernhart, Helene Kretzmer, Lesca~M Holdt, Frank J{\"{u}}hling, Ole
+  Ammerpohl, Anke~K Bergmann, Bernd~H Northoff, Gero Doose, Reiner Siebert,
+  Peter~F Stadler, and Steve Hoffmann.
+\newblock {Changes of bivalent chromatin coincide with increased expression of
+  developmental genes in cancer}.
+\newblock {\em Scientific Reports}, 6:37393, 2016.
+
+\bibitem{Richter}
+Andreas~S Richter, Devon~P Ryan, Fabian Kilpert, Fidel Ram{\'{i}}rez, Steffen
+  Heyne, and Thomas Manke.
+\newblock {pyBigWig GitHub Repository}.
+
+\bibitem{Zhang2015}
+Weiwei Zhang, Tim~D Spector, Panos Deloukas, Jordana~T Bell, and Barbara~E
+  Engelhardt.
+\newblock {Predicting genome-wide DNA methylation using methylation marks,
+  genomic position, and DNA regulatory elements.}
+\newblock {\em Genome biology}, 16(1):14, 2015.
+
+\bibitem{Consortium2012}
+The ENCODE~Project Consortium, Ian Dunham, Anshul Kundaje, Shelley~F Aldred,
+  Patrick~J Collins, Carrie~A Davis, Francis Doyle, Charles~B Epstein, Seth
+  Frietze, Jennifer Harrow, Rajinder Kaul, Jainab Khatun, Bryan~R Lajoie,
+  Stephen~G Landt, Bum-Kyu Lee, Florencia Pauli, Kate~R Rosenbloom, Peter Sabo,
+  Alexias Safi, Amartya Sanyal, Noam Shoresh, Jeremy~M Simon, Lingyun Song,
+  Nathan~D Trinklein, Robert~C Altshuler, Ewan Birney, James~B Brown, Chao
+  Cheng, Sarah Djebali, Xianjun Dong, Ian Dunham, Jason Ernst, Terrence~S
+  Furey, Mark Gerstein, Belinda Giardine, Melissa Greven, Ross~C Hardison,
+  Robert~S Harris, Javier Herrero, Michael~M Hoffman, Sowmya Iyer, Manolis
+  Kellis, Jainab Khatun, Pouya Kheradpour, Anshul Kundaje, Timo Lassmann,
+  Qunhua Li, Xinying Lin, Georgi~K Marinov, Angelika Merkel, Ali Mortazavi,
+  Stephen C~J Parker, Timothy~E Reddy, Joel Rozowsky, Felix Schlesinger,
+  Robert~E Thurman, Jie Wang, Lucas~D Ward, Troy~W Whitfield, Steven~P Wilder,
+  Weisheng Wu, Hualin~S Xi, Kevin~Y Yip, Jiali Zhuang, Bradley~E Bernstein,
+  Ewan Birney, Ian Dunham, Eric~D Green, Chris Gunter, Michael Snyder,
+  Michael~J Pazin, Rebecca~F Lowdon, Laura A~L Dillon, Leslie~B Adams,
+  Caroline~J Kelly, Julia Zhang, Judith~R Wexler, Eric~D Green, Peter~J Good,
+  Elise~A Feingold, Bradley~E Bernstein, Ewan Birney, Gregory~E Crawford, Job
+  Dekker, Laura Elnitski, Peggy~J Farnham, Mark Gerstein, Morgan~C Giddings,
+  Thomas~R Gingeras, Eric~D Green, Roderic Guig{\'{o}}, Ross~C Hardison,
+  Timothy~J Hubbard, Manolis Kellis, W~James Kent, Jason~D Lieb, Elliott~H
+  Margulies, Richard~M Myers, Michael Snyder, John~A Stamatoyannopoulos,
+  Scott~A Tenenbaum, Zhiping Weng, Kevin~P White, Barbara Wold, Jainab Khatun,
+  Yanbao Yu, John Wrobel, Brian~A Risk, Harsha~P Gunawardena, Heather~C Kuiper,
+  Christopher~W Maier, Ling Xie, Xian Chen, Morgan~C Giddings, Bradley~E
+  Bernstein, Charles~B Epstein, Noam Shoresh, Jason Ernst, Pouya Kheradpour,
+  Tarjei~S Mikkelsen, Shawn Gillespie, Alon Goren, Oren Ram, Xiaolan Zhang,
+  Li~Wang, Robbyn Issner, Michael~J Coyne, Timothy Durham, Manching Ku, Thanh
+  Truong, Lucas~D Ward, Robert~C Altshuler, Matthew~L Eaton, Manolis Kellis,
+  Sarah Djebali, Carrie~A Davis, Angelika Merkel, Alex Dobin, Timo Lassmann,
+  Ali Mortazavi, Andrea Tanzer, Julien Lagarde, Wei Lin, Felix Schlesinger,
+  Chenghai Xue, Georgi~K Marinov, Jainab Khatun, Brian~A Williams, Chris
+  Zaleski, Joel Rozowsky, Maik R{\"{o}}der, Felix Kokocinski, Rehab~F
+  Abdelhamid, Tyler Alioto, Igor Antoshechkin, Michael~T Baer, Philippe Batut,
+  Ian Bell, Kimberly Bell, Sudipto Chakrabortty, Xian Chen, Jacqueline Chrast,
+  Joao Curado, Thomas Derrien, Jorg Drenkow, Erica Dumais, Jackie Dumais, Radha
+  Duttagupta, Megan Fastuca, Kata Fejes-Toth, Pedro Ferreira, Sylvain Foissac,
+  Melissa~J Fullwood, Hui Gao, David Gonzalez, Assaf Gordon, Harsha~P
+  Gunawardena, C{\'{e}}dric Howald, Sonali Jha, Rory Johnson, Philipp Kapranov,
+  Brandon King, Colin Kingswood, Guoliang Li, Oscar~J Luo, Eddie Park,
+  Jonathan~B Preall, Kimberly Presaud, Paolo Ribeca, Brian~A Risk, Daniel
+  Robyr, Xiaoan Ruan, Michael Sammeth, Kuljeet~Singh Sandhu, Lorain Schaeffer,
+  Lei-Hoon See, Atif Shahab, Jorgen Skancke, Ana~Maria Suzuki, Hazuki
+  Takahashi, Hagen Tilgner, Diane Trout, Nathalie Walters, Huaien Wang, John
+  Wrobel, Yanbao Yu, Yoshihide Hayashizaki, Jennifer Harrow, Mark Gerstein,
+  Timothy~J Hubbard, Alexandre Reymond, Stylianos~E Antonarakis, Gregory~J
+  Hannon, Morgan~C Giddings, Yijun Ruan, Barbara Wold, Piero Carninci, Roderic
+  Guig{\'{o}}, Thomas~R Gingeras, Kate~R Rosenbloom, Cricket~A Sloan, Katrina
+  Learned, Venkat~S Malladi, Matthew~C Wong, Galt~P Barber, Melissa~S Cline,
+  Timothy~R Dreszer, Steven~G Heitner, Donna Karolchik, W~James Kent, Vanessa~M
+  Kirkup, Laurence~R Meyer, Jeffrey~C Long, Morgan Maddren, Brian~J Raney,
+  Terrence~S Furey, Lingyun Song, Linda~L Grasfeder, Paul~G Giresi, Bum-Kyu
+  Lee, Anna Battenhouse, Nathan~C Sheffield, Jeremy~M Simon, Kimberly~A
+  Showers, Alexias Safi, Darin London, Akshay~A Bhinge, Christopher Shestak,
+  Matthew~R Schaner, Seul {Ki Kim}, Zhuzhu~Z Zhang, Piotr~A Mieczkowski,
+  Joanna~O Mieczkowska, Zheng Liu, Ryan~M McDaniell, Yunyun Ni, Naim~U Rashid,
+  Min~Jae Kim, Sheera Adar, Zhancheng Zhang, Tianyuan Wang, Deborah Winter,
+  Damian Keefe, Ewan Birney, Vishwanath~R Iyer, Jason~D Lieb, Gregory~E
+  Crawford, Guoliang Li, Kuljeet~Singh Sandhu, Meizhen Zheng, Ping Wang,
+  Oscar~J Luo, Atif Shahab, Melissa~J Fullwood, Xiaoan Ruan, Yijun Ruan,
+  Richard~M Myers, Florencia Pauli, Brian~A Williams, Jason Gertz, Georgi~K
+  Marinov, Timothy~E Reddy, Jost Vielmetter, E~Partridge, Diane Trout,
+  Katherine~E Varley, Clarke Gasper, Anita Bansal, Shirley Pepke, Preti Jain,
+  Henry Amrhein, Kevin~M Bowling, Michael Anaya, Marie~K Cross, Brandon King,
+  Michael~A Muratet, Igor Antoshechkin, Kimberly~M Newberry, Kenneth McCue,
+  Amy~S Nesmith, Katherine~I Fisher-Aylor, Barbara Pusey, Gilberto DeSalvo,
+  Stephanie~L Parker, Sreeram Balasubramanian, Nicholas~S Davis, Sarah~K
+  Meadows, Tracy Eggleston, Chris Gunter, J~Scott Newberry, Shawn~E Levy,
+  Devin~M Absher, Ali Mortazavi, Wing~H Wong, Barbara Wold, Matthew~J Blow,
+  Axel Visel, Len~A Pennachio, Laura Elnitski, Elliott~H Margulies, Stephen C~J
+  Parker, Hanna~M Petrykowska, Alexej Abyzov, Bronwen Aken, Daniel Barrell,
+  Gemma Barson, Andrew Berry, Alexandra Bignell, Veronika Boychenko, Giovanni
+  Bussotti, Jacqueline Chrast, Claire Davidson, Thomas Derrien, Gloria
+  Despacio-Reyes, Mark Diekhans, Iakes Ezkurdia, Adam Frankish, James Gilbert,
+  Jose~Manuel Gonzalez, Ed~Griffiths, Rachel Harte, David~A Hendrix,
+  C{\'{e}}dric Howald, Toby Hunt, Irwin Jungreis, Mike Kay, Ekta Khurana, Felix
+  Kokocinski, Jing Leng, Michael~F Lin, Jane Loveland, Zhi Lu, Deepa
+  Manthravadi, Marco Mariotti, Jonathan Mudge, Gaurab Mukherjee, Cedric
+  Notredame, Baikang Pei, Jose~Manuel Rodriguez, Gary Saunders, Andrea Sboner,
+  Stephen Searle, Cristina Sisu, Catherine Snow, Charlie Steward, Andrea
+  Tanzer, Electra Tapanari, Michael~L Tress, Marijke~J van Baren, Nathalie
+  Walters, Stefan Washietl, Laurens Wilming, Amonida Zadissa, Zhengdong Zhang,
+  Michael Brent, David Haussler, Manolis Kellis, Alfonso Valencia, Mark
+  Gerstein, Alexandre Reymond, Roderic Guig{\'{o}}, Jennifer Harrow, Timothy~J
+  Hubbard, Stephen~G Landt, Seth Frietze, Alexej Abyzov, Nick Addleman, Roger~P
+  Alexander, Raymond~K Auerbach, Suganthi Balasubramanian, Keith Bettinger,
+  Nitin Bhardwaj, Alan~P Boyle, Alina~R Cao, Philip Cayting, Alexandra Charos,
+  Yong Cheng, Chao Cheng, Catharine Eastman, Ghia Euskirchen, Joseph~D Fleming,
+  Fabian Grubert, Lukas Habegger, Manoj Hariharan, Arif Harmanci, Sushma
+  Iyengar, Victor~X Jin, Konrad~J Karczewski, Maya Kasowski, Phil Lacroute,
+  Hugo Lam, Nathan Lamarre-Vincent, Jing Leng, Jin Lian, Marianne
+  Lindahl-Allen, Renqiang Min, Benoit Miotto, Hannah Monahan, Zarmik Moqtaderi,
+  Xinmeng~J Mu, Henriette O'Geen, Zhengqing Ouyang, Dorrelyn Patacsil, Baikang
+  Pei, Debasish Raha, Lucia Ramirez, Brian Reed, Joel Rozowsky, Andrea Sboner,
+  Minyi Shi, Cristina Sisu, Teri Slifer, Heather Witt, Linfeng Wu, Xiaoqin Xu,
+  Koon-Kiu Yan, Xinqiong Yang, Kevin~Y Yip, Zhengdong Zhang, Kevin Struhl,
+  Sherman~M Weissman, Mark Gerstein, Peggy~J Farnham, Michael Snyder, Scott~A
+  Tenenbaum, Luiz~O Penalva, Francis Doyle, Subhradip Karmakar, Stephen~G
+  Landt, Raj~R Bhanvadia, Alina Choudhury, Marc Domanus, Lijia Ma, Jennifer
+  Moran, Dorrelyn Patacsil, Teri Slifer, Alec Victorsen, Xinqiong Yang, Michael
+  Snyder, Kevin~P White, Thomas Auer, Lazaro Centanin, Michael Eichenlaub,
+  Franziska Gruhl, Stephan Heermann, Burkhard Hoeckendorf, Daigo Inoue, Tanja
+  Kellner, Stephan Kirchmaier, Claudia Mueller, Robert Reinhardt, Lea Schertel,
+  Stephanie Schneider, Rebecca Sinn, Beate Wittbrodt, Jochen Wittbrodt, Zhiping
+  Weng, Troy~W Whitfield, Jie Wang, Patrick~J Collins, Shelley~F Aldred,
+  Nathan~D Trinklein, E~Christopher Partridge, Richard~M Myers, Job Dekker,
+  Gaurav Jain, Bryan~R Lajoie, Amartya Sanyal, Gayathri Balasundaram, Daniel~L
+  Bates, Rachel Byron, Theresa~K Canfield, Morgan~J Diegel, Douglas Dunn,
+  Abigail~K Ebersol, Tristan Frum, Kavita Garg, Erica Gist, R~Scott Hansen,
+  Lisa Boatman, Eric Haugen, Richard Humbert, Gaurav Jain, Audra~K Johnson,
+  Ericka~M Johnson, Tattyana~V Kutyavin, Bryan~R Lajoie, Kristen Lee, Dimitra
+  Lotakis, Matthew~T Maurano, Shane~J Neph, Fiedencio~V Neri, Eric~D Nguyen,
+  Hongzhu Qu, Alex~P Reynolds, Vaughn Roach, Eric Rynes, Peter Sabo, Minerva~E
+  Sanchez, Richard~S Sandstrom, Amartya Sanyal, Anthony~O Shafer, Andrew~B
+  Stergachis, Sean Thomas, Robert~E Thurman, Benjamin Vernot, Jeff Vierstra,
+  Shinny Vong, Hao Wang, Molly~A Weaver, Yongqi Yan, Miaohua Zhang, Joshua~M
+  Akey, Michael Bender, Michael~O Dorschner, Mark Groudine, Michael~J MacCoss,
+  Patrick Navas, George Stamatoyannopoulos, Rajinder Kaul, Job Dekker, John~A
+  Stamatoyannopoulos, Ian Dunham, Kathryn Beal, Alvis Brazma, Paul Flicek,
+  Javier Herrero, Nathan Johnson, Damian Keefe, Margus Lukk, Nicholas~M
+  Luscombe, Daniel Sobral, Juan~M Vaquerizas, Steven~P Wilder, Serafim
+  Batzoglou, Arend Sidow, Nadine Hussami, Sofia Kyriazopoulou-Panagiotopoulou,
+  Max~W Libbrecht, Marc~A Schaub, Anshul Kundaje, Ross~C Hardison, Webb Miller,
+  Belinda Giardine, Robert~S Harris, Weisheng Wu, Peter~J Bickel, Balazs
+  Banfai, Nathan~P Boley, James~B Brown, Haiyan Huang, Qunhua Li,
+  Jingyi~Jessica Li, William~Stafford Noble, Jeffrey~A Bilmes, Orion~J Buske,
+  Michael~M Hoffman, Avinash~D Sahu, Peter~V Kharchenko, Peter~J Park, Dannon
+  Baker, James Taylor, Zhiping Weng, Sowmya Iyer, Xianjun Dong, Melissa Greven,
+  Xinying Lin, Jie Wang, Hualin~S Xi, Jiali Zhuang, Mark Gerstein, Roger~P
+  Alexander, Suganthi Balasubramanian, Chao Cheng, Arif Harmanci, Lucas
+  Lochovsky, Renqiang Min, Xinmeng~J Mu, Joel Rozowsky, Koon-Kiu Yan, Kevin~Y
+  Yip, and Ewan Birney.
+\newblock {An integrated encyclopedia of DNA elements in the human genome}.
+\newblock {\em Nature}, 489:57--74, 2012.
+
+\bibitem{Zhou2018}
+Wanding Zhou, Huy~Q Dinh, Zachary Ramjan, Daniel~J Weisenberger, Charles~M
+  Nicolet, Hui Shen, Peter~W Laird, and Benjamin~P Berman.
+\newblock {DNA methylation loss in late-replicating domains is linked to
+  mitotic cell division}.
+\newblock {\em Nature Genetics}, 50(4):591--602, 2018.
+
+\bibitem{Quinlan2011}
+Ryan~K Dale, Brent~S Pedersen, and Aaron~R Quinlan.
+\newblock {Pybedtools: a flexible Python library for manipulating genomic
+  datasets and annotations}.
+\newblock {\em Bioinformatics}, 27(24):3423--3424, 2011.
+
+\bibitem{Frankish2018}
+Adam Frankish, Alexandra Bignell, Andrew Berry, Andrew Yates, Anne Parker,
+  Bianca~M Schmitt, Bronwen Aken, Carlos {Garc{\'{i}}a Gir{\'{o}}n}, Daniel
+  Zerbino, Eloise Stapleton, Fergal~J Martin, Fiona Cunningham, If~Barnes,
+  Irina Sycheva, Jane Loveland, Jonathan~M Mudge, Jose~Manuel Gonzalez, Magali
+  Ruffier, Marie-Marthe Suner, Matthew Hardy, Osagie~G Izuogu, Sarah Donaldson,
+  Shamika Mohanan, Thibaut Hourlier, Tiago Grego, Toby Hunt, Paul Flicek, James
+  Wright, Jyoti~S Choudhary, Julien Lagarde, Silvia {Carbonell Sala}, Roderic
+  Guig{\'{o}}, Fernando Pozo, Laura Mart{\'{i}}nez, Michael~L Tress,
+  Tom{\'{a}}s {Di Domenico}, Paul Muir, Barbara Uszczynska-Ratajczak, Benedict
+  Paten, Ian~T Fiddes, Joel Armstrong, Mark Diekhans, Tim J~P Hubbard,
+  Alexandre Reymond, Anne-Maud Ferreira, Jacqueline Chrast, Rory Johnson, Irwin
+  Jungreis, Manolis Kellis, Baikang Pei, Fabio C~P Navarro, Jinuri Xu, Yan
+  Zhang, Mark Gerstein, and Cristina Sisu.
+\newblock {GENCODE reference annotation for the human and mouse genomes}.
+\newblock {\em Nucleic Acids Research}, 47(D1):D766--D773, 2018.
+
+\bibitem{Martin-Herranz2017a}
+Daniel~E Martin-Herranz, Ant{\'{o}}nio J.~M. Ribeiro, Felix Krueger, Janet~M
+  Thornton, Wolf Reik, and Thomas~M Stubbs.
+\newblock {cuRRBS: simple and robust evaluation of enzyme combinations for
+  reduced representation approaches}.
+\newblock {\em Nucleic Acids Research}, 45(20):11559--11569, 2017.
+
+\bibitem{Consortium}
+NIH Roadmap Epigenomics~Mapping Consortium.
+\newblock {Roadmap Epigenomics Chromatin State Model: raw data.
+  https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/
+  imputed12marks/jointModel/final/catMat/hg19{\_}chromHMM{\_}imputed25.gz}.
+
+\bibitem{Consortiuma}
+NIH Roadmap Epigenomics~Mapping Consortium.
+\newblock {Roadmap Epigenomics Chromatin State Model: emission parameters.
+  https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/
+  imputed12marks/jointModel/final/emissions{\_}25{\_}imputed12marks.png}.
 
 \bibitem{Shendure2008}
 Jay Shendure and Hanlee Ji.
@@ -1079,14 +1422,6 @@ Michael~J. Thompson, Bridgett von Holdt, Steve Horvath, and Matteo Pellegrini.
 \newblock {An epigenetic aging clock for dogs and wolves}.
 \newblock {\em Aging}, 9(3):1055--1068, 2017.
 
-\bibitem{Cole2017}
-John~J Cole, Neil~A Robertson, Mohammed~Iqbal Rather, John~P Thomson, Tony
-  McBryan, Duncan Sproul, Tina Wang, Claire Brock, William Clark, Trey Ideker,
-  Richard~R Meehan, Richard~A Miller, Holly~M Brown-Borg, and Peter~D Adams.
-\newblock {Diverse interventions that extend mouse lifespan suppress shared
-  age-associated epigenetic changes at critical gene regulatory regions}.
-\newblock {\em Genome Biology}, 18(1):58, 2017.
-
 \bibitem{Martin-Herranz2019a}
 Daniel~E Martin-Herranz, Erfan Aref-Eshghi, Marc~Jan Bonder, Thomas~M Stubbs,
   Oliver Stegle, Bekim Sadikovic, Wolf Reik, and Janet~M Thornton.
@@ -1174,13 +1509,6 @@ Yan Sun, Rui Hou, Xiaoteng Fu, Changsen Sun, Shi Wang, Chen Wang, Ning Li,
   Scallop, Chlamys farreri}.
 \newblock {\em PLOS ONE}, 9(1):e86232, 2014.
 
-\bibitem{Zhang2015}
-Weiwei Zhang, Tim~D Spector, Panos Deloukas, Jordana~T Bell, and Barbara~E
-  Engelhardt.
-\newblock {Predicting genome-wide DNA methylation using methylation marks,
-  genomic position, and DNA regulatory elements.}
-\newblock {\em Genome biology}, 16(1):14, 2015.
-
 \bibitem{Angermueller2017}
 Christof Angermueller, Heather~J Lee, Wolf Reik, and Oliver Stegle.
 \newblock {DeepCpG: accurate prediction of single-cell DNA methylation states
@@ -1247,12 +1575,6 @@ Leila Taher, Robin~P Smith, Mee~J Kim, Nadav Ahituv, and Ivan Ovcharenko.
 \newblock {Sequence signatures extracted from proximal promoters can be used to
   predict distal enhancers}.
 \newblock {\em Genome Biology}, 14(10):R117, 2013.
-
-\bibitem{Quinlan2011}
-Ryan~K Dale, Brent~S Pedersen, and Aaron~R Quinlan.
-\newblock {Pybedtools: a flexible Python library for manipulating genomic
-  datasets and annotations}.
-\newblock {\em Bioinformatics}, 27(24):3423--3424, 2011.
 
 \bibitem{Quinlan2010}
 Aaron~R Quinlan and Ira~M Hall.

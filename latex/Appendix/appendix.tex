@@ -71,14 +71,14 @@
 	\centering    
 	\vspace*{3mm}
 	\includegraphics[width=0.8\textwidth]{SC2_Fig7}
-	\caption[Impact of the absence of background correction on the predictions from the epigenetic clock]{Plot showing how the median absolute error (MAE) of the prediction in the healthy individual samples, that should tend to zero, is reduced when the PCs capturing the technical variation are included as part of the modelling strategy (see equations \ref{eq:2.13} and \ref{eq:2.14}). The dashed line represents the optimal number of PCs (11) that was finally used. The optimal mean MAE is calculated as the average MAE between the green and purple lines. In this case, no background correction was applied to the methylation data before calculating the epigenetic ages according to Horvath's epigenetic clock \cite{Horvath2013}.}
+	\caption[Impact of the absence of background correction on the predictions from the epigenetic clock]{Plot showing how the median absolute error (MAE) of the prediction in the healthy individual samples, that should tend to zero, is reduced when the PCs capturing the technical variation are included as part of the modelling strategy (see equations \ref{eq:2.16} and \ref{eq:2.17}). The dashed line represents the optimal number of PCs (11) that was finally used. The optimal mean MAE is calculated as the average MAE between the green and purple lines. In this case, no background correction was applied to the methylation data before calculating the epigenetic ages according to Horvath's epigenetic clock \cite{Horvath2013}.}
 	\label{fig:sc2_fig7}
 \end{figure}
 
 \begin{figure}[htbp!] 
 	\centering    
 	\includegraphics[width=0.9\textwidth]{SC2_Fig8}
-	\caption[Correcting for batch effects: control model without cell composition correction]{Correcting for batch effects in the context of the epigenetic clock. \textbf{a.} Distribution of the epigenetic age acceleration (EAA) for the different batches of healthy individual samples, using the control model without cell composition correction (CCC) and before applying batch effect correction. The dashed black line represents $EAA = 0$, where the distributions should be centred around. \textbf{b.} As in a., but after applying batch effect correction (i.e. equivalent to equation \ref{eq:2.14}).}
+	\caption[Correcting for batch effects: control model without cell composition correction]{Correcting for batch effects in the context of the epigenetic clock. \textbf{a.} Distribution of the epigenetic age acceleration (EAA) for the different batches of healthy individual samples, using the control model without cell composition correction (CCC) and before applying batch effect correction. The dashed black line represents $EAA = 0$, where the distributions should be centred around. \textbf{b.} As in a., but after applying batch effect correction (i.e. equivalent to equation \ref{eq:2.17}).}
 	\label{fig:sc2_fig8}
 \end{figure}
 
@@ -97,21 +97,167 @@
 	\label{fig:sc2_fig10}
 \end{figure}
 
-
-
-
-
-
-
 \clearpage
 
 \renewcommand{\thesection}{S.2}   
 \section{Biological aspects of the epigenetic clock}
 
-\renewcommand\thefigure{S2.\arabic{figure}}    
-\bigskip
+\renewcommand\thefigure{S2.\arabic{figure}}
+\renewcommand\thetable{S2.\arabic{table}}        
+\vspace{10 mm}
+
+\begin{table}[h]
+	\centering
+	\small
+	\begin{tabular}{ p{2cm} p{1cm} p{1cm} p{1cm} p{2cm} p{6cm} }
+		\toprule
+		\textbf{Batch name} & \textbf{N$_{\female}$} & \textbf{N$_{\male}$} & \textbf{N} & \textbf{Median age (years)} & \textbf{Other comments} \\
+		\midrule
+		  Europe & 0 & 119 & 119 & 7.73 & \\
+		  Feb\_2016 & 20 & 20 & 40 & 6 & \\
+		  GSE116300 & 4 & 5 & 9 & 3 &\\
+		  GSE41273 & 0 & 9 & 9 & 7.75 & \\
+		  GSE74432 & 11 & 16 & 27 & 10 & \\
+		  GSE97362 & 4 & 9 & 13 & 15 & Samples from the `validation cohort' were not included in the analysis, since they all seemed outliers on close examination\\
+		  Jun\_2015 & 1 & 1 & 2 & 3.5015 & \\
+		  Mar\_2014 & 11 & 6 & 17 & 8 & \\
+		  May\_2015 & 17 & 49 & 66 & 14 & \\
+		  Nov\_2015 & 35 & 30 & 65 & 6.7 & \\
+		\midrule
+		\textbf{Total} & 103 & 264 & 367 & 8 & - \\ 
+		\bottomrule
+	\end{tabular}
+	\vspace*{3mm}
+	\caption[Additional information for the developmental disorders dataset]{Overview of the blood DNA methylation dataset from individuals with developmental disorders. The batches `Europe', `Feb\_2016', `Jun\_2015', `Mar\_2014', `May\_2015' and `Nov\_2015' were generated in-house by our collaborators in Canada (see Chapter~\ref{c:3}). The rest of the batches were downloaded from GEO \cite{Edgar2002}. $N_{\female}$: number of samples from females. $N_{\male}$: number of samples from males. $N$: total number of samples. These numbers correspond to the samples left after applying quality control and filtering (see section~\ref{s:3.2}).}
+	\label{table:s2_table1}
+\end{table} 
 
 \smallskip
+
+\clearpage
+
+\begin{figure}[htbp!]
+	\setcounter{figure}{0}
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_1}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_2}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_3}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_4}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_5}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_6}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_7}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_8}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering
+	\vspace*{-40mm}    
+	\includegraphics[width=1\textwidth]{SC3_Fig1_9}
+	\caption[Table showing information for the individuals with developmental disorders]{Table showing information for the samples from individuals with developmental disorders (total $N=367$). Mutation information was annotated for the human genome assembly \textit{hg19}. \acrshort{ASD}: autism spectrum disorder; \acrshort{ATR-X}: alpha thalassemia/mental retardation X-linked syndrome; \acrshort{FXS}: fragile X syndrome.}
+	\label{fig:sc3_fig1}
+\end{figure}	
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig2}
+	\caption[Effect of changing the median age of the controls when performing the screening]{Effect of changing the median age of the controls when performing the screening for epigenetic age acceleration (EAA) in the different developmental disorders. The dashed green line displays the significance level of $\alpha = 0.01$ after Bonferroni correction. The dashed orange line displays the median age for the samples in the developmental disorder considered. In blue: EAA model without cell composition correction (CCC). In red: EAA model with CCC. \acrshort{ASD}: autism spectrum disorder; \acrshort{ATR-X}: alpha thalassemia/mental retardation X-linked syndrome; \acrshort{FXS}: fragile X syndrome.}
+	\label{fig:sc3_fig2}
+\end{figure}
+
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig3_1}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig3_2}
+\end{figure}
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=1\textwidth]{SC3_Fig3_3}
+	\caption[Screening for epigenetic age acceleration (EAA) in developmental disorders: additional scatterplots]{Screening for epigenetic age acceleration (EAA) in developmental disorders. Left panel: scatterplot showing the relation between epigenetic age ($DNAmAge$) according to Horvath’s model and chronological age of the samples for a given developmental disorder (orange) and control (grey). Each sample is represented by one point. The black dashed line represents the diagonal to aid visualisation. Middle and right panels: scatterplots showing the relation between the epigenetic age acceleration (EAA) (without and with CCC respectively) and chronological age of the samples for a given developmental disorder (orange) and control (grey). Each sample is represented by one point. The yellow line represents the linear model EAA $\sim$ Age, with the standard error shown in the light yellow shade.}
+	\label{fig:sc3_fig3}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1.1\textwidth]{SC3_Fig4}
+	\vspace*{2 mm}
+	\caption[Enrichment for the categorical (epi)genomic features in Sotos and ageing: genome-wide]{Enrichment for the categorical (epi)genomic features considered when comparing the different genome-wide subsets of differentially methylated positions (DMPs) in ageing and Sotos against a control (see section~\ref{s:3.7}). The y-axis represents the odds ratio (OR), the error bars show the 95\% confidence interval for the OR estimate and the colour of the points codes for $-\log_{10}(\text{p-value})$ obtained after testing for enrichment using Fisher's exact test. An OR > 1 shows that the given feature is enriched in the subset of DMPs considered, whilst an OR < 1 shows that it is found less than expected. The `Hyper-Hypo DMPs' subset results from the intersection between the hypermethylated DMPs in ageing and the hypomethylated DMPs in Sotos. The `Hypo-Hypo DMPs' subset results from the intersection between the hypomethylated DMPs in ageing and Sotos. In grey: features that did not reach significance using a significance level of $\alpha = 0.01$ after Bonferroni correction.}
+	\label{fig:sc3_fig4}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig5}
+	\caption[Distributions of scores for the continuous (epi)genomic features in Sotos and ageing: genome-wide]{Boxplots showing the distributions of scores for the continuous (epi)genomic features considered when comparing the different genome-wide subsets of differentially methylated positions (DMPs) in ageing and Sotos against a control (see section~\ref{s:3.7}). The p-values (two-sided Wilcoxon's test, before multiple testing correction) are shown above the boxplots. The number of DMPs belonging to each subset (in green) and the median value of the feature score (in dark red) are shown below the boxplots. \acrshort{NFC}: `normalised fold change'; \acrshort{NRE}: `normalised RNA expression'; \acrshort{WTS}: `wavelet-transformed signals'; \acrshort{NRC}: `normalised read counts'.}
+	\label{fig:sc3_fig5}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig6}
+	\vspace*{1 mm}
+	\caption[Scores for the continuous (epi)genomic features in the Horvath's epigenetic clock CpGs]{Heatmap displaying the scores for the different continuous (epi)genomic features (rows) in each one of the 353 Horvath's epigenetic clock CpGs (columns). The names of the features include the ENCODE ID (see Fig.~\ref{fig:sc3_figadd}). Hierarchical clustering was performed in both rows and columns. RNA refers to the `normalised RNA expression' (NRE). aDMPs: differentially methylated positions during ageing. PBMC: peripheral blood mononuclear cells.}
+	\label{fig:sc3_fig6}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig7}
+	\caption[Enrichment for the categorical (epi)genomic features in Sotos and ageing: Horvath's epigenetic clock]{As in Fig.~\ref{fig:sc3_fig4}., but focused on the 353 Horvath's epigenetic clock CpG sites.}
+	\label{fig:sc3_fig7}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig8}
+	\caption[Distributions of scores for the continuous (epi)genomic features in Sotos and ageing: Horvath's epigenetic clock]{As in Fig.~\ref{fig:sc3_fig5}., but focused on the 353 Horvath's epigenetic clock CpG sites.}
+	\label{fig:sc3_fig8}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Fig9}
+	\caption[Methylation Shannon entropy acceleration]{Methylation Shannon entropy acceleration. \textbf{a.} Scatterplot showing the relationship between the genome-wide Shannon entropy acceleration (\acrshort{gSEA}) and chronological age of the samples for Sotos (orange) and healthy controls (grey). Each sample is represented by one point. The yellow line represents the linear model gSEA $\sim$ Age, with the standard error shown in the light yellow shade. \textbf{b.} As in a., but using the Shannon entropy acceleration calculated only for the 353 CpG sites in the Horvath's epigenetic clock (\acrshort{cSEA}).}
+	\label{fig:sc3_fig9}
+\end{figure}
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=0.5\textwidth]{SC3_Fig10}
+	\caption[Batch effects in the methylation Shannon entropy for the epigenetic clock sites]{Scatterplot showing the effects of the different batches on the methylation Shannon entropy calculations for the 353 Horvath's epigenetic clock sites. Each sample is represented by one point and coloured according to the batch that they belong to. }
+	\label{fig:sc3_fig10}
+\end{figure}
+
+		
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=1\textwidth]{SC3_Figadd}
+	\caption[Information for the continuous (epi)genomic features]{Information (including the source) about the continuous (epi)genomic features (\acrshort{ChIP-seq} and \acrshort{RNA-seq} data) that were included in my analysis to annotate the different sets of CpG sites. All the data were mapped to the \textit{\acrshort{hg19}} assembly of the human genome. \acrshort{PBMC}: peripheral blood mononuclear cells.}
+	\label{fig:sc3_figadd}
+\end{figure}
 
 \clearpage
 
