@@ -45,3 +45,6 @@ ggsave("plots/chronological_age_dist_cases.pdf", height=5, width=5);
 D <- density(raw_cases$Age_years);
 D$x[which.max(D$y)]; # 4.5 years
 
+#### End of the script. ####
+
+

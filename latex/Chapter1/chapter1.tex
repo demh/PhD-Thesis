@@ -13,7 +13,311 @@
 
 
 %********************************** %First Section  **************************************
-\section{Ageing stuff} %Section - 1.1 
+\section{The biology of ageing} %Section - 1.1 
+
+\subsection{A brief introduction to ageing theory}
+
+Potential quote: '... there are as many theories of ag[e]ing as there are biogerontologists.' Leonard Hayflick. Biological aging is no longer an unsolved problem
+
+"At a fundamental level evolutionary survival is the preservation of a dynamic balance between information, or order, and entropy, or disorder." Thomas Kirkwood, Evolution of ageing, Nature 1977.
+
+The ageing process is one of the most mysterious, complex and fascinating biological problems to be solved in the 21st century. Ageing and immortality have probably fascinated mankind since we have a conception of time and death \cite{Renfrew2016}. 
+
+\bigskip
+
+\textbf{Biological ageing} (aka the ageing process) can be defined as the time-dependent functional decline which increases vulnerability to death in most organisms \cite{Lopez-Otin2013}. The revolution taking place in genetics and molecular biology during the 20th century gave rise to more than 300 theories that attempt to explain the mechanisms behind biological ageing \cite{Medvedev1990}. Any valid modern theory of ageing would need to explain at least two things \cite{Medvedev1990}:
+
+\begin{itemize}
+	
+	\item The molecular causes behind the increase in \textbf{mortality rate} (aka death rate) over time in a given species population. Mortality rate can be broadly defined as the number of deaths in a population per unit of time and scaled by the size of the population. More formally, by quantifying the deaths of individuals in a population over time (and assuming that there are no increases in the population number due to reproduction, migration, ...), the survival fraction at a given time $t$, $S(t)$, is \cite{Witten1986}:
+	
+	\begin{align}
+	S(t) = \frac{N(t)}{N_0}
+	\end{align}
+	
+	where $N(t)$ is the number of individuals alive at a given time $t$ and $N_0$ is the initial number of individuals in the population. It can be demonstrated that the mortality rate, $\lambda(t)$, can be expressed as \cite{Witten1986}:
+	
+	\begin{align} \label{eq:1.2}
+	\lambda(t) = - \frac{1}{S(t)} \cdot \frac{dS(t)}{dt}
+	\end{align}
+	
+	\item The \textbf{evolutionary variations in average lifespan between different species}; where lifespan is defined as the time passed between birth and death of an organism.
+	
+\end{itemize}
+
+Nowadays, there are at least \textbf{two main paradigms}, complementary to each other, that try to conceptualise the problem and that are a topic of intense discussion among gerontologists:
+
+\begin{itemize}
+	
+	\item Ageing as a consequence of \textit{molecular infidelity}. In this case, stochastic chemical modifications of biomolecules, such as DNA or proteins, exceed the capacity of the repair and turnover systems of the organism and accumulate over time, which increases the entropy of the system. This leads to changes in molecular structure and, finally, changes in function, which increase vulnerability to age-related diseases \cite{Hayflick2007,Hayflick2007a}. From an evolutionary point of view, this fits into the \textit{disposable soma theory}, originally proposed by Thomas Kirkwood in 1977. This theory suggests that organisms have evolved to optimise the amount of energy dedicated to repair errors in somatic cells in order to maximise reproductive success (at the expense of indefinite survival) \cite{Kirkwood1977,Kirkwood1991}.
+	
+	\item Ageing as a consequence of \textit{hyperfunction}. In this case, the primary cause of ageing is an excessive activity of certain growth or development-related genes and pathways in later life \cite{Blagosklonny2006,Blagosklonny2010,DeMagalhaes2012,Gems2015}. In other words, ageing would be a program for development that has not been turned off \cite{Blagosklonny2006}. This idea is rooted on the concept of \textit{antagonistic pleiotropy}, an important pillar of the evolutionary theory of ageing originally proposed by George C. Williams in 1957 \cite{Williams1957}. It implies that certain genes have opposite effects on fitness at different ages, which is a consequence of the decrease in selection forces after reproductive age. A strong candidate is the \acrshort{TOR} (target of rapamycin) pathway, which promotes development in early life but also the advancement of several late-life pathologies \cite{Blagosklonny2010}. Interestingly, many studies have shown that inhibiting the TOR pathway can extend the lifespan of different species, including mice \cite{Harrison2009}.
+	
+\end{itemize}
+
+It has become clear that no single molecular mechanism will be able to explain ageing across all kingdoms of life. Different species have different life histories that are subjected to evolutionary trade-offs (e.g. regarding reproduction strategies, developmental schedules, ...) and that can affect the rate of ageing \cite{Ricklefs2010,Jones2013}. Nevertheless, it is possible to integrate all the ideas presented so far into a \textbf{theoretical framework} that can help to unify definitions across studies and set the foundations for mechanistic advancements on the biology of ageing (Fig.~\ref{fig:c1_fig1}, inspired by ideas from \cite{Hayflick2007,Gems2015,Peto1997}). Under this theoretical framework: 
+
+\begin{itemize}
+	
+	\item The ageing process is composed of different molecular mechanisms (subprocesses) that are operative at different stages of life and contribute, in variable proportions, to the appearance of different age-related diseases i.e. the risk of developing an age-related disease is the `integral of its ageing subprocesses operating over time'. Furthermore, the development of different diseases affects the mortality rate and, thus, the probability to die.
+	
+	\item If the ageing subprocesses can be altered through different genetic, lifestyle of pharmacological interventions, it is possible to reduce the likelihood of several age-related diseases at the same time. This makes ageing research incredibly relevant for the biomedical sciences, since it changes the current paradigm of developing interventions for a specific already-existing disease towards the prevention of several diseases simultaneously.
+	
+	\item  Differences in the average lifespan between different species should be explained by different combinations of ageing subprocesses and their rates.
+		
+\end{itemize}	
+
+Consequently, systems biology approaches become fundamental to understand the ageing process. In the next sections, I will provide an overview of the ageing mechanisms that may be operative in different species, with a special focus on mammalian species. 
+
+\begin{figure}[htbp!] 
+	\centering    
+	\includegraphics[width=0.8\textwidth]{C1_Fig1}
+	\vspace*{1 mm}
+	\caption[Theoretical framework to conceptualise the ageing process]{Theoretical framework to conceptualise the ageing process. \textbf{a.} The ageing process is composed of different molecular mechanisms (subprocesses) that are operative at different stages of life and contribute, in variable proportions (specified by the weights), to the appearance of different age-related diseases. Furthermore, the development of different diseases affects the mortality rate and, thus, the probability to die. \textbf{b.} and \textbf{c.} Examples of the life histories of two organisms. In these examples, two ageing mechanisms are operative: A (which changes its rate after reproductive age e.g. activated growth-related pathways) and B (with a constant rate over time e.g. some type of (epi)mutational process). Differences in the mechanisms' profiles lead to differences in the age-related diseases that manifest over the lifespan of the organisms, even though the molecular mechanisms are the same. This, affects the mortality rate and, ultimately, the time-to-death. This figure is inspired by ideas from \cite{Hayflick2007,Gems2015,Peto1997}.}
+	\label{fig:c1_fig1}
+\end{figure}
+
+\smallskip
+
+\subsection{The genetic basis of ageing}
+
+\smallskip
+
+Given the differences in the lifespan between species and even within species \cite{Jones2013, Gems2000}, it is nowadays clear that the ageing process must have a genetic basis. However, for a long time, the ageing process was thought to be a `haphazard process driven solely by entropy' \cite{Kenyon2005}. Furthermore, in 1935 Clive Maine McCay had shown that caloric restriction (a reduction in calories intake without malnutrition) could extend mean and maximal lifespan in rats \cite{McCay1935,McDonald2010}, which probably shifted the focus towards environmental or external causes as the main driver forces of the ageing process. Since then, dietary restriction (different types of dietary interventions that reduce food intake without malnutrition) has been established as the most successful non-genetic intervention to slow down the ageing process across species \cite{Fontana2015}.
+
+\bigskip
+
+The establishment of the nematode \textit{Caenorhabditis elegans} as a model organism in the 70s triggered its adoption in the ageing field \cite{KLASS1976}, since it allowed well-controlled experiments in a much shorter period of time than rodents \cite{Johnson2013}. This lead to the discovery of the first mutants that dramatically extended lifespan, which mapped to genes in the insulin/IGF-1 signalling pathway \cite{Kenyon1993,Morris1996}. Since then, many genes have been found to significantly affect the lifespan of other model organisms as well, such as budding yeast (\textit{Saccharomyces cerevisiae}), fruit fly (\textit{Drosophila melanogaster}) or mouse (\textit{Mus musculus}) \cite{Kenyon2005,Kenyon2010,Singh2019}. 
+
+\bigskip
+
+Interestingly, the effects of many of these genetic mutations and their pathways are shared by distantly-related species. This suggests that at least part of the molecular mechanisms that drive the ageing process could be evolutionarily conserved. Among these ageing-related signalling pathways it is worth highlighting (Fig.~) \cite{Kenyon2005,Kenyon2010,Singh2019}:
+
+\begin{itemize} 
+
+	\item \textbf{Insulin/IGF-1 pathway}. This underscores the central role of the endocrine system on the biology of ageing. Mutations in \textit{daf-2}, encoding an insulin/IGF-1 receptor, were originally found to double the lifespan of \textit{C. elegans} \cite{Kenyon1993}. Activation of the insulin / IGF-1 pathway, a PI3K pathway, leads to the phosphorylation of a transcription factor of the FOXO family, \textit{daf-16} in \textit{C. elegans}, which prevents it to reach the nucleus \cite{Lin2001}. FOXO transcription factors, of which there are several members in mammals, activate the expression of longevity-promoting genes involved in processes such as autophagy, resistance to oxidative stress or stem cell maintenance \cite{Martins2016}. This partially explains why inhibiting the insulin / IGF-1 pathway can increase organismal lifespan, although other downstream targets, such as \textit{hsf-1} in \textit{C. elegans} (a transcription factor that regulates heat-shock response), also seem to be required \cite{Hsu2003}. 
+	
+	\item \textbf{\acrshort{TOR} pathway}. Nutrient-sensing. TOR is a protein kinase that phosphorylates ribosomal S6 kinase and translation initiation factor 4E binding protein 1, an inhibitor of the eukaryotic initiation factor 4E, in response to nutrients, which in turn promotes growth (Inoki et al., 2005).
+	
+	\item \textbf{Sirtuins}. Sir2 --> SirT1 in mammals. NAD dependent. 
+	
+	\item \textbf{AMPK pathway}.
+
+\end{itemize}
+
+\bigskip
+
+These pathways (especially the insulin/IGF-1 and the TOR pathways) seem to have a dual role depending on the environmental context that the organism is facing. Under abundant nutrient availability and low stress, they tend to promote growth and reproduction. On the contrary, under harsh conditions (such as those posed by dietary restriction), they favour cell protection and maintenance \cite{Kenyon2005,Kenyon2010}. This also relates to the \textbf{disposable soma theory}, where more resources are allocated to reproduction or somatic maintenance depending on the context \cite{Kirkwood1977,Kirkwood1991}. Even though this model is a clear oversimplification, it becomes useful when thinking about the way that the ageing process might have evolved and how the same biological pathways can be repurposed to activate complex genetic programs with completely different goals.
+
+\bigskip
+
+Many more complexities which will require an entire thesis to discuss. Furthermore, the effects of the insulin/IGF-1 pathway seem to be mediated in a cell non-autonomous manner [EXPLAIN], tissue-specific [Tissue-specific activities of the C. elegans DAF-16 protein in the regulation of lifespan, https://www.cell.com/molecular-cell/fulltext/S1097-2765(05)00015-8] and change depending on the "life stage" [Timing requirements for insulin/IGF-1 signaling in C. elegans]. Therefore, the inner workings of the signalling pathways that seem to affect of the ageing process are still a topic of intense research.   
 
 
+
+endocrine signaling, stress responses, metabolism, and telomeres
+extend life span in response to sensory cues, caloric restriction, or stress
+Link between playing with the activation of those pathways and age-related disease, which connects it to the main paradigm we are discussing.
+Important take home message: the rate of ageing is plastic and maleable. 
+Extreme longevity, playing with several pathways, different increases possible, it gets more difficult with mammals
+https://www.ncbi.nlm.nih.gov/pubmed/14576426?dopt=Abstract
+
+
+AAK-2, AMP kinase; sir-2 --> upstream of daf-16
+
+Summary of pathways: http://jcs.biologists.org/content/121/4/407
+Hormesis
+Mitochondrial stuff
+
+
+
+Hallmarks could be understood of these ageing subprocesses or combinations of them.  
+
+
+Mammalian ageing. Lifespan, 
+
+
+Naked mole rat defy ageing. https://elifesciences.org/articles/31157
+%Latest review on genetics of ageing https://www.cell.com/cell/fulltext/S0092-8674(19)30221-1?dgcid=raven_jbs_etoc_email
+
+\subsection{Mammalian ageing}
+
+mice have separate receptors for insulin and IGF-1, several FOXOs, upstream regulation by growth hormone (e.g. Ames and Snell dwarf mice; (Brown-Borg et al., 1996
+, Flurkey et al., 2002
+)).
+
+Response to DR via which pathways.
+
+\subsection{Studying the ageing process in humans}
+
+29th
+This suggests that at least part of the molecular mechanisms that drive the ageing process could be conserved and therefore these discoveries translatable to humans
+Limits to human lifespan.
+Genetics: variation in FOXO 
+https://onlinelibrary.wiley.com/doi/full/10.1111/acel.12427
+Goal: extending healthspan. What happens in mutants in model organisms:
+https://onlinelibrary.wiley.com/doi/full/10.1111/acel.12704
+https://www.nature.com/articles/s41586-018-0457-8
+Progeroid syndromes.
+Centenarians, blue zones.
+Differences between males and females.
+Exceptional longevity. Centenarians. Blue zones, DNA methylation
+https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-017-0128-2
+Societal consequences
+Longitudinal vs cross-sectional, cohorts.
+This suggests that at least part of the molecular mechanisms that drive the ageing process could be conserved and therefore these discoveries translatable to humans. Anti-ageing drugs.
+Caloric restriction in humans
+https://www.ncbi.nlm.nih.gov/pubmed/27544442
+In primates: Dietary restriction delays disease onset and mortality in rhesus monkeys
+
+
+\section{Epigenetics of ageing}
+
+\section{A brief introduction to epigenetics}
+
+30th
+Waddington, Chreodes.
+Genetics vs environment. How much of the epigenome is genetically programmed.
+Epigenetics and development, developmental disorders, imprinting disorders, overgrowth.
+
+Potential energy landscapes identify the information-theoretic nature of the epigenome
+
+Transgenerational epigenetic inheritance of longevity in C. elegans.
+https://www.ncbi.nlm.nih.gov/pubmed/22012258
+
+
+\section{Fundamentals of DNA methylation}
+
+31st
+Species / Enzymes / reactions.
+Including briefly on technologies, mainly bisulfite sequencing.
+As part of the DNA methylation section: Measuring DNA methylation (i.e.table with technologies). Adapt from Advances in the profiling of DNA modifications, Nature Review Genetics
+A bit on the mainstream technologies: WGBS, RRBS, arrays (differences between them: e.g. different chemistries), basic principles behind the measurement. Define colour channels, bead, probe, chemistries, …
+
+\section{Epigenetic changes during mammalian ageing}
+
+1st
+Remodelling of the mouse epigenome. 
+https://www.biorxiv.org/content/10.1101/336172v1
+
+Define hypermethylated / hypermethylation and hypomethylated / hypomethylation.
+
+Age-related epigenetic changes at different levels: histone modifications, m6-RNA https://onlinelibrary.wiley.com/doi/full/10.1111/acel.12753
+
+Put in the context of theory (non-random): %https://www.cell.com/trends/genetics/fulltext/S0168-9525(13)00083-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0168952513000838%3Fshowall%3Dtrue
+
+
+\section{Epigenetic ageing clocks}
+
+\subsection{Measuring the ageing process}
+
+2nd
+
+At the population level: lifespan curves. 
+
+In all of this it was crucial --> One of the most useful tools used in ageing research are survival curves (aka lifespan curves). PLotting the survival distribution. The mortality rate function can follow different functional forms. Among them, the following form is normally used in ageing experiments \cite{Witten1986}:
+
+\begin{align}
+\lambda(t) = h_0 \cdot e^{\gamma t}
+\end{align}
+
+where $h_0$ and $\gamma$ are parameters of the model. This leads to the Gompertz survival distribution:
+
+\begin{align}
+S(t) = \exp \left[ \frac{h_0}{\gamma} \cdot (1-e^{\gamma t}) \right]
+\end{align}
+
+
+%The mathematical mortality model that fits Drosophila survival data best according to AIC (and BIC criterion) is in most cases the Gompertz %model [35% of all cases (45% for BIC criterion)], closely followed by the Weibull model [29% (35% for BIC criterion)], while for C. elegans, the %Weibull model is fitting best in most cases [51% of all cases (65% for BIC criterion)] and the Gompertz is only the best model in ~ 10% of the %cases. https://onlinelibrary.wiley.com/doi/full/10.1111/acel.12121
+
+In mammals generally Gompertz:
+https://www.ncbi.nlm.nih.gov/pubmed/29444805
+https://elifesciences.org/articles/31157 
+
+Naked mole rat defy ageing. https://elifesciences.org/articles/31157
+%Latest review on genetics of ageing https://www.cell.com/cell/fulltext/S0092-8674(19)30221-1?dgcid=raven_jbs_etoc_email
+
+
+Big problem at the individual level. Definition of biomarker. Biological age vs chronological age. Other biomarkers, focus on telomere length. 
+Conceptual root in the theories based on age changes \cite{Medvedev1990}.
+
+\subsection{The emergence of epigenetic clocks}
+
+3rd
+
+Conceptual root on molecular infidelity framework. At the genomic level, the frequency of this molecular damage (mutations, epimutations) seems to occur with a higher probability in specific regions. 
+Holliday's work on DNA methylation, part of theories of biological clock \cite{Medvedev1990}. 
+Discuss the tissue-specificity of aDMPs:
+https://www.ncbi.nlm.nih.gov/pubmed/29848354
+https://www.aging-us.com/article/101666/text
+
+Age-related aDMPs vs mortality DMPs:
+https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-019-0622-4
+
+Bocklandt S, et al.: Epigenetic predictor of age. PLoS One 2011, 6(6):e14821. 10.1371/journal.pone.0014821PubMed Central
+
+Make clarification: when we talk about the ‘epigenetic clock’ we are talking about the changes that the epigenome as a whole (and more specifically, the methylome) undergo upon ageing. If we refer to a specific epigenetic clock model, we will mention the name (e.g. Horvath epigenetic clock, mitotic epigenetic clock, …)
+
+Human (surprinsingly came first)
+
+In this case, biological age estimated by epigenetic clocks (trained on chronological age) is normally referred to epigenetic age. 
+
+Other species. Evolutionary perspective.
+
+Why DNA methylation has been more successful than RNA-seq (more robust across tissues, with the downside that it is more difficult to gain functional insights): https://www.ncbi.nlm.nih.gov/pubmed/23034122
+
+Idea that hypermethylation with age could be more conserved across tissues than hypomethylation with age.
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1064-3
+
+All the time-to-death, mortality rate stuff
+
+
+\subsection{The landscape of epigenetic clocks}
+
+4th
+Statistically speaking, the construction of epigenetic clocks is highly degenerate
+https://www.aging-us.com/article/101590/text
+
+Weird tissue cases: germ line?, breast, cerebellum, ...
+Rooted on ideas of different ageing rates across tissues:
+https://www.ncbi.nlm.nih.gov/pubmed/12397350
+
+Define what I mean by epigenetic ageing clock. Multi-tissue? 
+
+
+\subsection{What do we know about the epigenetic ageing clock so far?}
+
+5th
+Information from the background section in the screening paper.
+
+Association of epigenetic age acceleration with breast cancer risk https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djz020/5341521
+
+progeroid syndromes (e.g., Werner syndrome, Hutchinson Gilford Progeria Syndrome; Down syndrome) correlates with accelerated epigenetic aging
+
+The epigenetic clock seems to work in vitro, in cells, explants [] and organoids[]. Also cells from transplant maintain age, so probably cell intrinsic property. Single-cell analysis will figure this out, efforts already made with scRNA-seq clock.
+
+
+Indeed, the phenomenology of HIV+ patients, after several years of infection, shows striking similarities (regarding T cell subset derangement, T cell clonal expansion and telomere shortening of T cells) with that observed in aged people (Pawelec et al., 1999). It is possible to speculate that prolonged, chronic infections other than HIV, despite being less aggressive, can lead to similar results. Symptoms of accelerated immunosenescence are also present in Down’s syndrome, considered a syndrome of precocious aging (Fabris et al., 1984). [https://www.sciencedirect.com/science/article/pii/S0531556599000686?via%3Dihub#BIB40]. 
+
+Interestingly, epigenetic ageing according to Horvath's epigenetic clock (but not according to other epigenetic clocks, such as Hannum's clock, the skin-blood clock, $PhenoAge$ or $GrimAge$) seems to start a few weeks post-conception in fetal tissues \cite{Hoshino2019}. This could imply that the molecular processes responsible for mammalian ageing, at least at the epigenetic level, are already operative during pre-natal development. This \textbf{molecular continuum between development and ageing} is further reinforced by the fact that \textit{in vitro} reprogramming of somatic cells into \acrshort{iPSCs} reduces epigenetic age to values close to zero (or even negative) both in humans \cite{Horvath2013} and mice \cite{Petkovich2017,Meer2018}, which opens the door to potential rejuvenation therapies \cite{Rando2012,Olova2019}. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509060/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905065/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2956763/
+https://www.ncbi.nlm.nih.gov/pubmed/21184773
+
+Reprogramming of epigenetic age
+https://www.biorxiv.org/content/10.1101/573386v1
+
+
+Turning back time with emerging rejuvenation strategies
+
+Caloric restriction and DNA methylation https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1187-1
+
+
+Forced expression of the telomere-extending enzyme telomerase can prevent human cells in culture from undergoing senescence (Bodnar et al., 1998
+).overexpressing a protein that lengthens telomeres extends the life span of C. elegans (Joeng et al., 2004
+). This is intriguing because the somatic cells of C. elegans are postmitotic, so they are not susceptible to replicative telomere shortening
+
+t is, however, possible that the relatively sudden loss of a substantial proportion of cell replicative potential may account for the physical emaciation and loss of homoeostasis associated with senile decay. Kirkwood evolution of ageing
 

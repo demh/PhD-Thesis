@@ -11,50 +11,56 @@ A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Appendix/appendix.aux
 The style file: unsrt.bst
+Reallocated field_info (elt_size=4) to 10773 items from 5000.
 Database file #1: References/references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty publisher in Renfrew2016
+Warning--empty publisher in Witten1986
 Warning--empty institution in Illumina2010
 Warning--empty publisher in Eaton2007
 Warning--empty publisher in Sheather2009
-You've used 187 entries,
+Warning--empty institution in Research
+Warning--empty year in Research
+Warning--empty institution in Illumina2015
+You've used 251 entries,
             1791 wiz_defined-function locations,
-            1531 strings with 86011 characters,
-and the built_in function-call counts, 73942 in all, are:
-= -- 3838
-> -- 9121
-< -- 4
-+ -- 3108
-- -- 2921
-* -- 8165
-:= -- 14078
-add.period$ -- 549
-call.type$ -- 187
-change.case$ -- 187
+            1919 strings with 102195 characters,
+and the built_in function-call counts, 93160 in all, are:
+= -- 5293
+> -- 10597
+< -- 8
++ -- 3627
+- -- 3376
+* -- 9977
+:= -- 17383
+add.period$ -- 742
+call.type$ -- 251
+change.case$ -- 252
 chr.to.int$ -- 0
-cite$ -- 190
-duplicate$ -- 1674
-empty$ -- 4186
-format.name$ -- 2921
-if$ -- 14051
+cite$ -- 259
+duplicate$ -- 2279
+empty$ -- 5694
+format.name$ -- 3376
+if$ -- 17973
 int.to.chr$ -- 0
-int.to.str$ -- 187
-missing$ -- 173
-newline$ -- 924
-num.names$ -- 189
-pop$ -- 290
+int.to.str$ -- 251
+missing$ -- 236
+newline$ -- 1244
+num.names$ -- 253
+pop$ -- 379
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 652
+skip$ -- 884
 stack$ -- 0
-substring$ -- 3442
-swap$ -- 228
-text.length$ -- 4
+substring$ -- 4881
+swap$ -- 319
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 466
-width$ -- 190
-write$ -- 2013
-(There were 3 warnings)
+warning$ -- 8
+while$ -- 642
+width$ -- 254
+write$ -- 2713
+(There were 8 warnings)
