@@ -24,6 +24,17 @@ Matthew Witten.
 \newblock In {\em Evolution of longevity in animals: a comparative approach.},
   pages 295--317. 1986.
 
+\bibitem{DEMAGALHAES2009}
+J~P {DE MAGALH{\~{A}}ES} and J~COSTA.
+\newblock {A database of vertebrate longevity records and their relation to
+  other life-history traits}.
+\newblock {\em Journal of Evolutionary Biology}, 22(8):1770--1774, 2009.
+
+\bibitem{Finch2009}
+C~E Finch.
+\newblock {Update on Slow Aging and Negligible Senescence – A Mini-Review}.
+\newblock {\em Gerontology}, 55(3):307--313, 2009.
+
 \bibitem{Hayflick2007}
 Leonard Hayflick.
 \newblock {Biological aging is no longer an unsolved problem}.
@@ -75,15 +86,6 @@ G.~C. Williams.
 \newblock {Pleiotropy, Natural Selection, and the Evolution of Senescence}.
 \newblock {\em Evolution}, 11(4):398--411, 1957.
 
-\bibitem{Harrison2009}
-David~E Harrison, Randy Strong, Zelton~Dave Sharp, James~F Nelson, Clinton~M
-  Astle, Kevin Flurkey, Nancy~L Nadon, J~Erby Wilkinson, Krystyna Frenkel,
-  Christy~S Carter, Marco Pahor, Martin~a Javors, Elizabeth Fernandez, and
-  Richard~a Miller.
-\newblock {Rapamycin fed late in life extends lifespan in genetically
-  heterogeneous mice.}
-\newblock {\em Nature}, 460(7253):392--395, 2009.
-
 \bibitem{Ricklefs2010}
 Robert~E Ricklefs.
 \newblock {Life-history connections to rates of aging in terrestrial
@@ -103,6 +105,11 @@ Owen~R Jones, Alexander Scheuerlein, Roberto Salguero-G{\'{o}}mez,
 Richard Peto and Richard Doll.
 \newblock {There is no such thing as aging}.
 \newblock {\em BMJ}, 315(7115):1030, 1997.
+
+\bibitem{Freund2019}
+Adam Freund.
+\newblock {Untangling Aging Using Dynamic, Organism-Level Phenotypic Networks}.
+\newblock {\em Cell Systems}, 8(3):172--181, 2019.
 
 \bibitem{Gems2000}
 David Gems and Donald~L Riddle.
@@ -164,6 +171,16 @@ Param~Priya Singh, Brittany~A Demmitt, Ravi~D Nath, and Anne Brunet.
 \newblock {The Genetics of Aging: A Vertebrate Perspective}.
 \newblock {\em Cell}, 177(1):200--220, 2019.
 
+\bibitem{Greer2008}
+Eric~L. Greer and Anne Brunet.
+\newblock {Signaling networks in aging}.
+\newblock {\em Journal of Cell Science}, 121:407--412, 2008.
+
+\bibitem{Guarente2000}
+Leonard Guarente and Cynthia Kenyon.
+\newblock {Genetic pathways that regulate ageing in model organisms}.
+\newblock {\em Nature}, 408(6809):255--262, 2000.
+
 \bibitem{Lin2001}
 Kui Lin, Honor Hsin, Natasha Libina, and Cynthia Kenyon.
 \newblock {Regulation of the Caenorhabditis elegans longevity protein DAF-16 by
@@ -181,6 +198,92 @@ Ao-Lin Hsu, Coleen~T Murphy, and Cynthia Kenyon.
 \newblock {Regulation of Aging and Age-Related Disease by DAF-16 and Heat-Shock
   Factor}.
 \newblock {\em Science}, 300(5622):1142--1145, 2003.
+
+\bibitem{Tullet2008}
+Jennifer M~A Tullet, Maren Hertweck, Jae~Hyung An, Joseph Baker, Ji~Yun Hwang,
+  Shu Liu, Riva~P Oliveira, Ralf Baumeister, and T~Keith Blackwell.
+\newblock {Direct Inhibition of the Longevity-Promoting Factor SKN-1 by
+  Insulin-like Signaling in C. elegans}.
+\newblock {\em Cell}, 132(6):1025--1038, 2008.
+
+\bibitem{Um2006}
+Sung~Hee Um, David D'Alessio, and George Thomas.
+\newblock {Nutrient overload, insulin resistance, and ribosomal protein S6
+  kinase 1, S6K1}.
+\newblock {\em Cell Metabolism}, 3(6):393--402, 2006.
+
+\bibitem{Harrison2009}
+David~E Harrison, Randy Strong, Zelton~Dave Sharp, James~F Nelson, Clinton~M
+  Astle, Kevin Flurkey, Nancy~L Nadon, J~Erby Wilkinson, Krystyna Frenkel,
+  Christy~S Carter, Marco Pahor, Martin~a Javors, Elizabeth Fernandez, and
+  Richard~a Miller.
+\newblock {Rapamycin fed late in life extends lifespan in genetically
+  heterogeneous mice.}
+\newblock {\em Nature}, 460(7253):392--395, 2009.
+
+\bibitem{Mihaylova2011}
+Maria~M Mihaylova and Reuben~J Shaw.
+\newblock {The AMPK signalling pathway coordinates cell growth, autophagy and
+  metabolism}.
+\newblock {\em Nature Cell Biology}, 13:1016--1023, 2011.
+
+\bibitem{Anisimov2008}
+Vladimir~N Anisimov, Lev~M Berstein, Peter~A Egormin, Tatiana~S Piskunova,
+  Irina~G Popovich, Mark~A Zabezhinski, Margarita~L Tyndyk, Maria~V Yurova,
+  Irina~G Kovalenko, Tatiana~E Poroshina, and Anna~V Semenchenko.
+\newblock {Metformin slows down aging and extends life span of female SHR
+  mice}.
+\newblock {\em Cell Cycle}, 7(17):2769--2773, 2008.
+
+\bibitem{Martin-Montalvo2013}
+Alejandro Martin-Montalvo, Evi~M Mercken, Sarah~J Mitchell, Hector~H Palacios,
+  Patricia~L Mote, Morten Scheibye-Knudsen, Ana~P Gomes, Theresa~M Ward,
+  Robin~K Minor, Marie-Jos{\'{e}} Blouin, Matthias Schwab, Michael Pollak,
+  Yongqing Zhang, Yinbing Yu, Kevin~G Becker, Vilhelm~A Bohr, Donald~K Ingram,
+  David~A Sinclair, Norman~S Wolf, Stephen~R Spindler, Michel Bernier, and
+  Rafael de~Cabo.
+\newblock {Metformin improves healthspan and lifespan in mice}.
+\newblock {\em Nature Communications}, 4:2192, 2013.
+
+\bibitem{Barzilai2016}
+Nir Barzilai, Jill~P Crandall, Stephen~B Kritchevsky, and Mark~A Espeland.
+\newblock {Metformin as a Tool to Target Aging}.
+\newblock {\em Cell Metabolism}, 23(6):1060--1065, 2016.
+
+\bibitem{Bonkowski2016}
+Michael~S Bonkowski and David~A Sinclair.
+\newblock {Slowing ageing by design: the rise of NAD+ and sirtuin-activating
+  compounds}.
+\newblock {\em Nature Reviews Molecular Cell Biology}, 17:679--690, 2016.
+
+\bibitem{Lezzerini2014}
+Marco Lezzerini and Yelena Budovskaya.
+\newblock {A dual role of the Wnt signaling pathway during aging in
+  Caenorhabditis elegans}.
+\newblock {\em Aging Cell}, 13(1):8--18, 2014.
+
+\bibitem{Curran2009}
+Sean~P Curran, Xiaoyun Wu, Christian~G Riedel, and Gary Ruvkun.
+\newblock {A soma-to-germline transformation in long-lived Caenorhabditis
+  elegans mutants}.
+\newblock {\em Nature}, 459:1079--1084, 2009.
+
+\bibitem{Dillin2002}
+Andrew Dillin, Douglas~K Crawford, and Cynthia Kenyon.
+\newblock {Timing Requirements for Insulin/IGF-1 Signaling in C. elegans}.
+\newblock {\em Science}, 298(5594):830--834, 2002.
+
+\bibitem{Greer2007}
+Eric~L. Greer, Philip~R. Oskoui, Max~R. Banko, Jay~M. Maniar, Melanie~P. Gygi,
+  Steven~P. Gygi, and Anne Brunet.
+\newblock {The energy sensor AMP-activated protein kinase directly regulates
+  the mammalian FOXO3 transcription factor}.
+\newblock {\em Journal of Biological Chemistry}, 282:30107--30119, 2007.
+
+\bibitem{Arantes-Oliveira2003}
+Nuno Arantes-Oliveira, Jennifer~R Berman, and Cynthia Kenyon.
+\newblock {Healthy Animals with Extreme Longevity}.
+\newblock {\em Science}, 302(5645):611, 2003.
 
 \bibitem{Hoshino2019}
 Akina Hoshino, Steve Horvath, Akshayalakshmi Sridhar, Alex Chitsazan, and

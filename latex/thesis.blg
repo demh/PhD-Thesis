@@ -11,7 +11,7 @@ A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Appendix/appendix.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 10773 items from 5000.
+Reallocated field_info (elt_size=4) to 11164 items from 5000.
 Database file #1: References/references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in Renfrew2016
@@ -22,45 +22,45 @@ Warning--empty publisher in Sheather2009
 Warning--empty institution in Research
 Warning--empty year in Research
 Warning--empty institution in Illumina2015
-You've used 251 entries,
+You've used 268 entries,
             1791 wiz_defined-function locations,
-            1919 strings with 102195 characters,
-and the built_in function-call counts, 93160 in all, are:
-= -- 5293
-> -- 10597
+            2020 strings with 105688 characters,
+and the built_in function-call counts, 97826 in all, are:
+= -- 5697
+> -- 10869
 < -- 8
-+ -- 3627
-- -- 3376
-* -- 9977
-:= -- 17383
-add.period$ -- 742
-call.type$ -- 251
-change.case$ -- 252
++ -- 3724
+- -- 3456
+* -- 10387
+:= -- 18154
+add.period$ -- 793
+call.type$ -- 268
+change.case$ -- 269
 chr.to.int$ -- 0
-cite$ -- 259
-duplicate$ -- 2279
-empty$ -- 5694
-format.name$ -- 3376
-if$ -- 17973
+cite$ -- 276
+duplicate$ -- 2432
+empty$ -- 6102
+format.name$ -- 3456
+if$ -- 18947
 int.to.chr$ -- 0
-int.to.str$ -- 251
-missing$ -- 236
-newline$ -- 1244
-num.names$ -- 253
-pop$ -- 379
+int.to.str$ -- 268
+missing$ -- 253
+newline$ -- 1329
+num.names$ -- 270
+pop$ -- 396
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 884
+skip$ -- 941
 stack$ -- 0
-substring$ -- 4881
-swap$ -- 319
+substring$ -- 5316
+swap$ -- 336
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 642
-width$ -- 254
-write$ -- 2713
+while$ -- 691
+width$ -- 271
+write$ -- 2900
 (There were 8 warnings)
