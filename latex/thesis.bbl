@@ -24,6 +24,14 @@ Matthew Witten.
 \newblock In {\em Evolution of longevity in animals: a comparative approach.},
   pages 295--317. 1986.
 
+\bibitem{Jones2013}
+Owen~R Jones, Alexander Scheuerlein, Roberto Salguero-G{\'{o}}mez,
+  Carlo~Giovanni Camarda, Ralf Schaible, Brenda~B Casper, Johan~P Dahlgren,
+  Johan Ehrl{\'{e}}n, Mar{\'{i}}a~B Garc{\'{i}}a, Eric~S Menges, Pedro~F
+  Quintana-Ascencio, Hal Caswell, Annette Baudisch, and James~W Vaupel.
+\newblock {Diversity of ageing across the tree of life}.
+\newblock {\em Nature}, 505:169, 2013.
+
 \bibitem{DEMAGALHAES2009}
 J~P {DE MAGALH{\~{A}}ES} and J~COSTA.
 \newblock {A database of vertebrate longevity records and their relation to
@@ -92,14 +100,6 @@ Robert~E Ricklefs.
   vertebrates}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   107(22):10314--10319, 2010.
-
-\bibitem{Jones2013}
-Owen~R Jones, Alexander Scheuerlein, Roberto Salguero-G{\'{o}}mez,
-  Carlo~Giovanni Camarda, Ralf Schaible, Brenda~B Casper, Johan~P Dahlgren,
-  Johan Ehrl{\'{e}}n, Mar{\'{i}}a~B Garc{\'{i}}a, Eric~S Menges, Pedro~F
-  Quintana-Ascencio, Hal Caswell, Annette Baudisch, and James~W Vaupel.
-\newblock {Diversity of ageing across the tree of life}.
-\newblock {\em Nature}, 505:169, 2013.
 
 \bibitem{Peto1997}
 Richard Peto and Richard Doll.
@@ -284,6 +284,224 @@ Eric~L. Greer, Philip~R. Oskoui, Max~R. Banko, Jay~M. Maniar, Melanie~P. Gygi,
 Nuno Arantes-Oliveira, Jennifer~R Berman, and Cynthia Kenyon.
 \newblock {Healthy Animals with Extreme Longevity}.
 \newblock {\em Science}, 302(5645):611, 2003.
+
+\bibitem{Ayyadevara2008}
+Srinivas Ayyadevara, Ramani Alla, John~J Thaden, and Robert~J {Shmookler Reis}.
+\newblock {Remarkable longevity and stress resistance of nematode PI3K-null
+  mutants}.
+\newblock {\em Aging Cell}, 7(1):13--22, 2008.
+
+\bibitem{Ruby2018}
+J~Graham Ruby, Megan Smith, and Rochelle Buffenstein.
+\newblock {Naked mole-rat mortality rates defy Gompertzian laws by not
+  increasing with age}.
+\newblock {\em eLife}, 7:e31157, 2018.
+
+\bibitem{Fleischer2017}
+Toni Fleischer, Jutta Gampe, Alexander Scheuerlein, and Gerald Kerth.
+\newblock {Rare catastrophic events drive population dynamics in a bat species
+  with negligible senescence}.
+\newblock {\em Scientific Reports}, 7(1):7370, 2017.
+
+\bibitem{Martincorena2018}
+I{\~{n}}igo Martincorena, Joanna~C Fowler, Agnieszka Wabik, Andrew R~J Lawson,
+  Federico Abascal, Michael W~J Hall, Alex Cagan, Kasumi Murai, Krishnaa
+  Mahbubani, Michael~R Stratton, Rebecca~C Fitzgerald, Penny~A Handford,
+  Peter~J Campbell, Kourosh Saeb-Parsy, and Philip~H Jones.
+\newblock {Somatic mutant clones colonize the human esophagus with age}.
+\newblock {\em Science}, 362(6417):911--917, 2018.
+
+\bibitem{Larsson2010}
+Nils-G{\"{o}}ran Larsson.
+\newblock {Somatic Mitochondrial DNA Mutations in Mammalian Aging}.
+\newblock {\em Annual Review of Biochemistry}, 79(1):683--706, 2010.
+
+\bibitem{Alexandrov2014}
+Ludmil~B Alexandrov and Michael~R Stratton.
+\newblock {Mutational signatures: the patterns of somatic mutations hidden in
+  cancer genomes}.
+\newblock {\em Current Opinion in Genetics {\&} Development}, 24:52--60, 2014.
+
+\bibitem{Alexandrov2015}
+Ludmil~B Alexandrov, Philip~H Jones, David~C Wedge, Julian~E Sale, Peter~J
+  Campbell, Serena Nik-Zainal, and Michael~R Stratton.
+\newblock {Clock-like mutational processes in human somatic cells}.
+\newblock {\em Nature Genetics}, 47(12):1402--1407, 2015.
+
+\bibitem{Oberdoerffer2007}
+Philipp Oberdoerffer and David~A Sinclair.
+\newblock {The role of nuclear architecture in genomic instability and ageing}.
+\newblock {\em Nature Reviews Molecular Cell Biology}, 8:692--702, 2007.
+
+\bibitem{Orr2016}
+William~C. Orr.
+\newblock {Tightening the connection between transposable element mobilization
+  and aging}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  113(40):11069--11070, 2016.
+
+\bibitem{OSullivan2010}
+Roderick~J O'Sullivan and Jan Karlseder.
+\newblock {Telomeres: protecting chromosomes against genome instability}.
+\newblock {\em Nature Reviews Molecular Cell Biology}, 11:171--181, 2010.
+
+\bibitem{Hayflick1961}
+L~Hayflick and P~S Moorhead.
+\newblock {The serial cultivation of human diploid cell strains}.
+\newblock {\em Experimental Cell Research}, 25(3):585--621, 1961.
+
+\bibitem{Hayflick1998}
+Leonard Hayflick.
+\newblock {A Brief History of the Mortality and Immortality of Cultured Cells}.
+\newblock {\em The Keio Journal of Medicine}, 47(3):174--182, 1998.
+
+\bibitem{Blasco2007}
+Maria~A Blasco.
+\newblock {Telomere length, stem cells and aging}.
+\newblock {\em Nature Chemical Biology}, 3:640, sep 2007.
+
+\bibitem{Tomas-Loba2008}
+Antonia Tom{\'{a}}s-Loba, Ignacio Flores, Pablo~J Fern{\'{a}}ndez-Marcos,
+  Mar{\'{i}}a~L Cayuela, Antonio Maraver, Agueda Tejera, Consuelo Borr{\'{a}}s,
+  Ander Matheu, Peter Klatt, Juana~M Flores, Jos{\'{e}} Vi{\~{n}}a, Manuel
+  Serrano, and Maria~A Blasco.
+\newblock {Telomerase Reverse Transcriptase Delays Aging in Cancer-Resistant
+  Mice}.
+\newblock {\em Cell}, 135(4):609--622, 2008.
+
+\bibitem{Herranz2018}
+Nicol{\'{a}}s Herranz and Jes{\'{u}}s Gil.
+\newblock {Mechanisms and functions of cellular senescence}.
+\newblock {\em The Journal of Clinical Investigation}, 128(4):1238--1246, 2018.
+
+\bibitem{Baker2011}
+Darren~J Baker, Tobias Wijshake, Tamar Tchkonia, Nathan~K LeBrasseur, Bennett~G
+  Childs, Bart van~de Sluis, James~L Kirkland, and Jan~M van Deursen.
+\newblock {Clearance of p16Ink4a-positive senescent cells delays
+  ageing-associated disorders}.
+\newblock {\em Nature}, 479:232--236, 2011.
+
+\bibitem{Baker2016}
+Darren~J Baker, Bennett~G Childs, Matej Durik, Melinde~E Wijers, Cynthia~J
+  Sieben, Jian Zhong, Rachel {A. Saltness}, Karthik~B Jeganathan,
+  Grace~Casaclang Verzosa, Abdulmohammad Pezeshki, Khashayarsha Khazaie,
+  Jordan~D Miller, and Jan~M van Deursen.
+\newblock {Naturally occurring p16Ink4a-positive cells shorten healthy
+  lifespan}.
+\newblock {\em Nature}, 530:184--189, 2016.
+
+\bibitem{Xu2018}
+Ming Xu, Tamar Pirtskhalava, Joshua~N Farr, Bettina~M Weigand, Allyson~K
+  Palmer, Megan~M Weivoda, Christina~L Inman, Mikolaj~B Ogrodnik, Christine~M
+  Hachfeld, Daniel~G Fraser, Jennifer~L Onken, Kurt~O Johnson, Grace~C Verzosa,
+  Larissa G~P Langhi, Moritz Weigl, Nino Giorgadze, Nathan~K LeBrasseur,
+  Jordan~D Miller, Diana Jurk, Ravinder~J Singh, David~B Allison, Keisuke
+  Ejima, Gene~B Hubbard, Yuji Ikeno, Hajrunisa Cubro, Vesna~D Garovic, Xiaonan
+  Hou, S~John Weroha, Paul~D Robbins, Laura~J Niedernhofer, Sundeep Khosla,
+  Tamara Tchkonia, and James~L Kirkland.
+\newblock {Senolytics improve physical function and increase lifespan in old
+  age}.
+\newblock {\em Nature Medicine}, 24(8):1246--1256, 2018.
+
+\bibitem{Kirkland2017}
+James~L Kirkland, Tamara Tchkonia, Yi~Zhu, Laura~J Niedernhofer, and Paul~D
+  Robbins.
+\newblock {The Clinical Potential of Senolytic Drugs}.
+\newblock {\em Journal of the American Geriatrics Society}, 65(10):2297--2301,
+  2017.
+
+\bibitem{DeCecco2019}
+Marco {De Cecco}, Takahiro Ito, Anna~P Petrashen, Amy~E Elias, Nicholas~J
+  Skvir, Steven~W Criscione, Alberto Caligiana, Greta Brocculi, Emily~M Adney,
+  Jef~D Boeke, Oanh Le, Christian Beaus{\'{e}}jour, Jayakrishna Ambati,
+  Kameshwari Ambati, Matthew Simon, Andrei Seluanov, Vera Gorbunova, P~Eline
+  Slagboom, Stephen~L Helfand, Nicola Neretti, and John~M Sedivy.
+\newblock {L1 drives IFN in senescent cells and promotes age-associated
+  inflammation}.
+\newblock {\em Nature}, 566(7742):73--78, 2019.
+
+\bibitem{Partridge2018}
+Linda Partridge, Joris Deelen, and P~Eline Slagboom.
+\newblock {Facing up to the global challenges of ageing}.
+\newblock {\em Nature}, 561(7721):45--56, 2018.
+
+\bibitem{Dong2016}
+Xiao Dong, Brandon Milholland, and Jan Vijg.
+\newblock {Evidence for a limit to human lifespan}.
+\newblock {\em Nature}, 538:257--259, 2016.
+
+\bibitem{Gompertz1825}
+Benjamin Gompertz.
+\newblock {On the Nature of the Function Expressive of the Law of Human
+  Mortality, and on a New Mode of Determining the Value of Life Contingencies}.
+\newblock {\em Philosophical Transactions of the Royal Society of London},
+  115:513--583, 1825.
+
+\bibitem{Barbi2018}
+Elisabetta Barbi, Francesco Lagona, Marco Marsili, James~W Vaupel, and
+  Kenneth~W Wachter.
+\newblock {The plateau of human mortality: Demography of longevity pioneers}.
+\newblock {\em Science}, 360(6396):1459--1461, 2018.
+
+\bibitem{Kontis2017}
+Vasilis Kontis, James~E. Bennett, Colin~D. Mathers, Guangquan Li, Kyle Foreman,
+  and Majid Ezzati.
+\newblock {Future life expectancy in 35 industrialised countries: projections
+  with a Bayesian model ensemble}.
+\newblock {\em The Lancet}, 389(10076):1323--1335, 2017.
+
+\bibitem{Fine2014}
+Michael Fine.
+\newblock {Intergenerational perspectives on ageing, economics and
+  globalisation}.
+\newblock {\em Australasian Journal on Ageing}, 33(4):220--225, 2014.
+
+\bibitem{NewellStamper2018}
+Breanne~L {Newell Stamper}, James~R Cypser, Katerina Kechris, David~Alan
+  Kitzenberg, Patricia~M Tedesco, and Thomas~E Johnson.
+\newblock {Movement decline across lifespan of Caenorhabditis elegans mutants
+  in the insulin/insulin-like signaling pathway}.
+\newblock {\em Aging Cell}, 17(1):e12704, 2018.
+
+\bibitem{Bahcall2018}
+Orli~G Bahcall.
+\newblock {UK Biobank — a new era in genomic medicine}.
+\newblock {\em Nature Reviews Genetics}, 19(12):737, 2018.
+
+\bibitem{Rahmadi2017}
+Ridho Rahmadi, Perry Groot, Marieke H~C van Rijn, Jan A J~G van~den Brand,
+  Marianne Heins, Hans Knoop, and Tom Heskes.
+\newblock {Causality on longitudinal data: Stable specification search in
+  constrained structural equation modeling}.
+\newblock {\em Statistical Methods in Medical Research}, 27(12):3814--3834,
+  2017.
+
+\bibitem{FitzGerald2018}
+Garret FitzGerald, David Botstein, Robert Califf, Rory Collins, Keith Peters,
+  Nick {Van Bruggen}, and Dan Rader.
+\newblock {The future of humans as model organisms}.
+\newblock {\em Science}, 361(6402):552--553, 2018.
+
+\bibitem{Austad2016}
+Steven~N Austad and Kathleen~E Fischer.
+\newblock {Sex Differences in Lifespan}.
+\newblock {\em Cell Metabolism}, 23(6):1022--1033, 2016.
+
+\bibitem{Ruby2018a}
+J~Graham Ruby, Kevin~M Wright, Kristin~A Rand, Amir Kermany, Keith Noto, Don
+  Curtis, Neal Varner, Daniel Garrigan, Dmitri Slinkov, Ilya Dorfman, Julie~M
+  Granka, Jake Byrnes, Natalie Myres, and Catherine Ball.
+\newblock {Estimates of the Heritability of Human Longevity Are Substantially
+  Inflated due to Assortative Mating}.
+\newblock {\em Genetics}, 210(3):1109--1124, 2018.
+
+\bibitem{Kaplanis2018}
+Joanna Kaplanis, Assaf Gordon, Tal Shor, Omer Weissbrod, Dan Geiger, Mary Wahl,
+  Michael Gershovits, Barak Markus, Mona Sheikh, Melissa Gymrek, Gaurav Bhatia,
+  Daniel~G MacArthur, Alkes~L Price, and Yaniv Erlich.
+\newblock {Quantitative analysis of population-scale family trees with millions
+  of relatives}.
+\newblock {\em Science}, 360(6385):171--175, 2018.
 
 \bibitem{Hoshino2019}
 Akina Hoshino, Steve Horvath, Akshayalakshmi Sridhar, Alex Chitsazan, and

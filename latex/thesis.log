@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.13)  29 MAR 2019 02:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.13)  31 MAR 2019 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1570,7 +1570,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 ] [2]
-<Chapter1/Figs/PDF/C1_Fig1.pdf, id=681, 434.72348pt x 656.64891pt>
+<Chapter1/Figs/PDF/C1_Fig1.pdf, id=684, 434.72348pt x 656.64891pt>
 File: Chapter1/Figs/PDF/C1_Fig1.pdf Graphic file (type pdf)
 <use Chapter1/Figs/PDF/C1_Fig1.pdf>
 Package pdftex.def Info: Chapter1/Figs/PDF/C1_Fig1.pdf  used on input line 74.
@@ -1587,95 +1587,88 @@ Overfull \hbox (2.56114pt too wide) in paragraph at lines 104--105
 oti-namide ade-nine din-u-cleotide ([][][]NAD$[]$[][])-dependent
  []
 
-[6] [7]
-Overfull \hbox (20.27942pt too wide) in paragraph at lines 153--159
-\T1/ptm/m/n/12 (-20) lifes-pan. Ge-net-ics: vari-a-tion in FOXO https://onlinel
-ibrary.wiley.com/doi/full/10.1111/acel.12427
- []
-
-
-Overfull \hbox (210.06786pt too wide) in paragraph at lines 160--175
-[]\T1/ptm/m/n/12 (-20) Goal: ex-tend-ing healthspan. What hap-pens in mu-tants 
-in model or-gan-isms: https://onlinelibrary.wiley.com/doi/full/10.1111/acel.127
-04
- []
-
-
-Overfull \hbox (66.46721pt too wide) in paragraph at lines 160--175
-\T1/ptm/m/n/12 (-20) Blue zones, DNA methy-la-tion https://epigeneticsandchroma
-tin.biomedcentral.com/articles/10.1186/s13072-
- []
-
-[8]
-Overfull \hbox (128.13782pt too wide) in paragraph at lines 188--190
+[6] [7] [8] [9] [10] [11]
+Overfull \hbox (128.13782pt too wide) in paragraph at lines 222--224
 []\T1/ptm/m/n/12 (-20) Transgenerational epi-ge-netic in-her-i-tance of longevi
 ty in C. el-e-gans. https://www.ncbi.nlm.nih.gov/pubmed/22012258 
  []
 
-
-Overfull \hbox (0.81583pt too wide) in paragraph at lines 202--205
-\T1/ptm/m/n/12 (-20) 1st Re-mod-elling of the mouse epigenome. https://www.bior
-xiv.org/content/10.1101/336172v1 
+[12]
+Overfull \hbox (48.18483pt too wide) in paragraph at lines 240--243
+\T1/ptm/m/n/12 (-20) cult to study. Re-mod-elling of the mouse epigenome. https
+://www.biorxiv.org/content/10.1101/336172v1 
  []
 
-[9]
-Overfull \hbox (135.15651pt too wide) in paragraph at lines 262--264
+[13]
+Overfull \hbox (135.15651pt too wide) in paragraph at lines 312--314
 []\T1/ptm/m/n/12 (-20) Age-related aDMPs vs mor-tal-ity DMPs: https://clinicale
 pigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-
  []
 
 
-Overfull \hbox (8.70529pt too wide) in paragraph at lines 265--266
+Overfull \hbox (8.70529pt too wide) in paragraph at lines 315--316
 []\T1/ptm/m/n/12 (-20) Bocklandt S, et al.: Epi-ge-netic pre-dic-tor of age. PL
 oS One 2011, 6(6):e14821. 10.1371/jour-
  []
 
-[10]
-Overfull \hbox (142.2341pt too wide) in paragraph at lines 275--276
+[14]
+Overfull \hbox (142.2341pt too wide) in paragraph at lines 325--326
 \T1/ptm/m/n/12 (-20) sues, with the down-side that it is more dif-fi-cult to ga
 in func-tional in-sights): https://www.ncbi.nlm.nih.gov/pubmed/23034122 
  []
 
 
-Overfull \hbox (40.3683pt too wide) in paragraph at lines 285--288
-\T1/ptm/m/n/12 (-20) 4th Sta-tis-ti-cally speak-ing, the con-struc-tion of epi-
+Overfull \hbox (40.7883pt too wide) in paragraph at lines 335--338
+\T1/ptm/m/n/12 (-20) 5th Sta-tis-ti-cally speak-ing, the con-struc-tion of epi-
 ge-netic clocks is highly de-gen-er-ate https://www.aging-
  []
 
 
-Overfull \hbox (69.97395pt too wide) in paragraph at lines 301--302
+Overfull \hbox (69.97395pt too wide) in paragraph at lines 351--352
 []\T1/ptm/m/n/12 (-20) Association of epi-ge-netic age ac-cel-er-a-tion with br
 east can-cer risk https://academic.oup.com/jnci/advance-
  []
 
-[11]
-Overfull \hbox (128.68555pt too wide) in paragraph at lines 312--316
+[15]
+Overfull \hbox (128.68555pt too wide) in paragraph at lines 367--371
 []\T1/ptm/m/n/12 (-20) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509060/ ht
 tps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905065/
  []
 
 
-Overfull \hbox (69.91542pt too wide) in paragraph at lines 312--316
+Overfull \hbox (69.91542pt too wide) in paragraph at lines 367--371
 \T1/ptm/m/n/12 (-20) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2956763/ http
 s://www.ncbi.nlm.nih.gov/pubmed/21184773 
  []
 
 
-Overfull \hbox (88.39992pt too wide) in paragraph at lines 323--324
+Overfull \hbox (88.39992pt too wide) in paragraph at lines 378--379
 []\T1/ptm/m/n/12 (-20) Caloric re-stric-tion and DNA methy-la-tion https://geno
 mebiology.biomedcentral.com/articles/10.1186/s13059-
  []
 
-) [12]
+
+Overfull \hbox (91.23758pt too wide) in paragraph at lines 389--402
+\T1/ptm/m/n/12 (-20) 9 H4K20 methy-la-tion seems to be en-riched in telom-eres 
+https://academic.oup.com/nar/article/46/5/2347/4816214
+ []
+
+
+Overfull \hbox (139.09955pt too wide) in paragraph at lines 389--402
+\T1/ptm/m/n/12 (-20) Con-se-quences of los-ing H4K20 methy-la-tion in telom-ere
+s Re-view: https://academic.oup.com/nar/article/41/5/2797/2414826
+ []
+
+[16]) [17]
 \openout2 = `Chapter2/chapter2.aux'.
 
- (./Chapter2/chapter2.tex
-Chapter 2.
-[13
+ (./Chapter2/chapter2.tex [18
 
 
 
 ]
+Chapter 2.
+[19]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -1698,18 +1691,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
-<Chapter2/Figs/pdf/C2_Fig1.pdf, id=912, 361.35pt x 361.35pt>
+<Chapter2/Figs/pdf/C2_Fig1.pdf, id=1029, 361.35pt x 361.35pt>
 File: Chapter2/Figs/pdf/C2_Fig1.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig1.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig1.pdf  used on input line 77.
 (pdftex.def)             Requested size: 262.47934pt x 262.48206pt.
-[14 <./Chapter2/Figs/pdf/C2_Fig1.pdf>] [15]
+[20 <./Chapter2/Figs/pdf/C2_Fig1.pdf>] [21]
 Overfull \hbox (11.64487pt too wide) detected at line 114
 []
  []
 
-[16]
-<Chapter2/Figs/pdf/C2_Fig2.pdf, id=966, 538.14514pt x 824.35959pt>
+[22]
+<Chapter2/Figs/pdf/C2_Fig2.pdf, id=1083, 538.14514pt x 824.35959pt>
 File: Chapter2/Figs/pdf/C2_Fig2.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig2.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig2.pdf  used on input line 147.
@@ -1719,15 +1712,15 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig2.pdf  used on input line 147.
 
 LaTeX Warning: Float too large for page by 26.02211pt on input line 151.
 
-[17] [18 <./Chapter2/Figs/pdf/C2_Fig2.pdf>] [19]
-<Chapter2/Figs/pdf/C2_Fig3.pdf, id=1092, 361.35pt x 361.35pt>
+[23] [24 <./Chapter2/Figs/pdf/C2_Fig2.pdf>] [25]
+<Chapter2/Figs/pdf/C2_Fig3.pdf, id=1209, 361.35pt x 361.35pt>
 File: Chapter2/Figs/pdf/C2_Fig3.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig3.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig3.pdf  used on input line 180.
 
 (pdftex.def)             Requested size: 349.97023pt x 349.97424pt.
- [20 <./Chapter2/Figs/pdf/C2_Fig3.pdf>] [21] [22] [23] [24]
-<Chapter2/Figs/pdf/C2_Fig4.pdf, id=1211, 405.4028pt x 782.5497pt>
+ [26 <./Chapter2/Figs/pdf/C2_Fig3.pdf>] [27] [28] [29] [30]
+<Chapter2/Figs/pdf/C2_Fig4.pdf, id=1328, 405.4028pt x 782.5497pt>
 File: Chapter2/Figs/pdf/C2_Fig4.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig4.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig4.pdf  used on input line 283.
@@ -1737,7 +1730,7 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig4.pdf  used on input line 283.
 
 LaTeX Warning: Float too large for page by 27.35272pt on input line 286.
 
-<Chapter2/Figs/pdf/C2_Fig5.pdf, id=1216, 722.7pt x 1084.05pt>
+<Chapter2/Figs/pdf/C2_Fig5.pdf, id=1333, 722.7pt x 1084.05pt>
 File: Chapter2/Figs/pdf/C2_Fig5.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig5.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig5.pdf  used on input line 290.
@@ -1746,7 +1739,7 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig5.pdf  used on input line 290.
 
 LaTeX Warning: Float too large for page by 14.78712pt on input line 293.
 
-<Chapter2/Figs/pdf/C2_Fig6.pdf, id=1232, 722.7pt x 1084.05pt>
+<Chapter2/Figs/pdf/C2_Fig6.pdf, id=1349, 722.7pt x 1084.05pt>
 File: Chapter2/Figs/pdf/C2_Fig6.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig6.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig6.pdf  used on input line 318.
@@ -1755,49 +1748,49 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig6.pdf  used on input line 318.
 
 LaTeX Warning: Float too large for page by 38.78712pt on input line 321.
 
-[25] [26 <./Chapter2/Figs/pdf/C2_Fig4.pdf>] [27 <./Chapter2/Figs/pdf/C2_Fig5.pd
-f>] [28 <./Chapter2/Figs/pdf/C2_Fig6.pdf>] [29]
-<Chapter2/Figs/pdf/C2_Fig7.pdf, id=1357, 574.34528pt x 585.67256pt>
+[31] [32 <./Chapter2/Figs/pdf/C2_Fig4.pdf>] [33 <./Chapter2/Figs/pdf/C2_Fig5.pd
+f>] [34 <./Chapter2/Figs/pdf/C2_Fig6.pdf>] [35]
+<Chapter2/Figs/pdf/C2_Fig7.pdf, id=1474, 574.34528pt x 585.67256pt>
 File: Chapter2/Figs/pdf/C2_Fig7.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig7.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig7.pdf  used on input line 366.
 
 (pdftex.def)             Requested size: 437.46112pt x 446.08092pt.
- [30] [31 <./Chapter2/Figs/pdf/C2_Fig7.pdf>]
-<Chapter2/Figs/pdf/C2_Fig8.pdf, id=1431, 578.16pt x 578.16pt>
+ [36] [37 <./Chapter2/Figs/pdf/C2_Fig7.pdf>]
+<Chapter2/Figs/pdf/C2_Fig8.pdf, id=1547, 578.16pt x 578.16pt>
 File: Chapter2/Figs/pdf/C2_Fig8.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig8.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig8.pdf  used on input line 379.
 
 (pdftex.def)             Requested size: 393.71233pt x 393.7082pt.
- [32 <./Chapter2/Figs/pdf/C2_Fig8.pdf>] [33]
-<Chapter2/Figs/pdf/C2_Fig9.pdf, id=1483, 361.35pt x 361.35pt>
+ [38 <./Chapter2/Figs/pdf/C2_Fig8.pdf>] [39]
+<Chapter2/Figs/pdf/C2_Fig9.pdf, id=1600, 361.35pt x 361.35pt>
 File: Chapter2/Figs/pdf/C2_Fig9.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig9.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig9.pdf  used on input line 410.
 
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
-<Chapter2/Figs/pdf/C2_Fig10.pdf, id=1484, 585.7312pt x 297.07726pt>
+<Chapter2/Figs/pdf/C2_Fig10.pdf, id=1601, 585.7312pt x 297.07726pt>
 File: Chapter2/Figs/pdf/C2_Fig10.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig10.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig10.pdf  used on input line 418
 .
 (pdftex.def)             Requested size: 437.46112pt x 221.87811pt.
- [34 <./Chapter2/Figs/pdf/C2_Fig9.pdf>] [35 <./Chapter2/Figs/pdf/C2_Fig10.pdf>]
- [36]
-<Chapter2/Figs/pdf/C2_Fig11.pdf, id=1565, 361.35pt x 361.35pt>
+ [40 <./Chapter2/Figs/pdf/C2_Fig9.pdf>] [41 <./Chapter2/Figs/pdf/C2_Fig10.pdf>]
+ [42]
+<Chapter2/Figs/pdf/C2_Fig11.pdf, id=1682, 361.35pt x 361.35pt>
 File: Chapter2/Figs/pdf/C2_Fig11.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig11.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig11.pdf  used on input line 490
 .
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
- [37 <./Chapter2/Figs/pdf/C2_Fig11.pdf>]
+ [43 <./Chapter2/Figs/pdf/C2_Fig11.pdf>]
 Overfull \hbox (17.47958pt too wide) detected at line 536
 []
  []
 
-[38]
-<Chapter2/Figs/pdf/C2_Fig12.pdf, id=1598, 593.07283pt x 632.38713pt>
+[44]
+<Chapter2/Figs/pdf/C2_Fig12.pdf, id=1715, 593.07283pt x 632.38713pt>
 File: Chapter2/Figs/pdf/C2_Fig12.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig12.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig12.pdf  used on input line 562
@@ -1807,8 +1800,8 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig12.pdf  used on input line 562
 
 LaTeX Warning: Float too large for page by 30.8689pt on input line 566.
 
-[39] [40 <./Chapter2/Figs/pdf/C2_Fig12.pdf>] [41]
-<Chapter2/Figs/pdf/C2_Fig13.pdf, id=1702, 523.7489pt x 809.42397pt>
+[45] [46 <./Chapter2/Figs/pdf/C2_Fig12.pdf>] [47]
+<Chapter2/Figs/pdf/C2_Fig13.pdf, id=1818, 523.7489pt x 809.42397pt>
 File: Chapter2/Figs/pdf/C2_Fig13.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig13.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig13.pdf  used on input line 594
@@ -1818,15 +1811,15 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig13.pdf  used on input line 594
 
 LaTeX Warning: Float too large for page by 90.78397pt on input line 598.
 
-[42] [43 <./Chapter2/Figs/pdf/C2_Fig13.pdf>]
-<Chapter2/Figs/pdf/C2_Fig14.pdf, id=1787, 363.387pt x 361.35pt>
+<Chapter2/Figs/pdf/C2_Fig14.pdf, id=1831, 363.387pt x 361.35pt>
 File: Chapter2/Figs/pdf/C2_Fig14.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig14.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig14.pdf  used on input line 606
 .
 (pdftex.def)             Requested size: 306.22144pt x 304.51338pt.
- [44 <./Chapter2/Figs/pdf/C2_Fig14.pdf>]
-<Chapter2/Figs/pdf/C2_Fig15.pdf, id=1838, 583.66629pt x 616.59975pt>
+[48] [49 <./Chapter2/Figs/pdf/C2_Fig13.pdf>] [50 <./Chapter2/Figs/pdf/C2_Fig14.
+pdf>]
+<Chapter2/Figs/pdf/C2_Fig15.pdf, id=1955, 583.66629pt x 616.59975pt>
 File: Chapter2/Figs/pdf/C2_Fig15.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig15.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig15.pdf  used on input line 636
@@ -1834,34 +1827,34 @@ Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig15.pdf  used on input line 636
 (pdftex.def)             Requested size: 437.46112pt x 462.14761pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 644.
- [45] [46 <./Chapter2/Figs/pdf/C2_Fig15.pdf>]
-<Chapter2/Figs/pdf/C2_Fig16.pdf, id=1907, 574.48918pt x 623.20996pt>
+ [51] [52 <./Chapter2/Figs/pdf/C2_Fig15.pdf>]
+<Chapter2/Figs/pdf/C2_Fig16.pdf, id=2024, 574.48918pt x 623.20996pt>
 File: Chapter2/Figs/pdf/C2_Fig16.pdf Graphic file (type pdf)
 <use Chapter2/Figs/pdf/C2_Fig16.pdf>
 Package pdftex.def Info: Chapter2/Figs/pdf/C2_Fig16.pdf  used on input line 659
 .
 (pdftex.def)             Requested size: 437.46112pt x 474.57642pt.
- [47] [48 <./Chapter2/Figs/pdf/C2_Fig16.pdf>] [49]) [50]
+ [53] [54 <./Chapter2/Figs/pdf/C2_Fig16.pdf>] [55]) [56]
 \openout2 = `Chapter3/chapter3.aux'.
 
  (./Chapter3/chapter3.tex
 Chapter 3.
-[51
+[57
 
 
 
 ]
-<Chapter3/Figs/PDF/C3_Fig1.pdf, id=2017, 361.35pt x 361.35pt>
+<Chapter3/Figs/PDF/C3_Fig1.pdf, id=2134, 361.35pt x 361.35pt>
 File: Chapter3/Figs/PDF/C3_Fig1.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig1.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig1.pdf  used on input line 41.
 (pdftex.def)             Requested size: 262.47934pt x 262.48206pt.
-<Chapter3/Figs/PDF/C3_Fig2.pdf, id=2018, 963.6pt x 542.025pt>
+<Chapter3/Figs/PDF/C3_Fig2.pdf, id=2135, 963.6pt x 542.025pt>
 File: Chapter3/Figs/PDF/C3_Fig2.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig2.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig2.pdf  used on input line 49.
 (pdftex.def)             Requested size: 437.46112pt x 246.06763pt.
- [52 <./Chapter3/Figs/PDF/C3_Fig1.pdf>]
+ [58 <./Chapter3/Figs/PDF/C3_Fig1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
 []|\T1/ptm/b/n/10.95 Gene(s)
  []
@@ -1976,8 +1969,8 @@ Overfull \hbox (4.42465pt too wide) in paragraph at lines 57--91
 [][]
  []
 
-[53 <./Chapter3/Figs/PDF/C3_Fig2.pdf>] [54]
-<Chapter3/Figs/PDF/C3_Fig3.pdf, id=2074, 433.62pt x 578.16pt>
+[59 <./Chapter3/Figs/PDF/C3_Fig2.pdf>] [60]
+<Chapter3/Figs/PDF/C3_Fig3.pdf, id=2190, 433.62pt x 578.16pt>
 File: Chapter3/Figs/PDF/C3_Fig3.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig3.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig3.pdf  used on input line 115.
@@ -1987,8 +1980,8 @@ Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig3.pdf  used on input line 115.
 
 LaTeX Warning: Float too large for page by 43.5255pt on input line 118.
 
-[55] [56 <./Chapter3/Figs/PDF/C3_Fig3.pdf>]
-<Chapter3/Figs/PDF/C3_Fig4.pdf, id=2098, 334.90477pt x 375.52046pt>
+[61] [62 <./Chapter3/Figs/PDF/C3_Fig3.pdf>]
+<Chapter3/Figs/PDF/C3_Fig4.pdf, id=2215, 334.90477pt x 375.52046pt>
 File: Chapter3/Figs/PDF/C3_Fig4.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig4.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig4.pdf  used on input line 128.
@@ -1998,8 +1991,8 @@ Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig4.pdf  used on input line 128.
 
 LaTeX Warning: Float too large for page by 22.76935pt on input line 131.
 
-[57] [58 <./Chapter3/Figs/PDF/C3_Fig4.pdf>]
-<Chapter3/Figs/PDF/C3_Fig5.pdf, id=2185, 583.89731pt x 604.10942pt>
+[63] [64 <./Chapter3/Figs/PDF/C3_Fig4.pdf>]
+<Chapter3/Figs/PDF/C3_Fig5.pdf, id=2302, 583.89731pt x 604.10942pt>
 File: Chapter3/Figs/PDF/C3_Fig5.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig5.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig5.pdf  used on input line 150.
@@ -2009,8 +2002,8 @@ Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig5.pdf  used on input line 150.
 
 LaTeX Warning: Float too large for page by 92.83493pt on input line 153.
 
-[59] [60 <./Chapter3/Figs/PDF/C3_Fig5.pdf>]
-<Chapter3/Figs/PDF/C3_Fig6.pdf, id=2299, 586.19pt x 757.09755pt>
+[65] [66 <./Chapter3/Figs/PDF/C3_Fig5.pdf>]
+<Chapter3/Figs/PDF/C3_Fig6.pdf, id=2416, 586.19pt x 757.09755pt>
 File: Chapter3/Figs/PDF/C3_Fig6.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig6.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig6.pdf  used on input line 174.
@@ -2020,44 +2013,44 @@ Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig6.pdf  used on input line 174.
 
 LaTeX Warning: Float too large for page by 78.56313pt on input line 178.
 
-[61] [62 <./Chapter3/Figs/PDF/C3_Fig6.pdf>]
-<Chapter3/Figs/PDF/C3_Fig7.pdf, id=2377, 441.01717pt x 447.71771pt>
+[67] [68 <./Chapter3/Figs/PDF/C3_Fig6.pdf>]
+<Chapter3/Figs/PDF/C3_Fig7.pdf, id=2494, 441.01717pt x 447.71771pt>
 File: Chapter3/Figs/PDF/C3_Fig7.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig7.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig7.pdf  used on input line 194.
 
 (pdftex.def)             Requested size: 437.46112pt x 444.12318pt.
- [63] [64 <./Chapter3/Figs/PDF/C3_Fig7.pdf>] [65]
-<Chapter3/Figs/PDF/C3_Fig8.pdf, id=2503, 470.3208pt x 318.10773pt>
+ [69] [70 <./Chapter3/Figs/PDF/C3_Fig7.pdf>] [71]
+<Chapter3/Figs/PDF/C3_Fig8.pdf, id=2620, 470.3208pt x 318.10773pt>
 File: Chapter3/Figs/PDF/C3_Fig8.pdf Graphic file (type pdf)
 <use Chapter3/Figs/PDF/C3_Fig8.pdf>
 Package pdftex.def Info: Chapter3/Figs/PDF/C3_Fig8.pdf  used on input line 230.
 
 (pdftex.def)             Requested size: 437.46112pt x 295.88565pt.
- [66] [67 <./Chapter3/Figs/PDF/C3_Fig8.pdf>] [68] [69]
+ [72] [73 <./Chapter3/Figs/PDF/C3_Fig8.pdf>] [74] [75]
 Overfull \hbox (44.70471pt too wide) detected at line 286
 []
  []
 
-[70] [71]
+[76] [77]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 333.
-) [72] [73]
+) [78] [79]
 \openout2 = `Chapter4/chapter4.aux'.
 
- (./Chapter4/chapter4.tex [74
+ (./Chapter4/chapter4.tex [80
 
 
 
 ]
 Chapter 4.
-[75] [76]
-<Chapter4/Figs/pdf/C4_Fig1.pdf, id=4075, 578.1864pt x 272.83186pt>
+[81] [82]
+<Chapter4/Figs/pdf/C4_Fig1.pdf, id=4192, 578.1864pt x 272.83186pt>
 File: Chapter4/Figs/pdf/C4_Fig1.pdf Graphic file (type pdf)
 <use Chapter4/Figs/pdf/C4_Fig1.pdf>
 Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig1.pdf  used on input line 53.
 (pdftex.def)             Requested size: 437.46112pt x 206.43433pt.
-<Chapter4/Figs/pdf/C4_Fig2.pdf, id=4078, 288.27661pt x 343.26396pt>
+<Chapter4/Figs/pdf/C4_Fig2.pdf, id=4195, 288.27661pt x 343.26396pt>
 File: Chapter4/Figs/pdf/C4_Fig2.pdf Graphic file (type pdf)
 <use Chapter4/Figs/pdf/C4_Fig2.pdf>
 Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig2.pdf  used on input line 61.
@@ -2066,13 +2059,13 @@ Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig2.pdf  used on input line 61.
 
 LaTeX Warning: Float too large for page by 57.31696pt on input line 65.
 
-[77 <./Chapter4/Figs/pdf/C4_Fig1.pdf>]
+[83 <./Chapter4/Figs/pdf/C4_Fig1.pdf>]
 Overfull \hbox (2.0683pt too wide) in paragraph at lines 76--76
 []\T1/ptm/b/n/17.28 cuRRBS: cus-tomised Re-duced Rep-re-sen-ta-tion Bisul-fite
  []
 
-[78] [79 <./Chapter4/Figs/pdf/C4_Fig2.pdf>] [80]
-<Chapter4/Figs/pdf/C4_Fig3.pdf, id=4200, 289.28848pt x 331.91786pt>
+[84] [85 <./Chapter4/Figs/pdf/C4_Fig2.pdf>] [86]
+<Chapter4/Figs/pdf/C4_Fig3.pdf, id=4317, 289.28848pt x 331.91786pt>
 File: Chapter4/Figs/pdf/C4_Fig3.pdf Graphic file (type pdf)
 <use Chapter4/Figs/pdf/C4_Fig3.pdf>
 Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig3.pdf  used on input line 149.
@@ -2082,15 +2075,15 @@ Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig3.pdf  used on input line 149.
 
 LaTeX Warning: Float too large for page by 91.95146pt on input line 153.
 
-[81] [82 <./Chapter4/Figs/pdf/C4_Fig3.pdf>]
-<Chapter4/Figs/pdf/C4_Fig4.pdf, id=4310, 722.7pt x 722.7pt>
+[87] [88 <./Chapter4/Figs/pdf/C4_Fig3.pdf>]
+<Chapter4/Figs/pdf/C4_Fig4.pdf, id=4427, 722.7pt x 722.7pt>
 File: Chapter4/Figs/pdf/C4_Fig4.pdf Graphic file (type pdf)
 <use Chapter4/Figs/pdf/C4_Fig4.pdf>
 Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig4.pdf  used on input line 177.
 
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
- [83] [84 <./Chapter4/Figs/pdf/C4_Fig4.pdf>]
-<Chapter4/Figs/pdf/C4_Fig5.pdf, id=4353, 580.45427pt x 651.83675pt>
+ [89] [90 <./Chapter4/Figs/pdf/C4_Fig4.pdf>]
+<Chapter4/Figs/pdf/C4_Fig5.pdf, id=4470, 580.45427pt x 651.83675pt>
 File: Chapter4/Figs/pdf/C4_Fig5.pdf Graphic file (type pdf)
 <use Chapter4/Figs/pdf/C4_Fig5.pdf>
 Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig5.pdf  used on input line 202.
@@ -2100,7 +2093,7 @@ Package pdftex.def Info: Chapter4/Figs/pdf/C4_Fig5.pdf  used on input line 202.
 
 LaTeX Warning: Float too large for page by 55.66885pt on input line 206.
 
-[85] [86 <./Chapter4/Figs/pdf/C4_Fig5.pdf>] [87] [88]
+[91] [92 <./Chapter4/Figs/pdf/C4_Fig5.pdf>] [93] [94]
 Overfull \hbox (6.21454pt too wide) in paragraph at lines 265--265
 []|\T1/ptm/b/n/10.95 Default| 
  []
@@ -2110,46 +2103,46 @@ Overfull \hbox (8.87743pt too wide) in paragraph at lines 263--291
 [][]
  []
 
-[89] [90] [91] [92]) [93]
+[95] [96] [97] [98]) [99]
 \openout2 = `Appendix/appendix.aux'.
 
- (./Appendix/appendix.tex [94
+ (./Appendix/appendix.tex [100
 
 
 
 ]
 Appendix .
-<Appendix/Figs/pdf/SC2_Fig1.pdf, id=4566, 588.20087pt x 654.58383pt>
+<Appendix/Figs/pdf/SC2_Fig1.pdf, id=4683, 588.20087pt x 654.58383pt>
 File: Appendix/Figs/pdf/SC2_Fig1.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig1.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig1.pdf  used on input line 22.
 
 (pdftex.def)             Requested size: 271.22375pt x 301.83136pt.
-<Appendix/Figs/pdf/SC2_Fig2.pdf, id=4567, 361.35pt x 361.35pt>
+<Appendix/Figs/pdf/SC2_Fig2.pdf, id=4684, 361.35pt x 361.35pt>
 File: Appendix/Figs/pdf/SC2_Fig2.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig2.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig2.pdf  used on input line 29.
 
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
-<Appendix/Figs/pdf/SC2_Fig3.pdf, id=4570, 361.35pt x 361.35pt>
+<Appendix/Figs/pdf/SC2_Fig3.pdf, id=4687, 361.35pt x 361.35pt>
 File: Appendix/Figs/pdf/SC2_Fig3.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig3.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig3.pdf  used on input line 36.
 
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
-<Appendix/Figs/pdf/SC2_Fig4.pdf, id=4573, 444.01913pt x 425.4279pt>
+<Appendix/Figs/pdf/SC2_Fig4.pdf, id=4690, 444.01913pt x 425.4279pt>
 File: Appendix/Figs/pdf/SC2_Fig4.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig4.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig4.pdf  used on input line 43.
 
 (pdftex.def)             Requested size: 437.46112pt x 419.15607pt.
-<Appendix/Figs/pdf/SC2_Fig5.pdf, id=4592, 542.025pt x 505.89pt>
+<Appendix/Figs/pdf/SC2_Fig5.pdf, id=4709, 542.025pt x 505.89pt>
 File: Appendix/Figs/pdf/SC2_Fig5.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig5.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig5.pdf  used on input line 50.
 
 (pdftex.def)             Requested size: 437.46112pt x 408.30971pt.
-<Appendix/Figs/pdf/SC2_Fig6_1.pdf, id=4597, 453.72153pt x 705.08842pt>
+<Appendix/Figs/pdf/SC2_Fig6_1.pdf, id=4714, 453.72153pt x 705.08842pt>
 File: Appendix/Figs/pdf/SC2_Fig6_1.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig6_1.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig6_1.pdf  used on input line 5
@@ -2158,7 +2151,7 @@ Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig6_1.pdf  used on input line 5
 
 LaTeX Warning: Float too large for page by 46.02922pt on input line 58.
 
-<Appendix/Figs/pdf/SC2_Fig6_2.pdf, id=4598, 452.4824pt x 699.06354pt>
+<Appendix/Figs/pdf/SC2_Fig6_2.pdf, id=4715, 452.4824pt x 699.06354pt>
 File: Appendix/Figs/pdf/SC2_Fig6_2.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig6_2.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig6_2.pdf  used on input line 6
@@ -2167,105 +2160,105 @@ Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig6_2.pdf  used on input line 6
 
 LaTeX Warning: Float too large for page by 42.08699pt on input line 62.
 
-<Appendix/Figs/pdf/SC2_Fig6_3.pdf, id=4599, 452.10619pt x 141.3261pt>
+<Appendix/Figs/pdf/SC2_Fig6_3.pdf, id=4716, 452.10619pt x 141.3261pt>
 File: Appendix/Figs/pdf/SC2_Fig6_3.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig6_3.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig6_3.pdf  used on input line 6
 5.
 (pdftex.def)             Requested size: 437.46112pt x 136.74973pt.
-<Appendix/Figs/pdf/SC2_Fig7.pdf, id=4602, 433.62pt x 361.35pt>
+<Appendix/Figs/pdf/SC2_Fig7.pdf, id=4719, 433.62pt x 361.35pt>
 File: Appendix/Figs/pdf/SC2_Fig7.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig7.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig7.pdf  used on input line 73.
 
 (pdftex.def)             Requested size: 349.97023pt x 291.65532pt.
-<Appendix/Figs/pdf/SC2_Fig8.pdf, id=4609, 449.68pt x 601.76797pt>
+<Appendix/Figs/pdf/SC2_Fig8.pdf, id=4726, 449.68pt x 601.76797pt>
 File: Appendix/Figs/pdf/SC2_Fig8.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig8.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig8.pdf  used on input line 80.
 
 (pdftex.def)             Requested size: 393.71233pt x 526.8946pt.
-<Appendix/Figs/pdf/SC2_Fig9.pdf, id=4612, 433.62pt x 361.35pt>
+<Appendix/Figs/pdf/SC2_Fig9.pdf, id=4729, 433.62pt x 361.35pt>
 File: Appendix/Figs/pdf/SC2_Fig9.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig9.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig9.pdf  used on input line 87.
 
 (pdftex.def)             Requested size: 306.22144pt x 255.1984pt.
-<Appendix/Figs/pdf/SC2_Fig10.pdf, id=4615, 361.35pt x 361.35pt>
+<Appendix/Figs/pdf/SC2_Fig10.pdf, id=4732, 361.35pt x 361.35pt>
 File: Appendix/Figs/pdf/SC2_Fig10.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC2_Fig10.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC2_Fig10.pdf  used on input line 95
 .
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
-[95 <./Appendix/Figs/pdf/SC2_Fig1.pdf>] [96 <./Appendix/Figs/pdf/SC2_Fig2.pdf> 
-<./Appendix/Figs/pdf/SC2_Fig3.pdf>] [97 <./Appendix/Figs/pdf/SC2_Fig4.pdf>]
-[98 <./Appendix/Figs/pdf/SC2_Fig5.pdf>] [99 <./Appendix/Figs/pdf/SC2_Fig6_1.pdf
->] [100 <./Appendix/Figs/pdf/SC2_Fig6_2.pdf>] [101 <./Appendix/Figs/pdf/SC2_Fig
-6_3.pdf> <./Appendix/Figs/pdf/SC2_Fig7.pdf>] [102 <./Appendix/Figs/pdf/SC2_Fig8
-.pdf>] [103 <./Appendix/Figs/pdf/SC2_Fig9.pdf> <./Appendix/Figs/pdf/SC2_Fig10.p
-df>]
+[101 <./Appendix/Figs/pdf/SC2_Fig1.pdf>] [102 <./Appendix/Figs/pdf/SC2_Fig2.pdf
+> <./Appendix/Figs/pdf/SC2_Fig3.pdf>] [103 <./Appendix/Figs/pdf/SC2_Fig4.pdf>]
+[104 <./Appendix/Figs/pdf/SC2_Fig5.pdf>] [105 <./Appendix/Figs/pdf/SC2_Fig6_1.p
+df>] [106 <./Appendix/Figs/pdf/SC2_Fig6_2.pdf>] [107 <./Appendix/Figs/pdf/SC2_F
+ig6_3.pdf> <./Appendix/Figs/pdf/SC2_Fig7.pdf>] [108 <./Appendix/Figs/pdf/SC2_Fi
+g8.pdf>] [109 <./Appendix/Figs/pdf/SC2_Fig9.pdf> <./Appendix/Figs/pdf/SC2_Fig10
+.pdf>]
 Overfull \hbox (4.42464pt too wide) in paragraph at lines 112--131
  [][] 
  []
 
-[104
+[110
 
 ]
-<Appendix/Figs/pdf/SC3_Fig1_1.pdf, id=4869, 493.25117pt x 698.6007pt>
+<Appendix/Figs/pdf/SC3_Fig1_1.pdf, id=4986, 493.25117pt x 698.6007pt>
 File: Appendix/Figs/pdf/SC3_Fig1_1.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_1.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_1.pdf  used on input line 1
 42.
 (pdftex.def)             Requested size: 437.46112pt x 619.62071pt.
-<Appendix/Figs/pdf/SC3_Fig1_2.pdf, id=4870, 490.37083pt x 699.5966pt>
+<Appendix/Figs/pdf/SC3_Fig1_2.pdf, id=4987, 490.37083pt x 699.5966pt>
 File: Appendix/Figs/pdf/SC3_Fig1_2.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_2.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_2.pdf  used on input line 1
 46.
 (pdftex.def)             Requested size: 437.46112pt x 624.1442pt.
-<Appendix/Figs/pdf/SC3_Fig1_3.pdf, id=4871, 490.83847pt x 699.44693pt>
+<Appendix/Figs/pdf/SC3_Fig1_3.pdf, id=4988, 490.83847pt x 699.44693pt>
 File: Appendix/Figs/pdf/SC3_Fig1_3.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_3.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_3.pdf  used on input line 1
 50.
 (pdftex.def)             Requested size: 437.46112pt x 623.413pt.
-<Appendix/Figs/pdf/SC3_Fig1_4.pdf, id=4872, 491.4042pt x 693.77522pt>
+<Appendix/Figs/pdf/SC3_Fig1_4.pdf, id=4989, 491.4042pt x 693.77522pt>
 File: Appendix/Figs/pdf/SC3_Fig1_4.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_4.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_4.pdf  used on input line 1
 54.
 (pdftex.def)             Requested size: 437.46112pt x 617.64856pt.
-<Appendix/Figs/pdf/SC3_Fig1_5.pdf, id=4873, 492.49838pt x 698.08632pt>
+<Appendix/Figs/pdf/SC3_Fig1_5.pdf, id=4990, 492.49838pt x 698.08632pt>
 File: Appendix/Figs/pdf/SC3_Fig1_5.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_5.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_5.pdf  used on input line 1
 58.
 (pdftex.def)             Requested size: 437.46112pt x 620.10185pt.
-<Appendix/Figs/pdf/SC3_Fig1_6.pdf, id=4874, 492.23651pt x 704.23502pt>
+<Appendix/Figs/pdf/SC3_Fig1_6.pdf, id=4991, 492.23651pt x 704.23502pt>
 File: Appendix/Figs/pdf/SC3_Fig1_6.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_6.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_6.pdf  used on input line 1
 62.
 (pdftex.def)             Requested size: 437.46112pt x 625.88605pt.
-<Appendix/Figs/pdf/SC3_Fig1_7.pdf, id=4875, 490.9413pt x 703.0193pt>
+<Appendix/Figs/pdf/SC3_Fig1_7.pdf, id=4992, 490.9413pt x 703.0193pt>
 File: Appendix/Figs/pdf/SC3_Fig1_7.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_7.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_7.pdf  used on input line 1
 66.
 (pdftex.def)             Requested size: 437.46112pt x 626.43613pt.
-<Appendix/Figs/pdf/SC3_Fig1_8.pdf, id=4876, 491.67075pt x 690.66577pt>
+<Appendix/Figs/pdf/SC3_Fig1_8.pdf, id=4993, 491.67075pt x 690.66577pt>
 File: Appendix/Figs/pdf/SC3_Fig1_8.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_8.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_8.pdf  used on input line 1
 70.
 (pdftex.def)             Requested size: 437.46112pt x 614.52199pt.
-<Appendix/Figs/pdf/SC3_Fig1_9.pdf, id=4877, 491.18213pt x 518.88643pt>
+<Appendix/Figs/pdf/SC3_Fig1_9.pdf, id=4994, 491.18213pt x 518.88643pt>
 File: Appendix/Figs/pdf/SC3_Fig1_9.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig1_9.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig1_9.pdf  used on input line 1
 75.
 (pdftex.def)             Requested size: 437.46112pt x 462.15582pt.
-<Appendix/Figs/pdf/SC3_Fig2.pdf, id=4884, 975.645pt x 1300.86pt>
+<Appendix/Figs/pdf/SC3_Fig2.pdf, id=5001, 975.645pt x 1300.86pt>
 File: Appendix/Figs/pdf/SC3_Fig2.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig2.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig2.pdf  used on input line 182
@@ -2275,19 +2268,19 @@ Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig2.pdf  used on input line 182
 
 LaTeX Warning: Float too large for page by 31.49243pt on input line 185.
 
-<Appendix/Figs/pdf/SC3_Fig3_1.pdf, id=4891, 867.24pt x 1156.32pt>
+<Appendix/Figs/pdf/SC3_Fig3_1.pdf, id=5008, 867.24pt x 1156.32pt>
 File: Appendix/Figs/pdf/SC3_Fig3_1.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig3_1.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig3_1.pdf  used on input line 1
 89.
 (pdftex.def)             Requested size: 437.46112pt x 583.29298pt.
-<Appendix/Figs/pdf/SC3_Fig3_2.pdf, id=4892, 867.24pt x 1156.32pt>
+<Appendix/Figs/pdf/SC3_Fig3_2.pdf, id=5009, 867.24pt x 1156.32pt>
 File: Appendix/Figs/pdf/SC3_Fig3_2.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig3_2.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig3_2.pdf  used on input line 1
 93.
 (pdftex.def)             Requested size: 437.46112pt x 583.29298pt.
-<Appendix/Figs/pdf/SC3_Fig3_3.pdf, id=4893, 867.24pt x 1156.32pt>
+<Appendix/Figs/pdf/SC3_Fig3_3.pdf, id=5010, 867.24pt x 1156.32pt>
 File: Appendix/Figs/pdf/SC3_Fig3_3.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig3_3.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig3_3.pdf  used on input line 1
@@ -2296,7 +2289,7 @@ Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig3_3.pdf  used on input line 1
 
 LaTeX Warning: Float too large for page by 55.50786pt on input line 200.
 
-<Appendix/Figs/pdf/SC3_Fig4.pdf, id=4894, 722.7pt x 722.7pt>
+<Appendix/Figs/pdf/SC3_Fig4.pdf, id=5011, 722.7pt x 722.7pt>
 File: Appendix/Figs/pdf/SC3_Fig4.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig4.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig4.pdf  used on input line 204
@@ -2307,81 +2300,81 @@ Overfull \hbox (43.74878pt too wide) in paragraph at lines 204--206
  [][] 
  []
 
-<Appendix/Figs/pdf/SC3_Fig5.pdf, id=4897, 1373.13pt x 1445.4pt>
+<Appendix/Figs/pdf/SC3_Fig5.pdf, id=5014, 1373.13pt x 1445.4pt>
 File: Appendix/Figs/pdf/SC3_Fig5.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig5.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig5.pdf  used on input line 212
 .
 (pdftex.def)             Requested size: 437.46112pt x 460.46428pt.
-<Appendix/Figs/pdf/SC3_Fig6.pdf, id=4908, 722.7pt x 578.16pt>
+<Appendix/Figs/pdf/SC3_Fig6.pdf, id=5025, 722.7pt x 578.16pt>
 File: Appendix/Figs/pdf/SC3_Fig6.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig6.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig6.pdf  used on input line 219
 .
 (pdftex.def)             Requested size: 437.46112pt x 349.96873pt.
-<Appendix/Figs/pdf/SC3_Fig7.pdf, id=4911, 722.7pt x 578.16pt>
+<Appendix/Figs/pdf/SC3_Fig7.pdf, id=5028, 722.7pt x 578.16pt>
 File: Appendix/Figs/pdf/SC3_Fig7.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig7.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig7.pdf  used on input line 227
 .
 (pdftex.def)             Requested size: 437.46112pt x 349.96873pt.
-<Appendix/Figs/pdf/SC3_Fig8.pdf, id=4914, 1300.86pt x 1445.4pt>
+<Appendix/Figs/pdf/SC3_Fig8.pdf, id=5031, 1300.86pt x 1445.4pt>
 File: Appendix/Figs/pdf/SC3_Fig8.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig8.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig8.pdf  used on input line 234
 .
 (pdftex.def)             Requested size: 437.46112pt x 486.07014pt.
-<Appendix/Figs/pdf/SC3_Fig9.pdf, id=4917, 585.73112pt x 265.93852pt>
+<Appendix/Figs/pdf/SC3_Fig9.pdf, id=5034, 585.73112pt x 265.93852pt>
 File: Appendix/Figs/pdf/SC3_Fig9.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig9.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig9.pdf  used on input line 241
 .
 (pdftex.def)             Requested size: 437.46112pt x 198.62152pt.
-<Appendix/Figs/pdf/SC3_Fig10.pdf, id=4922, 361.35pt x 361.35pt>
+<Appendix/Figs/pdf/SC3_Fig10.pdf, id=5039, 361.35pt x 361.35pt>
 File: Appendix/Figs/pdf/SC3_Fig10.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig10.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig10.pdf  used on input line 24
 8.
 (pdftex.def)             Requested size: 218.73056pt x 218.73045pt.
-<Appendix/Figs/pdf/SC3_Fig11.pdf, id=4923, 442.01195pt x 503.84898pt>
+<Appendix/Figs/pdf/SC3_Fig11.pdf, id=5040, 442.01195pt x 503.84898pt>
 File: Appendix/Figs/pdf/SC3_Fig11.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC3_Fig11.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC3_Fig11.pdf  used on input line 25
 7.
 (pdftex.def)             Requested size: 437.46112pt x 498.67365pt.
-[105
+[111
 
- <./Appendix/Figs/pdf/SC3_Fig1_1.pdf>] [106 <./Appendix/Figs/pdf/SC3_Fig1_2.pdf
->] [107 <./Appendix/Figs/pdf/SC3_Fig1_3.pdf>] [108 <./Appendix/Figs/pdf/SC3_Fig
-1_4.pdf>] [109 <./Appendix/Figs/pdf/SC3_Fig1_5.pdf>] [110 <./Appendix/Figs/pdf/
-SC3_Fig1_6.pdf>] [111 <./Appendix/Figs/pdf/SC3_Fig1_7.pdf>] [112 <./Appendix/Fi
-gs/pdf/SC3_Fig1_8.pdf>] [113 <./Appendix/Figs/pdf/SC3_Fig1_9.pdf>] [114 <./Appe
-ndix/Figs/pdf/SC3_Fig2.pdf>] [115 <./Appendix/Figs/pdf/SC3_Fig3_1.pdf>]
-[116 <./Appendix/Figs/pdf/SC3_Fig3_2.pdf>] [117 <./Appendix/Figs/pdf/SC3_Fig3_3
-.pdf>] [118 <./Appendix/Figs/pdf/SC3_Fig4.pdf>] [119 <./Appendix/Figs/pdf/SC3_F
-ig5.pdf>] [120 <./Appendix/Figs/pdf/SC3_Fig6.pdf>] [121 <./Appendix/Figs/pdf/SC
-3_Fig7.pdf>] [122 <./Appendix/Figs/pdf/SC3_Fig8.pdf>] [123 <./Appendix/Figs/pdf
-/SC3_Fig9.pdf> <./Appendix/Figs/pdf/SC3_Fig10.pdf>] [124 <./Appendix/Figs/pdf/S
+ <./Appendix/Figs/pdf/SC3_Fig1_1.pdf>] [112 <./Appendix/Figs/pdf/SC3_Fig1_2.pdf
+>] [113 <./Appendix/Figs/pdf/SC3_Fig1_3.pdf>] [114 <./Appendix/Figs/pdf/SC3_Fig
+1_4.pdf>] [115 <./Appendix/Figs/pdf/SC3_Fig1_5.pdf>] [116 <./Appendix/Figs/pdf/
+SC3_Fig1_6.pdf>] [117 <./Appendix/Figs/pdf/SC3_Fig1_7.pdf>] [118 <./Appendix/Fi
+gs/pdf/SC3_Fig1_8.pdf>] [119 <./Appendix/Figs/pdf/SC3_Fig1_9.pdf>] [120 <./Appe
+ndix/Figs/pdf/SC3_Fig2.pdf>] [121 <./Appendix/Figs/pdf/SC3_Fig3_1.pdf>]
+[122 <./Appendix/Figs/pdf/SC3_Fig3_2.pdf>] [123 <./Appendix/Figs/pdf/SC3_Fig3_3
+.pdf>] [124 <./Appendix/Figs/pdf/SC3_Fig4.pdf>] [125 <./Appendix/Figs/pdf/SC3_F
+ig5.pdf>] [126 <./Appendix/Figs/pdf/SC3_Fig6.pdf>] [127 <./Appendix/Figs/pdf/SC
+3_Fig7.pdf>] [128 <./Appendix/Figs/pdf/SC3_Fig8.pdf>] [129 <./Appendix/Figs/pdf
+/SC3_Fig9.pdf> <./Appendix/Figs/pdf/SC3_Fig10.pdf>] [130 <./Appendix/Figs/pdf/S
 C3_Fig11.pdf>]
-<Appendix/Figs/pdf/SC4_Fig1.pdf, id=5432, 722.7pt x 722.7pt>
+<Appendix/Figs/pdf/SC4_Fig1.pdf, id=5549, 722.7pt x 722.7pt>
 File: Appendix/Figs/pdf/SC4_Fig1.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig1.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig1.pdf  used on input line 273
 .
 (pdftex.def)             Requested size: 306.22144pt x 306.22264pt.
-<Appendix/Figs/pdf/SC4_Fig2.pdf, id=5435, 1011.78pt x 722.7pt>
+<Appendix/Figs/pdf/SC4_Fig2.pdf, id=5552, 1011.78pt x 722.7pt>
 File: Appendix/Figs/pdf/SC4_Fig2.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig2.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig2.pdf  used on input line 280
 .
 (pdftex.def)             Requested size: 437.46112pt x 312.47522pt.
-<Appendix/Figs/pdf/SC4_Fig3.pdf, id=5436, 504.15317pt x 329.51555pt>
+<Appendix/Figs/pdf/SC4_Fig3.pdf, id=5553, 504.15317pt x 329.51555pt>
 File: Appendix/Figs/pdf/SC4_Fig3.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig3.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig3.pdf  used on input line 287
 .
 (pdftex.def)             Requested size: 437.46112pt x 285.93707pt.
-<Appendix/Figs/pdf/SC4_Fig4.pdf, id=5437, 566.19899pt x 684.85378pt>
+<Appendix/Figs/pdf/SC4_Fig4.pdf, id=5554, 566.19899pt x 684.85378pt>
 File: Appendix/Figs/pdf/SC4_Fig4.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig4.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig4.pdf  used on input line 294
@@ -2391,83 +2384,84 @@ Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig4.pdf  used on input line 294
 
 LaTeX Warning: Float too large for page by 78.69656pt on input line 298.
 
-<Appendix/Figs/pdf/SC4_Fig5.pdf, id=5450, 493.1552pt x 500.50256pt>
+<Appendix/Figs/pdf/SC4_Fig5.pdf, id=5567, 493.1552pt x 500.50256pt>
 File: Appendix/Figs/pdf/SC4_Fig5.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig5.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig5.pdf  used on input line 302
 .
 (pdftex.def)             Requested size: 437.46112pt x 444.00247pt.
-<Appendix/Figs/pdf/SC4_Fig6.pdf, id=5457, 590.09032pt x 306.46857pt>
+<Appendix/Figs/pdf/SC4_Fig6.pdf, id=5574, 590.09032pt x 306.46857pt>
 File: Appendix/Figs/pdf/SC4_Fig6.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig6.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig6.pdf  used on input line 309
 .
 (pdftex.def)             Requested size: 437.46112pt x 227.20872pt.
-<Appendix/Figs/pdf/SC4_Fig7.pdf, id=5462, 588.36958pt x 626.19254pt>
+<Appendix/Figs/pdf/SC4_Fig7.pdf, id=5579, 588.36958pt x 626.19254pt>
 File: Appendix/Figs/pdf/SC4_Fig7.pdf Graphic file (type pdf)
 <use Appendix/Figs/pdf/SC4_Fig7.pdf>
 Package pdftex.def Info: Appendix/Figs/pdf/SC4_Fig7.pdf  used on input line 317
 .
 (pdftex.def)             Requested size: 349.97023pt x 372.4793pt.
-) [125
+) [131
 
- <./Appendix/Figs/pdf/SC4_Fig1.pdf>] [126 <./Appendix/Figs/pdf/SC4_Fig2.pdf>] [
-127 <./Appendix/Figs/pdf/SC4_Fig3.pdf>] [128 <./Appendix/Figs/pdf/SC4_Fig4.pdf>
-] [129 <./Appendix/Figs/pdf/SC4_Fig5.pdf>] [130 <./Appendix/Figs/pdf/SC4_Fig6.p
-df>] [131 <./Appendix/Figs/pdf/SC4_Fig7.pdf>] [132
+ <./Appendix/Figs/pdf/SC4_Fig1.pdf>] [132 <./Appendix/Figs/pdf/SC4_Fig2.pdf>] [
+133 <./Appendix/Figs/pdf/SC4_Fig3.pdf>] [134 <./Appendix/Figs/pdf/SC4_Fig4.pdf>
+] [135 <./Appendix/Figs/pdf/SC4_Fig5.pdf>] [136 <./Appendix/Figs/pdf/SC4_Fig6.p
+df>] [137 <./Appendix/Figs/pdf/SC4_Fig7.pdf>] [138
 
 
 ] (./thesis.bbl
-[133
+[139
 
-] [134] [135] [136] [137] [138] [139] [140] [141] [142]
-Underfull \hbox (badness 10000) in paragraph at lines 842--846
+] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[151]
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1064
 []\T1/ptm/m/n/12 (+20) Steve Hor-vath.  FAQs DNA-m-Age on-line cal-cu-la-tor:
  []
 
-[143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1518
+[152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
+Underfull \hbox (badness 10000) in paragraph at lines 1732--1736
 []\T1/ptm/m/n/12 (+20) NIH Roadmap Epige-nomics Map-ping Con-sor-tium.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1732--1736
 \T1/ptm/m/n/12 (+20) Roadmap Epige-nomics Chro-matin State Model: raw data.
  []
 
 
-Overfull \hbox (21.6609pt too wide) in paragraph at lines 1514--1518
+Overfull \hbox (21.6609pt too wide) in paragraph at lines 1732--1736
 \T1/ptm/m/n/12 (-20) https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSeg
 mentations/ChmmModels/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1520--1524
+Underfull \hbox (badness 10000) in paragraph at lines 1738--1742
 []\T1/ptm/m/n/12 (+20) NIH Roadmap Epige-nomics Map-ping Con-sor-tium.  Roadmap
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1520--1524
+Underfull \hbox (badness 10000) in paragraph at lines 1738--1742
 \T1/ptm/m/n/12 (+20) Epige-nomics Chro-matin State Model: emis-sion pa-ram-e-te
 rs.
  []
 
 
-Overfull \hbox (21.6609pt too wide) in paragraph at lines 1520--1524
+Overfull \hbox (21.6609pt too wide) in paragraph at lines 1738--1742
 \T1/ptm/m/n/12 (-20) https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSeg
 mentations/ChmmModels/
  []
 
-[153] [154] [155] [156] [157] [158] [159] [160] [161]
-Underfull \hbox (badness 1472) in paragraph at lines 2083--2086
+[162] [163] [164] [165] [166] [167] [168] [169]
+Underfull \hbox (badness 1472) in paragraph at lines 2301--2304
 []\T1/ptm/m/n/12 (+20) Richard J Roberts, Tamas Vincze, Janos Pos-fai, and Dana
  Macelis.  RE-
  []
 
-[162])
+[170])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
- [163]
+ [171]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./thesis.aux (./Dedication/dedication.aux)
 (./Declaration/declaration.aux) (./Acknowledgement/acknowledgement.aux)
@@ -2476,33 +2470,36 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8FB64E148DBCB6F8BE3FE2D77D278C49;14794.
+(rerunfilecheck)             Checksum: 497A5A87AA467AD3AFEA87EDC2C2475B;14845.
  ) 
 Here is how much of TeX's memory you used:
- 37981 strings out of 492649
- 674802 string characters out of 6129622
- 792802 words of memory out of 5000000
- 39940 multiletter control sequences out of 15000+600000
- 662676 words of font info for 528 fonts, out of 8000000 for 9000
+ 38150 strings out of 492649
+ 677799 string characters out of 6129622
+ 791852 words of memory out of 5000000
+ 40070 multiletter control sequences out of 15000+600000
+ 662451 words of font info for 526 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,92p,10383b,1958s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.pfb>
-Output written on thesis.pdf (187 pages, 17101854 bytes).
+ 55i,16n,92p,10383b,2058s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{glo:SASP} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.pfb>
+Output written on thesis.pdf (195 pages, 17128485 bytes).
 PDF statistics:
- 6132 PDF objects out of 6186 (max. 8388607)
- 4766 compressed objects within 48 object streams
- 775 named destinations out of 1000 (max. 500000)
+ 6266 PDF objects out of 7423 (max. 8388607)
+ 4891 compressed objects within 49 object streams
+ 817 named destinations out of 1000 (max. 500000)
  75548 words of extra memory for PDF output out of 89155 (max. 10000000)
 
