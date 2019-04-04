@@ -121,7 +121,7 @@ The discovery of genetic pathways that can dramatically extend the lifespan of m
 
 \smallskip
 
-\subsection{A few notes on mammalian ageing}
+\subsection{Hallmarks of mammalian ageing} \label{s:1.1.3}
 
 \smallskip
 
@@ -202,13 +202,10 @@ There are different types of molecular mechanisms that are normally considered `
 	
 	\item \textbf{DNA methylation}. This will be discussed in detail in section~\ref{s:1.2.2}.
 	
-	%From here
-	
-	\item \textbf{Histone modifications}. The basic unit of chromatin is the nucleosome. It is composed of $\sim$147 \acrshort{bp} wrapped around an octomer of histones (generally two copies of each one of the four core histones: H2A, H2B, H3 and H4; although histone variants such as H3.3 or H2A.Z have also been characterised). In order to fit around 2 meters of DNA into the nucleus of a human cell, chromatin needs to be further compacted with the help of scaffold proteins (with the furthest level of compaction achieved in the mitotic chromosome) \cite{Ou2017}. Histones possess N-terminal regions (aka histone tails) that project towards the outside from the nucleosome and are positively charged, which helps to compact the chromatin by interacting with the negative charges of the DNA. However, many different types of post-translational modifications (acetylation, methylation, phosphorylation, ubiquitinylation, sumoylation, ...) in the residues of the histone tails have been identified across the tree of life (although modifications have been also found in the globular domains) \cite{Lawrence2016}. These histone modifications can affect the chemical properties of chromatin, its degree of compaction and ultimately contribute to the regulation of transcription. The sequence and combinations of these modifications that modulate chromatin activity was named the \textit{histone code} \cite{Strahl2000} and its complexity is slowly being characterised thanks to technologies such as \acrshort{ChIP-seq} \cite{Consortium2012, Consortium2015}. Finally, it is worth mentioning the nomenclature used to refer to histone modifications, where the information about histone (e.g. H3), the residue where the modification happens (e.g. lysine36 is K36) 	
+	\item \textbf{Histone modifications}. The basic unit of chromatin is the nucleosome. It is composed of $\sim$147 \acrshort{bp} wrapped around an octamer of histones (generally two copies of each one of the four core histones: H2A, H2B, H3 and H4; although histone variants such as H3.3 or H2A.Z have also been characterised). In order to fit around 2 meters of DNA into the nucleus of a human cell, chromatin needs to be further compacted with the help of scaffold proteins (with the furthest level of compaction achieved in the mitotic chromosome) \cite{Ou2017}. Histones possess N-terminal regions (aka histone tails) that project towards the outside from the nucleosome and are positively charged, which helps to compact the chromatin by interacting with the negative charges of the DNA. However, many different types of post-translational modifications (acetylation, methylation, phosphorylation, ubiquitinylation, sumoylation, ...) in the residues of the histone tails have been identified across the tree of life (although modifications have been also found in the globular domains) \cite{Lawrence2016}. These histone modifications can affect the chemical properties of chromatin, its degree of compaction and ultimately contribute to the regulation of transcription (e.g. through the recruitment of downstream effector proteins). The sequence and combinations of these modifications that modulate chromatin activity was named the \textit{histone code} \cite{Strahl2000} and its complexity is slowly being characterised thanks to technologies such as \acrshort{ChIP-seq} \cite{Consortium2012, Consortium2015}. Finally, it is worth mentioning the nomenclature that is used to refer to histone modifications. For instance, for the histone modification `H3K36me3', the information about the histone (`H3'), the residue where the modification happens (`K36' is lysine 36) and the type and number of modification(s) (`me3' refers to three methyl groups) are provided.
 
-	\item \textbf{}
+	\item \textbf{Other `epigenetic' players}. Non-coding RNAs (such as long non-coding RNAs, PIWI-associated RNAs or short-interfering RNAs) have been shown to affect the epigenetic landscape through different mechanisms. Additionally, many RNA modifications (known as the \textit{epitranscriptome}), are currently being elucidated. However, whether they are considered truly `epigenetic' is debatable \cite{Mattick2009,Morris2014}. Furthermore, prions (misfolded proteins that accumulate in cells and act as templates to further misfold more protein molecules) have been proposed as an epigenetic mechanism that is not based on heritable changes in nucleic acid \cite{Halfmann2010}.
 	
-	\item
 	
 \end{itemize}
 
@@ -216,9 +213,9 @@ The different epigenetic marks present complex patterns of correlation and cross
 
 \begin{itemize}
 	
-	\item Euchromatin. It presents active gene activity and it is more accessible to the transcription machinery. It is generally characterised by histone modifications such as H4K16ac, H3K4me3 or H3K36me3.
+	\item \textbf{Euchromatin}. It presents active gene activity and it is more accessible to the transcription machinery. It is generally characterised by histone modifications such as H4K16ac, H3K4me3 or H3K36me3.
 	
-	\item Heterochromatin. It is normally subdivided in constitutive (highly condensed and transcriptionally repressed; mostly found in pericentromeric regions, telomeres and other regions that contain repetitive elements; it is generally marked by H3K9me3 and high levels of \acrshort{5mC}) and facultative (normally transcriptionally silent but it has the potential to adopt open or compact conformations depending on the temporal and spatial context; it is generally marked by H3K27me3).
+	\item \textbf{Heterochromatin}. It is normally subdivided in constitutive (highly condensed and transcriptionally repressed; mostly found in pericentromeric regions, telomeres and other regions that contain repetitive elements; it is generally marked by H3K9me3 and high levels of \acrshort{5mC}) and facultative (normally transcriptionally silent but it has the potential to adopt open or compact conformations depending on the temporal and spatial context; it is generally marked by H3K27me3).
 	
 \end{itemize}
 
@@ -226,51 +223,61 @@ Consortia that have mapped many epigenetic marks (collectively known as the epig
 
 \bigskip
 
-Epigenetic marks contribute to define (or in Waddingtonian terms, `canalise') different cell types and cellular states from the same genomic sequence. Cellular identity is normally established by master regulators (initiators), generally transcription factors that activate the expression of a genetic program (i.e. coordinated gene expression) \cite{Reinberg2018}. However, in order for this cellular state to survive once the initiator is no longer present, the patterns of epigenetic marks need to be inherited after cell division. This is clearly the case for 5-methylcytosine (\acrshort{5mC}, see section~\ref{s:1.2.2}). In the case of histone modifications, there is evidence for the propagation of some of the repressing histone modifications (such as H3K9me3 and H3K27me3). This is possible because the machinery in charge of catalysing the addition of these chemical modifications (i.e. the \textit{writers}, SUV39H1 and Polycomb Repressive Complex 2) also have the ability to recognise it (i.e. they are also \textit{readers}), therefore creating a positive feedback. However, it is not clear whether many other histone modifications are copied after DNA replication in the newly synthesised DNA strand and therefore whether they are truly epigenetic \cite{Reinberg2018}. Additionally, it is important to mention that enzymatic activities to reverse most (if not all) epigenetic marks (i.e. \textit{erasers}) have been identified \cite{Allis2016}.
+Epigenetic marks contribute to define (or in Waddingtonian terms, `canalise') \textbf{different cell types and cellular states} from the same genomic sequence. Cellular identity is normally established by master regulators (initiators), generally transcription factors that activate the expression of a genetic program (i.e. coordinated gene expression) \cite{Reinberg2018}. However, in order for this cellular state to survive once the initiator is no longer present, the patterns of epigenetic marks need to be inherited after cell division. This is clearly the case for 5-methylcytosine (\acrshort{5mC}, see section~\ref{s:1.2.2}). In the case of histone modifications, there is evidence for the propagation of some of the repressing histone modifications (such as H3K9me3 and H3K27me3). This is possible because the machinery in charge of catalysing the addition of these chemical modifications (i.e. the \textit{writers}, SUV39H1 and Polycomb Repressive Complex 2) also have the ability to recognise it (i.e. they are also \textit{readers}), therefore creating a positive feedback. However, it is not clear whether many other histone modifications are copied after DNA replication in the newly synthesised DNA strand and therefore whether they are truly epigenetic \cite{Reinberg2018}. Additionally, it is important to mention that enzymatic activities to reverse most (if not all) epigenetic marks (i.e. \textit{erasers}) have been identified \cite{Allis2016}.
 
+\bigskip
 
-Besides regulation of transcription and defining cellular states, other important biological processes driven by epigenetic mechanisms: genomic imprinting, X chromosome inactivation, eusocial organisms (https://www.nature.com/articles/nrg.2016.45). From evolutionary point of view, Transgenerational epigenetic inheritance of longevity in C. elegans.https://www.ncbi.nlm.nih.gov/pubmed/22012258
+Besides regulating transcription and/or defining cellular states, \textbf{epigenetic mechanisms play a fundamental role in other important biological processes}. These include genomic imprinting (monoallelic expression according to parental origin) \cite{Peters2014}, X-chromosome inactivation (silencing of one of the two X chromosomes in female mammals) \cite{Wutz2011} or cast differentiation in eusocial insects (such as queen and worker differentiation in honeybees) \cite{Patalano2012}.
 
+\bigskip
 
+One of the big questions in the field of epigenetics is \textbf{to which extent epigenetic patterns are genetically programmed} and to which extent they change in response to environmental influences and stochastically. In the case of human populations, genetic variants that affect the levels of DNA methylation (\acrshort{meQTLs}) and histone modifications (\acrshort{hQTLs}) at specific loci have been identified \cite{Taudt2016}. Interestingly, it is possible to predict different epigenetic marks from the raw DNA sequence, mainly by identifying transcription factor binding sites that guide different parts of the epigenetic machinery \cite{Whitaker2014}. Furthermore, monozygotic twins allow to control for the genetic background and study the epigenetic variation derived from environmental and stochastic factors, which is particularly interesting in the context of complex diseases \cite{Castillo-Fernandez2014}.
 
+\smallskip
 
-Genetics vs environment. How much of the epigenome is genetically programmed. Efforts to predict epigenetic profiles from sequence. Response of chromatin to the environment \cite{Allis2016}. 
-Epigenetics and development, developmental disorders, imprinting disorders, overgrowth.
-Genomic imprinting, parental-of-origin.
-Embryological and molecular investigations of parental imprinting on mouse chromosome 7
-Parental-origin-specific epigenetic modification of the mouse H19 gene
+\subsection{Fundamentals of DNA methylation in mammals} \label{s:1.2.2}
 
-What happens to the IGF1 IGF2 locus during ageing. Loss-of-imprinting?
-https://www.ncbi.nlm.nih.gov/pubmed/18701505
+\smallskip
 
-Potential energy landscapes identify the information-theoretic nature of the epigenome
+Different types of DNA modifications have been described across the tree of life. DNA methylation enzymes evolved in bacterial species to protect them from the infection of bacteriophages, although roles in transcriptional regulation have also been described  \cite{Sanchez-Romero2015}. In mammals, the most common DNA modification is the \textbf{addition of a methyl group in the 5$^{th}$ carbon of cytosines (\acrshort{5mC})}, which has been called the 5$^{th}$ base of DNA. The traditional functions assigned to 5mC include the mediation of genomic imprinting and X-chromosome inactivation, repressing transposable elements and regulating transcription \cite{Wu2017}. In the latter case, 5mC has been commonly associated with the repression of transcription (e.g. by altering the ability of transcription factors to bind or by attracting methyl-CpG binding domain proteins) \cite{Li2014}. However, it is becoming clearer over time that the picture is more complex. For example, gene bodies of highly expressed genes are methylated in order to avoid cryptic transcription \cite{Neri2017}.
 
+\bigskip
 
-\subsection{Fundamentals of DNA methylation} \label{s:1.2.2}
+5mC generally happens when the cytosine is followed by a guanine in the DNA strand (commonly known as a CG dinucleotide or CpG site) \cite{Li2014,Smith2013}. In the human genome there are around 28 million CpG sites, of which approximately 60-80\% are normally methylated \cite{Smith2013}. The density of CpG sites in the genome is variable. \textbf{CpG islands} (\acrshort{CGI}s) are CpG-enriched genomic regions (200-2000 bp long, $\sim$30,000 CGIs in the human genome which account for $\sim$10\% CpG sites) and are frequently associated with promoters (although $\sim$9,000 of them are found inside gene bodies) \cite{Smith2013,Jeziorska2017,Zeng2014}. Promoter-associated CGIs are normally unmethylated across cell types, which contrasts with the high methylation levels in the rest of the genome. The mechanism by which these CGIs remain resistant to DNA methylation is starting to be elucidated. Recent reports suggest that active transcription together with the binding of proteins that block methylation are required for the resistance. Among these proteins, which bind non-methylated CpG sites in the CGI via their zinc-finger CXXC domain, it is worth mentioning CFP1 (which recruits an H3K4 methyltransferase that increases H3K4me3 levels, which in turns inhibits \textit{de novo} methylation) and TET1 (see below) \cite{Takahashi2017}. On the contrary, if a promoter-associated CGI is methylated, this commonly leads to transcriptional repression of the correspondent gene; something that is observed in the promoters of certain tumour suppressor genes in cancer \cite{Flavahan2017}. 
 
-2nd
+\bigskip
 
-DNA methylation. Chemical modifications of DNA bases were detected as early as 1948 (Ref. 10) and a role for DNA methylation, in particular for 5-methylcytosine (5mC), in gene regulation was proposed in the mid-1970s by Holliday and Pugh11, among others see \cite{Allis2016}
+Different \textbf{enzymes contribute to the establishment, maintenance and removal of DNA modifications} in mammals. \textit{De novo} methyltransferases DNMT3A and DNMT3B are capable of catalysing the addition of 5mC in those CpG sites that originally lack the modification in any of the two DNA strands. Maintenance methyltransferase DNMT1 is able to add 5mC to hemimethylated DNA (i.e. when one of the strands in the CpG site has 5mC) thanks to the symmetry of CpG sites (and its recruitment via UHRF1). This provides a mechanism for the inheritance of DNA methylation patterns after cell division, therefore making it a true epigenetic mark capable of generating cellular memory (Fig.~) \cite{Li2014,Smith2013}; as originally hypothesised in 1975 by Holliday, Pugh and Riggs \cite{Holliday1975,Riggs1975}. It is worth mentioning that 5mC in a non-CpG context (i.e. in \acrshort{CHG} or \acrshort{CHH}, where H corresponds to adenine, thymine or cytosine) has also been detected in human tissues \cite{Schultz2015}. However, its abundance is generally very low with the exception of embryonic stem cells (\acrshort{ESCs}), induced pluripotent stem cells (\acrshort{iPSCs}) and some brain cells; probably due to the levels of DNMT3A and/or DNMT3B in these cell types \cite{Ziller2011,He2015}. A third \textit{de novo} DNA methyltransferase that lacks the N-terminal catalytic domain, DNMT3L, has also been identified in mammals. DNMT3L cooperates mainly with DNMT3A to add 5mC in maternal genomic imprints during gametogenesis \cite{Bourchis2001,Tomida2018}.
 
-Step back, DNA modifications. Species. Not all inherited.
-Species / Enzymes / reactions.
-%https://www.nature.com/articles/nature08514
-DNA methylation copy error rate. 
-%But DNA methylation has an apparent accuracy of ∼96%, which is ∼1 error for every 25 methylated sites copied14. Because of this error rate, cloning from a single cell quickly results in a population of cells in which DNA methylation patterns are diverse
-%https://www.nature.com/articles/nature05913#ref14
+\bigskip
 
-Including briefly on technologies, mainly bisulfite sequencing.
-New protocols without bisulftite sequencing?
-%https://www.nature.com/articles/s41592-019-0387-x?utm_source=nmeth_etoc&utm_medium=email&utm_campaign=toc_41592_16_4&utm_content=20190329&WT.ec_id=NMETH-201904&sap-outbound-id=BEBD24A227DE602A648B3D4086ABFFA14E864B41
-As part of the DNA methylation section: Measuring DNA methylation (i.e.table with technologies). Adapt from Advances in the profiling of DNA modifications, Nature Review Genetics
-A bit on the mainstream technologies: WGBS, RRBS, arrays (differences between them: e.g. different chemistries), basic principles behind the measurement. Define colour channels, bead, probe, chemistries, …
+It was a long-standing question whether the loss of 5mC (aka demethylation) can only occur by replication-coupled passive loss (i.e. stopping DNMT1 maintenance activity and diluting 5mC content by cell division), due to methyltransferase errors or as a result of DNA repair after DNA damage \cite{Iurlaro2017}. In 2009, two groups conclusively identified the presence of a different type of DNA modification in mouse and human DNA, 5-hydroxymethylcytosine (\acrshort{5hmC}) \cite{Kriaucionis2009,Tahiliani2009} (although, surprisingly, its presence in rat tissue had been detected almost 40 years before) \cite{Penn1972}. Furthermore, one of them demonstrated that the enzyme TET1 is capable of oxidising 5mC to 5hmC \cite{Tahiliani2009}. Since then, other enzymes from the TET family (TET2, TET3) have also been shown to catalyse this reaction \cite{Ito2010}. Further products of oxidation, 5-formylcytosine (\acrshort{5fC}) and 5-carboxylcytosine (\acrshort{5caC}), can also be generated by TET enzymes, although their abundance is incredibly low in the genome. Replication-dependent dilution of oxidised products or thymine DNA glycosylase (\acrshort{TDG})-mediated excision of 5fC and 5caC coupled with base excision repair have been shown to complete the demethylation process (Fig.~). Altogether, this shows that \textbf{active enzymatic DNA demethylation is a feature of mammalian epigenomes} \cite{Wu2017}. Finally, it is worth mentioning that another type of DNA modification, N$^6$-methyladenine, has recently been identified in both mouse and human cells, thus further expanding the DNA alphabet \cite{Wu2016,Xiao2018}.
 
-Mammalian embryonic development. Epigenetic reprogramming.
-https://www.nature.com/articles/nrg.2017.57
+\bigskip
+
+\textbf{DNA methylation patterns change drastically during mammalian embryonic development}. After fertilisation, mouse and human zygotes undergo epigenetic reprogramming in order to reset naive pluripotency. This is mainly characterised by a global loss of 5mC (i.e DNA hypomethylation) with different demethylation processes affecting the paternal and maternal genome. Nevertheless, some genomic regions, such as imprints, survive epigenetic reprogramming. \textit{De novo} DNA methylation occurs after implantation of the blastocyst, which will restore DNA methylation levels for most somatic cells and eventually generate cell-type specific DNA methylation patterns \cite{Iurlaro2017,Tang2016,Atlasi2017}. 
+
+\bigskip
+
+In the case of the cells that will give rise to the germline (\textbf{primordial germ cells} or \acrshort{PGCs}), further genome-wide DNA demethylation occurs, which makes \acrshort{PGCs} the most hypomethylated cells found during mammalian development thus far (global methylation levels are $\sim$4\%). This ensures imprint erasure and that parental epigenetic memories are removed, therefore posing a barrier for transgenerational epigenetic inheritance. Nevertheless, some regions that escape epigenetic reprogramming in mice and humans have been described (mainly evolutionarily young and potentially hazardous retrotransposons). Methylation patterns of the germline will then be re-established in a sex-specific manner \cite{Tang2016}.  
+
+\bigskip
+
+Over the years, many \textbf{technologies have been developed to measure 5mC and its oxidative products} (see section~\ref{s:4.1} for an overview). Many assays rely on a chemical procedure called bisulfite conversion \cite{Frommer1992}. Genomic DNA is denatured and incubated with sodium bisulfite. This leaves 5mC residues intact, but unmethylated cytosines are deaminated and converted to uracil. Therefore, after PCR amplification, 5mC are substituted by cytosines while unmethylated cytosines become thymines. This information can then be read at base-pair resolution through DNA sequencing or by hybridisation to a methylation array (such as the Illumina Infinium BeadChips, which are the platform used to generate the data analysed in this thesis) \cite{Plongthongkum2014}. It is important to keep in mind that 5hmC is also resistant to bisulfite conversion, and therefore it is confounded with the 5mC signal \cite{Wu2017}. Furthermore, C>T mutations (a common mutation during ageing, see section~\ref{s:1.1.3}) can be confounded with hypomethylation events. Another caveat of bisulfite treatment is that it degrades DNA to a great degree and generates sequencing libraries of low complexity, which leads to reduced mapping rates and higher costs. A few months ago, Liu \textit{et al.} published a bisulfite-free protocol for 5mC sequencing at base-pair resolution, which could potentially solve some of these issues and start a new generation of bisulfite-free methods \cite{Liu2019}. 
+
+\bigskip
+
+Exposure to certain \textbf{environmental factors is associated with changes in the methylome} that can potentially modulate disease risk. In mice, \textit{in utero} undernourishment leads to weight and metabolic defects in the F$_1$ offspring. Furthermore, this metabolic phenotype is inherited in the F$_2$ offspring through the paternal line. Interestingly, this could be caused because genomic regions that become hypomethylated during paternal germline specification survive epigenetic reprogramming in the F$_2$ zygote and lead to further chromatin alterations in adult tissues \cite{Radford2014}. In a different example, smoking exposure in humans changes DNA methylation patterns of blood \cite{Roby2016} or buccal cells \cite{Teschendorff2015} in a consistent and reproducible manner. However, the mechanisms behind these changes and whether they are functional or mere passenger epimutations remain obscure. Finally, many complex diseases, such as rheumatoid arthritis or many cancer types, are characterised by altered DNA methylation patterns, which suggests that epigenetic mechanisms integrate genetic and environmental causes of disease \cite{Liu2013,Widschwendter2018}.
+
+\smallskip
 
 \subsection{Epigenetic changes during mammalian ageing}
 
+\smallskip
+
 3rd
+
+Epigenetic mechanisms have been implicated in many diseases, imprinting disorders, developmental disorders, ...
 
 Check hallmarks of ageing section to start with.
 
@@ -297,13 +304,28 @@ Parabiosis
 
 Stable epigenome in naked mole rats.
 
-heterogeneity at the single-cell level.
+heterogeneity at the single-cell level. Is this generated because epimutation rate is much higher?
+Idea that epigenetic information is carried by a population of cells as a whole and that this information helps not only to achieve and maintain a differentiated state but also to mediate developmental plasticity throughout the life of an organism.: Potential energy landscapes identify the information-theoretic nature of the epigenome
+Somatic vs pluripotent. Together with cycling paper. 
+https://www.nature.com/articles/nature13458
 
 Aging stem cells. A Werner syndrome stem cell model unveils heterochromatin alterations as a driver of human aging
 
 Continuation of the epigenetic landscape during ageing, to converge in diseased cellular states (senescent, cancerous).
 
 Twins
+
+new studies in fruitflies and mice suggest that changes in diet and other environmental factors, in particular the paternal diet, can reprogramme the metabolism of offspring in a way that is propagated to future generations, leading to obesity in these generations198,199. \cite{Allis2016}
+
+Developmental Origins of Health and Disease hypothesis (DOHaD), consistent with experiments in model organisms (see C. elegans).
+
+What happens to the IGF1 IGF2 locus during ageing. Loss-of-imprinting?
+https://www.ncbi.nlm.nih.gov/pubmed/18701505
+
+ From evolutionary point of view, Transgenerational epigenetic inheritance of longevity in C. elegans.https://www.ncbi.nlm.nih.gov/pubmed/22012258
+
+When neuronal samples of different ages are compared, the overall 5hmC level is positively correlated with age131,132,134,139. The changes at individual genomic regions are more dynamic: some regions gain 5hmC on maturing or ageing, whereas others lose the mark131,139, although the functional importance of 5hmC dynamics during ageing is not fully understood. \cite{Wu2017}
+
 
 \section{Epigenetic ageing clocks}
 
@@ -349,6 +371,8 @@ It measures somatic redundancy. Telomere length behaves as biomarker of somatic 
 \subsection{The emergence of epigenetic clocks}
 
 5th
+
+Surprisingly, Holliday already proposes ageing clock in one of the first publications that also proposed that DNA methylation could act as cellular memory and regulate gene transcription (read)/ http://science.sciencemag.org/content/187/4173/226/tab-pdf
 
 Conceptual root on molecular infidelity framework. At the genomic level, the frequency of this molecular damage (mutations, epimutations) seems to occur with a higher probability in specific regions. 
 Holliday's work on DNA methylation, part of theories of biological clock \cite{Medvedev1990}. 

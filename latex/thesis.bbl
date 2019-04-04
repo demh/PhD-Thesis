@@ -798,6 +798,41 @@ C.-t. Wu and J~R Morris.
 \newblock {Genes, Genetics, and Epigenetics: A Correspondence}.
 \newblock {\em Science}, 293(5532):1103--1105, 2001.
 
+\bibitem{Ou2017}
+Horng~D Ou, S{\'{e}}bastien Phan, Thomas~J Deerinck, Andrea Thor, Mark~H
+  Ellisman, and Clodagh~C O'Shea.
+\newblock {ChromEMT: Visualizing 3D chromatin structure and compaction in
+  interphase and mitotic cells}.
+\newblock {\em Science}, 357(6349):eaag0025, 2017.
+
+\bibitem{Lawrence2016}
+Moyra Lawrence, Sylvain Daujat, and Robert Schneider.
+\newblock {Lateral Thinking: How Histone Modifications Regulate Gene
+  Expression}.
+\newblock {\em Trends in Genetics}, 32(1):42--56, 2016.
+
+\bibitem{Strahl2000}
+Brian~D Strahl and C~David Allis.
+\newblock {The language of covalent histone modifications}.
+\newblock {\em Nature}, 403(6765):41--45, 2000.
+
+\bibitem{Mattick2009}
+John~S Mattick, Paulo~P Amaral, Marcel~E Dinger, Tim~R Mercer, and Mark~F
+  Mehler.
+\newblock {RNA regulation of epigenetic processes}.
+\newblock {\em BioEssays}, 31(1):51--59, 2009.
+
+\bibitem{Morris2014}
+Kevin~V Morris and John~S Mattick.
+\newblock {The rise of regulatory RNA}.
+\newblock {\em Nature Reviews Genetics}, 15:423--437, 2014.
+
+\bibitem{Halfmann2010}
+Randal Halfmann and Susan Lindquist.
+\newblock {Epigenetics in the Extreme: Prions and the Inheritance of
+  Environmentally Acquired Traits}.
+\newblock {\em Science}, 330(6004):629--632, 2010.
+
 \bibitem{Allis2016}
 C~David Allis and Thomas Jenuwein.
 \newblock {The molecular hallmarks of epigenetic control}.
@@ -813,6 +848,297 @@ Patrick Trojer and Danny Reinberg.
 \newblock {Facultative Heterochromatin: Is There a Distinctive Molecular
   Signature?}
 \newblock {\em Molecular Cell}, 28(1):1--13, 2007.
+
+\bibitem{Ernst2010}
+Jason Ernst and Manolis Kellis.
+\newblock {Discovery and characterization of chromatin states for systematic
+  annotation of the human genome}.
+\newblock {\em Nature Biotechnology}, 28:817--825, 2010.
+
+\bibitem{Peters2014}
+Jo~Peters.
+\newblock {The role of genomic imprinting in biology and disease: an expanding
+  view}.
+\newblock {\em Nature Reviews Genetics}, 15:517--530, 2014.
+
+\bibitem{Wutz2011}
+Anton Wutz.
+\newblock {Gene silencing in X-chromosome inactivation: advances in
+  understanding facultative heterochromatin formation}.
+\newblock {\em Nature Reviews Genetics}, 12:542--553, 2011.
+
+\bibitem{Patalano2012}
+Solenn Patalano, Timothy~A Hore, Wolf Reik, and Seirian Sumner.
+\newblock {Shifting behaviour: epigenetic reprogramming in eusocial insects}.
+\newblock {\em Current Opinion in Cell Biology}, 24(3):367--373, 2012.
+
+\bibitem{Taudt2016}
+Aaron Taudt, Maria Colom{\'{e}}-Tatch{\'{e}}, and Frank Johannes.
+\newblock {Genetic sources of population epigenomic variation}.
+\newblock {\em Nature Reviews Genetics}, 17:319--332, 2016.
+
+\bibitem{Whitaker2014}
+John~W Whitaker, Zhao Chen, and Wei Wang.
+\newblock {Predicting the human epigenome from DNA motifs}.
+\newblock {\em Nature Methods}, 12:265--272, 2014.
+
+\bibitem{Castillo-Fernandez2014}
+Juan~E Castillo-Fernandez, Tim~D Spector, and Jordana~T Bell.
+\newblock {Epigenetics of discordant monozygotic twins: implications for
+  disease}.
+\newblock {\em Genome Medicine}, 6(7):60, 2014.
+
+\bibitem{Sanchez-Romero2015}
+Mar{\'{i}}a~A S{\'{a}}nchez-Romero, Ignacio Cota, and Josep Casades{\'{u}}s.
+\newblock {DNA methylation in bacteria: from the methyl group to the
+  methylome}.
+\newblock {\em Current Opinion in Microbiology}, 25:9--16, 2015.
+
+\bibitem{Wu2017}
+Xiaoji Wu and Yi~Zhang.
+\newblock {TET-mediated active DNA demethylation: mechanism, function and
+  beyond}.
+\newblock {\em Nature Reviews Genetics}, 18:517--534, 2017.
+
+\bibitem{Li2014}
+En~Li and Yi~Zhang.
+\newblock {DNA methylation in mammals}.
+\newblock {\em Cold Spring Harbor Perspectives in Biology}, 6(5):a019133, 2014.
+
+\bibitem{Neri2017}
+Francesco Neri, Stefania Rapelli, Anna Krepelova, Danny Incarnato, Caterina
+  Parlato, Giulia Basile, Mara Maldotti, Francesca Anselmi, and Salvatore
+  Oliviero.
+\newblock {Intragenic DNA methylation prevents spurious transcription
+  initiation}.
+\newblock {\em Nature}, 543(7643):72--77, 2017.
+
+\bibitem{Smith2013}
+Zachary~D Smith and Alexander Meissner.
+\newblock {DNA methylation: roles in mammalian development}.
+\newblock {\em Nature Reviews Genetics}, 14:204--220, 2013.
+
+\bibitem{Jeziorska2017}
+Danuta~M Jeziorska, Robert J~S Murray, Marco {De Gobbi}, Ricarda Gaentzsch,
+  David Garrick, Helena Ayyub, Taiping Chen, En~Li, Jelena Telenius, Magnus
+  Lynch, Bryony Graham, Andrew J~H Smith, Jonathan~N Lund, Jim~R Hughes,
+  Douglas~R Higgs, and Cristina Tufarelli.
+\newblock {DNA methylation of intragenic CpG islands depends on their
+  transcriptional activity during differentiation and disease}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  114(36):E7526--E7535, 2017.
+
+\bibitem{Zeng2014}
+Jia Zeng, Hema~K Nagrajan, and Soojin~V Yi.
+\newblock {Fundamental diversity of human CpG islands at multiple biological
+  levels}.
+\newblock {\em Epigenetics}, 9(4):483--491, 2014.
+
+\bibitem{Takahashi2017}
+Yuta Takahashi, Jun Wu, Keiichiro Suzuki, Paloma Martinez-Redondo, Mo~Li,
+  Hsin-Kai Liao, Min-Zu Wu, Reyna Hern{\'{a}}ndez-Ben{\'{i}}tez, Tomoaki
+  Hishida, Maxim~Nikolaievich Shokhirev, Concepcion~Rodriguez Esteban, Ignacio
+  Sancho-Martinez, and Juan Carlos~Izpisua Belmonte.
+\newblock {Integration of CpG-free DNA induces de novo methylation of CpG
+  islands in pluripotent stem cells}.
+\newblock {\em Science}, 356(6337):503--508, 2017.
+
+\bibitem{Flavahan2017}
+William~A Flavahan, Elizabeth Gaskell, and Bradley~E Bernstein.
+\newblock {Epigenetic plasticity and the hallmarks of cancer}.
+\newblock {\em Science}, 357(6348):eaal2380, 2017.
+
+\bibitem{Holliday1975}
+R~Holliday and J~E Pugh.
+\newblock {DNA modification mechanisms and gene activity during development}.
+\newblock {\em Science}, 187(4173):226--232, 1975.
+
+\bibitem{Riggs1975}
+A~D Riggs.
+\newblock {X inactivation, differentiation, and DNA methylation}.
+\newblock {\em Cytogenetic and Genome Research}, 14(1):9--25, 1975.
+
+\bibitem{Schultz2015}
+Matthew~D Schultz, Yupeng He, John~W Whitaker, Manoj Hariharan, Eran~A Mukamel,
+  Danny Leung, Nisha Rajagopal, Joseph~R Nery, Mark~A Urich, Huaming Chen, Shin
+  Lin, Yiing Lin, Inkyung Jung, Anthony~D Schmitt, Siddarth Selvaraj, Bing Ren,
+  Terrence~J Sejnowski, Wei Wang, and Joseph~R Ecker.
+\newblock {Human body epigenome maps reveal noncanonical DNA methylation
+  variation}.
+\newblock {\em Nature}, 523:212--216, 2015.
+
+\bibitem{Ziller2011}
+Michael~J Ziller, Fabian M{\"{u}}ller, Jing Liao, Yingying Zhang, Hongcang Gu,
+  Christoph Bock, Patrick Boyle, Charles~B Epstein, Bradley~E Bernstein, Thomas
+  Lengauer, Andreas Gnirke, and Alexander Meissner.
+\newblock {Genomic Distribution and Inter-Sample Variation of Non-CpG
+  Methylation across Human Cell Types}.
+\newblock {\em PLOS Genetics}, 7(12):e1002389, 2011.
+
+\bibitem{He2015}
+Yupeng He and Joseph~R Ecker.
+\newblock {Non-CG Methylation in the Human Genome}.
+\newblock {\em Annual Review of Genomics and Human Genetics}, 16(1):55--77,
+  2015.
+
+\bibitem{Bourchis2001}
+D{\'{e}}borah Bourc'his, Guo-Liang Xu, Chyuan-Sheng Lin, Brooke Bollman, and
+  Timothy~H Bestor.
+\newblock {Dnmt3L and the Establishment of Maternal Genomic Imprints}.
+\newblock {\em Science}, 294(5551):2536--2539, 2001.
+
+\bibitem{Tomida2018}
+Mary~W Tomida, Sally Gaddis, Yoko Takata, Bigang Liu, Kevin Lin, Marcos~R
+  Estecio, Swanand Hardikar, Yue Lu, Nicolas Veland, Yang Zeng, Taiping Chen,
+  Jianjun Shen, Debapriya Saha, Humaira Gowher, and Hongbo Zhao.
+\newblock {DNMT3L facilitates DNA methylation partly by maintaining DNMT3A
+  stability in mouse embryonic stem cells}.
+\newblock {\em Nucleic Acids Research}, 47(1):152--167, 2018.
+
+\bibitem{Iurlaro2017}
+Mario Iurlaro, Ferdinand von Meyenn, and Wolf Reik.
+\newblock {DNA methylation homeostasis in human and mouse development}.
+\newblock {\em Current Opinion in Genetics {\&} Development}, 43:101--109,
+  2017.
+
+\bibitem{Kriaucionis2009}
+Skirmantas Kriaucionis and Nathaniel Heintz.
+\newblock {The Nuclear DNA Base 5-Hydroxymethylcytosine Is Present in Purkinje
+  Neurons and the Brain}.
+\newblock {\em Science}, 324(5929):929--930, 2009.
+
+\bibitem{Tahiliani2009}
+M~Tahiliani, K~P Koh, Y~Shen, W~A Pastor, H~Bandukwala, and Y~Brudno.
+\newblock {Conversion of 5-methylcytosine to 5-hydroxymethylcytosine in
+  mammalian DNA by MLL partner TET1}.
+\newblock {\em Science}, 324(5929):930--935, 2009.
+
+\bibitem{Penn1972}
+N~W Penn, R~Suwalski, C~O'Riley, K~Bojanowski, and R~Yura.
+\newblock {The presence of 5-hydroxymethylcytosine in animal deoxyribonucleic
+  acid}.
+\newblock {\em Biochemical Journal}, 126(4):781--790, 1972.
+
+\bibitem{Ito2010}
+Shinsuke Ito, Ana~C D'Alessio, Olena~V Taranova, Kwonho Hong, Lawrence~C
+  Sowers, and Yi~Zhang.
+\newblock {Role of Tet proteins in 5mC to 5hmC conversion, ES-cell self-renewal
+  and inner cell mass specification}.
+\newblock {\em Nature}, 466:1129--1133, 2010.
+
+\bibitem{Wu2016}
+Tao~P. Wu, Tao Wang, Matthew~G. Seetin, Yongquan Lai, Shijia Zhu, Kaixuan Lin,
+  Yifei Liu, Stephanie~D. Byrum, Samuel~G. Mackintosh, Mei Zhong, Alan Tackett,
+  Guilin Wang, Lawrence~S. Hon, Gang Fang, James~a. Swenberg, and Andrew~Z.
+  Xiao.
+\newblock {DNA methylation on N6-adenine in mammalian embryonic stem cells}.
+\newblock {\em Nature}, 532:1--18, 2016.
+
+\bibitem{Xiao2018}
+Chuan-Le Xiao, Song Zhu, Minghui He, De~Chen, Qian Zhang, Ying Chen, Guoliang
+  Yu, Jinbao Liu, Shang-Qian Xie, Feng Luo, Zhe Liang, De-Peng Wang, Xiao-Chen
+  Bo, Xiao-Feng Gu, Kai Wang, and Guang-Rong Yan.
+\newblock
+  {N{\textless}sup{\textgreater}6{\textless}/sup{\textgreater}-Methyladenine
+  DNA Modification in the Human Genome}.
+\newblock {\em Molecular Cell}, 71(2):306--318.e7, jul 2018.
+
+\bibitem{Tang2016}
+Walfred W~C Tang, Toshihiro Kobayashi, Naoko Irie, Sabine Dietmann, and M~Azim
+  Surani.
+\newblock {Specification and epigenetic programming of the human germ line}.
+\newblock {\em Nature Reviews Genetics}, 17:585--600, 2016.
+
+\bibitem{Atlasi2017}
+Yaser Atlasi and Hendrik~G Stunnenberg.
+\newblock {The interplay of epigenetic marks during stem cell differentiation
+  and development}.
+\newblock {\em Nature Reviews Genetics}, 18:643--658, 2017.
+
+\bibitem{Frommer1992}
+M~Frommer, L~E McDonald, D~S Millar, C~M Collis, F~Watt, G~W Grigg, P~L Molloy,
+  and C~L Paul.
+\newblock {A genomic sequencing protocol that yields a positive display of
+  5-methylcytosine residues in individual DNA strands.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  89(5):1827--1831, 1992.
+
+\bibitem{Plongthongkum2014}
+Nongluk Plongthongkum, Dinh~H Diep, and Kun Zhang.
+\newblock {Advances in the profiling of DNA modifications: cytosine methylation
+  and beyond}.
+\newblock {\em Nat Rev Genet}, 15(10):647--661, 2014.
+
+\bibitem{Liu2019}
+Yibin Liu, Paulina Siejka-Zieli{\'{n}}ska, Gergana Velikova, Ying Bi, Fang
+  Yuan, Marketa Tomkova, Chunsen Bai, Lei Chen, Benjamin
+  Schuster-B{\"{o}}ckler, and Chun-Xiao Song.
+\newblock {Bisulfite-free direct detection of 5-methylcytosine and
+  5-hydroxymethylcytosine at base resolution}.
+\newblock {\em Nature Biotechnology}, 37(4):424--429, 2019.
+
+\bibitem{Radford2014}
+Elizabeth~J Radford, Mitsuteru Ito, Hui Shi, Jennifer~A Corish, Kazuki
+  Yamazawa, Elvira Isganaitis, Stefanie Seisenberger, Timothy~A Hore, Wolf
+  Reik, Serap Erkek, Antoine H F~M Peters, Mary-Elizabeth Patti, and Anne~C
+  Ferguson-Smith.
+\newblock {In utero undernourishment perturbs the adult sperm methylome and
+  intergenerational metabolism}.
+\newblock {\em Science}, 345(6198):1255903, 2014.
+
+\bibitem{Roby2016}
+Joehanes Roby, Just~Allan C., Marioni~Riccardo E., Pilling~Luke C.,
+  Reynolds~Lindsay M., Mandaviya~Pooja R., Guan Weihua, Xu~Tao, Elks~Cathy E.,
+  Aslibekyan Stella, Moreno-Macias Hortensia, Smith~Jennifer A., Brody~Jennifer
+  A., Dhingra Radhika, Yousefi Paul, Pankow~James S., Kunze Sonja, Shah~Sonia
+  H., McRae~Allan F., Lohman Kurt, Sha Jin, Absher~Devin M., Ferrucci Luigi,
+  Zhao Wei, Demerath~Ellen W., Bressler Jan, Grove~Megan L., Huan Tianxiao, Liu
+  Chunyu, Mendelson~Michael M., Yao Chen, Kiel~Douglas P., Peters Annette,
+  Wang-Sattler Rui, Visscher~Peter M., Wray~Naomi R., Starr~John M., Ding
+  Jingzhong, Rodriguez~Carlos J., Wareham~Nicholas J., Irvin~Marguerite R., Zhi
+  Degui, Barrdahl Myrto, Vineis Paolo, Ambatipudi Srikant,
+  Uitterlinden~Andr{\'{e}} G., Hofman Albert, Schwartz Joel, Colicino Elena,
+  Hou Lifang, Vokonas~Pantel S., Hernandez~Dena G., Singleton~Andrew B.,
+  Bandinelli Stefania, Turner~Stephen T., Ware~Erin B., Smith~Alicia K.,
+  Klengel Torsten, Binder~Elisabeth B., Psaty~Bruce M., Taylor~Kent D.,
+  Gharib~Sina A., Swenson~Brenton R., Liang Liming, DeMeo~Dawn L.,
+  O'Connor~George T., Herceg Zdenko, Ressler~Kerry J., Conneely~Karen N.,
+  Sotoodehnia Nona, Kardia Sharon~L R., Melzer David, Baccarelli~Andrea A., van
+  Meurs Joyce~B J., Romieu Isabelle, Arnett~Donna K., Ong~Ken K., Liu Yongmei,
+  Waldenberger Melanie, Deary~Ian J., Fornage Myriam, Levy Daniel, and
+  London~Stephanie J.
+\newblock {Epigenetic Signatures of Cigarette Smoking}.
+\newblock {\em Circulation: Cardiovascular Genetics}, 9(5):436--447, 2016.
+
+\bibitem{Teschendorff2015}
+Andrew~E Teschendorff, Zhen Yang, Andrew Wong, Christodoulos~P Pipinikas,
+  Yinming Jiao, Allison Jones, Shahzia Anjum, Rebecca Hardy, Helga~B Salvesen,
+  Christina Thirlwell, Samuel~M Janes, Diana Kuh, and Martin Widschwendter.
+\newblock {Correlation of Smoking-Associated DNA Methylation Changes in Buccal
+  Cells With DNA Methylation Changes in Epithelial CancerSmoking and DNA
+  Methylation Changes in Buccal Cells and Epithelial CancerSmoking and DNA
+  Methylation Changes in Buccal Cells and Epi}.
+\newblock {\em JAMA Oncology}, 1(4):476--485, 2015.
+
+\bibitem{Liu2013}
+Yun Liu, Martin~J Aryee, Leonid Padyukov, M~Daniele Fallin, Espen Hesselberg,
+  Arni Runarsson, Lovisa Reinius, Nathalie Acevedo, Margaret Taub, Marcus
+  Ronninger, Klementy Shchetynsky, Annika Scheynius, Juha Kere, Lars
+  Alfredsson, Lars Klareskog, Tomas~J Ekstr{\"{o}}m, and Andrew~P Feinberg.
+\newblock {Epigenome-wide association data implicate DNA methylation as an
+  intermediary of genetic risk in rheumatoid arthritis}.
+\newblock {\em Nature Biotechnology}, 31:142--147, 2013.
+
+\bibitem{Widschwendter2018}
+Martin Widschwendter, Allison Jones, Iona Evans, Daniel Reisel, Joakim Dillner,
+  Karin Sundstr{\"{o}}m, Ewout~W. Steyerberg, Yvonne Vergouwe, Odette Wegwarth,
+  Felix~G. Rebitschek, Uwe Siebert, Gaby Sroczynski, Inez~D. de~Beaufort, Ineke
+  Bolt, David Cibula, Michal Zikan, Line Bj{\o}rge, Nicoletta Colombo, Nadia
+  Harbeck, Frank Dudbridge, Anne-Marie Tasse, Bartha~M. Knoppers, Yann Joly,
+  Andrew~E. Teschendorff, and Nora Pashayan.
+\newblock {Epigenome-based cancer risk prediction: rationale, opportunities and
+  challenges}.
+\newblock {\em Nature Reviews Clinical Oncology}, 15:292--309, 2018.
 
 \bibitem{Hoshino2019}
 Akina Hoshino, Steve Horvath, Akshayalakshmi Sridhar, Alex Chitsazan, and
@@ -1002,15 +1328,6 @@ Lovisa~E Reinius, Nathalie Acevedo, Maaike Joerink, G{\"{o}}ran Pershagen,
 \newblock {Differential DNA Methylation in Purified Human Blood Cells:
   Implications for Cell Lineage and Studies on Disease Susceptibility}.
 \newblock {\em PLOS ONE}, 7(7):e41361, 2012.
-
-\bibitem{Liu2013}
-Yun Liu, Martin~J Aryee, Leonid Padyukov, M~Daniele Fallin, Espen Hesselberg,
-  Arni Runarsson, Lovisa Reinius, Nathalie Acevedo, Margaret Taub, Marcus
-  Ronninger, Klementy Shchetynsky, Annika Scheynius, Juha Kere, Lars
-  Alfredsson, Lars Klareskog, Tomas~J Ekstr{\"{o}}m, and Andrew~P Feinberg.
-\newblock {Epigenome-wide association data implicate DNA methylation as an
-  intermediary of genetic risk in rheumatoid arthritis}.
-\newblock {\em Nature Biotechnology}, 31:142--147, 2013.
 
 \bibitem{Jaffe2014}
 Andrew~E Jaffe and Rafael~A Irizarry.
@@ -1786,14 +2103,6 @@ Aaron~R Jeffries, Reza Maroofian, Claire~G Salter, Barry~A Chioza, Harold~E
   associated with abnormalities of epigenetic aging}.
 \newblock {\em bioRxiv}, page 477356, 2018.
 
-\bibitem{Neri2017}
-Francesco Neri, Stefania Rapelli, Anna Krepelova, Danny Incarnato, Caterina
-  Parlato, Giulia Basile, Mara Maldotti, Francesca Anselmi, and Salvatore
-  Oliviero.
-\newblock {Intragenic DNA methylation prevents spurious transcription
-  initiation}.
-\newblock {\em Nature}, 543(7643):72--77, 2017.
-
 \bibitem{Huang2019}
 Huilin Huang, Hengyou Weng, Keren Zhou, Tong Wu, Boxuan~Simen Zhao, Mingli Sun,
   Zhenhua Chen, Xiaolan Deng, Gang Xiao, Franziska Auer, Lars Klemm, Huizhe Wu,
@@ -2085,12 +2394,6 @@ Masako Suzuki and John~M Greally.
 \newblock {Genome-wide DNA Methylation Analysis Using Massively Parallel
   Sequencing Technologies}.
 \newblock {\em Seminars in Hematology}, 50(1):70--77, 2013.
-
-\bibitem{Plongthongkum2014}
-Nongluk Plongthongkum, Dinh~H Diep, and Kun Zhang.
-\newblock {Advances in the profiling of DNA modifications: cytosine methylation
-  and beyond}.
-\newblock {\em Nat Rev Genet}, 15(10):647--661, 2014.
 
 \bibitem{Yong2016}
 Wai-Shin Yong, Fei-Man Hsu, and Pao-Yang Chen.
