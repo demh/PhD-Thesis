@@ -59,7 +59,7 @@
 \glossaryentry{SNP?\glossentry{SNP}|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{BMIQ?\glossentry{BMIQ}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{NK?\glossentry{NK}|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{EWAS?\glossentry{EWAS}|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{EWAS?\glossentry{EWAS}|setentrycounter[]{page}\glsnumberformat}{42}
 \glossaryentry{Gran?\glossentry{Gran}|setentrycounter[]{page}\glsnumberformat}{43}
 \glossaryentry{CD4T?\glossentry{CD4T}|setentrycounter[]{page}\glsnumberformat}{43}
 \glossaryentry{CD8T?\glossentry{CD8T}|setentrycounter[]{page}\glsnumberformat}{43}
@@ -70,8 +70,8 @@
 \glossaryentry{DMCs?\glossentry{DMCs}|setentrycounter[]{page}\glsnumberformat}{43}
 \glossaryentry{DHS?\glossentry{DHS}|setentrycounter[]{page}\glsnumberformat}{43}
 \glossaryentry{IDOL?\glossentry{IDOL}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{DMPs?\glossentry{DMPs}|setentrycounter[]{page}\glsnumberformat}{48}
 \glossaryentry{SCC?\glossentry{SCC}|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{DMPs?\glossentry{DMPs}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{DMCs?\glossentry{DMCs}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{aDMPs?\glossentry{aDMPs}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{CCC?\glossentry{CCC}|setentrycounter[]{page}\glsnumberformat}{50}
@@ -84,6 +84,7 @@
 \glossaryentry{PCC?\glossentry{PCC}|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{EAA?\glossentry{EAA}|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{IEAA?\glossentry{IEAA}|setentrycounter[]{page}\glsnumberformat}{60}
+\glossaryentry{PC?\glossentry{PC}|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{PC?\glossentry{PC}|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{epiTOC?\glossentry{epiTOC}|setentrycounter[]{page}\glsnumberformat}{67}
 \glossaryentry{PRC2?\glossentry{PRC2}|setentrycounter[]{page}\glsnumberformat}{67}
