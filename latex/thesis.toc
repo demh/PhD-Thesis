@@ -6,49 +6,50 @@
 \contentsline {section}{\numberline {1.1}The biology of ageing}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}A brief introduction to ageing theory}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}The genetic basis of ageing}{5}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Hallmarks of mammalian ageing}{8}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Hallmarks of mammalian ageing}{9}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Studying the ageing process in humans}{11}{subsection.1.1.4}
 \contentsline {section}{\numberline {1.2}Epigenetics of ageing}{14}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}A brief introduction to epigenetics}{14}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Fundamentals of DNA methylation in mammals}{17}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Links between the epigenetic machinery and ageing}{22}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Epigenetic ageing clocks}{25}{section.1.3}
+\contentsline {section}{\numberline {1.3}The epigenetic ageing clock}{25}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Measuring the ageing process}{25}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}The landscape of epigenetic clocks}{26}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}What do we know about the epigenetic ageing clock so far?}{27}{subsection.1.3.3}
-\contentsline {chapter}{\numberline {2}Statistical aspects of the epigenetic clock}{31}{chapter.2}
-\contentsline {section}{\numberline {2.1}Analysing the blood methylome to study human ageing}{31}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Building a DNA methylation dataset from public data}{31}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {1.3.3}Molecular mechanisms of the epigenetic ageing clock}{29}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {2}Statistical aspects of the epigenetic clock}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}Analysing the blood methylome to study human ageing}{33}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Building a DNA methylation dataset from public data}{33}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Main DNA methylation data pre-processing pipeline}{34}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Accounting for blood cell composition changes during ageing}{39}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Identifying differentially methylated positions during ageing}{47}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Shannon methylation entropy}{51}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}Behaviour of Horvath's epigenetic clock during ageing}{52}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Calculating epigenetic age using Horvath's epigenetic clock}{52}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Horvath's epigenetic clock measures physiological ageing}{56}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Correcting for batch effects in the context of the epigenetic clock}{59}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Behaviour of other epigenetic clocks during ageing}{62}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Hannum's epigenetic clock}{62}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Epigenetic mitotic clock: \textit {epiTOC}}{63}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Additional methods}{65}{section.2.4}
-\contentsline {chapter}{\numberline {3}Biological aspects of the epigenetic clock}{69}{chapter.3}
-\contentsline {section}{\numberline {3.1}Background}{69}{section.3.1}
-\contentsline {section}{\numberline {3.2}Screening for genes that accelerate the epigenetic clock}{69}{section.3.2}
-\contentsline {section}{\numberline {3.3}Sotos syndrome accelerates epigenetic ageing}{73}{section.3.3}
-\contentsline {section}{\numberline {3.4}Comparing Sotos syndrome and physiological ageing}{75}{section.3.4}
-\contentsline {section}{\numberline {3.5}Methylation Shannon entropy and the epigenetic clock}{79}{section.3.5}
-\contentsline {section}{\numberline {3.6}Discussion}{81}{section.3.6}
-\contentsline {section}{\numberline {3.7}Additional methods}{87}{section.3.7}
-\contentsline {chapter}{\numberline {4}Technological aspects of epigenetic clocks}{93}{chapter.4}
-\contentsline {section}{\numberline {4.1}Background}{93}{section.4.1}
-\contentsline {section}{\numberline {4.2}Restriction enzyme digestion as a tool for genomic enrichment}{95}{section.4.2}
-\contentsline {section}{\numberline {4.3}cuRRBS: customised Reduced Representation Bisulfite Sequencing}{96}{section.4.3}
-\contentsline {section}{\numberline {4.4}Running cuRRBS in different biological systems}{99}{section.4.4}
-\contentsline {section}{\numberline {4.5}Experimental validation of cuRRBS}{101}{section.4.5}
-\contentsline {section}{\numberline {4.6}Conclusions and future directions}{103}{section.4.6}
-\contentsline {section}{\numberline {4.7}Additional methods}{105}{section.4.7}
-\contentsline {chapter}{Appendix \numberline {}}{113}{Appendix.a.}
-\contentsline {section}{\numberline {S.1}Statistical aspects of the epigenetic clock}{113}{section.a..1}
-\contentsline {section}{\numberline {S.2}Biological aspects of the epigenetic clock}{122}{section.a..2}
-\contentsline {section}{\numberline {S.3}Technological aspects of epigenetic clocks}{143}{section.a..3}
-\contentsline {chapter}{References}{151}{chapter*.102}
+\contentsline {subsection}{\numberline {2.1.3}Accounting for blood cell composition changes during ageing}{40}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Identifying differentially methylated positions during ageing}{48}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Shannon methylation entropy}{54}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Behaviour of Horvath's epigenetic clock during ageing}{56}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Calculating epigenetic age using Horvath's epigenetic clock}{56}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Horvath's epigenetic clock measures physiological ageing}{59}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Correcting for batch effects in the context of the epigenetic clock}{62}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Behaviour of other epigenetic clocks during ageing}{66}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Hannum's epigenetic clock}{66}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Epigenetic mitotic clock: \textit {epiTOC}}{67}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Additional methods}{69}{section.2.4}
+\contentsline {chapter}{\numberline {3}Biological aspects of the epigenetic clock}{73}{chapter.3}
+\contentsline {section}{\numberline {3.1}Background}{73}{section.3.1}
+\contentsline {section}{\numberline {3.2}Screening for genes that accelerate the epigenetic clock}{74}{section.3.2}
+\contentsline {section}{\numberline {3.3}Sotos syndrome accelerates epigenetic ageing}{78}{section.3.3}
+\contentsline {section}{\numberline {3.4}Comparing Sotos syndrome and physiological ageing}{80}{section.3.4}
+\contentsline {section}{\numberline {3.5}Methylation Shannon entropy and the epigenetic clock}{84}{section.3.5}
+\contentsline {section}{\numberline {3.6}Discussion}{87}{section.3.6}
+\contentsline {section}{\numberline {3.7}Additional methods}{92}{section.3.7}
+\contentsline {chapter}{\numberline {4}Technological aspects of epigenetic clocks}{97}{chapter.4}
+\contentsline {section}{\numberline {4.1}Background}{97}{section.4.1}
+\contentsline {section}{\numberline {4.2}Restriction enzyme digestion as a tool for genomic enrichment}{99}{section.4.2}
+\contentsline {section}{\numberline {4.3}cuRRBS: customised Reduced Representation Bisulfite Sequencing}{102}{section.4.3}
+\contentsline {section}{\numberline {4.4}Running cuRRBS in different biological systems}{104}{section.4.4}
+\contentsline {section}{\numberline {4.5}Experimental validation of cuRRBS}{106}{section.4.5}
+\contentsline {section}{\numberline {4.6}Conclusions and future directions}{109}{section.4.6}
+\contentsline {section}{\numberline {4.7}Additional methods}{110}{section.4.7}
+\contentsline {chapter}{\numberline {5}Final remarks}{117}{chapter.5}
+\contentsline {chapter}{Appendix \numberline {}}{119}{Appendix.a.}
+\contentsline {section}{\numberline {S.1}Statistical aspects of the epigenetic clock}{119}{section.a..1}
+\contentsline {section}{\numberline {S.2}Biological aspects of the epigenetic clock}{128}{section.a..2}
+\contentsline {section}{\numberline {S.3}Technological aspects of epigenetic clocks}{149}{section.a..3}
+\contentsline {chapter}{References}{157}{chapter*.105}

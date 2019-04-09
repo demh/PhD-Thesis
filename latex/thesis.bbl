@@ -1,5 +1,11 @@
 \begin{thebibliography}{100}
 
+\bibitem{Hayflick2007}
+Leonard Hayflick.
+\newblock {Biological aging is no longer an unsolved problem}.
+\newblock In {\em Annals of the New York Academy of Sciences}, volume 1100,
+  pages 1--13, 2007.
+
 \bibitem{Renfrew2016}
 Colin Renfrew, Michael~J. Boyd, and Iain Morley.
 \newblock {\em {Death Rituals, Social Order and the Archeology of Immortality
@@ -33,7 +39,7 @@ Owen~R Jones, Alexander Scheuerlein, Roberto Salguero-G{\'{o}}mez,
 \newblock {\em Nature}, 505:169, 2013.
 
 \bibitem{DEMAGALHAES2009}
-J~P {DE MAGALH{\~{A}}ES} and J~COSTA.
+J~P {De Magalh{\~{a}}es} and J~Costa.
 \newblock {A database of vertebrate longevity records and their relation to
   other life-history traits}.
 \newblock {\em Journal of Evolutionary Biology}, 22(8):1770--1774, 2009.
@@ -42,12 +48,6 @@ J~P {DE MAGALH{\~{A}}ES} and J~COSTA.
 C~E Finch.
 \newblock {Update on Slow Aging and Negligible Senescence – A Mini-Review}.
 \newblock {\em Gerontology}, 55(3):307--313, 2009.
-
-\bibitem{Hayflick2007}
-Leonard Hayflick.
-\newblock {Biological aging is no longer an unsolved problem}.
-\newblock In {\em Annals of the New York Academy of Sciences}, volume 1100,
-  pages 1--13, 2007.
 
 \bibitem{Hayflick2007a}
 Leonard Hayflick.
@@ -106,16 +106,16 @@ Richard Peto and Richard Doll.
 \newblock {There is no such thing as aging}.
 \newblock {\em BMJ}, 315(7115):1030, 1997.
 
+\bibitem{Stroustrup2016}
+Nicholas Stroustrup, Winston~E Anthony, Zachary~M Nash, Vivek Gowda, Adam
+  Gomez, Isaac~F L{\'{o}}pez-Moyado, Javier Apfeld, and Walter Fontana.
+\newblock {The temporal scaling of Caenorhabditis elegans ageing}.
+\newblock {\em Nature}, 530:103--107, 2016.
+
 \bibitem{Freund2019}
 Adam Freund.
 \newblock {Untangling Aging Using Dynamic, Organism-Level Phenotypic Networks}.
 \newblock {\em Cell Systems}, 8(3):172--181, 2019.
-
-\bibitem{Gems2000}
-David Gems and Donald~L Riddle.
-\newblock {Defining Wild-Type Life Span in Caenorhabditis elegans}.
-\newblock {\em The Journals of Gerontology: Series A}, 55(5):B215--B219, may
-  2000.
 
 \bibitem{Kenyon2005}
 Cynthia Kenyon.
@@ -140,13 +140,13 @@ Luigi Fontana and Linda Partridge.
 \newblock {\em Cell}, 161(1):106--118, 2015.
 
 \bibitem{KLASS1976}
-MICHAEL KLASS and DAVID HIRSH.
+Michael Klass and David Hirsh.
 \newblock {Non-ageing developmental variant of Caenorhabditis elegans}.
 \newblock {\em Nature}, 260(5551):523--525, 1976.
 
 \bibitem{Johnson2013}
 Thomas~E Johnson.
-\newblock {25years after age-1: Genes, interventions and the revolution in
+\newblock {25 years after age-1: Genes, interventions and the revolution in
   aging research}.
 \newblock {\em Experimental Gerontology}, 48(7):640--643, 2013.
 
@@ -1044,10 +1044,8 @@ Tao~P. Wu, Tao Wang, Matthew~G. Seetin, Yongquan Lai, Shijia Zhu, Kaixuan Lin,
 Chuan-Le Xiao, Song Zhu, Minghui He, De~Chen, Qian Zhang, Ying Chen, Guoliang
   Yu, Jinbao Liu, Shang-Qian Xie, Feng Luo, Zhe Liang, De-Peng Wang, Xiao-Chen
   Bo, Xiao-Feng Gu, Kai Wang, and Guang-Rong Yan.
-\newblock
-  {N{\textless}sup{\textgreater}6{\textless}/sup{\textgreater}-Methyladenine
-  DNA Modification in the Human Genome}.
-\newblock {\em Molecular Cell}, 71(2):306--318.e7, jul 2018.
+\newblock {N6-Methyladenine DNA Modification in the Human Genome}.
+\newblock {\em Molecular Cell}, 71(2):306--318.e7, 2018.
 
 \bibitem{Tang2016}
 Walfred W~C Tang, Toshihiro Kobayashi, Naoko Irie, Sabine Dietmann, and M~Azim
@@ -1146,6 +1144,11 @@ Martin Widschwendter, Allison Jones, Iona Evans, Daniel Reisel, Joakim Dillner,
   challenges}.
 \newblock {\em Nature Reviews Clinical Oncology}, 15:292--309, 2018.
 
+\bibitem{Booth2016}
+Lauren~N. Booth and Anne Brunet.
+\newblock {The Aging Epigenome}.
+\newblock {\em Molecular Cell}, 62(5):728--744, 2016.
+
 \bibitem{Benayoun2015a}
 B{\'{e}}r{\'{e}}nice~A Benayoun, Elizabeth~A Pollina, and Anne Brunet.
 \newblock {Epigenetic regulation of ageing: linking environmental inputs to
@@ -1183,6 +1186,12 @@ Weiqi Zhang, Jingyi Li, Keiichiro Suzuki, Jing Qu, Ping Wang, Junzhi Zhou,
 \newblock {A Werner syndrome stem cell model unveils heterochromatin
   alterations as a driver of human aging}.
 \newblock {\em Science}, 348(6239):1160-- 1163, 2015.
+
+\bibitem{Zhang2007}
+Rugang Zhang, Wei Chen, and Peter~D Adams.
+\newblock {Molecular Dissection of Formation of Senescence-Associated
+  Heterochromatin Foci}.
+\newblock {\em Molecular and Cellular Biology}, 27(6):2343--2358, 2007.
 
 \bibitem{DeCecco2013}
 Marco {De Cecco}, Steven~W Criscione, Abigail~L Peterson, Nicola Neretti,
@@ -1222,6 +1231,15 @@ Yuan Gao, Haiyun Gan, Zhenkun Lou, and Zhiguo Zhang.
 \newblock {\em Proceedings of the National Academy of Sciences},
   115(27):E6162--E6171, 2018.
 
+\bibitem{Tan2017}
+Li~Tan, Zhonghe Ke, Gregory Tombline, Nicholas Macoretta, Kevin Hayes, Xiao
+  Tian, Ruitu Lv, Julia Ablaeva, Michael Gilbert, Natarajan~V Bhanu, Zuo-Fei
+  Yuan, Benjamin~A Garcia, Yujiang~G Shi, Yang Shi, Andrei Seluanov, and Vera
+  Gorbunova.
+\newblock {Naked Mole Rat Cells Have a Stable Epigenome that Resists iPSC
+  Reprogramming}.
+\newblock {\em Stem Cell Reports}, 9(5):1721--1734, 2017.
+
 \bibitem{Maegawa2010}
 S~Maegawa, G~Hinkal, H~S Kim, L~Shen, L~Zhang, and J~Zhang.
 \newblock {Widespread and tissue specific age-related DNA methylation changes
@@ -1233,7 +1251,7 @@ Dana Avrahami, Changhong Li, Jia Zhang, Jonathan Schug, Ran Avrahami, Shilpa
   Rao, Michael~B. Stadler, Lukas Burger, Dirk Sch{\"{u}}beler, Benjamin Glaser,
   and Klaus~H. Kaestner.
 \newblock {Aging-Dependent Demethylation of Regulatory Elements Correlates with
-  Chromatin State and Improved {\&}{\#}x3b2; Cell Function}.
+  Chromatin State and Improved Cell Function}.
 \newblock {\em Cell Metabolism}, 22(4):619--632, 2015.
 
 \bibitem{Wang2017}
@@ -1251,6 +1269,12 @@ John~J Cole, Neil~A Robertson, Mohammed~Iqbal Rather, John~P Thomson, Tony
 \newblock {Diverse interventions that extend mouse lifespan suppress shared
   age-associated epigenetic changes at critical gene regulatory regions}.
 \newblock {\em Genome Biology}, 18(1):58, 2017.
+
+\bibitem{Sziraki2018}
+Andr{\'{a}}s Szir{\'{a}}ki, Alexander Tyshkovskiy, and Vadim~N Gladyshev.
+\newblock {Global remodeling of the mouse DNA methylome during aging and in
+  response to calorie restriction}.
+\newblock {\em Aging Cell}, 17(3):e12738, 2018.
 
 \bibitem{Rakyan2010}
 Vardhman~K. Rakyan, Thomas~A. Down, Siarhei Maslau, Toby Andrew, Tsun~Po Yang,
@@ -1368,15 +1392,18 @@ B~E Bernstein, T~S Mikkelsen, X~Xie, M~Kamal, D~J Huebert, and J~Cuff.
   embryonic stem cells}.
 \newblock {\em Cell}, 125(2):315--326, 2006.
 
-\bibitem{Sun2014}
-Yan Sun, Rui Hou, Xiaoteng Fu, Changsen Sun, Shi Wang, Chen Wang, Ning Li,
-  Lingling Zhang, and Zhenmin Bao.
-\newblock {Genome-Wide Analysis of DNA Methylation in Five Tissues of Zhikong
-  Scallop, Chlamys farreri}.
-\newblock {\em PLOS ONE}, 9(1):e86232, 2014.
+\bibitem{Sun2014x}
+Deqiang Sun, Min Luo, Mira Jeong, Benjamin Rodriguez, Zheng Xia, Rebecca
+  Hannah, Hui Wang, Thuc Le, Kym~F. Faull, Rui Chen, Hongcang Gu, Christoph
+  Bock, Alexander Meissner, Berthold G{\"{o}}ttgens, Gretchen~J. Darlington,
+  Wei Li, and Margaret~A. Goodell.
+\newblock {Epigenomic profiling of young and aged HSCs reveals concerted
+  changes during aging that reinforce self-renewal}.
+\newblock {\em Cell Stem Cell}, 14(5):673--688, 2014.
 
 \bibitem{Beerman2013}
-I~Beerman, C~Bock, B~S Garrison, Z~D Smith, H~Gu, A~Meissner, and D~J Rossi.
+Isabel Beerman, Christoph Bock, Brian~S. Garrison, Zachary~D. Smith, Hongcang
+  Gu, Alexander Meissner, and Derrick~J. Rossi.
 \newblock {Proliferation-dependent alterations of the DNA methylation landscape
   underlie hematopoietic stem cell aging}.
 \newblock {\em Cell Stem Cell}, 12(4):413--425, 2013.
@@ -1393,6 +1420,216 @@ Stephan~H Bernhart, Helene Kretzmer, Lesca~M Holdt, Frank J{\"{u}}hling, Ole
 Michael~J. Thompson, Bridgett von Holdt, Steve Horvath, and Matteo Pellegrini.
 \newblock {An epigenetic aging clock for dogs and wolves}.
 \newblock {\em Aging}, 9(3):1055--1068, 2017.
+
+\bibitem{Lowe2018}
+Robert Lowe, Carl Barton, Christopher~A Jenkins, Christina Ernst, Oliver
+  Forman, Denise~S Fernandez-Twinn, Christoph Bock, Stephen~J Rossiter, Chris~G
+  Faulkes, Susan~E Ozanne, Lutz Walter, Duncan~T Odom, Cathryn Mellersh, and
+  Vardhman~K Rakyan.
+\newblock {Ageing-associated DNA methylation dynamics are a molecular readout
+  of lifespan variation among mammalian species}.
+\newblock {\em Genome Biology}, 19(1):22, 2018.
+
+\bibitem{West2013}
+James West, Andrew~E Teschendorff, and Stephan Beck.
+\newblock {Age-associated epigenetic drift: implications, and a case of
+  epigenetic thrift?}
+\newblock {\em Human Molecular Genetics}, 22(R1):R7--R15, 2013.
+
+\bibitem{Fraga2005}
+Mario~F Fraga, Esteban Ballestar, Maria~F Paz, Santiago Ropero, Fernando
+  Setien, Maria~L Ballestar, Damia Heine-Su{\~{n}}er, Juan~C Cigudosa, Miguel
+  Urioste, Javier Benitez, Manuel Boix-Chornet, Abel Sanchez-Aguilera,
+  Charlotte Ling, Emma Carlsson, Pernille Poulsen, Allan Vaag, Zarko Stephan,
+  Tim~D Spector, Yue-Zhong Wu, Christoph Plass, and Manel Esteller.
+\newblock {Epigenetic differences arise during the lifetime of monozygotic
+  twins}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 102(30):10604--10609, 2005.
+
+\bibitem{Talens2012}
+Rudolf~P Talens, Kaare Christensen, Hein Putter, Gonneke Willemsen, Lene
+  Christiansen, Dennis Kremer, H~Eka~D Suchiman, P~Eline Slagboom, Dorret~I
+  Boomsma, and Bastiaan~T Heijmans.
+\newblock {Epigenetic variation during the adult lifespan: cross-sectional and
+  longitudinal data on monozygotic twin pairs}.
+\newblock {\em Aging Cell}, 11(4):694--703, 2012.
+
+\bibitem{Hernando-Herraez2018}
+Irene Hernando-Herraez, Brendan Evano, Thomas Stubbs, Pierre-Henri Commere,
+  Stephen Clark, Simon Andrews, Shahragim Tajbakhsh, and Wolf Reik.
+\newblock {Ageing affects DNA methylation drift and transcriptional
+  cell-to-cell variability in muscle stem cells}.
+\newblock {\em bioRxiv}, page 500900, 2018.
+
+\bibitem{Martinez-Jimenez2017}
+Celia~Pilar Martinez-Jimenez, Nils Eling, Hung-Chang Chen, Catalina~A.
+  Vallejos, Aleksandra~A. Kolodziejczyk, Frances Connor, Lovorka Stojic,
+  Timothy~F. Rayner, Michael J.~T. Stubbington, Sarah~A. Teichmann, Maike de~la
+  Roche, John~C. Marioni, and Duncan~T. Odom.
+\newblock {Aging increases cell-to-cell transcriptional variability upon immune
+  stimulation}.
+\newblock {\em Science}, 355(6332):1433--1436, 2017.
+
+\bibitem{Stroustrup2013}
+Nicholas Stroustrup, Bryne~E Ulmschneider, Zachary~M Nash, Isaac~F
+  L{\'{o}}pez-Moyado, Javier Apfeld, and Walter Fontana.
+\newblock {The Caenorhabditis elegans Lifespan Machine.}
+\newblock {\em Nature methods}, 10(7):665--70, 2013.
+
+\bibitem{Burkle2015a}
+Alexander B{\"{u}}rkle, Mar{\'{i}}a Moreno-Villanueva, J{\"{u}}rgen Bernhard,
+  Mar{\'{i}}a Blasco, Gerben Zondag, Jan H~J Hoeijmakers, Olivier Toussaint,
+  Beatrix Grubeck-Loebenstein, Eugenio Mocchegiani, Sebastiano Collino,
+  Efstathios~S Gonos, Ewa Sikora, Daniela Gradinaru, Martijn Doll{\'{e}},
+  Michel Salmon, Peter Kristensen, Helen~R Griffiths, Claude Libert, Tilman
+  Grune, Nicolle Breusing, Andreas Simm, Claudio Franceschi, Miriam Capri,
+  Duncan Talbot, Paola Caiafa, Bertrand Friguet, P~Eline Slagboom, Antti
+  Hervonen, Mikko Hurme, and Richard Aspinall.
+\newblock {MARK-AGE biomarkers of ageing}.
+\newblock {\em Mechanisms of Ageing and Development}, 151:2--12, 2015.
+
+\bibitem{Jylhava2017}
+Juulia Jylh{\"{a}}v{\"{a}}, Nancy~L Pedersen, and Sara H{\"{a}}gg.
+\newblock {Biological Age Predictors}.
+\newblock {\em EBioMedicine}, 21:29--36, 2017.
+
+\bibitem{Peters2015a}
+Marjolein~J Peters, Roby Joehanes, Luke~C Pilling, Claudia Schurmann, Karen~N
+  Conneely, Joseph Powell, Eva Reinmaa, George~L Sutphin, Alexandra Zhernakova,
+  Katharina Schramm, Yana~A Wilson, Sayuko Kobes, Taru Tukiainen, {NABEC/UKBEC
+  Consortium}, Yolande~F Ramos, Harald H~H G{\"{o}}ring, Myriam Fornage,
+  Yongmei Liu, Sina~A Gharib, Barbara~E Stranger, Philip~L {De Jager}, Abraham
+  Aviv, Daniel Levy, Joanne~M Murabito, Peter~J Munson, Tianxiao Huan, Albert
+  Hofman, Andr{\'{e}}~G Uitterlinden, Fernando Rivadeneira, Jeroen van Rooij,
+  Lisette Stolk, Linda Broer, Michael M P~J Verbiest, Mila Jhamai, Pascal Arp,
+  Andres Metspalu, Liina Tserel, Lili Milani, Nilesh~J Samani, P{\"{a}}rt
+  Peterson, Silva Kasela, Veryan Codd, Annette Peters, Cavin~K Ward-Caviness,
+  Christian Herder, Melanie Waldenberger, Michael Roden, Paula Singmann, Sonja
+  Zeilinger, Thomas Illig, Georg Homuth, Hans-J{\"{o}}rgen Grabe, Henry
+  V{\"{o}}lzke, Leif Steil, Thomas Kocher, Anna Murray, David Melzer, Hanieh
+  Yaghootkar, Stefania Bandinelli, Eric~K Moses, Jack~W Kent, Joanne~E Curran,
+  Matthew~P Johnson, Sarah Williams-Blangero, Harm-Jan Westra, Allan~F McRae,
+  Jennifer~A Smith, Sharon L~R Kardia, Iiris Hovatta, Markus Perola, Samuli
+  Ripatti, Veikko Salomaa, Anjali~K Henders, Nicholas~G Martin, Alicia~K Smith,
+  Divya Mehta, Elisabeth~B Binder, K~Maria Nylocks, Elizabeth~M Kennedy,
+  Torsten Klengel, Jingzhong Ding, Astrid~M Suchy-Dicey, Daniel~A Enquobahrie,
+  Jennifer Brody, Jerome~I Rotter, Yii-Der~I Chen, Jeanine Houwing-Duistermaat,
+  Margreet Kloppenburg, P~Eline Slagboom, Quinta Helmer, Wouter den Hollander,
+  Shannon Bean, Towfique Raj, Noman Bakhshi, Qiao~Ping Wang, Lisa~J Oyston,
+  Bruce~M Psaty, Russell~P Tracy, Grant~W Montgomery, Stephen~T Turner, John
+  Blangero, Ingrid Meulenbelt, Kerry~J Ressler, Jian Yang, Lude Franke,
+  Johannes Kettunen, Peter~M Visscher, G~Gregory Neely, Ron Korstanje, Robert~L
+  Hanson, Holger Prokisch, Luigi Ferrucci, Tonu Esko, Alexander Teumer, Joyce
+  B~J van Meurs, and Andrew~D Johnson.
+\newblock {The transcriptional landscape of age in human peripheral blood}.
+\newblock {\em Nature communications}, 6:8570, 2015.
+
+\bibitem{Tanaka2018}
+Toshiko Tanaka, Angelique Biancotto, Ruin Moaddel, Ann~Zenobia Moore, Marta
+  Gonzalez-Freire, Miguel~A Aon, Juli{\'{a}}n Candia, Pingbo Zhang, Foo Cheung,
+  Giovanna Fantoni, C~H~I Consortium, Richard~D Semba, and Luigi Ferrucci.
+\newblock {Plasma proteomic signature of age in healthy humans}.
+\newblock {\em Aging Cell}, 17(5):e12799, 2018.
+
+\bibitem{Hertel2016}
+Johannes Hertel, Nele Friedrich, Katharina Wittfeld, Maik Pietzner, Kathrin
+  Budde, Sandra {Van der Auwera}, Tobias Lohmann, Alexander Teumer, Henry
+  V{\"{o}}lzke, Matthias Nauck, and Hans~J{\"{o}}rgen Grabe.
+\newblock {Measuring Biological Age via Metabonomics: The Metabolic Age Score}.
+\newblock {\em Journal of Proteome Research}, 15(2):400--410, 2016.
+
+\bibitem{Galkin2018}
+Fedor Galkin, Alexander Aliper, Evgeny Putin, Igor Kuznetsov, Vadim~N
+  Gladyshev, and Alex Zhavoronkov.
+\newblock {Human microbiome aging clocks based on deep learning and tandem of
+  permutation feature importance and accumulated local effects}.
+\newblock {\em bioRxiv}, page 507780, 2018.
+
+\bibitem{Cole2017a}
+J~H Cole, S~J Ritchie, M~E Bastin, M~C {Vald{\'{e}}s Hern{\'{a}}ndez},
+  S~{Mu{\~{n}}oz Maniega}, N~Royle, J~Corley, A~Pattie, S~E Harris, Q~Zhang,
+  N~R Wray, P~Redmond, R~E Marioni, J~M Starr, S~R Cox, J~M Wardlaw, D~J Sharp,
+  and I~J Deary.
+\newblock {Brain age predicts mortality}.
+\newblock {\em Molecular Psychiatry}, 23:1385--1392, 2017.
+
+\bibitem{Khan2017}
+Sadiya~S Khan, Benjamin~D Singer, and Douglas~E Vaughan.
+\newblock {Molecular and physiological manifestations and measurement of aging
+  in humans}.
+\newblock {\em Aging Cell}, 16(4):624--633, 2017.
+
+\bibitem{Putin2016}
+Evgeny Putin, Polina Mamoshina, Alexander Aliper, Mikhail Korzinkin, Alexey
+  Moskalev, Alexey Kolosov, Alexander Ostrovskiy, Charles Cantor, Jan Vijg, and
+  Alex Zhavoronkov.
+\newblock {Deep biomarkers of human aging: Application of deep neural networks
+  to biomarker development}.
+\newblock {\em Aging}, 8(5):1021--1033, 2016.
+
+\bibitem{Newman2013}
+Anne~B Newman and Jason~L Sanders.
+\newblock {Telomere Length in Epidemiology: A Biomarker of Aging, Age-Related
+  Disease, Both, or Neither?}
+\newblock {\em Epidemiologic Reviews}, 35(1):112--131, 2013.
+
+\bibitem{Chen2016}
+Brian~H. Chen, Riccardo~E. Marioni, Elena Colicino, Marjolein~J. Peters,
+  Cavin~K. Ward-Caviness, Pei~Chien Tsai, Nicholas~S. Roetker, Allan~C. Just,
+  Ellen~W. Demerath, Weihua Guan, Jan Bressler, Myriam Fornage, Stephanie
+  Studenski, Amy~R. Vandiver, Ann~Zenobia Moore, Toshiko Tanaka, Douglas~P.
+  Kiel, Liming Liang, Pantel Vokonas, Joel Schwartz, Kathryn~L. Lunetta,
+  Joanne~M. Murabito, Stefania Bandinelli, Dena~G. Hernandez, David Melzer,
+  Michael Nalls, Luke~C. Pilling, Timothy~R. Price, Andrew~B. Singleton,
+  Christian Gieger, Rolf Holle, Anja Kretschmer, Florian Kronenberg, Sonja
+  Kunze, Jakob Linseisen, Christine Meisinger, Wolfgang Rathmann, Melanie
+  Waldenberger, Peter~M. Visscher, Sonia Shah, Naomi~R. Wray, Allan~F. McRae,
+  Oscar~H. Franco, Albert Hofman, Andr{\"{i}}¿½~G. Uitterlinden, Devin
+  Absher, Themistocles Assimes, Morgan~E. Levine, Ake~T. Lu, Philip~S. Tsao,
+  Lifang Hou, Jo~Ann~E. Manson, Cara~L. Carty, Andrea~Z. LaCroix, Alexander~P.
+  Reiner, Tim~D. Spector, Andrew~P. Feinberg, Daniel Levy, Andrea Baccarelli,
+  Joyce van Meurs, Jordana~T. Bell, Annette Peters, Ian~J. Deary, James~S.
+  Pankow, Luigi Ferrucci, and Steve Horvath.
+\newblock {DNA methylation-based measures of biological age: Meta-analysis
+  predicting time to death}.
+\newblock {\em Aging}, 8(9):1844--1865, 2016.
+
+\bibitem{Bork2010}
+Simone Bork, Stefan Pfister, Hendrik Witt, Patrick Horn, Bernhard Korn,
+  Anthony~D Ho, and Wolfgang Wagner.
+\newblock {DNA methylation pattern changes upon long-term culture and aging of
+  human mesenchymal stromal cells}.
+\newblock {\em Aging Cell}, 9(1):54--63, 2010.
+
+\bibitem{Gronniger2010}
+Elke Gr{\"{o}}nniger, Barbara Weber, Oliver Heil, Nils Peters, Franz
+  St{\"{a}}b, Horst Wenck, Bernhard Korn, Marc Winnefeld, and Frank Lyko.
+\newblock {Aging and Chronic Sun Exposure Cause Distinct Epigenetic Changes in
+  Human Skin}.
+\newblock {\em PLOS Genetics}, 6(5):e1000971, 2010.
+
+\bibitem{Bocklandt2011}
+S~Bocklandt, W~Lin, M~E Sehl, F~J S{\'{a}}nchez, J~S Sinsheimer, S~Horvath, and
+  E~Vilain.
+\newblock {Epigenetic predictor of age}.
+\newblock {\em PLoS One}, 6(6):e14821, 2011.
+
+\bibitem{Koch2011}
+Carmen~M Koch and Wolfgang Wagner.
+\newblock {Epigenetic-aging-signature to determine age in different tissues}.
+\newblock {\em Aging}, 3(10):1018--1027, 2011.
+
+\bibitem{Hannum2013}
+G~Hannum, J~Guinney, L~Zhao, L~Zhang, G~Hughes, and S~Sadda.
+\newblock {Genome-wide methylation profiles reveal quantitative views of human
+  aging rates}.
+\newblock {\em Mol Cell}, 49(2):359--367, 2013.
+
+\bibitem{Horvath2013}
+Steve Horvath.
+\newblock {DNA methylation age of human tissues and cell types}.
+\newblock {\em Genome Biology}, 14(10):3156, 2013.
 
 \bibitem{Stubbs2017}
 Thomas~M. Stubbs, Marc~Jan Bonder, Anne-Katrien Stark, Felix Krueger, Ferdinand
@@ -1420,6 +1657,150 @@ Margarita~V Meer, Dmitriy~I Podolskiy, Alexander Tyshkovskiy, and Vadim~N
 \newblock {A whole lifespan mouse multi-tissue DNA methylation clock}.
 \newblock {\em eLife}, 7:e40675, 2018.
 
+\bibitem{Polanowski2014}
+Andrea~M Polanowski, Jooke Robbins, David Chandler, and Simon~N Jarman.
+\newblock {Epigenetic estimation of age in humpback whales}.
+\newblock {\em Molecular Ecology Resources}, 14(5):976--987, 2014.
+
+\bibitem{Marioni2015}
+Riccardo~E Marioni, Sonia Shah, Allan~F McRae, Brian~H Chen, Elena Colicino,
+  Sarah~E Harris, Jude Gibson, Anjali~K Henders, Paul Redmond, Simon~R Cox,
+  Alison Pattie, Janie Corley, Lee Murphy, Nicholas~G Martin, Grant~W
+  Montgomery, Andrew~P Feinberg, M~Daniele Fallin, Michael~L Multhaup, Andrew~E
+  Jaffe, Roby Joehanes, Joel Schwartz, Allan~C Just, Kathryn~L Lunetta,
+  Joanne~M Murabito, John~M Starr, Steve Horvath, Andrea~A Baccarelli, Daniel
+  Levy, Peter~M Visscher, Naomi~R Wray, and Ian~J Deary.
+\newblock {DNA methylation age of blood predicts all-cause mortality in later
+  life}.
+\newblock {\em Genome Biology}, 16(1):25, 2015.
+
+\bibitem{Horvath2015b}
+Steve Horvath and Andrew~J Levine.
+\newblock {HIV-1 Infection Accelerates Age According to the Epigenetic Clock.}
+\newblock {\em The Journal of infectious diseases}, 212(10):1563--73, 2015.
+
+\bibitem{Horvath2015a}
+Steve Horvath, Paolo Garagnani, Maria~Giulia Bacalini, Chiara Pirazzini,
+  Stefano Salvioli, Davide Gentilini, Anna~Maria {Di Blasio}, Cristina
+  Giuliani, Spencer Tung, Harry~V. Vinters, and Claudio Franceschi.
+\newblock {Accelerated epigenetic aging in Down syndrome}.
+\newblock {\em Aging Cell}, 14(3):491--495, 2015.
+
+\bibitem{Horvath2014}
+Steve Horvath, Wiebke Erhart, Mario Brosch, Ole Ammerpohl, Witigo von
+  Sch{\"{o}}nfels, Markus Ahrens, Nils Heits, Jordana~T. Bell, Pei-Chien Tsai,
+  Tim~D. Spector, Panos Deloukas, Reiner Siebert, Bence Sipos, Thomas Becker,
+  Christoph R{\"{o}}cken, Clemens Schafmayer, and Jochen Hampe.
+\newblock {Obesity accelerates epigenetic aging of human liver}.
+\newblock {\em Proceedings of the National Academy of Sciences}, page
+  201412759, 2014.
+
+\bibitem{Levine2016}
+Morgan~E Levine, Ake~T Lu, Brian~H Chen, Dena~G Hernandez, Andrew~B Singleton,
+  Luigi Ferrucci, Stefania Bandinelli, Elias Salfati, JoAnn~E Manson, Austin
+  Quach, Cynthia D~J Kusters, Diana Kuh, Andrew Wong, Andrew~E Teschendorff,
+  Martin Widschwendter, Beate~R Ritz, Devin Absher, Themistocles~L Assimes, and
+  Steve Horvath.
+\newblock {Menopause accelerates biological aging}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  113(33):9327--9332, 2016.
+
+\bibitem{Kresovich2019}
+Jacob~K Kresovich, Zongli Xu, Katie~M O'Brien, Clarice~R Weinberg, Dale~P
+  Sandler, and Jack~A Taylor.
+\newblock {Methylation-Based Biological Age and Breast Cancer Risk}.
+\newblock {\em JNCI: Journal of the National Cancer Institute}, page djz020,
+  2019.
+
+\bibitem{Maierhofer2017}
+Anna Maierhofer, Julia Flunkert, Junko Oshima, George~M. Martin, Thomas Haaf,
+  and Steve Horvath.
+\newblock {Accelerated epigenetic aging in Werner syndrome}.
+\newblock {\em Aging}, 9(4):1143--1152, 2017.
+
+\bibitem{Horvath2016a}
+Steve Horvath, Peter Langfelder, Seung Kwak, Jeff Aaronson, Jim Rosinski,
+  Thomas~F. Vogt, Marika Eszes, Richard~L.M. Faull, Maurice~A. Curtis, Henry~J.
+  Waldvogel, Oi~Wa Choi, Spencer Tung, Harry~V. Vinters, Giovanni Coppola, and
+  X.~William Yang.
+\newblock {Huntington's disease accelerates epigenetic aging of human brain and
+  disrupts DNA methylation levels}.
+\newblock {\em Aging}, 8(7):1485--1512, 2016.
+
+\bibitem{Horvath2018}
+Steve Horvath and Kenneth Raj.
+\newblock {DNA methylation-based biomarkers and the epigenetic clock theory of
+  ageing}.
+\newblock {\em Nature Reviews Genetics}, 19(6):371--384, 2018.
+
+\bibitem{Horvath2016}
+Steve Horvath, Michael Gurven, Morgan~E. Levine, Benjamin~C. Trumble, Hillard
+  Kaplan, Hooman Allayee, Beate~R. Ritz, Brian Chen, Ake~T. Lu, Tammy~M.
+  Rickabaugh, Beth~D. Jamieson, Dianjianyi Sun, Shengxu Li, Wei Chen, Lluis
+  Quintana-Murci, Maud Fagny, Michael~S. Kobor, Philip~S. Tsao, Alexander~P.
+  Reiner, Kerstin~L. Edlefsen, Devin Absher, and Themistocles~L. Assimes.
+\newblock {An epigenetic clock analysis of race/ethnicity, sex, and coronary
+  heart disease}.
+\newblock {\em Genome Biology}, 17(1):171, 2016.
+
+\bibitem{Yang2016}
+Zhen Yang, Andrew Wong, Diana Kuh, Dirk~S. Paul, Vardhman~K. Rakyan, R.~David
+  Leslie, Shijie~C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew~E.
+  Teschendorff.
+\newblock {Correlation of an epigenetic mitotic clock with cancer risk}.
+\newblock {\em Genome Biology}, 17(1):205, 2016.
+
+\bibitem{Horvath2018a}
+Steve Horvath, Junko Oshima, George~M. Martin, Ake~T. Lu, Austin Quach, Howard
+  Cohen, Sarah Felton, Mieko Matsuyama, Donna Lowe, Sylwia Kabacik, James~G.
+  Wilson, Alex~P. Reiner, Anna Maierhofer, Julia Flunkert, Abraham Aviv, Lifang
+  Hou, Andrea~A. Baccarelli, Yun Li, James~D. Stewart, Eric~A. Whitsel, Luigi
+  Ferrucci, Shigemi Matsuyama, and Kenneth Raj.
+\newblock {Epigenetic clock for skin and blood cells applied to Hutchinson
+  Gilford Progeria Syndrome and ex vivo studies}.
+\newblock {\em Aging}, 10(7):1758--1775, 2018.
+
+\bibitem{Levine2018}
+Morgan~E Levine, Ake~T Lu, Austin Quach, Brian~H Chen, Themistocles~L Assimes,
+  Stefania Bandinelli, Lifang Hou, Andrea~A Baccarelli, James~D Stewart, Yun
+  Li, Eric~A Whitsel, James~G Wilson, Alex~P Reiner, Abraham Aviv, Kurt Lohman,
+  Yongmei Liu, Luigi Ferrucci, and Steve Horvath.
+\newblock {An epigenetic biomarker of aging for lifespan and healthspan}.
+\newblock {\em Aging}, 10(4):573--591, 2018.
+
+\bibitem{Lu2019}
+Ake~T Lu, Austin Quach, James~G Wilson, Alex~P Reiner, Abraham Aviv, Kenneth
+  Raj, Lifang Hou, Andrea~A Baccarelli, Yun Li, James~D Stewart, Eric~A
+  Whitsel, Themistocles~L Assimes, Luigi Ferrucci, and Steve Horvath.
+\newblock {DNA methylation GrimAge strongly predicts lifespan and healthspan}.
+\newblock {\em Aging}, 11(2):303--327, 2019.
+
+\bibitem{Friedman2010}
+Jerome Friedman, Trevor Hastie, and Rob Tibshirani.
+\newblock {Regularization Paths for Generalized Linear Models via Coordinate
+  Descent}.
+\newblock {\em Journal of statistical software}, 33(1):1--22, 2010.
+
+\bibitem{Field2018}
+Adam~E. Field, Neil~A. Robertson, Tina Wang, Aaron Havas, Trey Ideker, and
+  Peter~D. Adams.
+\newblock {DNA Methylation Clocks in Aging: Categories, Causes, and
+  Consequences}.
+\newblock {\em Molecular Cell}, 71(6):882--895, 2018.
+
+\bibitem{Sehl2017}
+Mary~E. Sehl, Jill~E. Henry, Anna~Maria Storniolo, Patricia~A. Ganz, and Steve
+  Horvath.
+\newblock {DNA methylation age is elevated in breast tissue of healthy women}.
+\newblock {\em Breast Cancer Research and Treatment}, 164(1):209--219, 2017.
+
+\bibitem{Horvath2015}
+Steve Horvath, Vei Mah, Ake~T Lu, Jennifer~S Woo, Oi-Wa Choi, Anna~J Jasinska,
+  Jos{\'{e}}~A Riancho, Spencer Tung, Natalie~S Coles, Jonathan Braun, Harry~V
+  Vinters, and L~Stephen Coles.
+\newblock {The cerebellum ages slowly according to the epigenetic clock}.
+\newblock {\em Aging}, 7(5):294--306, 2015.
+
 \bibitem{Hoshino2019}
 Akina Hoshino, Steve Horvath, Akshayalakshmi Sridhar, Alex Chitsazan, and
   Thomas~A Reh.
@@ -1427,10 +1808,57 @@ Akina Hoshino, Steve Horvath, Akshayalakshmi Sridhar, Alex Chitsazan, and
   developmental timing}.
 \newblock {\em Scientific Reports}, 9(1):3770, 2019.
 
-\bibitem{Horvath2013}
-Steve Horvath.
-\newblock {DNA methylation age of human tissues and cell types}.
-\newblock {\em Genome Biology}, 14(10):3156, 2013.
+\bibitem{Soraas2019}
+Arne S{\o}raas, Mieko Matsuyama, Marcos de~Lima, David Wald, Jochen Buechner,
+  Tobias Gedde-Dahl, Camilla~Lund S{\o}raas, Brian Chen, Luigi Ferrucci,
+  John~Arne Dahl, Steve Horvath, and Shigemi Matsuyama.
+\newblock {Epigenetic age is a cell-intrinsic property in transplanted human
+  hematopoietic cells}.
+\newblock {\em Aging Cell}, 18(2):e12897, 2019.
+
+\bibitem{Conboy2005}
+Irina~M Conboy, Michael~J Conboy, Amy~J Wagers, Eric~R Girma, Irving~L
+  Weissman, and Thomas~A Rando.
+\newblock {Rejuvenation of aged progenitor cells by exposure to a young
+  systemic environment}.
+\newblock {\em Nature}, 433(7027):760--764, 2005.
+
+\bibitem{Huh2016}
+Christine~J Huh, Bo~Zhang, Matheus~B Victor, Sonika Dahiya, Luis F~Z Batista,
+  Steve Horvath, and Andrew~S Yoo.
+\newblock {Maintenance of age in human neurons generated by microRNA-based
+  neuronal conversion of fibroblasts}.
+\newblock {\em eLife}, 5:e18648, 2016.
+
+\bibitem{Lu2018}
+Ake~T Lu, Luting Xue, Elias~L Salfati, Brian~H Chen, Luigi Ferrucci, Daniel
+  Levy, Roby Joehanes, Joanne~M Murabito, Douglas~P Kiel, Pei-Chien Tsai, Idil
+  Yet, Jordana~T Bell, Massimo Mangino, Toshiko Tanaka, Allan~F McRae,
+  Riccardo~E Marioni, Peter~M Visscher, Naomi~R Wray, Ian~J Deary, Morgan~E
+  Levine, Austin Quach, Themistocles Assimes, Philip~S Tsao, Devin Absher,
+  James~D Stewart, Yun Li, Alex~P Reiner, Lifang Hou, Andrea~A Baccarelli,
+  Eric~A Whitsel, Abraham Aviv, Alexia Cardona, Felix~R Day, Nicholas~J
+  Wareham, John R~B Perry, Ken~K Ong, Kenneth Raj, Kathryn~L Lunetta, and Steve
+  Horvath.
+\newblock {GWAS of epigenetic aging rates in blood reveals a critical role for
+  TERT}.
+\newblock {\em Nature Communications}, 9(1):387, 2018.
+
+\bibitem{Lowe2016}
+Donna Lowe, Steve Horvath, and Kenneth Raj.
+\newblock {Epigenetic clock analyses of cellular senescence and ageing}.
+\newblock {\em Oncotarget}, 7(8):8524--8531, 2016.
+
+\bibitem{Ocampo2016}
+Alejandro Ocampo, Pradeep Reddy, Paloma Martinez-Redondo, Aida Platero-Luengo,
+  Fumiyuki Hatanaka, Tomoaki Hishida, Mo~Li, David Lam, Masakazu Kurita, Ergin
+  Beyret, Toshikazu Araoka, Eric Vazquez-Ferrer, David Donoso, Jose~Luis Roman,
+  Jinna Xu, Concepcion {Rodriguez Esteban}, Gabriel Nu{\~{n}}ez, Estrella
+  {Nu{\~{n}}ez Delicado}, Josep~M Campistol, Isabel Guillen, Pedro Guillen, and
+  Juan~Carlos {Izpisua Belmonte}.
+\newblock {In Vivo Amelioration of Age-Associated Hallmarks by Partial
+  Reprogramming}.
+\newblock {\em Cell}, 167(7):1719--1733.e12, 2016.
 
 \bibitem{Rando2012}
 Thomas~A. Rando and Howard~Y. Chang.
@@ -1443,6 +1871,24 @@ Nelly Olova, Daniel~J Simpson, Riccardo~E Marioni, and Tamir Chandra.
 \newblock {Partial reprogramming induces a steady decline in epigenetic age
   before loss of somatic identity}.
 \newblock {\em Aging Cell}, 18(1):e12877, 2019.
+
+\bibitem{Mahmoudi2019}
+Salah Mahmoudi, Lucy Xu, and Anne Brunet.
+\newblock {Turning back time with emerging rejuvenation strategies}.
+\newblock {\em Nature Cell Biology}, 21(1):32--43, 2019.
+
+\bibitem{Sarkar2019}
+Tapash~Jay Sarkar, Marco Quarta, Shravani Mukherjee, Alex Colville, Patrick
+  Paine, Linda Doan, Christopher~M Tran, Constance~R Chu, Steve Horvath, Nidhi
+  Bhutani, Thomas~A Rando, and Vittorio Sebastiano.
+\newblock {Transient non-integrative nuclear reprogramming promotes
+  multifaceted reversal of aging in human cells}.
+\newblock {\em bioRxiv}, page 573386, 2019.
+
+\bibitem{Kelvin1889}
+William Thomnson.
+\newblock {\em {Popular lectures and addresses}}.
+\newblock London Macmillan, 1889.
 
 \bibitem{Rakyan2011}
 V~K Rakyan, T~A Down, D~J Balding, and S~Beck.
@@ -1643,37 +2089,6 @@ Angela~R Manser and Markus Uhrberg.
   cell function and immune surveillance}.
 \newblock {\em Cancer Immunology, Immunotherapy}, 65(4):417--426, 2016.
 
-\bibitem{Horvath2016}
-Steve Horvath, Michael Gurven, Morgan~E. Levine, Benjamin~C. Trumble, Hillard
-  Kaplan, Hooman Allayee, Beate~R. Ritz, Brian Chen, Ake~T. Lu, Tammy~M.
-  Rickabaugh, Beth~D. Jamieson, Dianjianyi Sun, Shengxu Li, Wei Chen, Lluis
-  Quintana-Murci, Maud Fagny, Michael~S. Kobor, Philip~S. Tsao, Alexander~P.
-  Reiner, Kerstin~L. Edlefsen, Devin Absher, and Themistocles~L. Assimes.
-\newblock {An epigenetic clock analysis of race/ethnicity, sex, and coronary
-  heart disease}.
-\newblock {\em Genome Biology}, 17(1):171, 2016.
-
-\bibitem{Chen2016}
-Brian~H. Chen, Riccardo~E. Marioni, Elena Colicino, Marjolein~J. Peters,
-  Cavin~K. Ward-Caviness, Pei~Chien Tsai, Nicholas~S. Roetker, Allan~C. Just,
-  Ellen~W. Demerath, Weihua Guan, Jan Bressler, Myriam Fornage, Stephanie
-  Studenski, Amy~R. Vandiver, Ann~Zenobia Moore, Toshiko Tanaka, Douglas~P.
-  Kiel, Liming Liang, Pantel Vokonas, Joel Schwartz, Kathryn~L. Lunetta,
-  Joanne~M. Murabito, Stefania Bandinelli, Dena~G. Hernandez, David Melzer,
-  Michael Nalls, Luke~C. Pilling, Timothy~R. Price, Andrew~B. Singleton,
-  Christian Gieger, Rolf Holle, Anja Kretschmer, Florian Kronenberg, Sonja
-  Kunze, Jakob Linseisen, Christine Meisinger, Wolfgang Rathmann, Melanie
-  Waldenberger, Peter~M. Visscher, Sonia Shah, Naomi~R. Wray, Allan~F. McRae,
-  Oscar~H. Franco, Albert Hofman, Andr{\"{i}}¿½~G. Uitterlinden, Devin
-  Absher, Themistocles Assimes, Morgan~E. Levine, Ake~T. Lu, Philip~S. Tsao,
-  Lifang Hou, Jo~Ann~E. Manson, Cara~L. Carty, Andrea~Z. LaCroix, Alexander~P.
-  Reiner, Tim~D. Spector, Andrew~P. Feinberg, Daniel Levy, Andrea Baccarelli,
-  Joyce van Meurs, Jordana~T. Bell, Annette Peters, Ian~J. Deary, James~S.
-  Pankow, Luigi Ferrucci, and Steve Horvath.
-\newblock {DNA methylation-based measures of biological age: Meta-analysis
-  predicting time to death}.
-\newblock {\em Aging}, 8(9):1844--1865, 2016.
-
 \bibitem{Titus2017}
 Alexander~J Titus, Rachel~M Gallimore, Lucas~A Salas, and Brock~C Christensen.
 \newblock {Cell-type deconvolution from DNA methylation: a review of recent
@@ -1802,12 +2217,6 @@ Shyamalika Gopalan, Oana Carja, Maud Fagny, Etienne Patin, Justin~W Myrick,
   Populations}.
 \newblock {\em Genetics}, 206(3):1659--1674, 2017.
 
-\bibitem{Hannum2013}
-G~Hannum, J~Guinney, L~Zhao, L~Zhang, G~Hughes, and S~Sadda.
-\newblock {Genome-wide methylation profiles reveal quantitative views of human
-  aging rates}.
-\newblock {\em Mol Cell}, 49(2):359--367, 2013.
-
 \bibitem{VanIterson2017}
 Maarten van Iterson, Erik~W van Zwet, Bastiaan~T Heijmans, and the~BIOS
   Consortium.
@@ -1894,15 +2303,6 @@ E~M Price and Wendy~P Robinson.
 \newblock {Adjusting for Batch Effects in DNA Methylation Microarray Data, a
   Lesson Learned }, 2018.
 
-\bibitem{Horvath2016a}
-Steve Horvath, Peter Langfelder, Seung Kwak, Jeff Aaronson, Jim Rosinski,
-  Thomas~F. Vogt, Marika Eszes, Richard~L.M. Faull, Maurice~A. Curtis, Henry~J.
-  Waldvogel, Oi~Wa Choi, Spencer Tung, Harry~V. Vinters, Giovanni Coppola, and
-  X.~William Yang.
-\newblock {Huntington's disease accelerates epigenetic aging of human brain and
-  disrupts DNA methylation levels}.
-\newblock {\em Aging}, 8(7):1485--1512, 2016.
-
 \bibitem{Horvath2013a}
 Steve Horvath.
 \newblock {FAQs DNAmAge online calculator:
@@ -1924,18 +2324,6 @@ Illumina.
 Altuna Akalin.
 \newblock {AmpliconBiSeq GitHub repository: findElbow function}, 2014.
 
-\bibitem{Marioni2015}
-Riccardo~E Marioni, Sonia Shah, Allan~F McRae, Brian~H Chen, Elena Colicino,
-  Sarah~E Harris, Jude Gibson, Anjali~K Henders, Paul Redmond, Simon~R Cox,
-  Alison Pattie, Janie Corley, Lee Murphy, Nicholas~G Martin, Grant~W
-  Montgomery, Andrew~P Feinberg, M~Daniele Fallin, Michael~L Multhaup, Andrew~E
-  Jaffe, Roby Joehanes, Joel Schwartz, Allan~C Just, Kathryn~L Lunetta,
-  Joanne~M Murabito, John~M Starr, Steve Horvath, Andrea~A Baccarelli, Daniel
-  Levy, Peter~M Visscher, Naomi~R Wray, and Ian~J Deary.
-\newblock {DNA methylation age of blood predicts all-cause mortality in later
-  life}.
-\newblock {\em Genome Biology}, 16(1):25, 2015.
-
 \bibitem{Perna2016}
 Laura Perna, Yan Zhang, Ute Mons, Bernd Holleczek, Kai-Uwe Saum, and Hermann
   Brenner.
@@ -1950,33 +2338,6 @@ Marguerite~R Irvin, Stella Aslibekyan, Anh Do, Degui Zhi, Bertha Hidalgo,
 \newblock {Metabolic and inflammatory biomarkers are associated with epigenetic
   aging acceleration estimates in the GOLDN study}.
 \newblock {\em Clinical Epigenetics}, 10(1):56, 2018.
-
-\bibitem{Yang2016}
-Zhen Yang, Andrew Wong, Diana Kuh, Dirk~S. Paul, Vardhman~K. Rakyan, R.~David
-  Leslie, Shijie~C. Zheng, Martin Widschwendter, Stephan Beck, and Andrew~E.
-  Teschendorff.
-\newblock {Correlation of an epigenetic mitotic clock with cancer risk}.
-\newblock {\em Genome Biology}, 17(1):205, 2016.
-
-\bibitem{Lu2018}
-Ake~T Lu, Luting Xue, Elias~L Salfati, Brian~H Chen, Luigi Ferrucci, Daniel
-  Levy, Roby Joehanes, Joanne~M Murabito, Douglas~P Kiel, Pei-Chien Tsai, Idil
-  Yet, Jordana~T Bell, Massimo Mangino, Toshiko Tanaka, Allan~F McRae,
-  Riccardo~E Marioni, Peter~M Visscher, Naomi~R Wray, Ian~J Deary, Morgan~E
-  Levine, Austin Quach, Themistocles Assimes, Philip~S Tsao, Devin Absher,
-  James~D Stewart, Yun Li, Alex~P Reiner, Lifang Hou, Andrea~A Baccarelli,
-  Eric~A Whitsel, Abraham Aviv, Alexia Cardona, Felix~R Day, Nicholas~J
-  Wareham, John R~B Perry, Ken~K Ong, Kenneth Raj, Kathryn~L Lunetta, and Steve
-  Horvath.
-\newblock {GWAS of epigenetic aging rates in blood reveals a critical role for
-  TERT}.
-\newblock {\em Nature Communications}, 9(1):387, 2018.
-
-\bibitem{Sehl2017}
-Mary~E. Sehl, Jill~E. Henry, Anna~Maria Storniolo, Patricia~A. Ganz, and Steve
-  Horvath.
-\newblock {DNA methylation age is elevated in breast tissue of healthy women}.
-\newblock {\em Breast Cancer Research and Treatment}, 164(1):209--219, 2017.
 
 \bibitem{Visscher2017}
 Peter~M. Visscher, Naomi~R. Wray, Qian Zhang, Pamela Sklar, Mark~I. McCarthy,
@@ -1994,6 +2355,13 @@ Morris~L. Eaton.
 Simon~J. Sheather.
 \newblock {\em {A Modern Approach to Regression with R}}.
 \newblock 2009.
+
+\bibitem{Martin-Herranz2019a}
+Daniel~E Martin-Herranz, Erfan Aref-Eshghi, Marc~Jan Bonder, Thomas~M Stubbs,
+  Oliver Stegle, Bekim Sadikovic, Wolf Reik, and Janet~M Thornton.
+\newblock {Screening for genes that accelerate the epigenetic ageing clock in
+  humans reveals a role for the H3K36 methyltransferase NSD1}.
+\newblock {\em Genome Biology}, In review, 2019.
 
 \bibitem{Lu2016}
 Ake~T Lu, Eilis Hannon, Morgan~E Levine, Ke~Hao, Eileen~M Crimmins, Katie
@@ -2126,19 +2494,6 @@ Lorenzo Rinaldi, Debayan Datta, Judit Serrat, Lluis Morey, Guiomar Solanas,
 \newblock {Dnmt3a and Dnmt3b Associate with Enhancers to Regulate Human
   Epidermal Stem Cell Homeostasis}.
 \newblock {\em Cell Stem Cell}, 19(4):491--501, 2016.
-
-\bibitem{Horvath2018}
-Steve Horvath and Kenneth Raj.
-\newblock {DNA methylation-based biomarkers and the epigenetic clock theory of
-  ageing}.
-\newblock {\em Nature Reviews Genetics}, 19(6):371--384, 2018.
-
-\bibitem{Field2018}
-Adam~E. Field, Neil~A. Robertson, Tina Wang, Aaron Havas, Trey Ideker, and
-  Peter~D. Adams.
-\newblock {DNA Methylation Clocks in Aging: Categories, Causes, and
-  Consequences}.
-\newblock {\em Molecular Cell}, 71(6):882--895, 2018.
 
 \bibitem{Wagner2012}
 Eric~J Wagner and Phillip~B Carpenter.
@@ -2397,6 +2752,11 @@ NIH Roadmap Epigenomics~Mapping Consortium.
 \newblock {Roadmap Epigenomics Chromatin State Model: emission parameters.
   https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/
   imputed12marks/jointModel/final/emissions{\_}25{\_}imputed12marks.png}.
+
+\bibitem{Kierkegaard1843}
+S{\o}ren Kierkegaard.
+\newblock {\em {Journals}}.
+\newblock 1843.
 
 \bibitem{Shendure2008}
 Jay Shendure and Hanlee Ji.
@@ -2815,28 +3175,6 @@ Zachary~D. Smith, Hongcang Gu, Christoph Bock, Andreas Gnirke, and Alexander
 \newblock {High-throughput bisulfite sequencing in mammalian genomes}.
 \newblock {\em Methods}, 48(3):226--232, 2009.
 
-\bibitem{Koch2011}
-Carmen~M Koch and Wolfgang Wagner.
-\newblock {Epigenetic-aging-signature to determine age in different tissues}.
-\newblock {\em Aging}, 3(10):1018--1027, 2011.
-
-\bibitem{Martin-Herranz2019a}
-Daniel~E Martin-Herranz, Erfan Aref-Eshghi, Marc~Jan Bonder, Thomas~M Stubbs,
-  Oliver Stegle, Bekim Sadikovic, Wolf Reik, and Janet~M Thornton.
-\newblock {Screening for genes that accelerate the epigenetic ageing clock in
-  humans reveals a role for the H3K36 methyltransferase NSD1}.
-\newblock {\em bioRxiv}, page 545830, 2019.
-
-\bibitem{Horvath2018a}
-Steve Horvath, Junko Oshima, George~M. Martin, Ake~T. Lu, Austin Quach, Howard
-  Cohen, Sarah Felton, Mieko Matsuyama, Donna Lowe, Sylwia Kabacik, James~G.
-  Wilson, Alex~P. Reiner, Anna Maierhofer, Julia Flunkert, Abraham Aviv, Lifang
-  Hou, Andrea~A. Baccarelli, Yun Li, James~D. Stewart, Eric~A. Whitsel, Luigi
-  Ferrucci, Shigemi Matsuyama, and Kenneth Raj.
-\newblock {Epigenetic clock for skin and blood cells applied to Hutchinson
-  Gilford Progeria Syndrome and ex vivo studies}.
-\newblock {\em Aging}, 10(7):1758--1775, 2018.
-
 \bibitem{Hanna2016}
 Courtney~W. Hanna, Maria~S. Pe{\"{i}}¿½aherrera, Heba Saadeh, Simon Andrews,
   Deborah~E. McFadden, Gavin Kelsey, and Wendy~P. Robinson.
@@ -2899,6 +3237,13 @@ Hume Stroud, Truman Do, Jiamu Du, Xuehua Zhong, Suhua Feng, Lianna Johnson,
 \newblock {Non-CG methylation patterns shape the epigenetic landscape in
   Arabidopsis}.
 \newblock {\em Nature Structural {\&} Molecular Biology}, 21:64--72, 2013.
+
+\bibitem{Sun2014}
+Yan Sun, Rui Hou, Xiaoteng Fu, Changsen Sun, Shi Wang, Chen Wang, Ning Li,
+  Lingling Zhang, and Zhenmin Bao.
+\newblock {Genome-Wide Analysis of DNA Methylation in Five Tissues of Zhikong
+  Scallop, Chlamys farreri}.
+\newblock {\em PLOS ONE}, 9(1):e86232, 2014.
 
 \bibitem{Angermueller2017}
 Christof Angermueller, Heather~J Lee, Wolf Reik, and Oliver Stegle.
@@ -3006,5 +3351,10 @@ Felix Krueger and Simon~R Andrews.
 \newblock {Bismark: a flexible aligner and methylation caller for Bisulfite-Seq
   applications}.
 \newblock {\em Bioinformatics}, 27(11):1571--1572, 2011.
+
+\bibitem{Machado}
+Antonio Machado.
+\newblock {Proverbios y cantares XXIX}.
+\newblock In {\em Campos de Castilla}. 1912.
 
 \end{thebibliography}

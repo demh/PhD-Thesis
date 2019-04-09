@@ -9,20 +9,21 @@ A level-1 auxiliary file: Chapter1/chapter1.aux
 A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
 A level-1 auxiliary file: Appendix/appendix.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 13832 items from 5000.
+Reallocated field_info (elt_size=4) to 14890 items from 5000.
 Database file #1: References/references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 3255 of file References/references.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Repeated entry---line 5287 of file References/references.bib
  : @article{Sun2014
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3558 of file References/references.bib
+Repeated entry---line 5298 of file References/references.bib
  : @article{Beerman2013
  :                     ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty publisher in Renfrew2016
 Warning--empty publisher in Witten1986
 Warning--empty publisher in Waddington1957
@@ -32,45 +33,47 @@ Warning--empty publisher in Sheather2009
 Warning--empty institution in Research
 Warning--empty year in Research
 Warning--empty institution in Illumina2015
-You've used 384 entries,
+Warning--empty publisher in Kierkegaard1843
+Warning--empty publisher in Machado
+You've used 430 entries,
             1791 wiz_defined-function locations,
-            2705 strings with 141725 characters,
-and the built_in function-call counts, 137223 in all, are:
-= -- 8395
-> -- 14558
-< -- 9
-+ -- 4998
-- -- 4614
-* -- 14377
-:= -- 25205
-add.period$ -- 1142
-call.type$ -- 384
-change.case$ -- 385
+            2963 strings with 157594 characters,
+and the built_in function-call counts, 153860 in all, are:
+= -- 9457
+> -- 16258
+< -- 13
++ -- 5581
+- -- 5151
+* -- 16057
+:= -- 28192
+add.period$ -- 1281
+call.type$ -- 430
+change.case$ -- 429
 chr.to.int$ -- 0
-cite$ -- 393
-duplicate$ -- 3488
-empty$ -- 8851
-format.name$ -- 4614
-if$ -- 26739
+cite$ -- 441
+duplicate$ -- 3965
+empty$ -- 9927
+format.name$ -- 5151
+if$ -- 30052
 int.to.chr$ -- 0
-int.to.str$ -- 384
-missing$ -- 369
-newline$ -- 1909
-num.names$ -- 386
-pop$ -- 518
+int.to.str$ -- 430
+missing$ -- 417
+newline$ -- 2139
+num.names$ -- 432
+pop$ -- 596
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1322
+skip$ -- 1536
 stack$ -- 0
-substring$ -- 8119
-swap$ -- 459
-text.length$ -- 9
+substring$ -- 9085
+swap$ -- 563
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 1023
-width$ -- 387
-write$ -- 4176
+warning$ -- 11
+while$ -- 1141
+width$ -- 433
+write$ -- 4678
 (There were 2 error messages)
