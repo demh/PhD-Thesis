@@ -48,8 +48,11 @@
 \contentsline {section}{\numberline {4.6}Conclusions and future directions}{109}{section.4.6}
 \contentsline {section}{\numberline {4.7}Additional methods}{110}{section.4.7}
 \contentsline {chapter}{\numberline {5}Final remarks}{117}{chapter.5}
-\contentsline {chapter}{Appendix \numberline {}}{119}{Appendix.a.}
-\contentsline {section}{\numberline {S.1}Statistical aspects of the epigenetic clock}{119}{section.a..1}
-\contentsline {section}{\numberline {S.2}Biological aspects of the epigenetic clock}{128}{section.a..2}
-\contentsline {section}{\numberline {S.3}Technological aspects of epigenetic clocks}{149}{section.a..3}
-\contentsline {chapter}{References}{157}{chapter*.105}
+\contentsline {section}{\numberline {5.1}Statistical aspects}{117}{section.5.1}
+\contentsline {section}{\numberline {5.2}Biological aspects}{119}{section.5.2}
+\contentsline {section}{\numberline {5.3}Technological aspects}{121}{section.5.3}
+\contentsline {chapter}{Appendix \numberline {}}{123}{Appendix.a.}
+\contentsline {section}{\numberline {S.1}Statistical aspects of the epigenetic clock}{123}{section.a..1}
+\contentsline {section}{\numberline {S.2}Biological aspects of the epigenetic clock}{132}{section.a..2}
+\contentsline {section}{\numberline {S.3}Technological aspects of epigenetic clocks}{153}{section.a..3}
+\contentsline {chapter}{References}{161}{chapter*.105}

@@ -2613,6 +2613,13 @@ Ling Cai, Scott~B. Rothbart, Rui Lu, Bowen Xu, Wei-Yi Chen, Ashutosh Tripathy,
   Mediates PRC2 Complex Targeting}.
 \newblock {\em Molecular Cell}, 49(3):571--582, 2013.
 
+\bibitem{Li2017}
+Haojie Li, Robert Liefke, Junyi Jiang, Jesse~Vigoda Kurland, Wei Tian, Pujuan
+  Deng, Weidi Zhang, Qian He, Dinshaw~J. Patel, Martha~L. Bulyk, Yang Shi, and
+  Zhanxin Wang.
+\newblock {Polycomb-like proteins link the PRC2 complex to CpG islands}.
+\newblock {\em Nature}, 549(7671):287--291, 2017.
+
 \bibitem{Chantalat2011}
 Sophie Chantalat, Arnaud Depaux, Patrick H{\'{e}}ry, Sophie Barral, Jean~Yves
   Thuret, Stefan Dimitrov, and Matthieu G{\'{e}}rard.
@@ -3356,5 +3363,88 @@ Felix Krueger and Simon~R Andrews.
 Antonio Machado.
 \newblock {Proverbios y cantares XXIX}.
 \newblock In {\em Campos de Castilla}. 1912.
+
+\bibitem{Jensen2014}
+Anders~Boeck Jensen, Pope~L Moseley, Tudor~I Oprea, Sabrina~Gade Elles{\o}e,
+  Robert Eriksson, Henriette Schmock, Peter~Bj{\o}dstrup Jensen, Lars~Juhl
+  Jensen, and S{\o}ren Brunak.
+\newblock {Temporal disease trajectories condensed from population-wide
+  registry data covering 6.2 million patients}.
+\newblock {\em Nature Communications}, 5:4022, 2014.
+
+\bibitem{Kapourani2019}
+Chantriolnt-Andreas Kapourani and Guido Sanguinetti.
+\newblock {Melissa: Bayesian clustering and imputation of single-cell
+  methylomes}.
+\newblock {\em Genome Biology}, 20(1):61, 2019.
+
+\bibitem{Reddington2013}
+J~P Reddington, S~M Perricone, C~E Nestor, J~Reichmann, N~A Youngson, and
+  M~Suzuki.
+\newblock {Redistribution of H3K27me3 upon DNA hypomethylation results in
+  de-repression of Polycomb target genes}.
+\newblock {\em Genome Biol}, 14:R25, 2013.
+
+\bibitem{Zheng2016}
+Shijie~C Zheng, Martin Widschwendter, and Andrew~E Teschendorff.
+\newblock {Epigenetic drift, epigenetic clocks and cancer risk}.
+\newblock {\em Epigenomics}, 8(5):705--719, 2016.
+
+\bibitem{Berdasco2009}
+Mar{\'{i}}a Berdasco, Santiago Ropero, Fernando Setien, Mario~F Fraga, Pablo
+  Lapunzina, R{\'{e}}gine Losson, Miguel Alaminos, Nai-Kong Cheung, Nazneen
+  Rahman, and Manel Esteller.
+\newblock {Epigenetic inactivation of the Sotos overgrowth syndrome gene
+  histone methyltransferase NSD1 in human neuroblastoma and glioma}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(51):21830--21835, 2009.
+
+\bibitem{Kudithipudi2014}
+Srikanth Kudithipudi, Cristiana Lungu, Philipp Rathert, Nicole Happel, and
+  Albert Jeltsch.
+\newblock {Substrate Specificity Analysis and Novel Substrates of the Protein
+  Lysine Methyltransferase NSD1}.
+\newblock {\em Chemistry {\&} Biology}, 21(2):226--237, 2014.
+
+\bibitem{Enguix2018}
+Alicia Enguix, Mar{\'{i}}a~D Cubiles, Sonia Barroso, Andr{\'{e}}s Aguilera,
+  Mar{\'{i}}a~I Vaquero-Sedas, and Miguel~A Vega-Palas.
+\newblock {Epigenetic features of human telomeres}.
+\newblock {\em Nucleic Acids Research}, 46(5):2347--2355, 2018.
+
+\bibitem{Sorensen2013}
+Claus~Storgaard S{\o}rensen, Gunnar Schotta, and Stine J{\o}rgensen.
+\newblock {Histone H4 Lysine 20 methylation: key player in epigenetic
+  regulation of genomic integrity}.
+\newblock {\em Nucleic Acids Research}, 41(5):2797--2806, 2013.
+
+\bibitem{Shipony2014}
+Zohar Shipony, Zohar Mukamel, Netta~Mendelson Cohen, Gilad Landan, Elad
+  Chomsky, Shlomit~Reich Zeliger, Yael~Chagit Fried, Elena Ainbinder, Nir
+  Friedman, and Amos Tanay.
+\newblock {Dynamic and static maintenance of epigenetic memory in pluripotent
+  and somatic cells}.
+\newblock {\em Nature}, 513(7516):115--119, 2014.
+
+\bibitem{Rulands2018}
+Steffen Rulands, Heather~J Lee, Stephen~J Clark, Christof Angermueller,
+  S{\'{e}}bastien~A Smallwood, Felix Krueger, Hisham Mohammed, Wendy Dean,
+  Jennifer Nichols, Peter Rugg-Gunn, Gavin Kelsey, Oliver Stegle, Benjamin~D
+  Simons, and Wolf Reik.
+\newblock {Genome-Scale Oscillations in DNA Methylation during Exit from
+  Pluripotency}.
+\newblock {\em Cell Systems}, 7(1):63--76.e12, 2018.
+
+\bibitem{Liu2016a}
+X~Shawn Liu, Hao Wu, Xiong Ji, Yonatan Stelzer, Xuebing Wu, Szymon Czauderna,
+  Jian Shu, Daniel Dadon, Richard~A Young, and Rudolf Jaenisch.
+\newblock {Editing DNA Methylation in the Mammalian Genome}.
+\newblock {\em Cell}, 167(1):233--247.e17, 2016.
+
+\bibitem{Kelsey2017}
+Gavin Kelsey, Oliver Stegle, and Wolf Reik.
+\newblock {Single-cell epigenomics: Recording the past and predicting the
+  future}.
+\newblock {\em Science}, 358(6359):69--75, 2017.
 
 \end{thebibliography}

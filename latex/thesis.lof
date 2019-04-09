@@ -37,31 +37,31 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Experimental validation of cuRRBS}}{108}{figure.caption.51}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {S1.1}{\ignorespaces Effects of \textit {noob} background correction on the array fluorescence intensities.}}{119}{figure.caption.64}
-\contentsline {figure}{\numberline {S1.2}{\ignorespaces Quality control (QC) strategy to identify outlier samples.}}{120}{figure.caption.65}
-\contentsline {figure}{\numberline {S1.3}{\ignorespaces M-value distributions in the GSE41273 batch}}{120}{figure.caption.66}
-\contentsline {figure}{\numberline {S1.4}{\ignorespaces Cell-type deconvolution strategies that were benchmarked}}{121}{figure.caption.67}
-\contentsline {figure}{\numberline {S1.5}{\ignorespaces Benchmarking of the cell-type deconvolution strategies in blood: R$^2$}}{122}{figure.caption.68}
-\contentsline {figure}{\numberline {S1.6}{\ignorespaces Table showing the top 100 aDMPs}}{125}{figure.caption.71}
-\contentsline {figure}{\numberline {S1.7}{\ignorespaces Impact of the absence of background correction on the predictions from the epigenetic clock}}{125}{figure.caption.72}
-\contentsline {figure}{\numberline {S1.8}{\ignorespaces Correcting for batch effects: control model without cell composition correction}}{126}{figure.caption.73}
-\contentsline {figure}{\numberline {S1.9}{\ignorespaces PCA on the array control probes captures batch effects: cases}}{127}{figure.caption.74}
-\contentsline {figure}{\numberline {S1.10}{\ignorespaces Variance explained by the different principal components during batch effect correction}}{127}{figure.caption.75}
-\contentsline {figure}{\numberline {S2.1}{\ignorespaces Table showing information for the individuals with developmental disorders}}{137}{figure.caption.85}
-\contentsline {figure}{\numberline {S2.2}{\ignorespaces Effect of changing the median age of the controls when performing the screening}}{138}{figure.caption.86}
-\contentsline {figure}{\numberline {S2.3}{\ignorespaces Screening for epigenetic age acceleration (EAA) in developmental disorders: additional scatterplots}}{141}{figure.caption.89}
-\contentsline {figure}{\numberline {S2.4}{\ignorespaces Enrichment for the categorical (epi)genomic features in Sotos and ageing: genome-wide}}{142}{figure.caption.90}
-\contentsline {figure}{\numberline {S2.5}{\ignorespaces Distributions of scores for the continuous (epi)genomic features in Sotos and ageing: genome-wide}}{143}{figure.caption.91}
-\contentsline {figure}{\numberline {S2.6}{\ignorespaces Scores for the continuous (epi)genomic features in the Horvath's epigenetic clock CpGs}}{144}{figure.caption.92}
-\contentsline {figure}{\numberline {S2.7}{\ignorespaces Enrichment for the categorical (epi)genomic features in Sotos and ageing: Horvath's epigenetic clock}}{145}{figure.caption.93}
-\contentsline {figure}{\numberline {S2.8}{\ignorespaces Distributions of scores for the continuous (epi)genomic features in Sotos and ageing: Horvath's epigenetic clock}}{146}{figure.caption.94}
-\contentsline {figure}{\numberline {S2.9}{\ignorespaces Methylation Shannon entropy acceleration}}{147}{figure.caption.95}
-\contentsline {figure}{\numberline {S2.10}{\ignorespaces Batch effects in the methylation Shannon entropy for the epigenetic clock sites}}{147}{figure.caption.96}
-\contentsline {figure}{\numberline {S2.11}{\ignorespaces Information for the continuous (epi)genomic features}}{148}{figure.caption.97}
-\contentsline {figure}{\numberline {S3.1}{\ignorespaces Scatterplot of fragment length distributions for the isoschizomer families}}{149}{figure.caption.98}
-\contentsline {figure}{\numberline {S3.2}{\ignorespaces Genomic features that overlap with restriction enzyme cleavage sites}}{150}{figure.caption.99}
-\contentsline {figure}{\numberline {S3.3}{\ignorespaces Comparison of studies using restriction enzymes for genomic enrichment}}{151}{figure.caption.100}
-\contentsline {figure}{\numberline {S3.4}{\ignorespaces Additional insights into cuRRBS}}{152}{figure.caption.101}
-\contentsline {figure}{\numberline {S3.5}{\ignorespaces Additional results of running cuRRBS in different biological systems}}{153}{figure.caption.102}
-\contentsline {figure}{\numberline {S3.6}{\ignorespaces Effect of experimental errors during size selection in cuRRBS predictions}}{154}{figure.caption.103}
-\contentsline {figure}{\numberline {S3.7}{\ignorespaces cuRRBS computational efficiency}}{155}{figure.caption.104}
+\contentsline {figure}{\numberline {S1.1}{\ignorespaces Effects of \textit {noob} background correction on the array fluorescence intensities.}}{123}{figure.caption.64}
+\contentsline {figure}{\numberline {S1.2}{\ignorespaces Quality control (QC) strategy to identify outlier samples.}}{124}{figure.caption.65}
+\contentsline {figure}{\numberline {S1.3}{\ignorespaces M-value distributions in the GSE41273 batch}}{124}{figure.caption.66}
+\contentsline {figure}{\numberline {S1.4}{\ignorespaces Cell-type deconvolution strategies that were benchmarked}}{125}{figure.caption.67}
+\contentsline {figure}{\numberline {S1.5}{\ignorespaces Benchmarking of the cell-type deconvolution strategies in blood: R$^2$}}{126}{figure.caption.68}
+\contentsline {figure}{\numberline {S1.6}{\ignorespaces Table showing the top 100 aDMPs}}{129}{figure.caption.71}
+\contentsline {figure}{\numberline {S1.7}{\ignorespaces Impact of the absence of background correction on the predictions from the epigenetic clock}}{129}{figure.caption.72}
+\contentsline {figure}{\numberline {S1.8}{\ignorespaces Correcting for batch effects: control model without cell composition correction}}{130}{figure.caption.73}
+\contentsline {figure}{\numberline {S1.9}{\ignorespaces PCA on the array control probes captures batch effects: cases}}{131}{figure.caption.74}
+\contentsline {figure}{\numberline {S1.10}{\ignorespaces Variance explained by the different principal components during batch effect correction}}{131}{figure.caption.75}
+\contentsline {figure}{\numberline {S2.1}{\ignorespaces Table showing information for the individuals with developmental disorders}}{141}{figure.caption.85}
+\contentsline {figure}{\numberline {S2.2}{\ignorespaces Effect of changing the median age of the controls when performing the screening}}{142}{figure.caption.86}
+\contentsline {figure}{\numberline {S2.3}{\ignorespaces Screening for epigenetic age acceleration (EAA) in developmental disorders: additional scatterplots}}{145}{figure.caption.89}
+\contentsline {figure}{\numberline {S2.4}{\ignorespaces Enrichment for the categorical (epi)genomic features in Sotos and ageing: genome-wide}}{146}{figure.caption.90}
+\contentsline {figure}{\numberline {S2.5}{\ignorespaces Distributions of scores for the continuous (epi)genomic features in Sotos and ageing: genome-wide}}{147}{figure.caption.91}
+\contentsline {figure}{\numberline {S2.6}{\ignorespaces Scores for the continuous (epi)genomic features in the Horvath's epigenetic clock CpGs}}{148}{figure.caption.92}
+\contentsline {figure}{\numberline {S2.7}{\ignorespaces Enrichment for the categorical (epi)genomic features in Sotos and ageing: Horvath's epigenetic clock}}{149}{figure.caption.93}
+\contentsline {figure}{\numberline {S2.8}{\ignorespaces Distributions of scores for the continuous (epi)genomic features in Sotos and ageing: Horvath's epigenetic clock}}{150}{figure.caption.94}
+\contentsline {figure}{\numberline {S2.9}{\ignorespaces Methylation Shannon entropy acceleration}}{151}{figure.caption.95}
+\contentsline {figure}{\numberline {S2.10}{\ignorespaces Batch effects in the methylation Shannon entropy for the epigenetic clock sites}}{151}{figure.caption.96}
+\contentsline {figure}{\numberline {S2.11}{\ignorespaces Information for the continuous (epi)genomic features}}{152}{figure.caption.97}
+\contentsline {figure}{\numberline {S3.1}{\ignorespaces Scatterplot of fragment length distributions for the isoschizomer families}}{153}{figure.caption.98}
+\contentsline {figure}{\numberline {S3.2}{\ignorespaces Genomic features that overlap with restriction enzyme cleavage sites}}{154}{figure.caption.99}
+\contentsline {figure}{\numberline {S3.3}{\ignorespaces Comparison of studies using restriction enzymes for genomic enrichment}}{155}{figure.caption.100}
+\contentsline {figure}{\numberline {S3.4}{\ignorespaces Additional insights into cuRRBS}}{156}{figure.caption.101}
+\contentsline {figure}{\numberline {S3.5}{\ignorespaces Additional results of running cuRRBS in different biological systems}}{157}{figure.caption.102}
+\contentsline {figure}{\numberline {S3.6}{\ignorespaces Effect of experimental errors during size selection in cuRRBS predictions}}{158}{figure.caption.103}
+\contentsline {figure}{\numberline {S3.7}{\ignorespaces cuRRBS computational efficiency}}{159}{figure.caption.104}

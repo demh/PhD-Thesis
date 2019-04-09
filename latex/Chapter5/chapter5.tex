@@ -15,44 +15,71 @@
 
 \bigskip
 
-The purpose of this work was to advance our understanding of the epigenetic ageing clock in humans. In order to do so, I have analysed data from the epigenetic mark that has been more characterised during human ageing: DNA methylation. It is remarkable how Horvath's clock can work across the entire lifespan (even before birth), in different tissues, developement. Suggestive of the two hypothesis originally framed in introduction....
-
-This work has been focused on expanding our knowledge of the epigenetic ageing clock in humans ...
-
-The very nature of bulk DNA methylation measurements and aDMPs reveals epigenetic heterogeneity in the population of cells. They may be fluctuating and they slowly collapsed to states where more of the other type are observed. 
-
-Discuss more links H3K36/ H3K27 methylation. A particular disturbance of the H3K27 landscape could be the methylation of bivalent regions situated in DMVs.DNA hypomethylation causes a redistribution of polycomb and H3K27me3[Redistribution of H3K27me3 upon DNA hypomethylation results in de-repression of Polycomb target genes] DNMT3A is a tumor suppressor in hematologic malignancies [Dnmt3a loss predisposes murine hematopoietic stem cells to malignant transformation]. The interplay between stem cell differentiation and proliferation and the epigenetic ageing clock is strong in blood. Does this apply to other proliferative tissues? It may be worth to define 2 types of clocks. It is reasonable to think that these tissues would have different strategies to maintain their homeostasis and deal with errors. 
-It remains to be seen whether the DNA methylation changes observed occur in all the cell types in the tissue or whether changes in the concentration of specific cell types (e.g. progenitor stem cells) or clones are responsible for them. In this sense, single-cell technologies (specially those that profile the transcriptome and the epigenome simultaneously)  will become instrumental for future mechanistic advances on the epigenetic ageing clock.
-Single-cell epigenomics: Recording the past and predicting the future
-
-The idea that the changes in the epigenetic ageing clock are a historical record or 'molecular scars' of the activity of an epigenetic maintenance system that is protective are intriguing [Horvath 2018]. fewer somatic mutations, indicative of more stable genomes, have greater epigenetic age acceleration and vice versa [main horvath and erratum]. Compensatory response observed in some transcriptomic changes in the brain (Melike Donertas, personal communication). 
-
-Genetic oscillations [both reviews]
-Oscillatory stuff.
-Cytosine modifications exhibit circadian oscillations that are involved in epigenetic diversity and aging
-TET and hypomethylation in enhancers. 5mC oxidation by Tet2 modulates enhancer activity and timing of transcriptome reprogramming during differentiation [works for non-proliferative tissue, see review 2]
-From review 2:
-%in non-proliferating cells may also result from errors in its dynamic maintenance by cycles of TET and DNMT activity, perhaps especially at regions of more open and dynamic chromatin. This view fits with the observation that CpGs whose methylation changes with age partly overlap features where methylation is thought to be particularly dynamic; namely, enhancers and CpGs subject to circadian oscillation (Feldmann et al., 2013, Hon et al., 2014, Lu et al., 2014, Oh et al., 2018, Petkovich et al., 2017, Rulands et al., 2018, Wang et al., 2017). Age-associated decay because of maintenance errors may be exacerbated by age-altered expression of TETs and DNMTs, changes in their targeting, and/or altered levels of essential substrates, such as S-adenosylmethionine (SAM) for DNMTs or α-ketoglutarate (α-KG) for TETs
-Towards 50/50 in population for a given site: maximum entropy, random cell states defined.
-
-Property of stem cells in the tissue that expands. Lineage tracing 
+The purpose of this work was to advance our understanding of the epigenetic ageing clock in humans. I now review the main conclusions from this work and propose future directions that could be of interest.
 
 
+\section{Statistical aspects}
 
-At the end of the day: ageing process. 
+\bigskip
 
+In Chapter~\ref{c:2}, I have assessed different statistical methods that allowed me to characterise the epigenetic landscape during physiological ageing. DNA methylation data from blood, generated in the Illumina 450K methylation array platform, is the most abundant data type available to study human ageing. I built a dataset with this data type for healthy individuals, pre-processed it and benchmarked different methods to correct for blood cell composition changes. I reproduce previous findings showing that a great proportion of the epigenome is affected by the ageing process (in my case around 30\%, using a conservative threshold to correct for multiple testing). This highlights that the epigenetic ageing clock is a genome-wide phenomena that extends way beyond the cytosines included in most epigenetic clock models. Furthermore, the small effect sizes demonstrate that most age-related DNA methylation changes occur in only a small proportion of cells (DNA molecules) in the tissue (around 4\% on average for the entire human lifespan). Finally, I tested the behaviour of different epigenetic clocks (Horvath, Hannum, epiTOC) and developed a strategy to correct for potential batch effects in this context.
 
+\bigskip
 
-NSD1 also catalises H4K20 methylation.
-https://www.pnas.org/content/106/51/21830
-Although unclear.
-https://www.cell.com/cell-chemical-biology/fulltext/S1074-5521(13)00424-9
-H4K20 methylation seems to be enriched in telomeres
-https://academic.oup.com/nar/article/46/5/2347/4816214
-Consequences of losing H4K20 methylation in telomeres
-Review:
-https://academic.oup.com/nar/article/41/5/2797/2414826
-NSD2 links dimethylation of histone H3 at lysine 36 to oncogenic programming
-Epigenetic stress response to problems in telomeres (not only short length)
-Changes in chromatin structure have been shown to occur at dysfunctional telomeres7. These changes are often similar to those exhibited at sites of DNA damage, such as phosphorylation of H2AX, changes in H4K20me2 levels and recruitment of tumour suppressor p53-binding protein 1 (TP53BP1), implying that there is a general 'epigenetic' stress response (see the figure, part c).
-%https://www.nature.com/articles/nrg2047
+Current epigenetic clocks use a linear modelling framework. Nevertheless, many changes in methylation values during ageing are non-linear (especially during organismal growth). At the moment this is corrected by transforming chronological age, but it would be interesting to try to model the changes of individual CpG sites before including them as part of the training. This could also help to identify modules of CpG sites that behave in the same way during ageing and allow deconvoluting the different processes that shape the epigenetic landscape and may be operative at different life stages. Additional improvements in epigenetic clocks will likely include integrating longitudinal information (which could help to identify different ageing trajectories) \cite{Jensen2014} and separating the contributions of mutations and epimutations to the methylation signal. Furthermore, it would be interesting to try to map the DNA methylation changes at the human population level to the changes in mortality rate, therefore creating a link between molecular changes and epidemiological observations. This could be further validated in species with extremely different profiles of mortality rate (e.g. naked mole rat).
+
+\bigskip
+
+Current multi-tissue epigenetic clocks have been trained on all tissues available. Nevertheless, it is reasonable to assume that the strategies to maintain stable DNA methylation landscapes over time would significantly differ between highly proliferative tissues (such as blood) from those where cell division is a rare event (such as brain). Thus, building different epigenetic clocks for these two categories of tissues and analysing the genome-wide changes in DNA methylation over time could improve the accuracy of the models and provide further insights into the role of cell division on the epigenetic ageing clock.
+
+\bigskip
+
+There are methods that allow to impute DNA methylation patterns based on different genomic features for a `static' epigenome, both at the bulk \cite{Zhang2015} and single-cell levels \cite{Angermueller2017,Kapourani2019}. Given that the regions that change their DNA methylation during ageing seem to share their genomic context, it would be interesting to try to build an imputation method for a `dynamic' epigenome (e.g. given an epigenome at time $t$, predict what that epigenome would look like at time $t + \Delta t$). This could also give us additional insights into how much the ageing-related changes are hard-coded in the genome and how much the environment and lifestyle contribute to modify it. Moreover, some of these predictions could be tested by introducing exogenous pieces of DNA in ageing mice.
+
+\bigskip
+
+Developmental disorders are useful biological systems to study the effects of altered functions is specific parts of the epigenetic machinery. As such, the analysis presented in Chapter~\ref{c:3} could be further expanded into a statistical framework that allows quantifying how much certain epigenetic functions contribute to the methylation status of specific regions. In other words, the definition of \textbf{epimutational signatures} (e.g. epimutational signature 1 is the consequence of reduced H3K4 methylation in enhancers) that would allow to deconvolute the epigenetic processes behind a specific DNA methylation pattern (e.g. the one caused by ageing or smoking exposure).
+
+\smallskip
+
+\section{Biological aspects}
+
+\smallskip
+
+The goal of Chapter~\ref{c:3} was to study how different parts of the epigenetic machinery affect the rate of the epigenetic ageing clock, thus providing with the first identified components of the hypothetical \textit{epigenetic maintenance system} \cite{Horvath2013}. For that purpose, I studied the epigenetic age acceleration observed in patients with developmental disorders, many of which harbour mutations in proteins of the aforementioned epigenetic machinery.
+
+\bigskip
+
+This analysis revealed that mutations in NSD1, an H3K36 methyltransferase, dramatically accelerate epigenetic ageing. The effect sizes observed (on average > 7 years) are bigger than many of the conditions reported to accelerate the epigenetic ageing clock \cite{Horvath2018}. Importantly, the genomic context where these changes happen is partially shared with the ageing process. Regions marked by H3K27me3, deposited by Polycomb Repressing Complex 2 (\acrshort{PRC2}), where again highly enriched for these changes both in ageing and Sotos. Interestingly, global DNA hypomethylation (a characteristic of Sotos patients) causes a redistribution of \acrshort{PRC2} and H3K27me3 from their normal targets (many of them developmental genes with bivalent chromatin) to other genomic regions, which leads to the aberrant expression of some of these genes \cite{Reddington2013}. Importantly, there is a mechanistic link between PRC2 recruitment and H3K36me3 via the Tudor domains of some polycomb-like proteins \cite{Cai2013,Li2017}. As such, it would be expected that disturbances in the H3K36 methylation landscape would affect PRC2 activity. Furthermore, methylation of CpG sites in normally unmethylated CpG islands could also lead to a loss of PRC2 binding \cite{Li2017}. This could be happening in bivalent regions / DNA methylation valleys (\acrshort{DMV}s) during ageing and affect the differentiation process of progenitor stem cells in adult tissues. Indeed, this seems to be the case for aged haematopoietic stem cells \cite{Sun2014x,Beerman2013}, but whether this applies to other tissues still needs to be elucidated. Importantly, DNA methylation changes affecting progenitor stem cells could be propagated in the tissue, therefore contributing substantially to the signal captured by epigenetic clocks. 
+
+\bigskip
+
+Hence, during ageing, there could be a  redistribution of \acrshort{PRC2} from bivalent regions / \acrshort{DMV}s to other regions that have become hypomethylated, at the same time that \textit{de novo} DNMT3s get relocated in the opposite direction (as shown in Fig.~\ref{fig:c3_fig8}), leading to a deregulation in the expression of developmental genes. This model expands and is compatible overall with the one proposed by Zheng, Widschwendter and Teschendorff to explain the increase in cancer risk with age \cite{Zheng2016}. While the rewiring of the H3K36 methylation landscape could be behind this, direct evidence needs to be provided that this is indeed the case during human physiological ageing. As such, it would be interesting to profile H3K36me3 during ageing in different tissues. Furthermore, differential expression of genes coding for the H3K36 methylation machinery (both methyltransferases and demethylases) during ageing would also be expected (e.g. by hypermethylating the promoter of NSD1, as observed in human neuroblastoma and glioma cells) \cite{Berdasco2009}. Moreover, a study showing if cryptic transcription increases during human ageing (something that seems to happen in model organisms) could contribute to our understanding of the global functional consequences of these epigenetic changes. Finally, genes with lower levels of H3K36me3 should be more prone to cryptic transcription during ageing \cite{Pu2015} and potentially display higher transcriptional heterogeneity between cells. 
+
+\bigskip
+
+There is conflicting evidence on the literature on whether NSD1 can also catalyse the methylation of H4K20 \textit{in vivo} \cite{Berdasco2009,Kudithipudi2014}. H4K20me1 is a histone mark highly enriched in telomeres \cite{Enguix2018} and depletion of H4K20 methylation leads to genomic instability \cite{Sorensen2013}. This creates another interesting link between telomere biology and the epigenetic ageing clock (as discussed in Chapter~\ref{c:1}, \textit{TERT} genetic variants are associated with epigenetic age acceleration and its expression is required \textit{in vitro} to ensure epigenetic ageing) \cite{Lu2018}. it would be interesting to test how the epigenetic ageing clock behaves in cancer-resistant mice that constitutively express \textit{TERT} (which have an extended lifespan) \cite{Tomas-Loba2008}. 
+
+\bigskip
+
+Ageing-related methylation changes tend to increase the informational entropy of the system (i.e. the methylation values tend to values of 0.5, see section~\ref{s:3.5}). It is tempting to speculate that, from a biological point of view, this can be interpreted as a dilution of the epigenetic marks that define stable cell types and transcriptional programs and an increase in cell-to-cell epigenetic heterogeneity. Some authors have suggested that epigenetic information is carried by a population of cells as a whole \cite{Jenkinson2017,Shipony2014}. Furthermore, even populations of a specific cell type (such as primed \acrshort{ESCs}) show oscillations in the methylation values of specific regions, which seem to have a particularly high amplitude in enhancers \cite{Rulands2018} (which is one of the hot-spots of hypomethylation changes during ageing). If a such a population where to be analysed with a bulk method, it would display a high methylation entropy in enhancers. Furthermore, the fact that methylation entropy is higher in the sites of the Horvath clock could indicate that cytosines that display this type of dynamic behaviour make good predictors. Thus, it is possible that alterations in the DNA methylation oscillatory behaviour, caused by changes in the activities or binding behaviours of DNMT3s and TETs (which could happen if the H3K36 methylation landscape is altered), are a feature of the epigenetic ageing clock.
+
+\bigskip
+
+Mechanistic advances will require testing these ideas in the mouse. First, it would be interesting to confirm whether the effects of heterozygous loss-of-function mutations in NSD1 are evolutionarily conserved, using the mouse multi-tissue epigenetic clock, and test if they affect the lifespan of these mice. Moreover, one of the remaining questions is whether the DNA methylation changes associated with the epigenetic ageing clock are functional at all. Epigenomic editing technologies \cite{Liu2016a} could help to answer this question. Additionally, testing how conserved these mechanisms are beyond mammals (e.g. in the African turquoise killifish) or whether they behave differently in species with remarkable longevity (such as the naked mole rat) would be of interest. 
+
+\smallskip
+
+\section{Technological aspects}
+
+\smallskip
+
+In Chapter~\ref{c:4}, we have created a computational method (cuRRBS) to optimise the enrichment of specific sets of genomic sites in the genome through the combinatorial use of restriction enzymes. This could be potentially applied to make future epigenetic clocks more cost-effective (especially if they are composed of several hundreds or thousands of sites). Furthermore, given how statistically degenerate epigenetic clocks are, new models could be trained taking into account the most cost-effective combinations of sites. Reductions in assay cost could lead to the wide adoption of DNA methylation-based biomarkers for high-throughput drug screening.
+
+\bigskip
+
+From a research point-of-view, it is fundamental that we expand our analysis beyond the biased regions from the Illumina methylation array. Therefore, whole genome bisulfite sequencing during ageing should become more common, allowing us to characterise the changes in the epigenetic landscape at higher resolution. this could become a reality thanks to the fast drop in sequencing costs and to the development of bisulfite-free methods that improve mapping rates \cite{Liu2019}. 
+
+\bigskip
+
+Furthermore, it remains to be seen whether the DNA methylation changes observed during ageing occur in all the cell types in the tissue or whether changes in the concentration of specific cell types (e.g. progenitor stem cells) or clones are responsible for them. In this sense, single-cell technologies (specially those that profile the transcriptome and the epigenome simultaneously) and lineage tracing will become instrumental for future mechanistic advances on the epigenetic ageing clock \cite{Kelsey2017}.
