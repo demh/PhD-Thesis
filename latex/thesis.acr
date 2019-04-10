@@ -52,7 +52,7 @@
 \glossentry{CD8T}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{45}}}%
 \glossentry{CG}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{116}}}%
+		\setentrycounter[]{page}\glsnumberformat{117}}}%
 \glossentry{CGI}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24\delimN 25}\delimN 
@@ -123,7 +123,7 @@
 \glossentry{EV}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{105}}}%
 \glossentry{EWAS}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{44}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{42}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{FDR}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{53}}}%
@@ -183,7 +183,7 @@
 		\setentrycounter[]{page}\glsnumberformat{116}}}\glsgroupskip
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossentry{kb}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{112}}}%
+		\setentrycounter[]{page}\glsnumberformat{113}}}%
 \glossentry{KNN}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{59}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
