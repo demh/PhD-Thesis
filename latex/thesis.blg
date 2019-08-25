@@ -11,69 +11,68 @@ A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
 A level-1 auxiliary file: Appendix/appendix.aux
-The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 15189 items from 5000.
+The style file: apalike.bst
+Reallocated field_info (elt_size=4) to 14746 items from 5000.
 Database file #1: References/references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 5456 of file References/references.bib
- : @article{Sun2014
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5467 of file References/references.bib
+Repeated entry---line 2767 of file References/references.bib
  : @article{Beerman2013
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--empty publisher in Renfrew2016
-Warning--empty publisher in Witten1986
-Warning--empty publisher in Waddington1957
-Warning--empty institution in Illumina2010
+Repeated entry---line 3638 of file References/references.bib
+ : @article{Sun2014
+ :                 ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty publisher in Eaton2007
-Warning--empty publisher in Sheather2009
-Warning--empty institution in Research
-Warning--empty year in Research
+Warning--empty institution in Illumina2010
 Warning--empty institution in Illumina2015
 Warning--empty publisher in Kierkegaard1843
 Warning--empty publisher in Machado
+Warning--empty publisher in Renfrew2016
+Warning--empty institution in Research
+Warning--empty publisher in Sheather2009
+Warning--empty publisher in Waddington1957
+Warning--empty publisher in Witten1986
 You've used 443 entries,
-            1791 wiz_defined-function locations,
-            3036 strings with 160929 characters,
-and the built_in function-call counts, 157802 in all, are:
-= -- 9757
-> -- 16563
-< -- 13
-+ -- 5687
-- -- 5244
-* -- 16441
-:= -- 28871
-add.period$ -- 1320
+            1935 wiz_defined-function locations,
+            3061 strings with 161116 characters,
+and the built_in function-call counts, 306343 in all, are:
+= -- 26073
+> -- 27502
+< -- 132
++ -- 10505
+- -- 10491
+* -- 32701
+:= -- 55710
+add.period$ -- 1313
 call.type$ -- 443
-change.case$ -- 442
-chr.to.int$ -- 0
-cite$ -- 454
-duplicate$ -- 4082
-empty$ -- 10237
-format.name$ -- 5244
-if$ -- 30854
-int.to.chr$ -- 0
-int.to.str$ -- 443
+change.case$ -- 7459
+chr.to.int$ -- 429
+cite$ -- 453
+duplicate$ -- 6295
+empty$ -- 12765
+format.name$ -- 11060
+if$ -- 55066
+int.to.chr$ -- 15
+int.to.str$ -- 0
 missing$ -- 430
-newline$ -- 2204
-num.names$ -- 445
-pop$ -- 609
+newline$ -- 2201
+num.names$ -- 1331
+pop$ -- 6553
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 7460
 quote$ -- 0
-skip$ -- 1576
+skip$ -- 4669
 stack$ -- 0
-substring$ -- 9398
-swap$ -- 576
+substring$ -- 14723
+swap$ -- 561
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 11
-while$ -- 1177
-width$ -- 446
-write$ -- 4821
+type$ -- 2650
+warning$ -- 10
+while$ -- 1621
+width$ -- 0
+write$ -- 5708
 (There were 2 error messages)

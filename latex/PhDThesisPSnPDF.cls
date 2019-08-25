@@ -464,10 +464,10 @@ supported!}
 \ifPHD@authoryear
   \ifPHD@biblatex
     \RequirePackage[backend=biber, style=authoryear, citestyle=alphabetic, 
-      sorting=nty, natbib=true]{biblatex}
+      sorting=nty, natbib=true, square]{biblatex}
     \setBiBLaTeXtrue
   \else
-    \RequirePackage[round, sort, numbers, authoryear]{natbib} %author year
+    \RequirePackage[round, sort, numbers, authoryear,square]{natbib} %author year
   \fi
 \else
   \ifPHD@numbered
