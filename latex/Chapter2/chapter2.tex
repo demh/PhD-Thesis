@@ -114,7 +114,7 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 			\end{cases}
 			\end{align}
 			
-			where $M_{y}$ and $U_{y}$ represent the methylated and unmethylated intensity measurements for the array probes in the Y chromosome, $M_{x}$ and $U_{x}$ represent the methylated and unmethylated intensity measurements for the array probes in the X chromosome and $c$ is a predefined cutoff (default in \textit{minfi}: $c=-2$).
+			where $M_{y}$ and $U_{y}$ represent the methylated and unmethylated intensity measurements for the array probes in the Y chromosome, $M_{x}$ and $U_{x}$ represent the methylated and unmethylated intensity measurements for the array probes in the X chromosome and $c$ is a predefined cutoff (default in \textit{minfi}: $c=-2$). A total of 13 samples (0.56\%) did not satisfy this criterion.
 			
 			\smallskip
 			
@@ -124,7 +124,7 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 			\frac{\mathrm{median}\left\{\log_2(M_{i})\right\} + \mathrm{median}\left\{\log_2(U_{i})\right\}}{2} \geq 10.5
 			\end{align}
 			
-			where $M_{i}$ and $U_{i}$ represent the background-corrected methylated and unmethylated intensity measurements for all the 450K array probes (Fig.~\ref{fig:sc2_fig2}).
+			where $M_{i}$ and $U_{i}$ represent the background-corrected methylated and unmethylated intensity measurements for all the 450K array probes (Fig.~\ref{fig:sc2_fig2}). A total of 95 samples (4.09\%) did not satisfy this criterion. 
 			
 		\end{enumerate} 
 	
@@ -152,7 +152,7 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 	\end{figure}
 	
 	
-	\item \textbf{$\beta$-value calculation}. The methylation status of a given CpG site in one of the array probes is normally quantified using the $\beta$-value statistic, which can be calculated as \citep{Wilhelm-Benartzi2013,Du2010}:
+	\item \textbf{$\beta$-value calculation}. The methylation status of a given cytosine (normally found in a CpG site) in one of the array probes can be quantified using the $\beta$-value statistic, which is calculated as \citep{Wilhelm-Benartzi2013,Du2010}:
 	
 	\begin{align}
 	\beta_i = \frac{\text{max}(M_i,0)}{\text{max}(M_i,0) + \text{max}(U_i,0) + \alpha}
@@ -160,7 +160,7 @@ The analysis of DNA methylation data generated in Illumina arrays has been a top
 	
 	where $M_i$ and $U_i$ represent the methylated and unmethylated intensity measurements for the $i$th-probe and $\alpha$ is a constant offset (in this work $\alpha = 100$, as recommended by Illumina) \citep{Du2010}. 
 	
-	In a DNA molecule of a single cell, a specific cytosine is either unmethylated or methylated (categorical / binary variable). However, given that a bulk DNA sample from a tissue is composed of thousands of cells (which can include different cell types with different methylation patterns), $\beta$-values result in a continuous variable between 0 and 1. A value of 0 means that all the measured DNA molecules are unmethylated ($0\%$) and a value of 1 means that all the measured DNA molecules are methylated ($100\%$) in that cytosine, which is roughly equivalent to say that 100\% of the cells are either unmethylated or methylated respectively in that cytosine for the sampled tissue. The $\beta$-values for a given sample (i.e. considering all the cytosines measured, normally in a CpG context) usually follow a bimodal distribution, where the two peaks are centred around 0 and 1 (Fig.~\ref{fig:c2_fig2}d). 
+	In a DNA molecule of a single cell, a specific cytosine is either unmethylated or methylated (categorical / binary variable). However, given that a bulk DNA sample from a tissue is composed of thousands of cells (which can include different cell types with different methylation patterns), $\beta$-values result in a continuous variable between 0 and 1. A value of 0 means that all the measured DNA molecules are unmethylated ($0\%$) and a value of 1 means that all the measured DNA molecules are methylated ($100\%$) in that cytosine, which is roughly equivalent to say that 100\% of the cells are either unmethylated or methylated respectively in that cytosine for the sampled tissue. The $\beta$-values for a given sample (i.e. considering all the cytosines measured) usually follow a bimodal distribution, where the two peaks are centred around 0 and 1 (Fig.~\ref{fig:c2_fig2}d). 
 	
 	Other authors have used M-values to quantify methylation levels in arrays (Fig.~\ref{fig:sc2_fig3}), which can be calculated as:
 	
@@ -647,11 +647,11 @@ In 2016, Yang and colleagues conceived a novel type of epigenetic clock called \
 
 \bigskip
 
-I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \citep{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.16} and \ref{eq:2.17}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d), which was stronger in the case of the model with cell composition correction. This, together with the fact that $DNAmAge$ has a stronger correlation with $pcgtAge$ than chronological age, could suggest that \textbf{the Horvath epigenetic clock captures methylation changes linked to cell division}. 
+I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \citep{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.16} and \ref{eq:2.17}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d). Moreover, I also did some preliminary work where I calculated the $DNAmAge$ of different healthy tissues (that came from cancer patients). I observed that tissues with a high turnover (such as breast) \citep{Horvath2013,Sehl2017} had a higher $DNAmAge$ when compared with tissues with a low turnover (data not shown). This was quite surprising given that Horvath's epigenetic clock predicts across tissues with different turnover rates \citep{Yang2016}. Moreover, it has been recently demonstrated that $DNAmAge$ increases linearly with cell passage \textit{in vitro} if TERT (the catalytic subunit of telomerase) is expressed (although whether this also applies \textit{in vivo} is unknown) \citep{Lu2018}. 
 
 \bigskip
 
-This was quite surprising given that Horvath's epigenetic clock predicts across tissues with different turnover rates \citep{Yang2016}. Nevertheless, it has been recently demonstrated that $DNAmAge$ increases linearly with cell passage \textit{in vitro} if TERT (the catalytic subunit of telomerase) is expressed, suggesting that $DNAmAge$ does seem to track cell division to a certain extent \citep{Lu2018}. Furthermore, I also did some preliminary work where I calculated the $DNAmAge$ of different healthy tissues (that came from cancer patients). I observed that tissues with a high turnover (such as breast) \citep{Horvath2013,Sehl2017} had a higher $DNAmAge$ when compared with tissues with a low turnover (data not shown). Therefore, it would be interesting to further our understanding of the contribution of cell division to Horvath's epigenetic clock and its relation to the hypermethylation in PRC2-bound regions as measured by the epigenetic mitotic clock.    
+All of this, together with the fact that $DNAmAge$ has a stronger correlation with $pcgtAge$ than chronological age (at least in this blood dataset), could suggest that \textbf{Horvath's epigenetic clock might track cell division to a certain extent} (although it is also clear that Horvath's clock is mostly not a mitotic clock). Furthermore, it is important to point out that the observed effect sizes are small, that some of these results could be confounded by variables that are difficult to account for (e.g. higher $DNAmAge$ in breast tissue could be due to hormonal factors) and that $DNAmAge$ is not universally accelerated in cancer \citep{Horvath2015e}. Therefore, further testing of these ideas is required by future studies, which hopefully will improve our understanding of the contribution of cell division to Horvath's epigenetic clock and its relation to the hypermethylation in PRC2-bound regions as measured by the epigenetic mitotic clock.    
 
 
 \begin{figure}[htbp!] 

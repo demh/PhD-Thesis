@@ -98,6 +98,13 @@ Aref-Eshghi, E., Schenkel, L.~C., Lin, H., Skinner, C., Ainsworth, P.,
   functional assessment of genetic variants of unknown clinical significance}.
 \newblock {\em Epigenetics}, 12(11):923--933.
 
+\bibitem[Armstrong et~al., 2013]{Armstrong2013}
+Armstrong, V.~L., Rakoczy, S., Rojanathammanee, L., and Brown-Borg, H.~M.
+  (2013).
+\newblock {Expression of DNA Methyltransferases Is Influenced by Growth Hormone
+  in the Long-Living Ames Dwarf Mouse In Vivo and In Vitro}.
+\newblock {\em The Journals of Gerontology: Series A}, 69(8):923--933.
+
 \bibitem[Aryee et~al., 2014]{Aryee2014}
 Aryee, M.~J., Jaffe, A.~E., Corrada-Bravo, H., Ladd-Acosta, C., Feinberg,
   A.~P., Hansen, K.~D., and Irizarry, R.~A. (2014).
@@ -161,6 +168,13 @@ Baker, D.~J., Wijshake, T., Tchkonia, T., LeBrasseur, N.~K., Childs, B.~G.,
 \newblock {Clearance of p16Ink4a-positive senescent cells delays
   ageing-associated disorders}.
 \newblock {\em Nature}, 479:232--236.
+
+\bibitem[Barau et~al., 2016]{Barau2016}
+Barau, J., Teissandier, A., Zamudio, N., Roy, S., Nalesso, V., H{\'{e}}rault,
+  Y., Guillou, F., and Bourc'his, D. (2016).
+\newblock {The DNA methyltransferase DNMT3C protects male germ cells from
+  transposon activity}.
+\newblock {\em Science}, 354(6314):909--912.
 
 \bibitem[Barbi et~al., 2018]{Barbi2018}
 Barbi, E., Lagona, F., Marsili, M., Vaupel, J.~W., and Wachter, K.~W. (2018).
@@ -430,6 +444,17 @@ Choufani, S., Cytrynbaum, C., Chung, B. H.~Y., Turinsky, A.~L., Grafodatskaya,
   and Weksberg, R. (2015).
 \newblock {NSD1 mutations generate a genome-wide DNA methylation signature}.
 \newblock {\em Nature Communications}, 6:10207.
+
+\bibitem[Ciccarone et~al., 2016]{Ciccarone2016}
+Ciccarone, F., Malavolta, M., Calabrese, R., Guastafierro, T., Bacalini, M.~G.,
+  Reale, A., Franceschi, C., Capri, M., Hervonen, A., Hurme, M.,
+  Grubeck-Loebenstein, B., Koller, B., Bernhardt, J., Schon, C., Slagboom,
+  P.~E., Toussaint, O., Sikora, E., Gonos, E.~S., Breusing, N., Grune, T.,
+  Jansen, E., Doll{\'{e}}, M., Moreno-Villanueva, M., Sindlinger, T.,
+  B{\"{u}}rkle, A., Zampieri, M., and Caiafa, P. (2016).
+\newblock {Age-dependent expression of DNMT1 and DNMT3B in PBMCs from a large
+  European population enrolled in the MARK-AGE study}.
+\newblock {\em Aging Cell}, 15(4):755--765.
 
 \bibitem[Cock et~al., 2009]{Cock2009}
 Cock, P. J.~A., Antao, T., Chang, J.~T., Chapman, B.~A., Cox, C.~J., Dalke, A.,
@@ -1137,6 +1162,13 @@ Gompertz, B. (1825).
 \newblock {\em Philosophical Transactions of the Royal Society of London},
   115:513--583.
 
+\bibitem[Gontier et~al., 2018]{Gontier2018}
+Gontier, G., Iyer, M., Shea, J.~M., Bieri, G., Wheatley, E.~G., Ramalho-Santos,
+  M., and Villeda, S.~A. (2018).
+\newblock {Tet2 Rescues Age-Related Regenerative Decline and Enhances Cognitive
+  Function in the Adult Mouse Brain}.
+\newblock {\em Cell Reports}, 22(8):1974--1981.
+
 \bibitem[Gopalan et~al., 2017]{Gopalan2017}
 Gopalan, S., Carja, O., Fagny, M., Patin, E., Myrick, J.~W., McEwen, L.~M.,
   Mah, S.~M., Kobor, M.~S., Froment, A., Feldman, M.~W., Quintana-Murci, L.,
@@ -1197,7 +1229,7 @@ Halfmann, R. and Lindquist, S. (2010).
 \newblock {\em Science}, 330(6004):629--632.
 
 \bibitem[Hanna et~al., 2016]{Hanna2016}
-Hanna, C.~W., Pe{\"{i}}¿½aherrera, M.~S., Saadeh, H., Andrews, S., McFadden,
+Hanna, C.~W., Pe{\~{n}}aherrera, M.~S., Saadeh, H., Andrews, S., McFadden,
   D.~E., Kelsey, G., and Robinson, W.~P. (2016).
 \newblock {Pervasive polymorphic imprinted methylation in the human placenta}.
 \newblock {\em Genome Research}, 26:756--767.
@@ -1304,6 +1336,14 @@ Holliday, R. and Pugh, J.~E. (1975).
 \newblock {DNA modification mechanisms and gene activity during development}.
 \newblock {\em Science}, 187(4173):226--232.
 
+\bibitem[Hon et~al., 2014]{Hon2014}
+Hon, G., Song, C.-X., Du, T., Jin, F., Selvaraj, S., Lee, A., Yen, C.-a., Ye,
+  Z., Mao, S.-Q., Wang, B.-A., Kuan, S., Edsall, L., Zhao, B., Xu, G.-L., He,
+  C., and Ren, B. (2014).
+\newblock {5mC Oxidation by Tet2 Modulates Enhancer Activity and Timing of
+  Transcriptome Reprogramming during Differentiation}.
+\newblock {\em Molecular Cell}, 56(2):286--297.
+
 \bibitem[Hood et~al., 2016]{Hood2016}
 Hood, R.~L., Schenkel, L.~C., Nikkel, S.~M., Ainsworth, P.~J., Pare, G.,
   Boycott, K.~M., Bulman, D.~E., and Sadikovic, B. (2016).
@@ -1323,6 +1363,11 @@ Horvath, S. (2013b).
 Horvath, S. (2013c).
 \newblock {FAQs DNAmAge online calculator:
   https://horvath.genetics.ucla.edu/html/dnamage/faq.htm{\#}{\_}Toc385147421}.
+
+\bibitem[Horvath, 2015]{Horvath2015e}
+Horvath, S. (2015).
+\newblock {Erratum to: DNA methylation age of human tissues and cell types}.
+\newblock {\em Genome Biology}, 16(1):96.
 
 \bibitem[Horvath et~al., 2014]{Horvath2014}
 Horvath, S., Erhart, W., Brosch, M., Ammerpohl, O., von Sch{\"{o}}nfels, W.,
@@ -1712,6 +1757,13 @@ Krueger, F. and Andrews, S.~R. (2011).
   applications}.
 \newblock {\em Bioinformatics}, 27(11):1571--1572.
 
+\bibitem[Kucab et~al., 2019]{Kucab2019}
+Kucab, J.~E., Zou, X., Morganella, S., Joel, M., Nanda, A.~S., Nagy, E., Gomez,
+  C., Degasperi, A., Harris, R., Jackson, S.~P., Arlt, V.~M., Phillips, D.~H.,
+  and Nik-Zainal, S. (2019).
+\newblock {A Compendium of Mutational Signatures of Environmental Agents}.
+\newblock {\em Cell}, 177(4):821--836.e16.
+
 \bibitem[Kudithipudi et~al., 2014]{Kudithipudi2014}
 Kudithipudi, S., Lungu, C., Rathert, P., Happel, N., and Jeltsch, A. (2014).
 \newblock {Substrate Specificity Analysis and Novel Substrates of the Protein
@@ -1926,6 +1978,12 @@ Luscan, A., Laurendeau, I., Malan, V., Francannet, C., Odent, S., Giuliano, F.,
   (2014).
 \newblock {Mutations in SETD2 cause a novel overgrowth condition}.
 \newblock {\em Journal of Medical Genetics}, 51(8):512--517.
+
+\bibitem[Lyko, 2017]{Lyko2017}
+Lyko, F. (2017).
+\newblock {The DNA methyltransferase family: a versatile toolkit for epigenetic
+  regulation}.
+\newblock {\em Nature Reviews Genetics}, 19:81--92.
 
 \bibitem[Machado, 1912]{Machado}
 Machado, A. (1912).
@@ -2181,6 +2239,11 @@ Mostoslavsky, R., Chua, K.~F., Lombard, D.~B., Pang, W.~W., Fischer, M.~R.,
   Mammalian SIRT6}.
 \newblock {\em Cell}, 124(2):315--329.
 
+\bibitem[Narasimamurthy and Virshup, 2017]{Narasimamurthy2017}
+Narasimamurthy, R. and Virshup, D.~M. (2017).
+\newblock {Molecular Mechanisms Regulating Temperature Compensation of the
+  Circadian Clock }.
+
 \bibitem[Naumova et~al., 2012]{Naumova2012}
 Naumova, N., Smith, E.~M., Zhan, Y., and Dekker, J. (2012).
 \newblock {Analysis of long-range chromatin interactions using Chromosome
@@ -2239,6 +2302,22 @@ Ocampo, A., Reddy, P., Martinez-Redondo, P., Platero-Luengo, A., Hatanaka, F.,
 \newblock {In Vivo Amelioration of Age-Associated Hallmarks by Partial
   Reprogramming}.
 \newblock {\em Cell}, 167(7):1719--1733.e12.
+
+\bibitem[Oh et~al., 2018]{Oh2018}
+Oh, G., Ebrahimi, S., Carlucci, M., Zhang, A., Nair, A., Groot, D.~E., Labrie,
+  V., Jia, P., Oh, E.~S., Jeremian, R.~H., Susic, M., Shrestha, T.~C., Ralph,
+  M.~R., Gordevi{\v{c}}ius, J., Koncevi{\v{c}}ius, K., and Petronis, A. (2018).
+\newblock {Cytosine modifications exhibit circadian oscillations that are
+  involved in epigenetic diversity and aging}.
+\newblock {\em Nature Communications}, 9(1):644.
+
+\bibitem[Oh et~al., 2019]{Oh2019}
+Oh, G., Koncevi{\v{c}}ius, K., Ebrahimi, S., Carlucci, M., Groot, D.~E., Nair,
+  A., Zhang, A., Kri{\v{s}}{\v{c}}iūnas, A., Oh, E.~S., Labrie, V., Wong, A.
+  H.~C., Gordevi{\v{c}}ius, J., Jia, P., Susic, M., and Petronis, A. (2019).
+\newblock {Circadian oscillations of cytosine modification in humans contribute
+  to epigenetic variability, aging, and complex disease}.
+\newblock {\em Genome Biology}, 20(1):2.
 
 \bibitem[Olova et~al., 2019]{Olova2019}
 Olova, N., Simpson, D.~J., Marioni, R.~E., and Chandra, T. (2019).
@@ -2372,7 +2451,8 @@ Poulain, M., Herm, A., and Pes, G. (2013).
 \bibitem[Price and Robinson, 2018]{Price2018}
 Price, E.~M. and Robinson, W.~P. (2018).
 \newblock {Adjusting for Batch Effects in DNA Methylation Microarray Data, a
-  Lesson Learned }.
+  Lesson Learned}.
+\newblock {\em Frontiers in Genetics}, 9:83.
 
 \bibitem[Pu et~al., 2015]{Pu2015}
 Pu, M., Ni, Z., Wang, M., Wang, X., Wood, J.~G., Helfand, S.~L., Yu, H., and
@@ -2746,6 +2826,54 @@ Stubbs, T.~M., Bonder, M.~J., Stark, A.-K., Krueger, F., von Meyenn, F.,
 \newblock {Multi-tissue DNA methylation age predictor in mouse}.
 \newblock {\em Genome Biology}, 18(1):68.
 
+\bibitem[Stunnenberg et~al., 2016]{Stunnenberg2016}
+Stunnenberg, H.~G., Abrignani, S., Adams, D., de~Almeida, M., Altucci, L.,
+  Amin, V., Amit, I., Antonarakis, S.~E., Aparicio, S., Arima, T., Arrigoni,
+  L., Arts, R., Asnafi, V., Esteller, M., Bae, J.-B., Bassler, K., Beck, S.,
+  Berkman, B., Bernstein, B.~E., Bilenky, M., Bird, A., Bock, C., Boehm, B.,
+  Bourque, G., Breeze, C.~E., Brors, B., Bujold, D., Burren, O., Bussemakers,
+  M.~J., Butterworth, A., Campo, E., Carrillo-de Santa-Pau, E., Chadwick, L.,
+  Chan, K.~M., Chen, W., Cheung, T.~H., Chiapperino, L., Choi, N.~H., Chung,
+  H.-R., Clarke, L., Connors, J.~M., Cronet, P., Danesh, J., Dermitzakis, M.,
+  Drewes, G., Durek, P., Dyke, S., Dylag, T., Eaves, C.~J., Ebert, P., Eils,
+  R., Eils, J., Ennis, C.~A., Enver, T., Feingold, E.~A., Felder, B.,
+  Ferguson-Smith, A., Fitzgibbon, J., Flicek, P., Foo, R. S.-Y., Fraser, P.,
+  Frontini, M., Furlong, E., Gakkhar, S., Gasparoni, N., Gasparoni, G.,
+  Geschwind, D.~H., Gla{\v{z}}ar, P., Graf, T., Grosveld, F., Guan, X.-Y.,
+  Guigo, R., Gut, I.~G., Hamann, A., Han, B.-G., Harris, R.~A., Heath, S.,
+  Helin, K., Hengstler, J.~G., Heravi-Moussavi, A., Herrup, K., Hill, S.,
+  Hilton, J.~A., Hitz, B.~C., Horsthemke, B., Hu, M., Hwang, J.-Y., Ip, N.~Y.,
+  Ito, T., Javierre, B.-M., Jenko, S., Jenuwein, T., Joly, Y., Jones, S. J.~M.,
+  Kanai, Y., Kang, H.~G., Karsan, A., Kiemer, A.~K., Kim, S.~C., Kim, B.-J.,
+  Kim, H.-H., Kimura, H., Kinkley, S., Klironomos, F., Koh, I.-U., Kostadima,
+  M., Kressler, C., Kreuzhuber, R., Kundaje, A., K{\"{u}}ppers, R., Larabell,
+  C., Lasko, P., Lathrop, M., Lee, D. H.~S., Lee, S., Lehrach, H.,
+  Leit{\~{a}}o, E., Lengauer, T., Lernmark, {\AA}., Leslie, R.~D., Leung, G.
+  K.~K., Leung, D., Loeffler, M., Ma, Y., Mai, A., Manke, T., Marcotte, E.~R.,
+  Marra, M.~A., Martens, J. H.~A., Martin-Subero, J.~I., Maschke, K., Merten,
+  C., Milosavljevic, A., Minucci, S., Mitsuyama, T., Moore, R.~A.,
+  M{\"{u}}ller, F., Mungall, A.~J., Netea, M.~G., Nordstr{\"{o}}m, K.,
+  Norstedt, I., Okae, H., Onuchic, V., Ouellette, F., Ouwehand, W., Pagani, M.,
+  Pancaldi, V., Pap, T., Pastinen, T., Patel, R., Paul, D.~S., Pazin, M.~J.,
+  Pelicci, P.~G., Phillips, A.~G., Polansky, J., Porse, B., Pospisilik, J.~A.,
+  Prabhakar, S., Procaccini, D.~C., Radbruch, A., Rajewsky, N., Rakyan, V.,
+  Reik, W., Ren, B., Richardson, D., Richter, A., Rico, D., Roberts, D.~J.,
+  Rosenstiel, P., Rothstein, M., Salhab, A., Sasaki, H., Satterlee, J.~S.,
+  Sauer, S., Schacht, C., Schmidt, F., Schmitz, G., Schreiber, S.,
+  Schr{\"{o}}der, C., Sch{\"{u}}beler, D., Schultze, J.~L., Schulyer, R.~P.,
+  Schulz, M., Seifert, M., Shirahige, K., Siebert, R., Sierocinski, T.,
+  Siminoff, L., Sinha, A., Soranzo, N., Spicuglia, S., Spivakov, M., Steidl,
+  C., Strattan, J.~S., Stratton, M., S{\"{u}}dbeck, P., Sun, H., Suzuki, N.,
+  Suzuki, Y., Tanay, A., Torrents, D., Tyson, F.~L., Ulas, T., Ullrich, S.,
+  Ushijima, T., Valencia, A., Vellenga, E., Vingron, M., Wallace, C., Wallner,
+  S., Walter, J., Wang, H., Weber, S., Weiler, N., Weller, A., Weng, A.,
+  Wilder, S., Wiseman, S.~M., Wu, A.~R., Wu, Z., Xiong, J., Yamashita, Y.,
+  Yang, X., Yap, D.~Y., Yip, K.~Y., Yip, S., Yoo, J.-I., Zerbino, D., Zipprich,
+  G., and Hirst, M. (2016).
+\newblock {The International Human Epigenome Consortium: A Blueprint for
+  Scientific Collaboration and Discovery}.
+\newblock {\em Cell}, 167(5):1145--1149.
+
 \bibitem[Sun et~al., 2014a]{Sun2014x}
 Sun, D., Luo, M., Jeong, M., Rodriguez, B., Xia, Z., Hannah, R., Wang, H., Le,
   T., Faull, K.~F., Chen, R., Gu, H., Bock, C., Meissner, A., G{\"{o}}ttgens,
@@ -2955,6 +3083,13 @@ Troyanskaya, O., Cantor, M., Sherlock, G., Brown, P., Hastie, T., Tibshirani,
   R., Botstein, D., and Altman, R.~B. (2001).
 \newblock {Missing value estimation methods for DNA microarrays}.
 \newblock {\em Bioinformatics}, 17(6):520--525.
+
+\bibitem[Truong et~al., 2015]{Truong2015}
+Truong, T.~P., Sakata-Yanagimoto, M., Yamada, M., Nagae, G., Enami, T.,
+  Nakamoto-Matsubara, R., Aburatani, H., and Chiba, S. (2015).
+\newblock {Age-Dependent Decrease of DNA Hydroxymethylation in Human T Cells}.
+\newblock {\em Journal of Clinical and Experimental Hematopathology},
+  55(1):1--6.
 
 \bibitem[Tsurumi and Li, 2012]{Tsurumi2012}
 Tsurumi, A. and Li, W. (2012).
@@ -3170,6 +3305,15 @@ Xu, M., Pirtskhalava, T., Farr, J.~N., Weigand, B.~M., Palmer, A.~K., Weivoda,
   age}.
 \newblock {\em Nature Medicine}, 24(8):1246--1256.
 
+\bibitem[Yang et~al., 2016a]{Yang2016b}
+Yang, L., Rodriguez, B., Mayle, A., Park, H.~J., Lin, X., Luo, M., Jeong, M.,
+  Curry, C.~V., Kim, S.-B., Ruau, D., Zhang, X., Zhou, T., Zhou, M., Rebel,
+  V.~I., Challen, G.~A., G{\"{o}}ttgens, B., Lee, J.-S., Rau, R., Li, W., and
+  Goodell, M.~A. (2016a).
+\newblock {DNMT3A Loss Drives Enhancer Hypomethylation in FLT3-ITD-Associated
+  Leukemias}.
+\newblock {\em Cancer Cell}, 30(2):363--365.
+
 \bibitem[Yang et~al., 2015]{Yang2015}
 Yang, Y., Sebra, R., Pullman, B.~S., Qiao, W., Peter, I., Desnick, R.~J.,
   Geyer, C.~R., DeCoteau, J.~F., and Scott, S.~A. (2015).
@@ -3177,17 +3321,17 @@ Yang, Y., Sebra, R., Pullman, B.~S., Qiao, W., Peter, I., Desnick, R.~J.,
   long-read single-molecule real-time bisulfite sequencing (SMRT-BS)}.
 \newblock {\em BMC Genomics}, 16(1):350.
 
-\bibitem[Yang et~al., 2016a]{Yang2016a}
+\bibitem[Yang et~al., 2016b]{Yang2016a}
 Yang, Y.~C., Boen, C., Gerken, K., Li, T., Schorpp, K., and Harris, K.~M.
-  (2016a).
+  (2016b).
 \newblock {Social relationships and physiological determinants of longevity
   across the human life span}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   113(3):578--583.
 
-\bibitem[Yang et~al., 2016b]{Yang2016}
+\bibitem[Yang et~al., 2016c]{Yang2016}
 Yang, Z., Wong, A., Kuh, D., Paul, D.~S., Rakyan, V.~K., Leslie, R.~D., Zheng,
-  S.~C., Widschwendter, M., Beck, S., and Teschendorff, A.~E. (2016b).
+  S.~C., Widschwendter, M., Beck, S., and Teschendorff, A.~E. (2016c).
 \newblock {Correlation of an epigenetic mitotic clock with cancer risk}.
 \newblock {\em Genome Biology}, 17(1):205.
 
