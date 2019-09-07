@@ -77,7 +77,7 @@ This allowed me to assemble a \textbf{human blood DNA methylation dataset for he
 	\centering    
 	\includegraphics[width=0.6\textwidth]{C2_Fig1}
 	\vspace*{2mm}
-	\caption[Chronological age distribution in the healthy individuals]{Histogram showing the chronological age distribution for all the healthy individuals included in the DNA methylation dataset. The blue line represents the 1D kernel density estimate, as calculate by the \textit{stat\_density} function in R with default parameters.}
+	\caption[Chronological age distribution in the healthy individuals]{Histogram showing the chronological age distribution for all the healthy individuals included in the DNA methylation dataset. The blue line represents the 1D kernel density estimate, as calculated by the \textit{stat\_density} function in R with default parameters.}
 	\label{fig:c2_fig1}
 \end{figure}
 
@@ -377,7 +377,7 @@ Next, I looked at the top 100 aDMPs that were identified (according to their p-v
 \begin{figure}[htbp!] 
 	\centering    
 	\includegraphics[width=0.9\textwidth]{C2_Fig8}
-	\caption[Changes in the $\beta$-values of four different aDMPs]{Changes in the $\beta$-values of four different differentially methylated positions during ageing (aDMPs) in the blood of the healthy individuals. cg16867657 and cg06639320 are the top aDMPs that gain methylation with age (i.e. become hypermethylated) according to the model that accounts for cell composition correction (CCC). cg19283806 and cg10501210 are the top aDMPs that lose methylation with age (i.e. become hypomethylated) according to the model that accounts for CCC. In order to aid visualisation, the black line displays the linear model $\beta$-value $\sim$ Age.}
+	\caption[Changes in the $\beta$-values of four different aDMPs]{Changes in the $\beta$-values of four differentially methylated positions during ageing (aDMPs) in the blood of the healthy individuals. cg16867657 and cg06639320 are the top aDMPs that gain methylation with age (i.e. become hypermethylated) according to the model that accounts for cell composition correction (CCC). cg19283806 and cg10501210 are the top aDMPs that lose methylation with age (i.e. become hypomethylated) according to the model that accounts for CCC. In order to aid visualisation, the black line displays the linear model $\beta$-value $\sim$ Age.}
 	\label{fig:c2_fig8}
 \end{figure}
 
@@ -483,7 +483,7 @@ The main pipeline to calculate the epigenetic age (\textit{DNAmAge}) from a samp
 	\end{cases}
 	\end{align} 
 	
-	where $c_t$ is the transformed chronological age that was used as the dependent variable during training, $c$ is the chronological age (in years) and $a$ is the adult age (for humans, 20 years). This transformation allows to account for a relationship between chronological age and methylation changes that is logarithmic until adult age and linear afterwards (Fig.~\ref{fig:c2_fig11}). 
+	where $c_t$ is the transformed chronological age that was used as the dependent variable during training, $c$ is the chronological age (in years) and $a$ is the adult age (for humans, 20 years). This transformation allows accounting for a relationship between chronological age and methylation changes that is logarithmic until adult age and linear afterwards (Fig.~\ref{fig:c2_fig11}). 
 	
 	\begin{figure}[htbp!] 
 		\centering
@@ -647,7 +647,7 @@ In 2016, Yang and colleagues conceived a novel type of epigenetic clock called \
 
 \bigskip
 
-I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \citep{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.16} and \ref{eq:2.17}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d). Moreover, I also did some preliminary work where I calculated the $DNAmAge$ of different healthy tissues (that came from cancer patients). I observed that tissues with a high turnover (such as breast) \citep{Horvath2013,Sehl2017} had a higher $DNAmAge$ when compared with tissues with a low turnover (data not shown). This was quite surprising given that Horvath's epigenetic clock predicts across tissues with different turnover rates \citep{Yang2016}. Moreover, it has been recently demonstrated that $DNAmAge$ increases linearly with cell passage \textit{in vitro} if TERT (the catalytic subunit of telomerase) is expressed (although whether this also applies \textit{in vivo} is unknown) \citep{Lu2018}. 
+I calculated the mitotic age ($\acrshort{pcgtAge}$) of the healthy individuals in my dataset, although I only used 378 out of the 385 probes (the other 7 were filtered out during my pre-processing). The mitotic age of the individuals correlated with both chronological age (PCC $= 0.5131$, Fig.~\ref{fig:c2_fig16}a) and $DNAmAge$ (PCC $= 0.5602$, Fig.~\ref{fig:c2_fig16}b), which is expected given the cumulative number of divisions of the hematopoietic stem cells \citep{Beerman2013}. Furthermore, I estimated the epigenetic age acceleration (EAA) according to the epigenetic mitotic clock, using similar models to the ones previously described (although in this case the dependent variable was $pcgtAge$, see equations \ref{eq:2.16} and \ref{eq:2.17}). Interestingly, the EAAs for $pcgtAge$ and $DNAmAge$ showed a small but highly statistically significant correlation (Fig.~\ref{fig:c2_fig16}c,d). Moreover, I also did some preliminary work where I calculated the $DNAmAge$ of different healthy tissues (that came from cancer patients). I observed that tissues with a high turnover (such as breast) \citep{Horvath2013,Sehl2017} had a higher $DNAmAge$ when compared with tissues with a low turnover (data not shown). This was quite surprising given that Horvath's epigenetic clock predicts across tissues with different turnover rates \citep{Yang2016}. Additionally, it has been recently demonstrated that $DNAmAge$ increases linearly with cell passage \textit{in vitro} if TERT (the catalytic subunit of telomerase) is expressed (although whether this also applies \textit{in vivo} is unknown) \citep{Lu2018}. 
 
 \bigskip
 
