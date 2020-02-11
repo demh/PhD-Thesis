@@ -2,6 +2,10 @@
 
 Repository for my PhD thesis at EMBL-EBI and the University of Cambridge
 
+The PDF can be found here:
+
+https://github.com/demh/PhD-Thesis/blob/master/latex/thesis.pdf
+
 ## Author
 
 Daniel Elías Martín Herranz
