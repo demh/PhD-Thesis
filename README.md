@@ -18,6 +18,10 @@ Epigenetic clocks are mathematical models that predict the biological age of an 
 
 Martin-Herranz, D.E. (2019). On the epigenetic ageing clock in humans (Doctoral thesis). https://doi.org/10.17863/CAM.44841
 
+## Rights
+
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
 ## Sponsorship
 
 EMBL PhD programme
